@@ -1,0 +1,6987 @@
+[
+  {
+    "id": "alexander",
+    "name": "Alexander",
+    "subtitle": "干邑 / 可可利口酒 / 鲜奶油",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/alexander/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "白兰地",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以白兰地为主线，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "干邑",
+        "30 ml"
+      ],
+      [
+        "可可利口酒",
+        "30 ml"
+      ],
+      [
+        "鲜奶油",
+        "30 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：表面撒少量现磨肉豆蔻。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Alexander 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "干邑",
+      "可可利口酒",
+      "鲜奶油"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "b7a71d"
+    }
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "subtitle": "Bitter 金巴利 / 甜红味美思 / A splash of 苏打水",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/americano/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "开胃酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "草本",
+      "气泡"
+    ],
+    "taste": "以开胃酒为主线，带有干净苦味，草本香气明显，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Bitter 金巴利",
+        "30 ml"
+      ],
+      [
+        "甜红味美思",
+        "30 ml"
+      ],
+      [
+        "A splash of 苏打水",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with half 橙片 and a lemon zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Americano 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Bitter 金巴利",
+      "甜红味美思",
+      "A splash of 苏打水"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "c9b398"
+    }
+  },
+  {
+    "id": "angel-face",
+    "name": "Angel Face",
+    "subtitle": "金酒 / Apricot 白兰地 / 卡尔瓦多斯",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/angel-face/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "经典",
+      "酒感直接"
+    ],
+    "taste": "以金酒为主线，结构直接，突出主要基酒。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "30 ml"
+      ],
+      [
+        "Apricot 白兰地",
+        "30 ml"
+      ],
+      [
+        "卡尔瓦多斯",
+        "30 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Angel Face 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "Apricot 白兰地",
+      "卡尔瓦多斯"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "9381fd"
+    }
+  },
+  {
+    "id": "aviation",
+    "name": "Aviation",
+    "subtitle": "金酒 / Maraschino Luxardo / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/aviation/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽"
+    ],
+    "taste": "以金酒为主线，酸度明亮。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "45 ml"
+      ],
+      [
+        "Maraschino Luxardo",
+        "15 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 ml"
+      ],
+      [
+        "Crème de Violette",
+        "1 Bar Spoon"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Optional Maraschino Cherry。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Aviation 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "Maraschino Luxardo",
+      "新鲜柠檬汁",
+      "Crème de Violette"
+    ],
+    "visual": {
+      "color": "#8fa4e8",
+      "glass": "coupe",
+      "accent": "252ddb"
+    }
+  },
+  {
+    "id": "bees-knees",
+    "name": "Bee’s Knees",
+    "subtitle": "Dry 金酒 / 蜂蜜糖浆 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/bees-knees/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "果香"
+    ],
+    "taste": "以金酒为主线，酸度明亮，甜感托住酒体，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Dry 金酒",
+        "52.5 ml"
+      ],
+      [
+        "蜂蜜糖浆",
+        "2 茶匙"
+      ],
+      [
+        "新鲜柠檬汁",
+        "22.5 ml"
+      ],
+      [
+        "Fresh 橙汁",
+        "22.5 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Optionally garnish with a lemon or orange zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Bee’s Knees 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Dry 金酒",
+      "蜂蜜糖浆",
+      "新鲜柠檬汁",
+      "Fresh 橙汁"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "coupe",
+      "accent": "178d0c"
+    }
+  },
+  {
+    "id": "bellini",
+    "name": "Bellini",
+    "subtitle": "普罗塞克 / White 桃泥",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/bellini/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "起泡酒",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "气泡",
+      "果香"
+    ],
+    "taste": "以起泡酒为主线，口感轻快，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "普罗塞克",
+        "100 ml"
+      ],
+      [
+        "White 桃泥",
+        "50 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Bellini 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "普罗塞克",
+      "White 桃泥"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "flute",
+      "accent": "edd1da"
+    }
+  },
+  {
+    "id": "between-the-sheets",
+    "name": "Between the Sheets",
+    "subtitle": "白朗姆 / 干邑 / 橙味利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/between-the-sheets/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽"
+    ],
+    "taste": "以朗姆为主线，酸度明亮。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "白朗姆",
+        "30 ml"
+      ],
+      [
+        "干邑",
+        "30 ml"
+      ],
+      [
+        "橙味利口酒",
+        "30 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "20 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Between the Sheets 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "白朗姆",
+      "干邑",
+      "橙味利口酒",
+      "新鲜柠檬汁"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "5e28a1"
+    }
+  },
+  {
+    "id": "black-russian",
+    "name": "Black Russian",
+    "subtitle": "伏特加 / 咖啡利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/black-russian/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以伏特加为主线，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "伏特加",
+        "50 ml"
+      ],
+      [
+        "咖啡利口酒",
+        "20 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Black Russian 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "咖啡利口酒"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "0f646a"
+    }
+  },
+  {
+    "id": "bloody-mary",
+    "name": "Bloody Mary",
+    "subtitle": "伏特加 / 番茄汁 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/bloody-mary/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽"
+    ],
+    "taste": "以伏特加为主线，酸度明亮。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "伏特加",
+        "45 ml"
+      ],
+      [
+        "番茄汁",
+        "90 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 ml"
+      ],
+      [
+        "Worcestershire Sauce",
+        "2 dash"
+      ],
+      [
+        "Tabasco, Celery Salt, Pepper",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "装饰建议：芹菜, lemon wedge (Optional)。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Bloody Mary 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "番茄汁",
+      "新鲜柠檬汁",
+      "Worcestershire Sauce",
+      "Tabasco, Celery Salt, Pepper"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "c7e6fa"
+    }
+  },
+  {
+    "id": "boulevardier",
+    "name": "Boulevardier",
+    "subtitle": "Bourbon or 黑麦威士忌 / Bitter 金巴利 / 甜红味美思",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/boulevardier/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以威士忌为主线，带有干净苦味，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Bourbon or 黑麦威士忌",
+        "45 ml"
+      ],
+      [
+        "Bitter 金巴利",
+        "30 ml"
+      ],
+      [
+        "甜红味美思",
+        "30 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with a orange zest, optionally a lemon zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Boulevardier 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Bourbon or 黑麦威士忌",
+      "Bitter 金巴利",
+      "甜红味美思"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "rocks",
+      "accent": "1eb729"
+    }
+  },
+  {
+    "id": "bramble",
+    "name": "Bramble",
+    "subtitle": "金酒 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/bramble/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以金酒为主线，酸度明亮，甜感托住酒体。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "50 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "25 ml"
+      ],
+      [
+        "糖浆",
+        "12.5 ml"
+      ],
+      [
+        "Crème de Mûre",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish optionally with a 柠檬片 and blackberries。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Bramble 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "新鲜柠檬汁",
+      "糖浆",
+      "Crème de Mûre"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "7e5269"
+    }
+  },
+  {
+    "id": "brandy-crusta",
+    "name": "Brandy Crusta",
+    "subtitle": "白兰地 / Maraschino Luxardo / Curacao",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/brandy-crusta/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "白兰地",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "苦韵"
+    ],
+    "taste": "以白兰地为主线，酸度明亮，甜感托住酒体，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "白兰地",
+        "52.5 ml"
+      ],
+      [
+        "Maraschino Luxardo",
+        "7.5 ml"
+      ],
+      [
+        "Curacao",
+        "1 Bar Spoon"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 ml"
+      ],
+      [
+        "糖浆",
+        "1 Bar Spoon"
+      ],
+      [
+        "Aromatic 苦精",
+        "2 Dashes"
+      ]
+    ],
+    "method": [
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Rub a slice of orange (or lemon) around the rim of the glass and dip it in pulverized white sugar, so that the sugar will adhere to the edge of the glass. Carefully curling place the orange/lemon peel around the inside of the glass。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Brandy Crusta 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "Maraschino Luxardo",
+      "Curacao",
+      "新鲜柠檬汁",
+      "糖浆",
+      "Aromatic 苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "1bdcec"
+    }
+  },
+  {
+    "id": "caipirinha",
+    "name": "Caipirinha",
+    "subtitle": "卡莎萨 / 1 Lime cut into small wedges / White Cane 糖",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/caipirinha/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "卡莎萨",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以卡莎萨为主线，酸度明亮，甜感托住酒体。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "卡莎萨",
+        "60 ml"
+      ],
+      [
+        "1 Lime cut into small wedges",
+        "适量"
+      ],
+      [
+        "White Cane 糖",
+        "4 Teaspoons"
+      ]
+    ],
+    "method": [
+      "先轻柔处理杯中香草、水果或糖，让香气释放但不过度破碎。",
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Caipirinha 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "卡莎萨",
+      "1 Lime cut into small wedges",
+      "White Cane 糖"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "rocks",
+      "accent": "14840b"
+    }
+  },
+  {
+    "id": "canchanchara",
+    "name": "Canchanchara",
+    "subtitle": "Cuban Aguardiente / 新鲜青柠汁 / Raw Honey",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/canchanchara/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "其他",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以其他为主线，酸度明亮，甜感托住酒体。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Cuban Aguardiente",
+        "60 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 ml"
+      ],
+      [
+        "Raw Honey",
+        "15 ml"
+      ],
+      [
+        "Water",
+        "50 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with a lime wedge。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Canchanchara 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Cuban Aguardiente",
+      "新鲜青柠汁",
+      "Raw Honey",
+      "Water"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "eb6c7e"
+    }
+  },
+  {
+    "id": "cardinale",
+    "name": "Cardinale",
+    "subtitle": "金酒 / 干味美思 / Bitter 金巴利",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/cardinale/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以金酒为主线，带有干净苦味，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "40 ml"
+      ],
+      [
+        "干味美思",
+        "20 ml"
+      ],
+      [
+        "Bitter 金巴利",
+        "10 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with a lemon zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Cardinale 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "干味美思",
+      "Bitter 金巴利"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "rocks",
+      "accent": "17d6f6"
+    }
+  },
+  {
+    "id": "casino",
+    "name": "Casino",
+    "subtitle": "Old Tom 金酒 / Maraschino Luxardo / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/casino/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "苦韵",
+      "果香"
+    ],
+    "taste": "以金酒为主线，酸度明亮，带有干净苦味，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Old Tom 金酒",
+        "40 ml"
+      ],
+      [
+        "Maraschino Luxardo",
+        "10 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "10 ml"
+      ],
+      [
+        "橙味苦精",
+        "2 Dashes"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with a lemon zest and a maraschino cherry。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Casino 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Old Tom 金酒",
+      "Maraschino Luxardo",
+      "新鲜柠檬汁",
+      "橙味苦精"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "rocks",
+      "accent": "07032f"
+    }
+  },
+  {
+    "id": "champagne-cocktail",
+    "name": "Champagne Cocktail",
+    "subtitle": "Chilled 香槟 / 干邑 / 安格仕苦精",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/champagne-cocktail/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "白兰地",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "苦韵",
+      "气泡"
+    ],
+    "taste": "以白兰地为主线，甜感托住酒体，带有干净苦味，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Chilled 香槟",
+        "90 ml"
+      ],
+      [
+        "干邑",
+        "10 ml"
+      ],
+      [
+        "安格仕苦精",
+        "2 dash"
+      ],
+      [
+        "drops of 金万利",
+        "适量"
+      ],
+      [
+        "1 糖 cube",
+        "适量"
+      ]
+    ],
+    "method": [
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with orange zest and maraschino cherry。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Champagne Cocktail 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Chilled 香槟",
+      "干邑",
+      "安格仕苦精",
+      "drops of 金万利",
+      "1 糖 cube"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "flute",
+      "accent": "edd5c1"
+    }
+  },
+  {
+    "id": "chartreuse-swizzle",
+    "name": "Chartreuse Swizzle",
+    "subtitle": "Green 查特酒 / Fresh 菠萝汁 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "其他",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以其他为主线，酸度明亮，带有干净苦味，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Green 查特酒",
+        "45 ml"
+      ],
+      [
+        "Fresh 菠萝汁",
+        "30 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "22.5 ml"
+      ],
+      [
+        "法勒南姆",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with 薄荷叶 and grated nutmeg。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Chartreuse Swizzle 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Green 查特酒",
+      "Fresh 菠萝汁",
+      "新鲜青柠汁",
+      "法勒南姆"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "630e2f"
+    }
+  },
+  {
+    "id": "clover-club",
+    "name": "Clover Club",
+    "subtitle": "金酒 / 覆盆子糖浆 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/clover-club/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以金酒为主线，酸度明亮，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "45 ml"
+      ],
+      [
+        "覆盆子糖浆",
+        "15 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 ml"
+      ],
+      [
+        "Drops of 蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Fresh raspberries。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Clover Club 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "覆盆子糖浆",
+      "新鲜柠檬汁",
+      "Drops of 蛋白"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "coupe",
+      "accent": "57d701"
+    }
+  },
+  {
+    "id": "corpse-reviver-2",
+    "name": "Corpse Reviver #2",
+    "subtitle": "金酒 / 君度 / Lillet Blanc",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/corpse-reviver-2/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "苦韵"
+    ],
+    "taste": "以金酒为主线，酸度明亮，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "30 ml"
+      ],
+      [
+        "君度",
+        "30 ml"
+      ],
+      [
+        "Lillet Blanc",
+        "30 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 ml"
+      ],
+      [
+        "1 dash 苦艾酒",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with an orange zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Corpse Reviver #2 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "君度",
+      "Lillet Blanc",
+      "新鲜柠檬汁",
+      "1 dash 苦艾酒"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "498106"
+    }
+  },
+  {
+    "id": "cosmopolitan",
+    "name": "Cosmopolitan",
+    "subtitle": "伏特加 Citron / 君度 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/cosmopolitan/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "果香"
+    ],
+    "taste": "以伏特加为主线，酸度明亮，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "伏特加 Citron",
+        "40 ml"
+      ],
+      [
+        "君度",
+        "15 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 ml"
+      ],
+      [
+        "蔓越莓汁",
+        "30 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with 柠檬皮扭花。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Cosmopolitan 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "伏特加 Citron",
+      "君度",
+      "新鲜青柠汁",
+      "蔓越莓汁"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "coupe",
+      "accent": "c50c32"
+    }
+  },
+  {
+    "id": "cuba-libre",
+    "name": "Cuba Libre",
+    "subtitle": "白朗姆 / 可乐 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/cuba-libre/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "气泡"
+    ],
+    "taste": "以朗姆为主线，酸度明亮，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "白朗姆",
+        "50 ml"
+      ],
+      [
+        "可乐",
+        "120 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "10 ml"
+      ]
+    ],
+    "method": [
+      "按配方把材料直接加入杯中，配合冰块完成降温与融合。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with lime wedge。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Cuba Libre 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "白朗姆",
+      "可乐",
+      "新鲜青柠汁"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "de7a2a"
+    }
+  },
+  {
+    "id": "daiquiri",
+    "name": "Daiquiri",
+    "subtitle": "White Cuban Ron / 新鲜青柠汁 / Superfine 糖",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/daiquiri/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "其他",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以其他为主线，酸度明亮，甜感托住酒体。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "White Cuban Ron",
+        "60 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "20 ml"
+      ],
+      [
+        "Superfine 糖",
+        "2 Bar Spoons"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Daiquiri 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "White Cuban Ron",
+      "新鲜青柠汁",
+      "Superfine 糖"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "fc9c9c"
+    },
+    "image": "./assets/daiquiri.png"
+  },
+  {
+    "id": "dark-n-stormy",
+    "name": "Dark ‘N’ Stormy",
+    "subtitle": "Goslings 朗姆 / 金酒ger Beer",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/dark-n-stormy/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "气泡"
+    ],
+    "taste": "以金酒为主线，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Goslings 朗姆",
+        "60 ml"
+      ],
+      [
+        "金酒ger Beer",
+        "100 ml"
+      ]
+    ],
+    "method": [
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with a lime wedge or slice。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Dark ‘N’ Stormy 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Goslings 朗姆",
+      "金酒ger Beer"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "highball",
+      "accent": "428811"
+    }
+  },
+  {
+    "id": "dons-special-daiquiri",
+    "name": "Don’s Special Daiquiri",
+    "subtitle": "Gold Jamaican 朗姆 / Cuban 朗姆 / Passion Fruit Syrup",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "果香"
+    ],
+    "taste": "以朗姆为主线，酸度明亮，甜感托住酒体，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Gold Jamaican 朗姆",
+        "30 ml"
+      ],
+      [
+        "Cuban 朗姆",
+        "15 ml"
+      ],
+      [
+        "Passion Fruit Syrup",
+        "15 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 ml"
+      ],
+      [
+        "蜂蜜糖浆",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "将材料与冰一起搅打，做出更饱满的冰沙质感。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with 1/2 passion fruit。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Don’s Special Daiquiri 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Gold Jamaican 朗姆",
+      "Cuban 朗姆",
+      "Passion Fruit Syrup",
+      "新鲜青柠汁",
+      "蜂蜜糖浆"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "de7802"
+    }
+  },
+  {
+    "id": "dry-martini",
+    "name": "Dry Martini",
+    "subtitle": "金酒 / 干味美思",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/dry-martini/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "草本"
+    ],
+    "taste": "以金酒为主线，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "60 ml"
+      ],
+      [
+        "干味美思",
+        "10 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Squeeze oil from lemon peel onto the drink, or garnish with a green 橄榄s if requested。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Dry Martini 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "干味美思"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "70f504"
+    }
+  },
+  {
+    "id": "espresso-martini",
+    "name": "Espresso Martini",
+    "subtitle": "伏特加 / Kahlúa / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/espresso-martini/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜"
+    ],
+    "taste": "以伏特加为主线，甜感托住酒体。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "伏特加",
+        "50 ml"
+      ],
+      [
+        "Kahlúa",
+        "30 ml"
+      ],
+      [
+        "糖浆",
+        "10 ml"
+      ],
+      [
+        "1 strong Espresso",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：3 coffee beans。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Espresso Martini 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "Kahlúa",
+      "糖浆",
+      "1 strong Espresso"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "30ef0f"
+    }
+  },
+  {
+    "id": "fernandito",
+    "name": "Fernandito",
+    "subtitle": "Fernet Branca / Fill up with 可乐",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/fernandito/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "其他",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "气泡"
+    ],
+    "taste": "以其他为主线，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Fernet Branca",
+        "50 ml"
+      ],
+      [
+        "Fill up with 可乐",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Fernandito 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Fernet Branca",
+      "Fill up with 可乐"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "highball",
+      "accent": "400732"
+    }
+  },
+  {
+    "id": "french-75",
+    "name": "French 75",
+    "subtitle": "金酒 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/french-75/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "气泡"
+    ],
+    "taste": "以金酒为主线，酸度明亮，甜感托住酒体，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "30 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 ml"
+      ],
+      [
+        "糖浆",
+        "15 ml"
+      ],
+      [
+        "香槟",
+        "60 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "French 75 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "新鲜柠檬汁",
+      "糖浆",
+      "香槟"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "flute",
+      "accent": "6c8e93"
+    }
+  },
+  {
+    "id": "french-connection",
+    "name": "French Connection",
+    "subtitle": "干邑 / 杏仁利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/french-connection/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "白兰地",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "经典",
+      "酒感直接"
+    ],
+    "taste": "以白兰地为主线，结构直接，突出主要基酒。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "干邑",
+        "35 ml"
+      ],
+      [
+        "杏仁利口酒",
+        "35 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "French Connection 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "干邑",
+      "杏仁利口酒"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "ed788e"
+    }
+  },
+  {
+    "id": "french-martini",
+    "name": "French Martini",
+    "subtitle": "伏特加 / Raspberry Liqueur / Fresh 菠萝汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/french-martini/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "果香"
+    ],
+    "taste": "以伏特加为主线，甜感托住酒体，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "伏特加",
+        "45 ml"
+      ],
+      [
+        "Raspberry Liqueur",
+        "15 ml"
+      ],
+      [
+        "Fresh 菠萝汁",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Squeeze oil from lemon peel onto the drink。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "French Martini 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "Raspberry Liqueur",
+      "Fresh 菠萝汁"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "coupe",
+      "accent": "0a4713"
+    }
+  },
+  {
+    "id": "garibaldi",
+    "name": "Garibaldi",
+    "subtitle": "Bitter 金巴利 / Freshly Squeezed 橙汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/garibaldi/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "开胃酒",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "果香"
+    ],
+    "taste": "以开胃酒为主线，带有干净苦味，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Bitter 金巴利",
+        "45 ml"
+      ],
+      [
+        "Freshly Squeezed 橙汁",
+        "120 ml"
+      ]
+    ],
+    "method": [
+      "按配方把材料直接加入杯中，配合冰块完成降温与融合。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with an orange wedge。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Garibaldi 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Bitter 金巴利",
+      "Freshly Squeezed 橙汁"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "dcaec0"
+    }
+  },
+  {
+    "id": "gin-basil-smash",
+    "name": "Gin Basil Smash",
+    "subtitle": "金酒 / Freshly Squeezed 柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/gin-basil-smash/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "草本"
+    ],
+    "taste": "以金酒为主线，酸度明亮，甜感托住酒体，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "60ml"
+      ],
+      [
+        "Freshly Squeezed 柠檬汁",
+        "22.5 ml"
+      ],
+      [
+        "糖浆",
+        "22.5 ml"
+      ],
+      [
+        "10 pcs Italian Basil leaves",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Gin Basil Smash 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "Freshly Squeezed 柠檬汁",
+      "糖浆",
+      "10 pcs Italian Basil leaves"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "47984c"
+    }
+  },
+  {
+    "id": "gin-fizz",
+    "name": "Gin Fizz",
+    "subtitle": "金酒 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/gin-fizz/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "气泡"
+    ],
+    "taste": "以金酒为主线，酸度明亮，甜感托住酒体，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "45 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 ml"
+      ],
+      [
+        "糖浆",
+        "10 ml"
+      ],
+      [
+        "of 苏打水",
+        "Splash"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with 柠檬片, optional lemon zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Gin Fizz 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "新鲜柠檬汁",
+      "糖浆",
+      "苏打水"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "highball",
+      "accent": "36adb1"
+    }
+  },
+  {
+    "id": "grand-margarita",
+    "name": "Grand Margarita",
+    "subtitle": "龙舌兰 100% agave / 金万利 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/grand-margarita/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "龙舌兰",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽"
+    ],
+    "taste": "以龙舌兰为主线，酸度明亮。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "龙舌兰 100% agave",
+        "45 ml"
+      ],
+      [
+        "金万利",
+        "30 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with a 青柠片。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Grand Margarita 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "龙舌兰 100% agave",
+      "金万利",
+      "新鲜青柠汁"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "8ad449"
+    }
+  },
+  {
+    "id": "grasshopper",
+    "name": "Grasshopper",
+    "subtitle": "可可利口酒 / Crème de Menthe / 鲜奶油",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/grasshopper/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "其他",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以其他为主线，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "可可利口酒",
+        "20 ml"
+      ],
+      [
+        "Crème de Menthe",
+        "20 ml"
+      ],
+      [
+        "鲜奶油",
+        "20 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：N/A, optional mint leave。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Grasshopper 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "可可利口酒",
+      "Crème de Menthe",
+      "鲜奶油"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "e68351"
+    }
+  },
+  {
+    "id": "hanky-panky",
+    "name": "Hanky Panky",
+    "subtitle": "London Dry 金酒 / 甜红味美思 / Fernet",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/hanky-panky/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "草本"
+    ],
+    "taste": "以金酒为主线，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "London Dry 金酒",
+        "45 ml"
+      ],
+      [
+        "甜红味美思",
+        "45 ml"
+      ],
+      [
+        "Fernet",
+        "7.5 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Orange zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Hanky Panky 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "London Dry 金酒",
+      "甜红味美思",
+      "Fernet"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "47324c"
+    }
+  },
+  {
+    "id": "hemingway-special",
+    "name": "Hemingway Special",
+    "subtitle": "朗姆 / 西柚汁 / Maraschino Luxardo",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/hemingway-special/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "果香"
+    ],
+    "taste": "以朗姆为主线，酸度明亮，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "朗姆",
+        "60 ml"
+      ],
+      [
+        "西柚汁",
+        "40 ml"
+      ],
+      [
+        "Maraschino Luxardo",
+        "15 ml"
+      ],
+      [
+        "Fresh Lime",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Hemingway Special 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "西柚汁",
+      "Maraschino Luxardo",
+      "Fresh Lime"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "897d9f"
+    }
+  },
+  {
+    "id": "horses-neck",
+    "name": "Horse’s Neck",
+    "subtitle": "干邑 / 金酒ger Ale / 安格仕苦精",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/horses-neck/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵"
+    ],
+    "taste": "以金酒为主线，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "干邑",
+        "40 ml"
+      ],
+      [
+        "金酒ger Ale",
+        "120 ml"
+      ],
+      [
+        "of 安格仕苦精",
+        "Dash"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "装饰建议：Garnish with rind of one lemon spiral。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Horse’s Neck 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "干邑",
+      "金酒ger Ale",
+      "安格仕苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "highball",
+      "accent": "decf6a"
+    }
+  },
+  {
+    "id": "iba-tiki",
+    "name": "IBA Tiki",
+    "subtitle": "Ron Profundo Havana Club / Ron Smoky Havana Club / Licor 杏仁利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/iba-tiki/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "其他",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "果香"
+    ],
+    "taste": "以其他为主线，酸度明亮，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Ron Profundo Havana Club",
+        "30 ml"
+      ],
+      [
+        "Ron Smoky Havana Club",
+        "30 ml"
+      ],
+      [
+        "Licor 杏仁利口酒",
+        "15 ml"
+      ],
+      [
+        "Licor Frangelico",
+        "5 ml"
+      ],
+      [
+        "Maraschino Luxardo",
+        "5 drop"
+      ],
+      [
+        "Passion Fruit Puree",
+        "30 ml"
+      ],
+      [
+        "90 Fresh 菠萝汁",
+        "适量"
+      ],
+      [
+        "30 新鲜青柠汁",
+        "适量"
+      ]
+    ],
+    "method": [
+      "先轻柔处理杯中香草、水果或糖，让香气释放但不过度破碎。",
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "IBA Tiki 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Ron Profundo Havana Club",
+      "Ron Smoky Havana Club",
+      "Licor 杏仁利口酒",
+      "Licor Frangelico",
+      "Maraschino Luxardo",
+      "Passion Fruit Puree",
+      "90 Fresh 菠萝汁",
+      "30 新鲜青柠汁"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "503ffb"
+    }
+  },
+  {
+    "id": "illegal",
+    "name": "Illegal",
+    "subtitle": "Espadin 梅斯卡尔 / Jamaica Overproof 白朗姆 / 法勒南姆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/illegal/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以朗姆为主线，酸度明亮，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Espadin 梅斯卡尔",
+        "30 ml"
+      ],
+      [
+        "Jamaica Overproof 白朗姆",
+        "15 ml"
+      ],
+      [
+        "法勒南姆",
+        "15 ml"
+      ],
+      [
+        "Maraschino Luxardo",
+        "1 Bar Spoon"
+      ],
+      [
+        "新鲜青柠汁",
+        "22.5 ml"
+      ],
+      [
+        "糖浆",
+        "15 ml"
+      ],
+      [
+        "Drops of 蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Illegal 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Espadin 梅斯卡尔",
+      "Jamaica Overproof 白朗姆",
+      "法勒南姆",
+      "Maraschino Luxardo",
+      "新鲜青柠汁",
+      "糖浆",
+      "Drops of 蛋白"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "rocks",
+      "accent": "71f91e"
+    }
+  },
+  {
+    "id": "irish-coffee",
+    "name": "Irish Coffee",
+    "subtitle": "爱尔兰威士忌 / Hot 咖啡 / 鲜奶油",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/irish-coffee/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以威士忌为主线，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "爱尔兰威士忌",
+        "50 ml"
+      ],
+      [
+        "Hot 咖啡",
+        "120 ml"
+      ],
+      [
+        "鲜奶油",
+        "50 ml"
+      ],
+      [
+        "糖",
+        "1 茶匙"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Irish Coffee 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "爱尔兰威士忌",
+      "Hot 咖啡",
+      "鲜奶油",
+      "糖"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "3d486f"
+    }
+  },
+  {
+    "id": "john-collins",
+    "name": "John Collins",
+    "subtitle": "金酒 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/john-collins/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "气泡"
+    ],
+    "taste": "以金酒为主线，酸度明亮，甜感托住酒体，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "45 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 ml"
+      ],
+      [
+        "糖浆",
+        "15 ml"
+      ],
+      [
+        "苏打水",
+        "60 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with 柠檬片 and maraschino cherry。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "John Collins 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "新鲜柠檬汁",
+      "糖浆",
+      "苏打水"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "highball",
+      "accent": "22293e"
+    }
+  },
+  {
+    "id": "jungle-bird",
+    "name": "Jungle Bird",
+    "subtitle": "Blackstrap 朗姆 / 金巴利 / 菠萝汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/jungle-bird/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "苦韵"
+    ],
+    "taste": "以朗姆为主线，酸度明亮，甜感托住酒体，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Blackstrap 朗姆",
+        "45 ml"
+      ],
+      [
+        "金巴利",
+        "22.5 ml"
+      ],
+      [
+        "菠萝汁",
+        "45 ml"
+      ],
+      [
+        "Freshly Squeezed 青柠汁",
+        "15 ml"
+      ],
+      [
+        "Demerara 糖浆",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with a 菠萝 wedge。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Jungle Bird 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Blackstrap 朗姆",
+      "金巴利",
+      "菠萝汁",
+      "Freshly Squeezed 青柠汁",
+      "Demerara 糖浆"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "rocks",
+      "accent": "c13790"
+    }
+  },
+  {
+    "id": "kir",
+    "name": "Kir",
+    "subtitle": "Dry White Wine / Crème de Cassis",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/kir/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "其他",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "经典",
+      "酒感直接"
+    ],
+    "taste": "以其他为主线，结构直接，突出主要基酒。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Dry White Wine",
+        "90 ml"
+      ],
+      [
+        "Crème de Cassis",
+        "10 ml"
+      ]
+    ],
+    "method": [
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Kir 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Dry White Wine",
+      "Crème de Cassis"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "flute",
+      "accent": "a984ac"
+    }
+  },
+  {
+    "id": "last-word",
+    "name": "Last Word",
+    "subtitle": "金酒 / Green 查特酒 / Maraschino Luxardo",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/last-word/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以金酒为主线，酸度明亮，带有干净苦味，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "22.5 ml"
+      ],
+      [
+        "Green 查特酒",
+        "22.5 ml"
+      ],
+      [
+        "Maraschino Luxardo",
+        "22.5 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "22.5 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Last Word 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "Green 查特酒",
+      "Maraschino Luxardo",
+      "新鲜青柠汁"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "56ea79"
+    }
+  },
+  {
+    "id": "lemon-drop-martini",
+    "name": "Lemon Drop Martini",
+    "subtitle": "伏特加 / 橙味利口酒 / Fresh Squeezed 柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/lemon-drop-martini/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽"
+    ],
+    "taste": "以伏特加为主线，酸度明亮。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "伏特加",
+        "30 ml"
+      ],
+      [
+        "橙味利口酒",
+        "20 ml"
+      ],
+      [
+        "Fresh Squeezed 柠檬汁",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Lemon Drop Martini 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "橙味利口酒",
+      "Fresh Squeezed 柠檬汁"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "79f726"
+    }
+  },
+  {
+    "id": "long-island-iced-tea",
+    "name": "Long Island Iced Tea",
+    "subtitle": "伏特加 / 龙舌兰 / 白朗姆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/long-island-iced-tea/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "气泡"
+    ],
+    "taste": "以伏特加为主线，酸度明亮，甜感托住酒体，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "伏特加",
+        "15 ml"
+      ],
+      [
+        "龙舌兰",
+        "15 ml"
+      ],
+      [
+        "白朗姆",
+        "15 ml"
+      ],
+      [
+        "金酒",
+        "15 ml"
+      ],
+      [
+        "君度",
+        "15 ml"
+      ],
+      [
+        "柠檬汁",
+        "25 ml"
+      ],
+      [
+        "糖浆",
+        "30 ml"
+      ],
+      [
+        "Top with 可乐",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with 柠檬片 (Optional)。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Long Island Iced Tea 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "龙舌兰",
+      "白朗姆",
+      "金酒",
+      "君度",
+      "柠檬汁",
+      "糖浆",
+      "Top with 可乐"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "highball",
+      "accent": "6bd0bf"
+    }
+  },
+  {
+    "id": "mai-tai",
+    "name": "Mai-Tai",
+    "subtitle": "Amber Jamaican 朗姆 / Martinique Molasses Rhum* / Orange Curacao",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mai-tai/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "果香"
+    ],
+    "taste": "以朗姆为主线，酸度明亮，甜感托住酒体，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Amber Jamaican 朗姆",
+        "30 ml"
+      ],
+      [
+        "Martinique Molasses Rhum*",
+        "30 ml"
+      ],
+      [
+        "Orange Curacao",
+        "15 ml"
+      ],
+      [
+        "杏仁糖浆",
+        "15 ml"
+      ],
+      [
+        "Fresh Squeezed 青柠汁",
+        "30 ml"
+      ],
+      [
+        "糖浆",
+        "7.5 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "装饰建议：Garnish with 菠萝 spear, 薄荷叶 and lime peel。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Mai-Tai 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Amber Jamaican 朗姆",
+      "Martinique Molasses Rhum*",
+      "Orange Curacao",
+      "杏仁糖浆",
+      "Fresh Squeezed 青柠汁",
+      "糖浆"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "f1d7d3"
+    }
+  },
+  {
+    "id": "manhattan",
+    "name": "Manhattan",
+    "subtitle": "黑麦威士忌 / 甜红味美思 / 1 dash 安格仕苦精",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/manhattan/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以威士忌为主线，带有干净苦味，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "黑麦威士忌",
+        "50 ml"
+      ],
+      [
+        "甜红味美思",
+        "20 ml"
+      ],
+      [
+        "1 dash 安格仕苦精",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with 鸡尾酒樱桃。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Manhattan 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "黑麦威士忌",
+      "甜红味美思",
+      "1 dash 安格仕苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "1834cd"
+    }
+  },
+  {
+    "id": "margarita",
+    "name": "Margarita",
+    "subtitle": "龙舌兰 100% Agave / 橙味利口酒 / Freshly Squeezed 青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/margarita/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "龙舌兰",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽"
+    ],
+    "taste": "以龙舌兰为主线，酸度明亮。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "龙舌兰 100% Agave",
+        "50 ml"
+      ],
+      [
+        "橙味利口酒",
+        "20 ml"
+      ],
+      [
+        "Freshly Squeezed 青柠汁",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Half salt rim (Optional)。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Margarita 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "龙舌兰 100% Agave",
+      "橙味利口酒",
+      "Freshly Squeezed 青柠汁"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "19540a"
+    }
+  },
+  {
+    "id": "martinez",
+    "name": "Martinez",
+    "subtitle": "London Dry 金酒 / 甜红味美思 / Maraschino Luxardo",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/martinez/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "草本",
+      "果香"
+    ],
+    "taste": "以金酒为主线，带有干净苦味，草本香气明显，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "London Dry 金酒",
+        "45 ml"
+      ],
+      [
+        "甜红味美思",
+        "45 ml"
+      ],
+      [
+        "Maraschino Luxardo",
+        "1 Bar Spoon"
+      ],
+      [
+        "橙味苦精",
+        "2 Dashes"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Lemon zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Martinez 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "London Dry 金酒",
+      "甜红味美思",
+      "Maraschino Luxardo",
+      "橙味苦精"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "rocks",
+      "accent": "67d36d"
+    }
+  },
+  {
+    "id": "mary-pickford",
+    "name": "Mary Pickford",
+    "subtitle": "白朗姆 / Fresh 菠萝汁 / Maraschino Luxardo",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mary-pickford/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "果香"
+    ],
+    "taste": "以朗姆为主线，甜感托住酒体，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "白朗姆",
+        "45 ml"
+      ],
+      [
+        "Fresh 菠萝汁",
+        "45 ml"
+      ],
+      [
+        "Maraschino Luxardo",
+        "7.5 ml"
+      ],
+      [
+        "石榴糖浆",
+        "5 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Mary Pickford 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "白朗姆",
+      "Fresh 菠萝汁",
+      "Maraschino Luxardo",
+      "石榴糖浆"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "coupe",
+      "accent": "b94fd3"
+    }
+  },
+  {
+    "id": "mimosa",
+    "name": "Mimosa",
+    "subtitle": "Freshly Squeezed  橙汁 / 普罗塞克",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mimosa/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "起泡酒",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "气泡",
+      "果香"
+    ],
+    "taste": "以起泡酒为主线，口感轻快，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Freshly Squeezed  橙汁",
+        "75 ml"
+      ],
+      [
+        "普罗塞克",
+        "75 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "装饰建议：Garnish with 橙皮扭花 (optional)。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Mimosa 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Freshly Squeezed  橙汁",
+      "普罗塞克"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "flute",
+      "accent": "70f570"
+    }
+  },
+  {
+    "id": "mint-julep",
+    "name": "Mint Julep",
+    "subtitle": "波本威士忌 / 4 fresh 薄荷枝 / Powdered 糖",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mint-julep/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "草本"
+    ],
+    "taste": "以威士忌为主线，甜感托住酒体，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "波本威士忌",
+        "60 ml"
+      ],
+      [
+        "4 fresh 薄荷枝",
+        "适量"
+      ],
+      [
+        "Powdered 糖",
+        "1 tsp"
+      ],
+      [
+        "Water",
+        "2 tsp"
+      ]
+    ],
+    "method": [
+      "先轻柔处理杯中香草、水果或糖，让香气释放但不过度破碎。",
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with a 薄荷枝。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Mint Julep 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "波本威士忌",
+      "4 fresh 薄荷枝",
+      "Powdered 糖",
+      "Water"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "e0fbdb"
+    }
+  },
+  {
+    "id": "missionarys-downfall",
+    "name": "Missionary’s Downfall",
+    "subtitle": "白朗姆 / Peach 白兰地 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/missionarys-downfall/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "草本"
+    ],
+    "taste": "以朗姆为主线，酸度明亮，甜感托住酒体，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "白朗姆",
+        "30 ml"
+      ],
+      [
+        "Peach 白兰地",
+        "15 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 ml"
+      ],
+      [
+        "Honey Mix",
+        "30 ml"
+      ],
+      [
+        "10 pcs 薄荷叶",
+        "适量"
+      ],
+      [
+        "3 to 4 pcs Pineapple Chunks",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将材料与冰一起搅打，做出更饱满的冰沙质感。",
+      "装饰建议：Garnish with 薄荷枝 and a slice of 菠萝。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Missionary’s Downfall 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "白朗姆",
+      "Peach 白兰地",
+      "新鲜青柠汁",
+      "Honey Mix",
+      "10 pcs 薄荷叶",
+      "3 to 4 pcs Pineapple Chunks"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "bd4c5a"
+    }
+  },
+  {
+    "id": "mojito",
+    "name": "Mojito",
+    "subtitle": "White Cuban Ron / 新鲜青柠汁 / 6 pcs 薄荷枝",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mojito/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "其他",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "草本"
+    ],
+    "taste": "以其他为主线，酸度明亮，甜感托住酒体，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "White Cuban Ron",
+        "45 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "20 ml"
+      ],
+      [
+        "6 pcs 薄荷枝",
+        "适量"
+      ],
+      [
+        "White Cane 糖",
+        "2 tsp"
+      ],
+      [
+        "苏打水",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with sprigs of mint and slice of lime。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Mojito 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "White Cuban Ron",
+      "新鲜青柠汁",
+      "6 pcs 薄荷枝",
+      "White Cane 糖",
+      "苏打水"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "d92b09"
+    },
+    "image": "./assets/mojito.png"
+  },
+  {
+    "id": "monkey-gland",
+    "name": "Monkey Gland",
+    "subtitle": "Dry 金酒 / Fresh 橙汁 / 1 Tablespoon 苦艾酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/monkey-gland/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "苦韵",
+      "果香"
+    ],
+    "taste": "以金酒为主线，甜感托住酒体，带有干净苦味，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Dry 金酒",
+        "45 ml"
+      ],
+      [
+        "Fresh 橙汁",
+        "45 ml"
+      ],
+      [
+        "1 Tablespoon 苦艾酒",
+        "适量"
+      ],
+      [
+        "1 Tablespoon 石榴糖浆",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Monkey Gland 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Dry 金酒",
+      "Fresh 橙汁",
+      "1 Tablespoon 苦艾酒",
+      "1 Tablespoon 石榴糖浆"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "coupe",
+      "accent": "101823"
+    }
+  },
+  {
+    "id": "moscow-mule",
+    "name": "Moscow Mule",
+    "subtitle": "Smirnoff 伏特加 / 金酒ger Beer / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/moscow-mule/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "气泡"
+    ],
+    "taste": "以伏特加为主线，酸度明亮，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Smirnoff 伏特加",
+        "45 ml"
+      ],
+      [
+        "金酒ger Beer",
+        "120 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "10 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with a 青柠片。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Moscow Mule 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Smirnoff 伏特加",
+      "金酒ger Beer",
+      "新鲜青柠汁"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "5d154c"
+    }
+  },
+  {
+    "id": "naked-and-famous",
+    "name": "Naked and Famous",
+    "subtitle": "梅斯卡尔 / Yellow 查特酒 / 阿佩罗",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/naked-and-famous/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "龙舌兰",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以龙舌兰为主线，酸度明亮，带有干净苦味，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "梅斯卡尔",
+        "22.5 ml"
+      ],
+      [
+        "Yellow 查特酒",
+        "22.5 ml"
+      ],
+      [
+        "阿佩罗",
+        "22.5 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "22.5 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Naked and Famous 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "梅斯卡尔",
+      "Yellow 查特酒",
+      "阿佩罗",
+      "新鲜青柠汁"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "06a1ce"
+    }
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "subtitle": "金酒 / Bitter 金巴利 / 甜红味美思",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/negroni/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以金酒为主线，带有干净苦味，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "30 ml"
+      ],
+      [
+        "Bitter 金巴利",
+        "30 ml"
+      ],
+      [
+        "甜红味美思",
+        "30 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with half 橙片。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Negroni 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "Bitter 金巴利",
+      "甜红味美思"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "rocks",
+      "accent": "f66492"
+    },
+    "image": "./assets/negroni.png"
+  },
+  {
+    "id": "new-york-sour",
+    "name": "New York Sour",
+    "subtitle": "黑麦威士忌 or Bourbon / 糖浆 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/new-york-sour/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以威士忌为主线，酸度明亮，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "黑麦威士忌 or Bourbon",
+        "60 ml"
+      ],
+      [
+        "糖浆",
+        "22.5 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 ml"
+      ],
+      [
+        "Drops of 蛋白",
+        "适量"
+      ],
+      [
+        "Red wine",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with lemon or orange zest with cherry。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "New York Sour 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "黑麦威士忌 or Bourbon",
+      "糖浆",
+      "新鲜柠檬汁",
+      "Drops of 蛋白",
+      "Red wine"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "cab575"
+    }
+  },
+  {
+    "id": "old-cuban",
+    "name": "Old Cuban",
+    "subtitle": "6/8 pcs 薄荷叶 / Aged 朗姆 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/old-cuban/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "苦韵"
+    ],
+    "taste": "以朗姆为主线，酸度明亮，甜感托住酒体，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "6/8 pcs 薄荷叶",
+        "适量"
+      ],
+      [
+        "Aged 朗姆",
+        "45 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "22.5 ml"
+      ],
+      [
+        "糖浆",
+        "30 ml"
+      ],
+      [
+        "安格仕苦精",
+        "2 Dashes"
+      ],
+      [
+        "Brut 香槟 or 普罗塞克",
+        "60 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with mint springs。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Old Cuban 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "6/8 pcs 薄荷叶",
+      "Aged 朗姆",
+      "新鲜青柠汁",
+      "糖浆",
+      "安格仕苦精",
+      "Brut 香槟 or 普罗塞克"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "flute",
+      "accent": "66a488"
+    }
+  },
+  {
+    "id": "old-fashioned",
+    "name": "Old Fashioned",
+    "subtitle": "Bourbon or 黑麦威士忌 / 1 糖 Cube / Dashes 安格仕苦精",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/old-fashioned/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "苦韵"
+    ],
+    "taste": "以威士忌为主线，甜感托住酒体，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Bourbon or 黑麦威士忌",
+        "45 ml"
+      ],
+      [
+        "1 糖 Cube",
+        "适量"
+      ],
+      [
+        "安格仕苦精",
+        "Few Dashes"
+      ],
+      [
+        "Plain Water",
+        "Few Dashes"
+      ]
+    ],
+    "method": [
+      "先轻柔处理杯中香草、水果或糖，让香气释放但不过度破碎。",
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with 橙片 or zest, and a 鸡尾酒樱桃。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Old Fashioned 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Bourbon or 黑麦威士忌",
+      "1 糖 Cube",
+      "Dashes 安格仕苦精",
+      "Dashes Plain Water"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "ba0209"
+    },
+    "image": "./assets/old-fashioned.png"
+  },
+  {
+    "id": "paloma",
+    "name": "Paloma",
+    "subtitle": "100% Agave 龙舌兰 / Fresh lime / A pinch of Salt",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/paloma/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "龙舌兰",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "气泡",
+      "果香"
+    ],
+    "taste": "以龙舌兰为主线，酸度明亮，口感轻快，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "100% Agave 龙舌兰",
+        "50 ml"
+      ],
+      [
+        "Fresh lime",
+        "5 ml"
+      ],
+      [
+        "A pinch of Salt",
+        "适量"
+      ],
+      [
+        "Pink Grapefruit Soda",
+        "100 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with a slice of lime。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Paloma 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "100% Agave 龙舌兰",
+      "Fresh lime",
+      "A pinch of Salt",
+      "Pink Grapefruit Soda"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "47c52f"
+    }
+  },
+  {
+    "id": "paper-plane",
+    "name": "Paper Plane",
+    "subtitle": "波本威士忌 / Amaro Nonino / 阿佩罗",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/paper-plane/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "苦韵"
+    ],
+    "taste": "以威士忌为主线，酸度明亮，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "波本威士忌",
+        "30 ml"
+      ],
+      [
+        "Amaro Nonino",
+        "30 ml"
+      ],
+      [
+        "阿佩罗",
+        "30 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Paper Plane 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "波本威士忌",
+      "Amaro Nonino",
+      "阿佩罗",
+      "新鲜柠檬汁"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "78f095"
+    }
+  },
+  {
+    "id": "paradise",
+    "name": "Paradise",
+    "subtitle": "金酒 / Apricot 白兰地 / Fresh 橙汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/paradise/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "果香"
+    ],
+    "taste": "以金酒为主线，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "30 ml"
+      ],
+      [
+        "Apricot 白兰地",
+        "20 ml"
+      ],
+      [
+        "Fresh 橙汁",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Paradise 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "Apricot 白兰地",
+      "Fresh 橙汁"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "6a6638"
+    }
+  },
+  {
+    "id": "penicillin",
+    "name": "Penicillin",
+    "subtitle": "Blended 苏格兰威士忌 / Lagavulin 16y / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/penicillin/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以金酒为主线，酸度明亮，甜感托住酒体。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Blended 苏格兰威士忌",
+        "60 ml"
+      ],
+      [
+        "Lagavulin 16y",
+        "7.5 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "22.5 ml"
+      ],
+      [
+        "蜂蜜糖浆",
+        "22.5 ml"
+      ],
+      [
+        "2-3 quarter size sliced fresh 金酒ger",
+        "适量"
+      ]
+    ],
+    "method": [
+      "先轻柔处理杯中香草、水果或糖，让香气释放但不过度破碎。",
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with candied ginger slices。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Penicillin 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Blended 苏格兰威士忌",
+      "Lagavulin 16y",
+      "新鲜柠檬汁",
+      "蜂蜜糖浆",
+      "2-3 quarter size sliced fresh 金酒ger"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "rocks",
+      "accent": "7179b0"
+    }
+  },
+  {
+    "id": "pina-colada",
+    "name": "Pina Colada",
+    "subtitle": "白朗姆 / Coconut 奶油 / Fresh 菠萝汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/pina-colada/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "圆润",
+      "果香"
+    ],
+    "taste": "以朗姆为主线，甜感托住酒体，质地柔和，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "白朗姆",
+        "50 ml"
+      ],
+      [
+        "Coconut 奶油",
+        "30 ml"
+      ],
+      [
+        "Fresh 菠萝汁",
+        "50 ml"
+      ]
+    ],
+    "method": [
+      "将材料与冰一起搅打，做出更饱满的冰沙质感。",
+      "装饰建议：Garnish with a slice of 菠萝 with a 鸡尾酒樱桃。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Pina Colada 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "白朗姆",
+      "Coconut 奶油",
+      "Fresh 菠萝汁"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "highball",
+      "accent": "70676c"
+    }
+  },
+  {
+    "id": "pisco-punch",
+    "name": "Pisco Punch",
+    "subtitle": "皮斯科 / Fresh 菠萝汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/pisco-punch/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "皮斯科",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "果香"
+    ],
+    "taste": "以皮斯科为主线，酸度明亮，甜感托住酒体，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "皮斯科",
+        "60 ml"
+      ],
+      [
+        "Fresh 菠萝汁",
+        "22.5 ml"
+      ],
+      [
+        "糖浆",
+        "15 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 ml"
+      ],
+      [
+        "Dry White Wine",
+        "30 ml"
+      ],
+      [
+        "3 pcs Cloves",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Pisco Punch 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "皮斯科",
+      "Fresh 菠萝汁",
+      "糖浆",
+      "新鲜柠檬汁",
+      "Dry White Wine",
+      "3 pcs Cloves"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "coupe",
+      "accent": "bdba4a"
+    }
+  },
+  {
+    "id": "pisco-sour",
+    "name": "Pisco Sour",
+    "subtitle": "皮斯科 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/pisco-sour/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "皮斯科",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以皮斯科为主线，酸度明亮，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "皮斯科",
+        "60 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 ml"
+      ],
+      [
+        "糖浆",
+        "20 ml"
+      ],
+      [
+        "1 Raw whole 蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Few dashes of Amargo bitters on top as an aromatic garnish。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Pisco Sour 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "皮斯科",
+      "新鲜柠檬汁",
+      "糖浆",
+      "1 Raw whole 蛋白"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "6375a0"
+    }
+  },
+  {
+    "id": "planters-punch",
+    "name": "Planters Punch",
+    "subtitle": "Jamaican 朗姆 / 青柠汁 / 糖 Cane Juice",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/planters-punch/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以朗姆为主线，酸度明亮，甜感托住酒体。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Jamaican 朗姆",
+        "45 ml"
+      ],
+      [
+        "青柠汁",
+        "15 ml"
+      ],
+      [
+        "糖 Cane Juice",
+        "30 ml"
+      ]
+    ],
+    "method": [
+      "按配方把材料直接加入杯中，配合冰块完成降温与融合。",
+      "装饰建议：Garnish with orange zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Planters Punch 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Jamaican 朗姆",
+      "青柠汁",
+      "糖 Cane Juice"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "1dd970"
+    }
+  },
+  {
+    "id": "porn-star-martini",
+    "name": "Porn Star Martini",
+    "subtitle": "Vanilla 伏特加 / Passion Fruit Liqueur / Passion Fruit Puree",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/porn-star-martini/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "气泡",
+      "果香"
+    ],
+    "taste": "以伏特加为主线，甜感托住酒体，口感轻快，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Vanilla 伏特加",
+        "50 ml"
+      ],
+      [
+        "Passion Fruit Liqueur",
+        "20 ml"
+      ],
+      [
+        "Passion Fruit Puree",
+        "50 ml"
+      ],
+      [
+        "Vanilla 糖",
+        "2 Bar Spoons"
+      ],
+      [
+        "香槟 to serve on the side",
+        "50 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with passion fruit cup and sugar。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Porn Star Martini 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Vanilla 伏特加",
+      "Passion Fruit Liqueur",
+      "Passion Fruit Puree",
+      "Vanilla 糖",
+      "香槟 to serve on the side"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "flute",
+      "accent": "32ce28"
+    }
+  },
+  {
+    "id": "porto-flip",
+    "name": "Porto Flip",
+    "subtitle": "白兰地 / Red Tawny Port Wine / 蛋黄",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/porto-flip/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "白兰地",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "圆润"
+    ],
+    "taste": "以白兰地为主线，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "白兰地",
+        "15 ml"
+      ],
+      [
+        "Red Tawny Port Wine",
+        "45 ml"
+      ],
+      [
+        "蛋黄",
+        "10 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Sprinkle with fresh ground nutmeg。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Porto Flip 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "Red Tawny Port Wine",
+      "蛋黄"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "4c198d"
+    }
+  },
+  {
+    "id": "rabo-de-galo",
+    "name": "Rabo de Galo",
+    "subtitle": "卡莎萨 / 甜味美思 Cinzano Rosso / Cynar",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/rabo-de-galo/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "卡莎萨",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "草本"
+    ],
+    "taste": "以卡莎萨为主线，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "卡莎萨",
+        "60 ml"
+      ],
+      [
+        "甜味美思 Cinzano Rosso",
+        "20 ml"
+      ],
+      [
+        "Cynar",
+        "15 ml"
+      ],
+      [
+        "Angostura",
+        "2 Drops"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "装饰建议：Garnish with a 橙皮扭花。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Rabo de Galo 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "卡莎萨",
+      "甜味美思 Cinzano Rosso",
+      "Cynar",
+      "Angostura"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "d62797"
+    }
+  },
+  {
+    "id": "ramos-fizz",
+    "name": "Ramos Fizz",
+    "subtitle": "金酒 / 新鲜青柠汁 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/ramos-fizz/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以金酒为主线，酸度明亮，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "45 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 ml"
+      ],
+      [
+        "糖浆",
+        "30 ml"
+      ],
+      [
+        "奶油",
+        "60 ml"
+      ],
+      [
+        "蛋白",
+        "30ml"
+      ],
+      [
+        "Orange Flower Water",
+        "3 Dashes"
+      ],
+      [
+        "Vanilla Extract",
+        "2 Drops"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Ramos Fizz 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "新鲜青柠汁",
+      "新鲜柠檬汁",
+      "糖浆",
+      "奶油",
+      "蛋白",
+      "Orange Flower Water",
+      "Vanilla Extract"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "7dd57c"
+    }
+  },
+  {
+    "id": "remember-the-maine",
+    "name": "Remember the Maine",
+    "subtitle": "黑麦威士忌 / 甜味美思 / Cherry 白兰地 Luxardo",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/remember-the-maine/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以威士忌为主线，带有干净苦味，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "黑麦威士忌",
+        "60 ml"
+      ],
+      [
+        "甜味美思",
+        "22.5 ml"
+      ],
+      [
+        "Cherry 白兰地 Luxardo",
+        "15 ml"
+      ],
+      [
+        "苦艾酒",
+        "7.5 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with lemon zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Remember the Maine 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "黑麦威士忌",
+      "甜味美思",
+      "Cherry 白兰地 Luxardo",
+      "苦艾酒"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "435da6"
+    }
+  },
+  {
+    "id": "russian-spring-punch",
+    "name": "Russian Spring Punch",
+    "subtitle": "伏特加 / 新鲜柠檬汁 / 黑加仑利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以伏特加为主线，酸度明亮，甜感托住酒体。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "伏特加",
+        "25 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "25 ml"
+      ],
+      [
+        "黑加仑利口酒",
+        "15 ml"
+      ],
+      [
+        "糖浆",
+        "10 ml"
+      ],
+      [
+        "起泡酒",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with blackberries and optionally a 柠檬片 as well。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Russian Spring Punch 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "新鲜柠檬汁",
+      "黑加仑利口酒",
+      "糖浆",
+      "起泡酒"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "flute",
+      "accent": "4eb8bf"
+    }
+  },
+  {
+    "id": "rusty-nail",
+    "name": "Rusty Nail",
+    "subtitle": "苏格兰威士忌 / 杜林标利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/rusty-nail/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "经典",
+      "酒感直接"
+    ],
+    "taste": "以威士忌为主线，结构直接，突出主要基酒。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "苏格兰威士忌",
+        "45 ml"
+      ],
+      [
+        "杜林标利口酒",
+        "25 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with lemon zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Rusty Nail 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "苏格兰威士忌",
+      "杜林标利口酒"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "d378e4"
+    }
+  },
+  {
+    "id": "sazerac",
+    "name": "Sazerac",
+    "subtitle": "干邑 / 苦艾酒 / 1 糖 Cube",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/sazerac/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "白兰地",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "苦韵"
+    ],
+    "taste": "以白兰地为主线，甜感托住酒体，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "干邑",
+        "50 ml"
+      ],
+      [
+        "苦艾酒",
+        "10 ml"
+      ],
+      [
+        "1 糖 Cube",
+        "适量"
+      ],
+      [
+        "Peychaud’s 苦精",
+        "2 Dashes"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with lemon zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Sazerac 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "干邑",
+      "苦艾酒",
+      "1 糖 Cube",
+      "Peychaud’s 苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "9d2574"
+    }
+  },
+  {
+    "id": "sea-breeze",
+    "name": "Sea Breeze",
+    "subtitle": "伏特加 / 蔓越莓汁 / 西柚汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/sea-breeze/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "果香"
+    ],
+    "taste": "以伏特加为主线，酸度明亮，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "伏特加",
+        "40 ml"
+      ],
+      [
+        "蔓越莓汁",
+        "120 ml"
+      ],
+      [
+        "西柚汁",
+        "30 ml"
+      ]
+    ],
+    "method": [
+      "按配方把材料直接加入杯中，配合冰块完成降温与融合。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with an orange zest and cherry。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Sea Breeze 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "蔓越莓汁",
+      "西柚汁"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "3716d4"
+    }
+  },
+  {
+    "id": "sex-on-the-beach",
+    "name": "Sex on the Beach",
+    "subtitle": "伏特加 / Peach Schnapps / Fresh 橙汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/sex-on-the-beach/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "果香"
+    ],
+    "taste": "以伏特加为主线，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "伏特加",
+        "40 ml"
+      ],
+      [
+        "Peach Schnapps",
+        "20 ml"
+      ],
+      [
+        "Fresh 橙汁",
+        "40 ml"
+      ],
+      [
+        "蔓越莓汁",
+        "40 ml"
+      ]
+    ],
+    "method": [
+      "按配方把材料直接加入杯中，配合冰块完成降温与融合。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with half 橙片。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Sex on the Beach 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "Peach Schnapps",
+      "Fresh 橙汁",
+      "蔓越莓汁"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "ce67cb"
+    }
+  },
+  {
+    "id": "sherry-cobbler",
+    "name": "Sherry Cobbler",
+    "subtitle": "Amontillado sherry / Palo Cortado / Superfine 糖",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/sherry-cobbler/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "其他",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "果香"
+    ],
+    "taste": "以其他为主线，酸度明亮，甜感托住酒体，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Amontillado sherry",
+        "45 ml"
+      ],
+      [
+        "Palo Cortado",
+        "45 ml"
+      ],
+      [
+        "Superfine 糖",
+        "1 tsp"
+      ],
+      [
+        "1/2  Orange Wheel",
+        "适量"
+      ],
+      [
+        "1/2  Lemon Wheel",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with fresh berries, ¼ wheel each orange and lemon. Serve with straws。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Sherry Cobbler 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Amontillado sherry",
+      "Palo Cortado",
+      "Superfine 糖",
+      "1/2  Orange Wheel",
+      "1/2  Lemon Wheel"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "coupe",
+      "accent": "482e89"
+    }
+  },
+  {
+    "id": "sidecar",
+    "name": "Sidecar",
+    "subtitle": "干邑 / 橙味利口酒 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/sidecar/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "白兰地",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽"
+    ],
+    "taste": "以白兰地为主线，酸度明亮。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "干邑",
+        "50 ml"
+      ],
+      [
+        "橙味利口酒",
+        "20 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "20 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Sidecar 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "干邑",
+      "橙味利口酒",
+      "新鲜柠檬汁"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "da55f9"
+    }
+  },
+  {
+    "id": "singapore-sling",
+    "name": "Singapore Sling",
+    "subtitle": "金酒 / Cherry Sangue Morlacco / 君度",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/singapore-sling/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "苦韵"
+    ],
+    "taste": "以金酒为主线，酸度明亮，甜感托住酒体，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "30 ml"
+      ],
+      [
+        "Cherry Sangue Morlacco",
+        "15 ml"
+      ],
+      [
+        "君度",
+        "7.5 ml"
+      ],
+      [
+        "DOM Bénédictine",
+        "7.5 ml"
+      ],
+      [
+        "Fresh 菠萝汁",
+        "120 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 ml"
+      ],
+      [
+        "石榴糖浆",
+        "10 ml"
+      ],
+      [
+        "A dash of 安格仕苦精",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with 菠萝 and maraschino cherry。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Singapore Sling 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "Cherry Sangue Morlacco",
+      "君度",
+      "DOM Bénédictine",
+      "Fresh 菠萝汁",
+      "新鲜青柠汁",
+      "石榴糖浆",
+      "A dash of 安格仕苦精"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "rocks",
+      "accent": "3f553e"
+    }
+  },
+  {
+    "id": "south-side",
+    "name": "South Side",
+    "subtitle": "London dry 金酒 / Fresh Lemon  Juice / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/south-side/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以金酒为主线，酸度明亮，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "London dry 金酒",
+        "60 ml"
+      ],
+      [
+        "Fresh Lemon  Juice",
+        "30 ml"
+      ],
+      [
+        "糖浆",
+        "15 ml"
+      ],
+      [
+        "5/6 薄荷叶",
+        "适量"
+      ],
+      [
+        "drops 蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with mint springs。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "South Side 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "London dry 金酒",
+      "Fresh Lemon  Juice",
+      "糖浆",
+      "5/6 薄荷叶",
+      "drops 蛋白"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "c06810"
+    }
+  },
+  {
+    "id": "spicy-fifty",
+    "name": "Spicy Fifty",
+    "subtitle": "伏特加 Vanilla / Elderflower Cordial / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/spicy-fifty/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以伏特加为主线，酸度明亮，甜感托住酒体。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "伏特加 Vanilla",
+        "50 ml"
+      ],
+      [
+        "Elderflower Cordial",
+        "15 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 ml"
+      ],
+      [
+        "Monin 蜂蜜糖浆",
+        "10 ml"
+      ],
+      [
+        "2 thin Slices Red Chili Pepper",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with a red chili pepper。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Spicy Fifty 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "伏特加 Vanilla",
+      "Elderflower Cordial",
+      "新鲜青柠汁",
+      "Monin 蜂蜜糖浆",
+      "2 thin Slices Red Chili Pepper"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "1b914b"
+    }
+  },
+  {
+    "id": "spritz",
+    "name": "Spritz",
+    "subtitle": "普罗塞克 / 阿佩罗 / 苏打水",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/spritz/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "起泡酒",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "气泡"
+    ],
+    "taste": "以起泡酒为主线，带有干净苦味，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "普罗塞克",
+        "90 ml"
+      ],
+      [
+        "阿佩罗",
+        "60 ml"
+      ],
+      [
+        "of 苏打水",
+        "Splash"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with a slice of orange。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Spritz 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "普罗塞克",
+      "阿佩罗",
+      "苏打水"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "d7cfc3"
+    }
+  },
+  {
+    "id": "stinger",
+    "name": "Stinger",
+    "subtitle": "干邑 / White Crème de Menthe",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/stinger/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "白兰地",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "经典",
+      "酒感直接"
+    ],
+    "taste": "以白兰地为主线，结构直接，突出主要基酒。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "干邑",
+        "50 ml"
+      ],
+      [
+        "White Crème de Menthe",
+        "20 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Optional mint leave。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Stinger 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "干邑",
+      "White Crème de Menthe"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "e60b65"
+    }
+  },
+  {
+    "id": "suffering-bastard",
+    "name": "Suffering Bastard",
+    "subtitle": "干邑 or 白兰地 / 金酒 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/suffering-bastard/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "苦韵",
+      "气泡"
+    ],
+    "taste": "以金酒为主线，酸度明亮，带有干净苦味，口感轻快。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "干邑 or 白兰地",
+        "30 ml"
+      ],
+      [
+        "金酒",
+        "30 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 ml"
+      ],
+      [
+        "安格仕苦精",
+        "2 Dashes"
+      ],
+      [
+        "Top up 金酒ger beer",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with mint spring and optionally an 橙片 as well。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Suffering Bastard 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "干邑 or 白兰地",
+      "金酒",
+      "新鲜青柠汁",
+      "安格仕苦精",
+      "Top up 金酒ger beer"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "highball",
+      "accent": "8701d1"
+    }
+  },
+  {
+    "id": "tequila-sunrise",
+    "name": "Tequila Sunrise",
+    "subtitle": "龙舌兰 / Fresh 橙汁 / 石榴糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/tequila-sunrise/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "龙舌兰",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "微甜",
+      "果香"
+    ],
+    "taste": "以龙舌兰为主线，甜感托住酒体，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "龙舌兰",
+        "45 ml"
+      ],
+      [
+        "Fresh 橙汁",
+        "90 ml"
+      ],
+      [
+        "石榴糖浆",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with half 橙片 or an orange zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Tequila Sunrise 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "龙舌兰",
+      "Fresh 橙汁",
+      "石榴糖浆"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "f200c9"
+    }
+  },
+  {
+    "id": "three-dots-and-a-dash",
+    "name": "Three Dots and a Dash",
+    "subtitle": "Rhum Martinique Agricole / Blended Aged 朗姆 / 法勒南姆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "苦韵"
+    ],
+    "taste": "以朗姆为主线，酸度明亮，甜感托住酒体，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Rhum Martinique Agricole",
+        "45 ml"
+      ],
+      [
+        "Blended Aged 朗姆",
+        "15 ml"
+      ],
+      [
+        "法勒南姆",
+        "7.5 ml"
+      ],
+      [
+        "Allspice Saint Elizabeth15 ml 新鲜青柠汁",
+        "7.5 ml"
+      ],
+      [
+        "Fresh 橙汁",
+        "15 ml"
+      ],
+      [
+        "蜂蜜糖浆",
+        "15 ml"
+      ],
+      [
+        "安格仕苦精",
+        "2 Dashes"
+      ]
+    ],
+    "method": [
+      "将材料与冰一起搅打，做出更饱满的冰沙质感。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with three cherries and a rectangular chunk of 菠萝。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Three Dots and a Dash 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Rhum Martinique Agricole",
+      "Blended Aged 朗姆",
+      "法勒南姆",
+      "Allspice Saint Elizabeth15 ml 新鲜青柠汁",
+      "Fresh 橙汁",
+      "蜂蜜糖浆",
+      "安格仕苦精"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "5f8a53"
+    }
+  },
+  {
+    "id": "tipperary",
+    "name": "Tipperary",
+    "subtitle": "爱尔兰威士忌 / 甜红味美思 / Green 查特酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/tipperary/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以威士忌为主线，带有干净苦味，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "爱尔兰威士忌",
+        "50 ml"
+      ],
+      [
+        "甜红味美思",
+        "25 ml"
+      ],
+      [
+        "Green 查特酒",
+        "15 ml"
+      ],
+      [
+        "安格仕苦精",
+        "2 Dashes"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with a slice of orange。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Tipperary 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "爱尔兰威士忌",
+      "甜红味美思",
+      "Green 查特酒",
+      "安格仕苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "4a8b9d"
+    }
+  },
+  {
+    "id": "tommys-margarita",
+    "name": "Tommy’s Margarita",
+    "subtitle": "龙舌兰 100% agave / 新鲜青柠汁 / Agave Nectar",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/tommys-margarita/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "龙舌兰",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽"
+    ],
+    "taste": "以龙舌兰为主线，酸度明亮。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "龙舌兰 100% agave",
+        "60 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "30 ml"
+      ],
+      [
+        "Agave Nectar",
+        "30 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with a 青柠片。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Tommy’s Margarita 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "龙舌兰 100% agave",
+      "新鲜青柠汁",
+      "Agave Nectar"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "rocks",
+      "accent": "7b0b64"
+    }
+  },
+  {
+    "id": "trinidad-sour",
+    "name": "Trinidad Sour",
+    "subtitle": "安格仕苦精 / 杏仁糖浆 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/trinidad-sour/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "苦韵"
+    ],
+    "taste": "以威士忌为主线，酸度明亮，甜感托住酒体，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "安格仕苦精",
+        "45 ml"
+      ],
+      [
+        "杏仁糖浆",
+        "30 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "22.5 ml"
+      ],
+      [
+        "黑麦威士忌",
+        "15 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Trinidad Sour 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "安格仕苦精",
+      "杏仁糖浆",
+      "新鲜柠檬汁",
+      "黑麦威士忌"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "b5aff2"
+    }
+  },
+  {
+    "id": "tuxedo",
+    "name": "Tuxedo",
+    "subtitle": "Old Tom 金酒 / 干味美思 / Maraschino Luxardo",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/tuxedo/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "草本",
+      "果香"
+    ],
+    "taste": "以金酒为主线，带有干净苦味，草本香气明显，果香靠前。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Old Tom 金酒",
+        "30 ml"
+      ],
+      [
+        "干味美思",
+        "30 ml"
+      ],
+      [
+        "Maraschino Luxardo",
+        "1/2 Bar Spoon"
+      ],
+      [
+        "of 苦艾酒",
+        "1/4 Bar Spoon"
+      ],
+      [
+        "橙味苦精",
+        "3 Dashes"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with cherry and lemon zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Tuxedo 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Old Tom 金酒",
+      "干味美思",
+      "Maraschino Luxardo",
+      "of 苦艾酒",
+      "橙味苦精"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "rocks",
+      "accent": "252e2f"
+    }
+  },
+  {
+    "id": "ve-n-to",
+    "name": "Ve.N.To",
+    "subtitle": "White Smooth Grappa / 新鲜柠檬汁 / Honey mix *",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/ve-n-to/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "新时代经典",
+    "base": "其他",
+    "abv": "IBA 官方配方",
+    "mood": "新时代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以其他为主线，酸度明亮，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "White Smooth Grappa",
+        "45 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "22.5 ml"
+      ],
+      [
+        "Honey mix *",
+        "15 ml"
+      ],
+      [
+        "Chamomile cordial",
+        "15 ml"
+      ],
+      [
+        "Drops of 蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with lemon zest and white grapes。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Ve.N.To 的 IBA 档案",
+    "story": [
+      [
+        "新时代经典",
+        "这款酒收录在 IBA「新时代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "White Smooth Grappa",
+      "新鲜柠檬汁",
+      "Honey mix *",
+      "Chamomile cordial",
+      "Drops of 蛋白"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "coupe",
+      "accent": "65de40"
+    }
+  },
+  {
+    "id": "vesper",
+    "name": "Vesper",
+    "subtitle": "金酒 / 伏特加 / Lillet Blanc",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/vesper/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "经典",
+      "酒感直接"
+    ],
+    "taste": "以伏特加为主线，结构直接，突出主要基酒。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "45 ml"
+      ],
+      [
+        "伏特加",
+        "15 ml"
+      ],
+      [
+        "Lillet Blanc",
+        "7.5 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with lemon zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Vesper 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "伏特加",
+      "Lillet Blanc"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "a6610d"
+    }
+  },
+  {
+    "id": "vieux-carre",
+    "name": "Vieux Carré",
+    "subtitle": "黑麦威士忌 / 干邑 / 甜味美思",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/vieux-carre/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以威士忌为主线，带有干净苦味，草本香气明显。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "黑麦威士忌",
+        "30 ml"
+      ],
+      [
+        "干邑",
+        "30 ml"
+      ],
+      [
+        "甜味美思",
+        "30 ml"
+      ],
+      [
+        "Bénédictine",
+        "1 Bar Spoon"
+      ],
+      [
+        "Peychaud’s 苦精",
+        "2 Dashes"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：Garnish with orange zest and maraschino cherry。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Vieux Carré 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "黑麦威士忌",
+      "干邑",
+      "甜味美思",
+      "Bénédictine",
+      "Peychaud’s 苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "6fbd07"
+    }
+  },
+  {
+    "id": "whiskey-sour",
+    "name": "Whiskey Sour",
+    "subtitle": "波本威士忌 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/whiskey-sour/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "威士忌",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以威士忌为主线，酸度明亮，甜感托住酒体，质地柔和。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "波本威士忌",
+        "45 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "25 ml"
+      ],
+      [
+        "糖浆",
+        "20 ml"
+      ],
+      [
+        "Drops of 蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "最后补入气泡类材料，并轻轻融合。",
+      "装饰建议：Garnish with half 橙片 and maraschino cherry, optionally use orange zest。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Whiskey Sour 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "波本威士忌",
+      "新鲜柠檬汁",
+      "糖浆",
+      "Drops of 蛋白"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "52e492"
+    }
+  },
+  {
+    "id": "white-lady",
+    "name": "White Lady",
+    "subtitle": "金酒 / 橙味利口酒 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/white-lady/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "难忘经典",
+    "base": "金酒",
+    "abv": "IBA 官方配方",
+    "mood": "难忘经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽"
+    ],
+    "taste": "以金酒为主线，酸度明亮。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "金酒",
+        "40 ml"
+      ],
+      [
+        "橙味利口酒",
+        "30 ml"
+      ],
+      [
+        "新鲜柠檬汁",
+        "20 ml"
+      ]
+    ],
+    "method": [
+      "把主要材料与冰块充分摇和，直到酒体变冷并达到合适稀释度。",
+      "过滤到预冷杯具或装冰杯中。",
+      "装饰建议：N/A。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "White Lady 的 IBA 档案",
+    "story": [
+      [
+        "难忘经典",
+        "这款酒收录在 IBA「难忘经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "橙味利口酒",
+      "新鲜柠檬汁"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "1bce6b"
+    }
+  },
+  {
+    "id": "zombie",
+    "name": "Zombie",
+    "subtitle": "Jamaican 黑朗姆 / Gold Puerto Rican 朗姆 / Demerara 朗姆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/zombie/",
+    "sourceLabel": "IBA Official Cocktail",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "IBA 官方配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "IBA 参考",
+      "酸爽",
+      "微甜",
+      "苦韵"
+    ],
+    "taste": "以朗姆为主线，酸度明亮，甜感托住酒体，带有干净苦味。配方参考 IBA，中文风味描述由本应用重新整理。",
+    "recipe": [
+      [
+        "Jamaican 黑朗姆",
+        "45 ml"
+      ],
+      [
+        "Gold Puerto Rican 朗姆",
+        "45 ml"
+      ],
+      [
+        "Demerara 朗姆",
+        "30 ml"
+      ],
+      [
+        "新鲜青柠汁",
+        "20 ml"
+      ],
+      [
+        "法勒南姆",
+        "15 ml"
+      ],
+      [
+        "Donn’s Mix*",
+        "15 ml"
+      ],
+      [
+        "石榴糖浆",
+        "1 tsp"
+      ],
+      [
+        "1 dash 安格仕苦精",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将材料与冰一起搅打，做出更饱满的冰沙质感。",
+      "装饰建议：Garnish with 薄荷叶。"
+    ],
+    "originYear": "IBA",
+    "storyTitle": "Zombie 的 IBA 档案",
+    "story": [
+      [
+        "当代经典",
+        "这款酒收录在 IBA「当代经典」分类中，适合学习该类别的经典结构。"
+      ],
+      [
+        "配方骨架",
+        "本应用读取 IBA 的官方配方字段，并用中文重新整理材料、步骤和风味，不复制官网叙述文本。"
+      ],
+      [
+        "练习重点",
+        "制作时优先关注温度、稀释和装饰；杯型和冰块会明显影响入口节奏。"
+      ]
+    ],
+    "inventory": [
+      "Jamaican 黑朗姆",
+      "Gold Puerto Rican 朗姆",
+      "Demerara 朗姆",
+      "新鲜青柠汁",
+      "法勒南姆",
+      "Donn’s Mix*",
+      "石榴糖浆",
+      "1 dash 安格仕苦精"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "coupe",
+      "accent": "7c3d11"
+    }
+  }
+]

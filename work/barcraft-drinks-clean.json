@@ -1,0 +1,6920 @@
+[
+  {
+    "id": "alexander",
+    "name": "亚历山大 Alexander",
+    "subtitle": "白兰地 / 可可利口酒 / 鲜奶油",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/alexander/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "圆润"
+    ],
+    "taste": "以白兰地为主要学习线索，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "干邑",
+        "30 毫升"
+      ],
+      [
+        "可可利口酒",
+        "30 毫升"
+      ],
+      [
+        "鲜奶油",
+        "30 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "20 世纪初",
+    "storyTitle": "亚历山大的起源故事",
+    "story": [
+      [
+        "起源",
+        "亚历山大通常被认为诞生于 20 世纪初的大西洋两岸酒店酒吧圈，早期版本曾以金酒为主体，后来干邑版本成为更常见的经典形态。名称来源有舞台人物、广告角色等多种说法，但它真正被记住的是奶油型短饮的优雅质地。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，亚历山大被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "可可利口酒",
+      "乳品/蛋类"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "b7a71d"
+    },
+    "nameEn": "Alexander",
+    "nameZh": "亚历山大",
+    "liqueurTypes": [
+      "可可利口酒"
+    ],
+    "image": "./assets/cocktails/alexander.png"
+  },
+  {
+    "id": "americano",
+    "name": "美式鸡尾酒 Americano",
+    "subtitle": "金巴利苦味利口酒 / 甜红味美思 / 少量苏打水",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/americano/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "草本",
+      "气泡"
+    ],
+    "taste": "以白兰地为主要学习线索，有清晰苦味层次，带草本香气，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金巴利苦味利口酒",
+        "30 毫升"
+      ],
+      [
+        "甜红味美思",
+        "30 毫升"
+      ],
+      [
+        "少量苏打水",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "19 世纪",
+    "storyTitle": "美式鸡尾酒的起源故事",
+    "story": [
+      [
+        "起源",
+        "美式鸡尾酒源自意大利米兰一带的餐前酒传统，早期与“米兰-都灵”结构关系密切。加入苏打水后，它更适合长时间饮用，也成为后来尼格罗尼的重要前身。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，美式鸡尾酒被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金巴利苦味利口酒",
+      "甜红味美思",
+      "气泡饮料"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "c9b398"
+    },
+    "nameEn": "Americano",
+    "nameZh": "美式鸡尾酒",
+    "liqueurTypes": [
+      "金巴利苦味利口酒",
+      "甜红味美思"
+    ],
+    "image": "./assets/cocktails/americano.png"
+  },
+  {
+    "id": "angel-face",
+    "name": "天使之颜 Angel Face",
+    "subtitle": "金酒 / 白兰地",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/angel-face/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "经典",
+      "酒感直接"
+    ],
+    "taste": "以金酒为主要学习线索，结构清楚，酒感直接。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "30 毫升"
+      ],
+      [
+        "杏桃白兰地利口酒",
+        "30 毫升"
+      ],
+      [
+        "卡尔瓦多斯",
+        "30 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "20 世纪初",
+    "storyTitle": "天使之颜的起源故事",
+    "story": [
+      [
+        "起源",
+        "天使之颜出现在 20 世纪初的经典酒谱传统中，是苹果白兰地、金酒和杏桃风味的短饮组合。它的名字带有装饰艺术时代的柔和想象，风味却比名字更有力度。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，天使之颜被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "白兰地"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "9381fd"
+    },
+    "nameEn": "Angel Face",
+    "nameZh": "天使之颜",
+    "liqueurTypes": [
+      "杏桃白兰地利口酒"
+    ],
+    "image": "./assets/cocktails/angel-face.png"
+  },
+  {
+    "id": "aviation",
+    "name": "航空 Aviation",
+    "subtitle": "金酒 / 路萨朵黑樱桃利口酒 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/aviation/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "45 毫升"
+      ],
+      [
+        "路萨朵黑樱桃利口酒",
+        "15 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 毫升"
+      ],
+      [
+        "紫罗兰利口酒",
+        "1 吧匙"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1910 年代",
+    "storyTitle": "航空的起源故事",
+    "story": [
+      [
+        "起源",
+        "航空通常归功于纽约调酒师雨果·恩斯林，早期记录见于 1916 年酒谱。紫罗兰利口酒带来的淡色调让它与飞行时代的浪漫想象联系在一起。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，航空被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "路萨朵黑樱桃利口酒",
+      "柠檬汁",
+      "紫罗兰利口酒"
+    ],
+    "visual": {
+      "color": "#8fa4e8",
+      "glass": "coupe",
+      "accent": "252ddb"
+    },
+    "nameEn": "Aviation",
+    "nameZh": "航空",
+    "liqueurTypes": [
+      "路萨朵黑樱桃利口酒",
+      "紫罗兰利口酒"
+    ],
+    "image": "./assets/cocktails/aviation.png"
+  },
+  {
+    "id": "bees-knees",
+    "name": "蜜蜂膝盖 Bee’s Knees",
+    "subtitle": "金酒 / 蜂蜜糖浆 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/bees-knees/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "果香"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，甜感柔和，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "干金酒",
+        "52.5 毫升"
+      ],
+      [
+        "蜂蜜糖浆",
+        "2 茶匙"
+      ],
+      [
+        "新鲜柠檬汁",
+        "22.5 毫升"
+      ],
+      [
+        "新鲜橙汁",
+        "22.5 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "禁酒令时期",
+    "storyTitle": "蜜蜂膝盖的起源故事",
+    "story": [
+      [
+        "起源",
+        "蜜蜂膝盖流行于美国禁酒令时期，蜂蜜与柑橘常被用来修饰当时烈酒的粗粝感。名字来自当时表示“极好”的俚语，因此带有轻快的年代气息。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，蜜蜂膝盖体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "糖/糖浆",
+      "柠檬汁",
+      "果汁/果泥"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "coupe",
+      "accent": "178d0c"
+    },
+    "nameEn": "Bee’s Knees",
+    "nameZh": "蜜蜂膝盖",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/bees-knees.png"
+  },
+  {
+    "id": "bellini",
+    "name": "贝里尼 Bellini",
+    "subtitle": "普罗塞克 / 白桃泥",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/bellini/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "气泡",
+      "果香"
+    ],
+    "taste": "以白兰地为主要学习线索，入口轻快，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "普罗塞克",
+        "100 毫升"
+      ],
+      [
+        "白桃泥",
+        "50 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "1940 年代",
+    "storyTitle": "贝里尼的起源故事",
+    "story": [
+      [
+        "起源",
+        "贝里尼由威尼斯哈利酒吧的朱塞佩·奇普里亚尼创造。桃泥与普罗塞克的柔粉色让人联想到文艺复兴画家贝里尼的色彩。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，贝里尼依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "普罗塞克",
+      "果汁/果泥"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "flute",
+      "accent": "edd1da"
+    },
+    "nameEn": "Bellini",
+    "nameZh": "贝里尼",
+    "liqueurTypes": [
+      "普罗塞克"
+    ],
+    "image": "./assets/cocktails/bellini.png"
+  },
+  {
+    "id": "between-the-sheets",
+    "name": "被单之间 Between the Sheets",
+    "subtitle": "朗姆 / 白兰地 / 橙味利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/between-the-sheets/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "白朗姆",
+        "30 毫升"
+      ],
+      [
+        "干邑",
+        "30 毫升"
+      ],
+      [
+        "橙味利口酒",
+        "30 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "20 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "20 世纪上半叶",
+    "storyTitle": "被单之间的起源故事",
+    "story": [
+      [
+        "起源",
+        "被单之间常被认为出现在一战后到 1930 年代之间的欧洲酒店酒吧。它以侧车的酸酒骨架为基础，加入朗姆后更显热烈。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，被单之间被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "白兰地",
+      "橙味利口酒",
+      "柠檬汁"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "5e28a1"
+    },
+    "nameEn": "Between the Sheets",
+    "nameZh": "被单之间",
+    "liqueurTypes": [
+      "橙味利口酒"
+    ],
+    "image": "./assets/cocktails/between-the-sheets.png"
+  },
+  {
+    "id": "black-russian",
+    "name": "黑俄罗斯 Black Russian",
+    "subtitle": "伏特加 / 咖啡利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/black-russian/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "圆润"
+    ],
+    "taste": "以伏特加为主要学习线索，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伏特加",
+        "50 毫升"
+      ],
+      [
+        "咖啡利口酒",
+        "20 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1949 年",
+    "storyTitle": "黑俄罗斯的起源故事",
+    "story": [
+      [
+        "起源",
+        "黑俄罗斯常被追溯到 1949 年布鲁塞尔的酒店酒吧。伏特加与咖啡利口酒的组合让它成为最简洁的深色餐后短饮之一。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，黑俄罗斯依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "咖啡利口酒"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "0f646a"
+    },
+    "nameEn": "Black Russian",
+    "nameZh": "黑俄罗斯",
+    "liqueurTypes": [
+      "咖啡利口酒"
+    ],
+    "image": "./assets/cocktails/black-russian.png"
+  },
+  {
+    "id": "bloody-mary",
+    "name": "血腥玛丽 Bloody Mary",
+    "subtitle": "伏特加 / 番茄汁 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/bloody-mary/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "果香"
+    ],
+    "taste": "以伏特加为主要学习线索，酸度明亮，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伏特加",
+        "45 毫升"
+      ],
+      [
+        "番茄汁",
+        "90 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 毫升"
+      ],
+      [
+        "伍斯特酱",
+        "2 滴"
+      ],
+      [
+        "塔巴斯科辣酱、芹菜盐和胡椒",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。"
+    ],
+    "originYear": "1920-1930 年代",
+    "storyTitle": "血腥玛丽的起源故事",
+    "story": [
+      [
+        "起源",
+        "血腥玛丽的起源常在巴黎与纽约之间被讨论，费尔南·佩蒂奥的名字经常出现在相关叙述中。番茄汁、香料和伏特加让它从酒吧走进早午餐文化。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，血腥玛丽依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "果汁/果泥",
+      "柠檬汁",
+      "伍斯特酱",
+      "特色辅料"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "c7e6fa"
+    },
+    "nameEn": "Bloody Mary",
+    "nameZh": "血腥玛丽",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/bloody-mary.png"
+  },
+  {
+    "id": "boulevardier",
+    "name": "林荫大道 Boulevardier",
+    "subtitle": "威士忌 / 金巴利苦味利口酒 / 甜红味美思",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/boulevardier/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以威士忌为主要学习线索，有清晰苦味层次，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "波本或黑麦威士忌",
+        "45 毫升"
+      ],
+      [
+        "金巴利苦味利口酒",
+        "30 毫升"
+      ],
+      [
+        "甜红味美思",
+        "30 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1920 年代",
+    "storyTitle": "林荫大道的起源故事",
+    "story": [
+      [
+        "起源",
+        "林荫大道与 1920 年代巴黎的美国侨民圈有关，常和作家厄斯金·格温联系在一起。它像是把尼格罗尼的金酒换成威士忌，因此更温暖厚实。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，林荫大道被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "金巴利苦味利口酒",
+      "甜红味美思"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "rocks",
+      "accent": "1eb729"
+    },
+    "nameEn": "Boulevardier",
+    "nameZh": "林荫大道",
+    "liqueurTypes": [
+      "金巴利苦味利口酒",
+      "甜红味美思"
+    ],
+    "image": "./assets/cocktails/boulevardier.png"
+  },
+  {
+    "id": "bramble",
+    "name": "荆棘 Bramble",
+    "subtitle": "金酒 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/bramble/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，甜感柔和。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "50 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "25 毫升"
+      ],
+      [
+        "糖浆",
+        "12.5 毫升"
+      ],
+      [
+        "黑莓利口酒",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1984 年",
+    "storyTitle": "荆棘的起源故事",
+    "story": [
+      [
+        "起源",
+        "荆棘由伦敦调酒师 Dick Bradsell 在 1984 年创造，当时他在伦敦 Soho 的 Fred’s Club 工作，并想做一杯带有英国气质的金酒鸡尾酒。他的灵感来自童年在怀特岛采黑莓的记忆；黑莓灌木被称作 bramble，黑莓利口酒沿碎冰下沉的视觉也强化了这个名字。"
+      ],
+      [
+        "近代发展",
+        "Bramble 在 20 世纪末和 21 世纪初成为英国现代经典代表；它的碎冰、黑莓利口酒下沉和可替换莓果风味，让它很适合被现代酒吧做成季节版本。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "柠檬汁",
+      "糖/糖浆",
+      "黑莓利口酒"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "7e5269"
+    },
+    "nameEn": "Bramble",
+    "nameZh": "荆棘",
+    "liqueurTypes": [
+      "黑莓利口酒"
+    ],
+    "image": "./assets/cocktails/bramble.png"
+  },
+  {
+    "id": "brandy-crusta",
+    "name": "白兰地克拉斯塔 Brandy Crusta",
+    "subtitle": "白兰地 / 路萨朵黑樱桃利口酒 / 库拉索橙酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/brandy-crusta/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "苦韵"
+    ],
+    "taste": "以白兰地为主要学习线索，酸度明亮，甜感柔和，有清晰苦味层次。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "白兰地",
+        "52.5 毫升"
+      ],
+      [
+        "路萨朵黑樱桃利口酒",
+        "7.5 毫升"
+      ],
+      [
+        "库拉索橙酒",
+        "1 吧匙"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 毫升"
+      ],
+      [
+        "糖浆",
+        "1 吧匙"
+      ],
+      [
+        "芳香苦精",
+        "2 滴"
+      ]
+    ],
+    "method": [
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪中叶",
+    "storyTitle": "白兰地克拉斯塔的起源故事",
+    "story": [
+      [
+        "起源",
+        "白兰地克拉斯塔诞生于新奥尔良，常与调酒师约瑟夫·桑蒂尼联系在一起。杯口糖边和长柠檬皮让它成为许多酸酒与侧车系作品的先声。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，白兰地克拉斯塔被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "路萨朵黑樱桃利口酒",
+      "库拉索橙酒",
+      "柠檬汁",
+      "糖/糖浆",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "1bdcec"
+    },
+    "nameEn": "Brandy Crusta",
+    "nameZh": "白兰地克拉斯塔",
+    "liqueurTypes": [
+      "路萨朵黑樱桃利口酒",
+      "库拉索橙酒"
+    ],
+    "image": "./assets/cocktails/brandy-crusta.png"
+  },
+  {
+    "id": "caipirinha",
+    "name": "凯匹林纳 Caipirinha",
+    "subtitle": "朗姆 / 青柠块 / 白蔗糖",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/caipirinha/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "卡莎萨",
+        "60 毫升"
+      ],
+      [
+        "青柠块",
+        "适量"
+      ],
+      [
+        "白蔗糖",
+        "4 茶匙"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "先轻柔处理香草、水果或糖，让香气释放但避免过度破碎。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "19-20 世纪",
+    "storyTitle": "凯匹林纳的起源故事",
+    "story": [
+      [
+        "起源",
+        "凯匹林纳来自巴西民间饮酒传统，卡莎萨、青柠和糖构成最朴素的地方表达。它从乡土饮法逐渐进入国际酒吧，成为巴西最具代表性的鸡尾酒。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，凯匹林纳依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "青柠",
+      "糖/糖浆"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "rocks",
+      "accent": "14840b"
+    },
+    "nameEn": "Caipirinha",
+    "nameZh": "凯匹林纳",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/caipirinha.png"
+  },
+  {
+    "id": "canchanchara",
+    "name": "坎昌查拉 Canchanchara",
+    "subtitle": "朗姆 / 新鲜青柠汁 / 原蜂蜜",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/canchanchara/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "古巴甘蔗烈酒",
+        "60 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ],
+      [
+        "原蜂蜜",
+        "15 毫升"
+      ],
+      [
+        "清水",
+        "50 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "19 世纪",
+    "storyTitle": "坎昌查拉的起源故事",
+    "story": [
+      [
+        "起源",
+        "坎昌查拉与古巴东部独立战争时期的民间饮法有关。甘蔗烈酒、蜂蜜和青柠呈现出非常直接的加勒比性格。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，坎昌查拉体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "青柠",
+      "糖/糖浆",
+      "特色辅料"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "eb6c7e"
+    },
+    "nameEn": "Canchanchara",
+    "nameZh": "坎昌查拉",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/canchanchara.png"
+  },
+  {
+    "id": "cardinale",
+    "name": "红衣主教 Cardinale",
+    "subtitle": "金酒 / 干味美思 / 金巴利苦味利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/cardinale/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以金酒为主要学习线索，有清晰苦味层次，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "40 毫升"
+      ],
+      [
+        "干味美思",
+        "20 毫升"
+      ],
+      [
+        "金巴利苦味利口酒",
+        "10 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "20 世纪中期",
+    "storyTitle": "红衣主教的起源故事",
+    "story": [
+      [
+        "起源",
+        "红衣主教常被放在罗马酒店酒吧传统中理解，是干味美思方向的尼格罗尼变体。名字来自红色酒液与意大利宗教服饰色彩的联想。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，红衣主教依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "干味美思",
+      "金巴利苦味利口酒"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "rocks",
+      "accent": "17d6f6"
+    },
+    "nameEn": "Cardinale",
+    "nameZh": "红衣主教",
+    "liqueurTypes": [
+      "干味美思",
+      "金巴利苦味利口酒"
+    ],
+    "image": "./assets/cocktails/cardinale.png"
+  },
+  {
+    "id": "casino",
+    "name": "赌场 Casino",
+    "subtitle": "金酒 / 路萨朵黑樱桃利口酒 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/casino/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "老汤姆金酒",
+        "40 毫升"
+      ],
+      [
+        "路萨朵黑樱桃利口酒",
+        "10 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "10 毫升"
+      ],
+      [
+        "橙味苦精",
+        "2 滴"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "20 世纪初",
+    "storyTitle": "赌场的起源故事",
+    "story": [
+      [
+        "起源",
+        "赌场出现在 20 世纪初的美国经典酒谱中，与老汤姆金酒时代相连。黑樱桃与橙味苦精让它保留了早期金酒短饮的层次。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，赌场被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "路萨朵黑樱桃利口酒",
+      "柠檬汁",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "rocks",
+      "accent": "07032f"
+    },
+    "nameEn": "Casino",
+    "nameZh": "赌场",
+    "liqueurTypes": [
+      "路萨朵黑樱桃利口酒"
+    ],
+    "image": "./assets/cocktails/casino.png"
+  },
+  {
+    "id": "champagne-cocktail",
+    "name": "香槟鸡尾酒 Champagne Cocktail",
+    "subtitle": "冰镇香槟 / 白兰地 / 安格仕苦精",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/champagne-cocktail/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "苦韵",
+      "气泡"
+    ],
+    "taste": "以白兰地为主要学习线索，甜感柔和，有清晰苦味层次，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "冰镇香槟",
+        "90 毫升"
+      ],
+      [
+        "干邑",
+        "10 毫升"
+      ],
+      [
+        "安格仕苦精",
+        "2 滴"
+      ],
+      [
+        "金万利橙酒",
+        "适量"
+      ],
+      [
+        "方糖",
+        "适量"
+      ]
+    ],
+    "method": [
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "19 世纪中叶",
+    "storyTitle": "香槟鸡尾酒的起源故事",
+    "story": [
+      [
+        "起源",
+        "香槟鸡尾酒是 19 世纪美国酒谱中很早出现的起泡酒鸡尾酒。方糖、苦精和香槟的组合让它成为庆祝场景的古典模板。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，香槟鸡尾酒依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "冰镇香槟",
+      "白兰地",
+      "苦精",
+      "金万利橙酒",
+      "糖/糖浆"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "flute",
+      "accent": "edd5c1"
+    },
+    "nameEn": "Champagne Cocktail",
+    "nameZh": "香槟鸡尾酒",
+    "liqueurTypes": [
+      "冰镇香槟",
+      "金万利橙酒"
+    ],
+    "image": "./assets/cocktails/champagne-cocktail.png"
+  },
+  {
+    "id": "chartreuse-swizzle",
+    "name": "查特摇棒 Chartreuse Swizzle",
+    "subtitle": "绿查特酒 / 新鲜菠萝汁 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "草本",
+      "果香"
+    ],
+    "taste": "以白兰地为主要学习线索，酸度明亮，带草本香气，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "绿查特酒",
+        "45 毫升"
+      ],
+      [
+        "新鲜菠萝汁",
+        "30 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "22.5 毫升"
+      ],
+      [
+        "法勒南姆利口酒",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "21 世纪初",
+    "storyTitle": "查特摇棒的起源故事",
+    "story": [
+      [
+        "起源",
+        "查特摇棒是新世纪热带风格复兴中的代表作品。绿查特酒的草本力度与菠萝、青柠和法勒南姆形成明亮对比。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，查特摇棒体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "绿查特酒",
+      "果汁/果泥",
+      "青柠",
+      "法勒南姆利口酒"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "630e2f"
+    },
+    "nameEn": "Chartreuse Swizzle",
+    "nameZh": "查特摇棒",
+    "liqueurTypes": [
+      "绿查特酒",
+      "法勒南姆利口酒"
+    ],
+    "image": "./assets/cocktails/chartreuse-swizzle.png"
+  },
+  {
+    "id": "clover-club",
+    "name": "三叶草俱乐部 Clover Club",
+    "subtitle": "金酒 / 覆盆子糖浆 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/clover-club/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，甜感柔和，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "45 毫升"
+      ],
+      [
+        "覆盆子糖浆",
+        "15 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 毫升"
+      ],
+      [
+        "蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪末",
+    "storyTitle": "三叶草俱乐部的起源故事",
+    "story": [
+      [
+        "起源",
+        "三叶草俱乐部源自费城同名绅士俱乐部，19 世纪末到 20 世纪初已很流行。蛋白泡沫与覆盆子色泽让它在经典复兴中重新受到欢迎。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，三叶草俱乐部被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "糖/糖浆",
+      "柠檬汁",
+      "乳品/蛋类"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "coupe",
+      "accent": "57d701"
+    },
+    "nameEn": "Clover Club",
+    "nameZh": "三叶草俱乐部",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/clover-club.png"
+  },
+  {
+    "id": "corpse-reviver-2",
+    "name": "还魂酒二号 Corpse Reviver #2",
+    "subtitle": "金酒 / 君度橙酒 / 利莱白开胃酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/corpse-reviver-2/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "草本"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "30 毫升"
+      ],
+      [
+        "君度橙酒",
+        "30 毫升"
+      ],
+      [
+        "利莱白开胃酒",
+        "30 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 毫升"
+      ],
+      [
+        "苦艾酒",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1930 年代",
+    "storyTitle": "还魂酒二号的起源故事",
+    "story": [
+      [
+        "起源",
+        "还魂酒二号因 1930 年代萨伏伊酒谱而广为人知。它属于“提神酒”家族，名字带有早餐后或宿醉后的俏皮意味。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，还魂酒二号依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "君度橙酒",
+      "利莱白开胃酒",
+      "柠檬汁",
+      "苦艾酒"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "498106"
+    },
+    "nameEn": "Corpse Reviver #2",
+    "nameZh": "还魂酒二号",
+    "liqueurTypes": [
+      "君度橙酒",
+      "利莱白开胃酒",
+      "苦艾酒"
+    ],
+    "image": "./assets/cocktails/corpse-reviver-2.png"
+  },
+  {
+    "id": "cosmopolitan",
+    "name": "大都会 Cosmopolitan",
+    "subtitle": "伏特加 / 君度橙酒 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/cosmopolitan/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "果香"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "柑橘伏特加",
+        "40 毫升"
+      ],
+      [
+        "君度橙酒",
+        "15 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ],
+      [
+        "蔓越莓汁",
+        "30 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1980-1990 年代",
+    "storyTitle": "大都会的起源故事",
+    "story": [
+      [
+        "起源",
+        "大都会的现代版本在 1980 年代末到 1990 年代的美国酒吧走红。蔓越莓与柑橘让它成为城市夜生活中辨识度极高的粉红短饮。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，大都会依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "君度橙酒",
+      "青柠",
+      "果汁/果泥"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "coupe",
+      "accent": "c50c32"
+    },
+    "nameEn": "Cosmopolitan",
+    "nameZh": "大都会",
+    "liqueurTypes": [
+      "君度橙酒"
+    ],
+    "image": "./assets/cocktails/cosmopolitan.png"
+  },
+  {
+    "id": "cuba-libre",
+    "name": "自由古巴 Cuba Libre",
+    "subtitle": "朗姆 / 可乐 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/cuba-libre/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "气泡"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "白朗姆",
+        "50 毫升"
+      ],
+      [
+        "可乐",
+        "120 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "10 毫升"
+      ]
+    ],
+    "method": [
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "1900 年前后",
+    "storyTitle": "自由古巴的起源故事",
+    "story": [
+      [
+        "起源",
+        "自由古巴诞生于美西战争后的古巴，朗姆与可乐的组合常被解释为美国饮料文化进入哈瓦那后的产物。它的名字来自“自由古巴”的时代口号，因此比普通长饮多了一层历史情绪。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，自由古巴依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "气泡饮料",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "de7a2a"
+    },
+    "nameEn": "Cuba Libre",
+    "nameZh": "自由古巴",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/cuba-libre.png"
+  },
+  {
+    "id": "daiquiri",
+    "name": "戴基里 Daiquiri",
+    "subtitle": "朗姆 / 新鲜青柠汁 / 细砂糖",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/daiquiri/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "白古巴朗姆",
+        "60 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "20 毫升"
+      ],
+      [
+        "细砂糖",
+        "2 吧匙"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪末",
+    "storyTitle": "戴基里的起源故事",
+    "story": [
+      [
+        "起源",
+        "戴基里起源于古巴戴基里矿区附近，常与美国工程师詹宁斯·考克斯的故事相连。朗姆、青柠和糖的骨架后来成为无数酸酒变化的基础。"
+      ],
+      [
+        "近代发展",
+        "近代酒吧常把 Daiquiri 当作酸酒基本功：它不像冷冻甜饮那样依赖装饰，而是用朗姆、青柠和糖检验比例、摇和与新鲜度。很多现代酸酒都能从它身上看见结构影子。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "青柠",
+      "糖/糖浆"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "fc9c9c"
+    },
+    "image": "./assets/cocktails/daiquiri.png",
+    "nameEn": "Daiquiri",
+    "nameZh": "戴基里",
+    "liqueurTypes": []
+  },
+  {
+    "id": "dark-n-stormy",
+    "name": "黑暗风暴 Dark ‘N’ Stormy",
+    "subtitle": "朗姆 / 姜汁啤酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/dark-n-stormy/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "气泡"
+    ],
+    "taste": "以朗姆为主要学习线索，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "高斯林黑朗姆",
+        "60 毫升"
+      ],
+      [
+        "姜汁啤酒",
+        "100 毫升"
+      ]
+    ],
+    "method": [
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "20 世纪初",
+    "storyTitle": "黑暗风暴的起源故事",
+    "story": [
+      [
+        "起源",
+        "黑暗风暴与百慕大高斯林黑朗姆和当地姜汁啤酒传统关系密切。深色朗姆浮在姜汁啤酒之上，如乌云压海，这个视觉意象让名字流传开来。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，黑暗风暴体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "气泡饮料"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "highball",
+      "accent": "428811"
+    },
+    "nameEn": "Dark ‘N’ Stormy",
+    "nameZh": "黑暗风暴",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/dark-n-stormy.png"
+  },
+  {
+    "id": "dons-special-daiquiri",
+    "name": "唐的特别戴基里 Don’s Special Daiquiri",
+    "subtitle": "朗姆 / 百香果糖浆 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金色牙买加朗姆",
+        "30 毫升"
+      ],
+      [
+        "古巴朗姆",
+        "15 毫升"
+      ],
+      [
+        "百香果糖浆",
+        "15 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ],
+      [
+        "蜂蜜糖浆",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "1930 年代",
+    "storyTitle": "唐的特别戴基里的起源故事",
+    "story": [
+      [
+        "起源",
+        "唐的特别戴基里属于唐海滩客早期提基酒吧体系，把戴基里的酸甜骨架拓展为多朗姆与热带糖浆的组合。它展现了提基文化喜欢复杂香料、分层朗姆和丰富装饰的特点。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，唐的特别戴基里体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "糖/糖浆",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "de7802"
+    },
+    "nameEn": "Don’s Special Daiquiri",
+    "nameZh": "唐的特别戴基里",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/dons-special-daiquiri.png"
+  },
+  {
+    "id": "dry-martini",
+    "name": "干马天尼 Dry Martini",
+    "subtitle": "金酒 / 干味美思",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/dry-martini/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "草本"
+    ],
+    "taste": "以金酒为主要学习线索，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "60 毫升"
+      ],
+      [
+        "干味美思",
+        "10 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19-20 世纪之交",
+    "storyTitle": "干马天尼的起源故事",
+    "story": [
+      [
+        "起源",
+        "干马天尼由马丁内斯等早期金酒与味美思饮法逐步演变而来。它的历史很难归于单一发明者，更像是酒吧审美持续变干、变冷、变简洁的结果。"
+      ],
+      [
+        "近代发展",
+        "近代的 Dry Martini 从极干比例、Dirty Martini 到不同苦精和装饰的版本不断分化；它既是经典酒店酒吧的象征，也经常被用来展示金酒、伏特加和味美思的细微差别。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "干味美思"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "70f504"
+    },
+    "nameEn": "Dry Martini",
+    "nameZh": "干马天尼",
+    "liqueurTypes": [
+      "干味美思"
+    ],
+    "image": "./assets/cocktails/dry-martini.png"
+  },
+  {
+    "id": "espresso-martini",
+    "name": "浓缩咖啡马天尼 Espresso Martini",
+    "subtitle": "伏特加 / 咖啡利口酒 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/espresso-martini/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以伏特加为主要学习线索，甜感柔和，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伏特加",
+        "50 毫升"
+      ],
+      [
+        "咖啡利口酒",
+        "30 毫升"
+      ],
+      [
+        "糖浆",
+        "10 毫升"
+      ],
+      [
+        "浓缩咖啡",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "约 1983 年",
+    "storyTitle": "浓缩咖啡马天尼的起源故事",
+    "story": [
+      [
+        "起源",
+        "浓缩咖啡马天尼最早常被称作 Vodka Espresso，由伦敦调酒师 Dick Bradsell 约在 1983 年创造，常见说法把地点指向 Soho Brasserie。故事里那位客人想要一杯既能提神又有酒劲的饮品，于是伏特加、浓缩咖啡和咖啡利口酒被组合在一起；后来它在 1990 年代马天尼杯风潮中固定为 Espresso Martini 之名。"
+      ],
+      [
+        "近代发展",
+        "Espresso Martini 在 1990 年代马天尼杯风潮中改名定型，近年又随着咖啡文化和夜生活复兴重新走红；很多酒吧会调整咖啡豆、咖啡利口酒和泡沫质地来做招牌版本。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "咖啡利口酒",
+      "糖/糖浆",
+      "浓缩咖啡"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "30ef0f"
+    },
+    "nameEn": "Espresso Martini",
+    "nameZh": "浓缩咖啡马天尼",
+    "liqueurTypes": [
+      "咖啡利口酒"
+    ],
+    "image": "./assets/cocktails/espresso-martini.png"
+  },
+  {
+    "id": "fernandito",
+    "name": "费尔南迪托 Fernandito",
+    "subtitle": "菲奈布兰卡苦味利口酒 / 补满可乐",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/fernandito/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "气泡"
+    ],
+    "taste": "以白兰地为主要学习线索，有清晰苦味层次，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "菲奈布兰卡苦味利口酒",
+        "50 毫升"
+      ],
+      [
+        "补满可乐",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "20 世纪后期",
+    "storyTitle": "费尔南迪托的起源故事",
+    "story": [
+      [
+        "起源",
+        "费尔南迪托源自阿根廷日常饮酒文化，菲奈布兰卡与可乐的搭配在当地极为流行。它从简单混饮进入国际酒单，保留了浓烈草本苦味和可乐甜感的反差。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，费尔南迪托体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "菲奈布兰卡苦味利口酒",
+      "气泡饮料"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "highball",
+      "accent": "400732"
+    },
+    "nameEn": "Fernandito",
+    "nameZh": "费尔南迪托",
+    "liqueurTypes": [
+      "菲奈布兰卡苦味利口酒"
+    ],
+    "image": "./assets/cocktails/fernandito.png"
+  },
+  {
+    "id": "french-75",
+    "name": "法式75 French 75",
+    "subtitle": "金酒 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/french-75/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "气泡"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，甜感柔和，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "30 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 毫升"
+      ],
+      [
+        "糖浆",
+        "15 毫升"
+      ],
+      [
+        "香槟",
+        "60 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "一战前后",
+    "storyTitle": "法式75的起源故事",
+    "story": [
+      [
+        "起源",
+        "法式75在一战前后的巴黎和伦敦酒吧中成形。名字借用了法国 75 毫米野战炮，暗示它看似清爽却后劲明显。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，法式75依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "柠檬汁",
+      "糖/糖浆",
+      "香槟"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "flute",
+      "accent": "6c8e93"
+    },
+    "nameEn": "French 75",
+    "nameZh": "法式75",
+    "liqueurTypes": [
+      "香槟"
+    ],
+    "image": "./assets/cocktails/french-75.png"
+  },
+  {
+    "id": "french-connection",
+    "name": "法国连线 French Connection",
+    "subtitle": "白兰地 / 杏仁利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/french-connection/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "经典",
+      "酒感直接"
+    ],
+    "taste": "以白兰地为主要学习线索，结构清楚，酒感直接。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "干邑",
+        "35 毫升"
+      ],
+      [
+        "杏仁利口酒",
+        "35 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "20 世纪后期",
+    "storyTitle": "法国连线的起源故事",
+    "story": [
+      [
+        "起源",
+        "法国连线因 1970 年代同名电影而被广泛记住，干邑与杏仁利口酒的组合强调餐后酒气质。它的流行来自简洁配方和电影时代的酷感命名。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，法国连线依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "杏仁利口酒"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "ed788e"
+    },
+    "nameEn": "French Connection",
+    "nameZh": "法国连线",
+    "liqueurTypes": [
+      "杏仁利口酒"
+    ],
+    "image": "./assets/cocktails/french-connection.png"
+  },
+  {
+    "id": "french-martini",
+    "name": "法式马天尼 French Martini",
+    "subtitle": "伏特加 / 覆盆子利口酒 / 新鲜菠萝汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/french-martini/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "果香"
+    ],
+    "taste": "以伏特加为主要学习线索，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伏特加",
+        "45 毫升"
+      ],
+      [
+        "覆盆子利口酒",
+        "15 毫升"
+      ],
+      [
+        "新鲜菠萝汁",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1980 年代",
+    "storyTitle": "法式马天尼的起源故事",
+    "story": [
+      [
+        "起源",
+        "法式马天尼兴起于 1980 年代纽约酒吧，后来在 1990 年代餐厅酒单中流行。覆盆子利口酒和菠萝汁让它带有当时都会甜果型马天尼的风格。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，法式马天尼体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "覆盆子利口酒",
+      "果汁/果泥"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "coupe",
+      "accent": "0a4713"
+    },
+    "nameEn": "French Martini",
+    "nameZh": "法式马天尼",
+    "liqueurTypes": [
+      "覆盆子利口酒"
+    ],
+    "image": "./assets/cocktails/french-martini.png"
+  },
+  {
+    "id": "garibaldi",
+    "name": "加里波第 Garibaldi",
+    "subtitle": "金巴利苦味利口酒 / 新鲜橙汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/garibaldi/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "果香"
+    ],
+    "taste": "以白兰地为主要学习线索，有清晰苦味层次，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金巴利苦味利口酒",
+        "45 毫升"
+      ],
+      [
+        "新鲜橙汁",
+        "120 毫升"
+      ]
+    ],
+    "method": [
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "20 世纪",
+    "storyTitle": "加里波第的起源故事",
+    "story": [
+      [
+        "起源",
+        "加里波第来自意大利餐前酒传统，以意大利民族英雄朱塞佩·加里波第命名。金巴利代表北方，橙汁代表南方，名字和配方都带有意大利统一的象征意味。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，加里波第依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "金巴利苦味利口酒",
+      "果汁/果泥"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "dcaec0"
+    },
+    "nameEn": "Garibaldi",
+    "nameZh": "加里波第",
+    "liqueurTypes": [
+      "金巴利苦味利口酒"
+    ],
+    "image": "./assets/cocktails/garibaldi.png"
+  },
+  {
+    "id": "gin-basil-smash",
+    "name": "金酒罗勒碎 Gin Basil Smash",
+    "subtitle": "金酒 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/gin-basil-smash/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "草本"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，甜感柔和，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "60 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "22.5 毫升"
+      ],
+      [
+        "糖浆",
+        "22.5 毫升"
+      ],
+      [
+        "意大利罗勒叶",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。"
+    ],
+    "originYear": "2008 年",
+    "storyTitle": "金酒罗勒碎的起源故事",
+    "story": [
+      [
+        "起源",
+        "金酒罗勒碎由汉堡调酒师约格·迈耶在 2008 年创造。大量罗勒被捣压后释放的绿色香气，让它迅速成为现代金酒酸酒代表。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，金酒罗勒碎体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "柠檬汁",
+      "糖/糖浆",
+      "特色辅料"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "47984c"
+    },
+    "nameEn": "Gin Basil Smash",
+    "nameZh": "金酒罗勒碎",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/gin-basil-smash.png"
+  },
+  {
+    "id": "gin-fizz",
+    "name": "金菲士 Gin Fizz",
+    "subtitle": "金酒 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/gin-fizz/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "气泡"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，甜感柔和，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "45 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 毫升"
+      ],
+      [
+        "糖浆",
+        "10 毫升"
+      ],
+      [
+        "苏打水",
+        "少量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "19 世纪末",
+    "storyTitle": "金菲士的起源故事",
+    "story": [
+      [
+        "起源",
+        "金菲士从 19 世纪美国菲士家族中发展而来，酸酒加入苏打后变得更轻盈。它曾在新奥尔良等地极为流行，也为拉莫斯菲士等复杂版本铺路。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，金菲士被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "柠檬汁",
+      "糖/糖浆",
+      "气泡饮料"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "highball",
+      "accent": "36adb1"
+    },
+    "nameEn": "Gin Fizz",
+    "nameZh": "金菲士",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/gin-fizz.png"
+  },
+  {
+    "id": "grand-margarita",
+    "name": "金万利玛格丽塔 Grand Margarita",
+    "subtitle": "龙舌兰 / 金万利橙酒 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/grand-margarita/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "龙舌兰",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽"
+    ],
+    "taste": "以龙舌兰为主要学习线索，酸度明亮。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "100% 龙舌兰",
+        "45 毫升"
+      ],
+      [
+        "金万利橙酒",
+        "30 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "现代变体",
+    "storyTitle": "金万利玛格丽塔的起源故事",
+    "story": [
+      [
+        "起源",
+        "金万利玛格丽塔是玛格丽塔的现代升级版本，用金万利橙酒强化橙香与酒体。它延续龙舌兰、橙酒和青柠的经典结构，但口感更圆润。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，金万利玛格丽塔体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "龙舌兰",
+      "金万利橙酒",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "8ad449"
+    },
+    "nameEn": "Grand Margarita",
+    "nameZh": "金万利玛格丽塔",
+    "liqueurTypes": [
+      "金万利橙酒"
+    ],
+    "image": "./assets/cocktails/grand-margarita.png"
+  },
+  {
+    "id": "grasshopper",
+    "name": "蚱蜢 Grasshopper",
+    "subtitle": "可可利口酒 / 薄荷利口酒 / 鲜奶油",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/grasshopper/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "圆润"
+    ],
+    "taste": "以白兰地为主要学习线索，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "可可利口酒",
+        "20 毫升"
+      ],
+      [
+        "薄荷利口酒",
+        "20 毫升"
+      ],
+      [
+        "鲜奶油",
+        "20 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "20 世纪初",
+    "storyTitle": "蚱蜢的起源故事",
+    "story": [
+      [
+        "起源",
+        "蚱蜢常被追溯到新奥尔良的图雅格餐厅酒吧，20 世纪初逐渐成形。绿色薄荷利口酒让它拥有鲜明外观，也让奶油型餐后酒多了轻快的一面。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，蚱蜢依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "可可利口酒",
+      "薄荷利口酒",
+      "乳品/蛋类"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "e68351"
+    },
+    "nameEn": "Grasshopper",
+    "nameZh": "蚱蜢",
+    "liqueurTypes": [
+      "可可利口酒",
+      "薄荷利口酒"
+    ],
+    "image": "./assets/cocktails/grasshopper.png"
+  },
+  {
+    "id": "hanky-panky",
+    "name": "花招 Hanky Panky",
+    "subtitle": "金酒 / 甜红味美思 / 菲奈苦味利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/hanky-panky/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以金酒为主要学习线索，有清晰苦味层次，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伦敦干金酒",
+        "45 毫升"
+      ],
+      [
+        "甜红味美思",
+        "45 毫升"
+      ],
+      [
+        "菲奈苦味利口酒",
+        "7.5 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "20 世纪初",
+    "storyTitle": "花招的起源故事",
+    "story": [
+      [
+        "起源",
+        "花招由伦敦萨伏伊酒店的艾达·科尔曼创造，她是早期最具影响力的女性调酒师之一。菲奈布兰卡让金酒和甜味美思的组合带上尖锐草本感，名字来自客人品尝后的惊叹。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，花招被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "甜红味美思",
+      "菲奈苦味利口酒"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "47324c"
+    },
+    "nameEn": "Hanky Panky",
+    "nameZh": "花招",
+    "liqueurTypes": [
+      "甜红味美思",
+      "菲奈苦味利口酒"
+    ],
+    "image": "./assets/cocktails/hanky-panky.png"
+  },
+  {
+    "id": "hemingway-special",
+    "name": "海明威特饮 Hemingway Special",
+    "subtitle": "朗姆 / 西柚汁 / 路萨朵黑樱桃利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/hemingway-special/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "果香"
+    ],
+    "taste": "以朗姆为主要学习线索，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "朗姆",
+        "60 毫升"
+      ],
+      [
+        "西柚汁",
+        "40 毫升"
+      ],
+      [
+        "路萨朵黑樱桃利口酒",
+        "15 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1930 年代",
+    "storyTitle": "海明威特饮的起源故事",
+    "story": [
+      [
+        "起源",
+        "海明威特饮来自哈瓦那的佛罗里迪塔酒吧，与作家海明威的饮酒偏好相关。它在戴基里的基础上加入葡萄柚与黑樱桃风味，并减少甜度。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，海明威特饮依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "果汁/果泥",
+      "路萨朵黑樱桃利口酒",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "897d9f"
+    },
+    "nameEn": "Hemingway Special",
+    "nameZh": "海明威特饮",
+    "liqueurTypes": [
+      "路萨朵黑樱桃利口酒"
+    ],
+    "image": "./assets/cocktails/hemingway-special.png"
+  },
+  {
+    "id": "horses-neck",
+    "name": "马颈 Horse’s Neck",
+    "subtitle": "白兰地 / 姜汁汽水 / 安格仕苦精",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/horses-neck/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "气泡"
+    ],
+    "taste": "以白兰地为主要学习线索，有清晰苦味层次，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "干邑",
+        "40 毫升"
+      ],
+      [
+        "姜汁汽水",
+        "120 毫升"
+      ],
+      [
+        "安格仕苦精",
+        "滴"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。"
+    ],
+    "originYear": "19 世纪末",
+    "storyTitle": "马颈的起源故事",
+    "story": [
+      [
+        "起源",
+        "马颈最初是一种不含酒精的姜汁汽水饮法，因长柠檬皮形似马颈而得名。后来加入白兰地或威士忌，成为清爽而有辨识度的长饮。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，马颈依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "气泡饮料",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "highball",
+      "accent": "decf6a"
+    },
+    "nameEn": "Horse’s Neck",
+    "nameZh": "马颈",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/horses-neck.png"
+  },
+  {
+    "id": "iba-tiki",
+    "name": "提基特饮 Tiki",
+    "subtitle": "朗姆 / 杏仁利口酒 / 弗兰杰利科榛子利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/iba-tiki/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "果香"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "哈瓦那俱乐部深色朗姆",
+        "30 毫升"
+      ],
+      [
+        "哈瓦那俱乐部烟熏朗姆",
+        "30 毫升"
+      ],
+      [
+        "杏仁利口酒",
+        "15 毫升"
+      ],
+      [
+        "弗兰杰利科榛子利口酒",
+        "5 毫升"
+      ],
+      [
+        "路萨朵黑樱桃利口酒",
+        "5 滴"
+      ],
+      [
+        "百香果泥",
+        "30 毫升"
+      ],
+      [
+        "新鲜菠萝汁",
+        "90 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "30 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "先轻柔处理香草、水果或糖，让香气释放但避免过度破碎。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "2022 年",
+    "storyTitle": "提基特饮的起源故事",
+    "story": [
+      [
+        "起源",
+        "提基特饮由古巴调酒师 Diosmel Mendoza Medrano 在 2022 年创造，背景是古巴瓦拉德罗举行的世界调酒锦标赛重启。这杯酒在哈瓦那 Habana Libre 酒店的 El Polinesio 提基酒吧语境中成形，把古巴朗姆、坚果利口酒、樱桃利口酒和热带水果集中到一杯现代提基酒里。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，提基特饮体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "杏仁利口酒",
+      "弗兰杰利科榛子利口酒",
+      "路萨朵黑樱桃利口酒",
+      "果汁/果泥",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "503ffb"
+    },
+    "nameEn": "Tiki",
+    "nameZh": "提基特饮",
+    "liqueurTypes": [
+      "杏仁利口酒",
+      "弗兰杰利科榛子利口酒",
+      "路萨朵黑樱桃利口酒"
+    ],
+    "image": "./assets/cocktails/iba-tiki.png"
+  },
+  {
+    "id": "illegal",
+    "name": "非法 Illegal",
+    "subtitle": "龙舌兰 / 朗姆 / 法勒南姆利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/illegal/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "草本",
+      "圆润"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "埃斯帕丁梅斯卡尔",
+        "30 毫升"
+      ],
+      [
+        "牙买加强力白朗姆",
+        "15 毫升"
+      ],
+      [
+        "法勒南姆利口酒",
+        "15 毫升"
+      ],
+      [
+        "路萨朵黑樱桃利口酒",
+        "1 吧匙"
+      ],
+      [
+        "新鲜青柠汁",
+        "22.5 毫升"
+      ],
+      [
+        "糖浆",
+        "15 毫升"
+      ],
+      [
+        "蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "21 世纪",
+    "storyTitle": "非法的起源故事",
+    "story": [
+      [
+        "起源",
+        "非法是新派梅斯卡尔鸡尾酒的代表之一，借助烟熏龙舌兰、朗姆和黑樱桃风味形成复杂酸酒。它反映了 21 世纪酒吧对梅斯卡尔和手工利口酒的兴趣。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，非法体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "龙舌兰",
+      "朗姆",
+      "法勒南姆利口酒",
+      "路萨朵黑樱桃利口酒",
+      "青柠",
+      "糖/糖浆",
+      "乳品/蛋类"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "rocks",
+      "accent": "71f91e"
+    },
+    "nameEn": "Illegal",
+    "nameZh": "非法",
+    "liqueurTypes": [
+      "法勒南姆利口酒",
+      "路萨朵黑樱桃利口酒"
+    ],
+    "image": "./assets/cocktails/illegal.png"
+  },
+  {
+    "id": "irish-coffee",
+    "name": "爱尔兰咖啡 Irish Coffee",
+    "subtitle": "威士忌 / 热咖啡 / 鲜奶油",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/irish-coffee/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以威士忌为主要学习线索，甜感柔和，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "爱尔兰威士忌",
+        "50 毫升"
+      ],
+      [
+        "热咖啡",
+        "120 毫升"
+      ],
+      [
+        "鲜奶油",
+        "50 毫升"
+      ],
+      [
+        "糖",
+        "1 茶匙"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。"
+    ],
+    "originYear": "1940 年代",
+    "storyTitle": "爱尔兰咖啡的起源故事",
+    "story": [
+      [
+        "起源",
+        "爱尔兰咖啡诞生于爱尔兰福因斯机场，常归功于乔·谢里丹。热咖啡、爱尔兰威士忌和奶油让它成为寒冷旅途里的安慰型经典。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，爱尔兰咖啡依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "热咖啡",
+      "乳品/蛋类",
+      "糖/糖浆"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "3d486f"
+    },
+    "nameEn": "Irish Coffee",
+    "nameZh": "爱尔兰咖啡",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/irish-coffee.png"
+  },
+  {
+    "id": "john-collins",
+    "name": "约翰柯林斯 John Collins",
+    "subtitle": "金酒 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/john-collins/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "气泡"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，甜感柔和，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "45 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 毫升"
+      ],
+      [
+        "糖浆",
+        "15 毫升"
+      ],
+      [
+        "苏打水",
+        "60 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "19 世纪",
+    "storyTitle": "约翰柯林斯的起源故事",
+    "story": [
+      [
+        "起源",
+        "约翰柯林斯来自 19 世纪伦敦和美国酒吧里的柯林斯长饮传统。烈酒、柠檬、糖和苏打的组合，让它成为最基础也最耐用的长饮模板之一。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，约翰柯林斯被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "柠檬汁",
+      "糖/糖浆",
+      "气泡饮料"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "highball",
+      "accent": "22293e"
+    },
+    "nameEn": "John Collins",
+    "nameZh": "约翰柯林斯",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/john-collins.png"
+  },
+  {
+    "id": "jungle-bird",
+    "name": "丛林鸟 Jungle Bird",
+    "subtitle": "朗姆 / 金巴利 / 菠萝汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/jungle-bird/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "苦韵",
+      "果香"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和，有清晰苦味层次。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "黑糖蜜朗姆",
+        "45 毫升"
+      ],
+      [
+        "金巴利",
+        "22.5 毫升"
+      ],
+      [
+        "菠萝汁",
+        "45 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ],
+      [
+        "德梅拉拉糖浆",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1970 年代",
+    "storyTitle": "丛林鸟的起源故事",
+    "story": [
+      [
+        "起源",
+        "丛林鸟诞生于吉隆坡希尔顿酒店的酒吧，1970 年代进入热带长饮谱系。朗姆、菠萝和金巴利的苦甜组合，让它在提基复兴后重新走红。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，丛林鸟体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "金巴利",
+      "果汁/果泥",
+      "青柠",
+      "糖/糖浆"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "rocks",
+      "accent": "c13790"
+    },
+    "nameEn": "Jungle Bird",
+    "nameZh": "丛林鸟",
+    "liqueurTypes": [
+      "金巴利"
+    ],
+    "image": "./assets/cocktails/jungle-bird.png"
+  },
+  {
+    "id": "kir",
+    "name": "基尔 Kir",
+    "subtitle": "干白葡萄酒 / 黑加仑利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/kir/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "气泡"
+    ],
+    "taste": "以白兰地为主要学习线索，甜感柔和，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "干白葡萄酒",
+        "90 毫升"
+      ],
+      [
+        "黑加仑利口酒",
+        "10 毫升"
+      ]
+    ],
+    "method": [
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "20 世纪中期",
+    "storyTitle": "基尔的起源故事",
+    "story": [
+      [
+        "起源",
+        "基尔来自法国勃艮第，并以第戎市长菲利克斯·基尔命名。黑加仑利口酒与干白葡萄酒的组合，最初也带有推广地方物产的意味。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，基尔依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "干白葡萄酒",
+      "黑加仑利口酒"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "flute",
+      "accent": "a984ac"
+    },
+    "nameEn": "Kir",
+    "nameZh": "基尔",
+    "liqueurTypes": [
+      "干白葡萄酒",
+      "黑加仑利口酒"
+    ],
+    "image": "./assets/cocktails/kir.png"
+  },
+  {
+    "id": "last-word",
+    "name": "最后一句 Last Word",
+    "subtitle": "金酒 / 绿查特酒 / 路萨朵黑樱桃利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/last-word/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "草本"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "22.5 毫升"
+      ],
+      [
+        "绿查特酒",
+        "22.5 毫升"
+      ],
+      [
+        "路萨朵黑樱桃利口酒",
+        "22.5 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "22.5 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1910-1920 年代",
+    "storyTitle": "最后一句的起源故事",
+    "story": [
+      [
+        "起源",
+        "最后一句源自底特律运动俱乐部，后来因 1950 年代酒谱留下记录。等量的金酒、绿查特酒、黑樱桃利口酒和青柠，让它在经典复兴中重新成名。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，最后一句被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "绿查特酒",
+      "路萨朵黑樱桃利口酒",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "56ea79"
+    },
+    "nameEn": "Last Word",
+    "nameZh": "最后一句",
+    "liqueurTypes": [
+      "绿查特酒",
+      "路萨朵黑樱桃利口酒"
+    ],
+    "image": "./assets/cocktails/last-word.png"
+  },
+  {
+    "id": "lemon-drop-martini",
+    "name": "柠檬滴马天尼 Lemon Drop Martini",
+    "subtitle": "伏特加 / 橙味利口酒 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/lemon-drop-martini/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽"
+    ],
+    "taste": "以伏特加为主要学习线索，酸度明亮。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伏特加",
+        "30 毫升"
+      ],
+      [
+        "橙味利口酒",
+        "20 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1970 年代",
+    "storyTitle": "柠檬滴马天尼的起源故事",
+    "story": [
+      [
+        "起源",
+        "柠檬滴马天尼由旧金山亨利非洲酒吧的诺曼·杰伊·霍布森创造。它把柠檬糖果般的酸甜感带进伏特加马天尼语境，成为派对型现代经典。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，柠檬滴马天尼依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "橙味利口酒",
+      "柠檬汁"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "79f726"
+    },
+    "nameEn": "Lemon Drop Martini",
+    "nameZh": "柠檬滴马天尼",
+    "liqueurTypes": [
+      "橙味利口酒"
+    ],
+    "image": "./assets/cocktails/lemon-drop-martini.png"
+  },
+  {
+    "id": "long-island-iced-tea",
+    "name": "长岛冰茶 Long Island Iced Tea",
+    "subtitle": "伏特加 / 龙舌兰 / 朗姆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/long-island-iced-tea/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "气泡"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伏特加",
+        "15 毫升"
+      ],
+      [
+        "龙舌兰",
+        "15 毫升"
+      ],
+      [
+        "白朗姆",
+        "15 毫升"
+      ],
+      [
+        "金酒",
+        "15 毫升"
+      ],
+      [
+        "君度橙酒",
+        "15 毫升"
+      ],
+      [
+        "柠檬汁",
+        "25 毫升"
+      ],
+      [
+        "糖浆",
+        "30 毫升"
+      ],
+      [
+        "补满可乐",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "1970 年代",
+    "storyTitle": "长岛冰茶的起源故事",
+    "story": [
+      [
+        "起源",
+        "长岛冰茶的现代版本常追溯到 1970 年代纽约长岛的酒吧竞赛与派对文化。多种烈酒加可乐产生近似冰茶的外观，让它成为高酒精长饮的代表。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，长岛冰茶依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "龙舌兰",
+      "朗姆",
+      "金酒",
+      "君度橙酒",
+      "柠檬汁",
+      "糖/糖浆",
+      "气泡饮料"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "highball",
+      "accent": "6bd0bf"
+    },
+    "nameEn": "Long Island Iced Tea",
+    "nameZh": "长岛冰茶",
+    "liqueurTypes": [
+      "君度橙酒"
+    ],
+    "image": "./assets/cocktails/long-island-iced-tea.png"
+  },
+  {
+    "id": "mai-tai",
+    "name": "迈泰 Mai-Tai",
+    "subtitle": "朗姆 / 橙味库拉索 / 杏仁糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mai-tai/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "琥珀牙买加朗姆",
+        "30 毫升"
+      ],
+      [
+        "马提尼克糖蜜朗姆",
+        "30 毫升"
+      ],
+      [
+        "橙味库拉索",
+        "15 毫升"
+      ],
+      [
+        "杏仁糖浆",
+        "15 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "30 毫升"
+      ],
+      [
+        "糖浆",
+        "7.5 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。"
+    ],
+    "originYear": "1940 年代",
+    "storyTitle": "迈泰的起源故事",
+    "story": [
+      [
+        "起源",
+        "迈泰通常与 1944 年加州的维克商人餐厅联系在一起。它后来成为提基文化的核心作品之一，也引发过关于最初版本的长期争论。"
+      ],
+      [
+        "近代发展",
+        "近代提基复兴让 Mai Tai 回到更接近早期配方的朗姆、橙味库拉索、杏仁糖浆和青柠结构，区别于后来过甜、果汁化的度假版本。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "橙味库拉索",
+      "糖/糖浆",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "f1d7d3"
+    },
+    "nameEn": "Mai-Tai",
+    "nameZh": "迈泰",
+    "liqueurTypes": [
+      "橙味库拉索"
+    ],
+    "image": "./assets/cocktails/mai-tai.png"
+  },
+  {
+    "id": "manhattan",
+    "name": "曼哈顿 Manhattan",
+    "subtitle": "威士忌 / 甜红味美思 / 安格仕苦精",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/manhattan/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以威士忌为主要学习线索，有清晰苦味层次，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "黑麦威士忌",
+        "50 毫升"
+      ],
+      [
+        "甜红味美思",
+        "20 毫升"
+      ],
+      [
+        "安格仕苦精",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪末",
+    "storyTitle": "曼哈顿的起源故事",
+    "story": [
+      [
+        "起源",
+        "曼哈顿在 19 世纪末的纽约成形，是威士忌与甜味美思结构的代表。关于具体宴会和发明者的故事很多，但纽约都市气质始终是它的核心背景。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，曼哈顿被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "甜红味美思",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "1834cd"
+    },
+    "nameEn": "Manhattan",
+    "nameZh": "曼哈顿",
+    "liqueurTypes": [
+      "甜红味美思"
+    ],
+    "image": "./assets/cocktails/manhattan.png"
+  },
+  {
+    "id": "margarita",
+    "name": "玛格丽塔 Margarita",
+    "subtitle": "龙舌兰 / 橙味利口酒 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/margarita/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "龙舌兰",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽"
+    ],
+    "taste": "以龙舌兰为主要学习线索，酸度明亮。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "100% 龙舌兰",
+        "50 毫升"
+      ],
+      [
+        "橙味利口酒",
+        "20 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1930-1940 年代",
+    "storyTitle": "玛格丽塔的起源故事",
+    "story": [
+      [
+        "起源",
+        "玛格丽塔的起源有多种墨西哥与美墨边境故事。无论哪种说法，龙舌兰、橙酒和青柠的组合都让它成为酸酒家族中最有名的一支。"
+      ],
+      [
+        "近代发展",
+        "Margarita 后来发展出盐边、冻饮、Tommy’s Margarita、Mezcal Margarita 等大量分支；近代酒吧更强调优质龙舌兰、真实青柠和明确橙酒选择，让它从派对甜饮回到酸酒经典。"
+      ]
+    ],
+    "inventory": [
+      "龙舌兰",
+      "橙味利口酒",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "19540a"
+    },
+    "nameEn": "Margarita",
+    "nameZh": "玛格丽塔",
+    "liqueurTypes": [
+      "橙味利口酒"
+    ],
+    "image": "./assets/cocktails/margarita.png"
+  },
+  {
+    "id": "martinez",
+    "name": "马丁内斯 Martinez",
+    "subtitle": "金酒 / 甜红味美思 / 路萨朵黑樱桃利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/martinez/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "草本"
+    ],
+    "taste": "以金酒为主要学习线索，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伦敦干金酒",
+        "45 毫升"
+      ],
+      [
+        "甜红味美思",
+        "45 毫升"
+      ],
+      [
+        "路萨朵黑樱桃利口酒",
+        "1 吧匙"
+      ],
+      [
+        "橙味苦精",
+        "2 滴"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪",
+    "storyTitle": "马丁内斯的起源故事",
+    "story": [
+      [
+        "起源",
+        "马丁内斯出现在 19 世纪后期酒谱中，常被视为马天尼演变链条上的关键一环。甜味美思、金酒和黑樱桃利口酒让它比干马天尼更柔和复古。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，马丁内斯被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "甜红味美思",
+      "路萨朵黑樱桃利口酒",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "rocks",
+      "accent": "67d36d"
+    },
+    "nameEn": "Martinez",
+    "nameZh": "马丁内斯",
+    "liqueurTypes": [
+      "甜红味美思",
+      "路萨朵黑樱桃利口酒"
+    ],
+    "image": "./assets/cocktails/martinez.png"
+  },
+  {
+    "id": "mary-pickford",
+    "name": "玛丽皮克福德 Mary Pickford",
+    "subtitle": "朗姆 / 新鲜菠萝汁 / 路萨朵黑樱桃利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mary-pickford/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "果香"
+    ],
+    "taste": "以朗姆为主要学习线索，甜感柔和，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "白朗姆",
+        "45 毫升"
+      ],
+      [
+        "新鲜菠萝汁",
+        "45 毫升"
+      ],
+      [
+        "路萨朵黑樱桃利口酒",
+        "7.5 毫升"
+      ],
+      [
+        "石榴糖浆",
+        "5 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1920 年代",
+    "storyTitle": "玛丽皮克福德的起源故事",
+    "story": [
+      [
+        "起源",
+        "玛丽皮克福德诞生于古巴哈瓦那，以好莱坞默片明星玛丽·皮克福德命名。菠萝、石榴和黑樱桃风味让它带有热带与电影黄金时代的气息。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，玛丽皮克福德被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "果汁/果泥",
+      "路萨朵黑樱桃利口酒",
+      "糖/糖浆"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "coupe",
+      "accent": "b94fd3"
+    },
+    "nameEn": "Mary Pickford",
+    "nameZh": "玛丽皮克福德",
+    "liqueurTypes": [
+      "路萨朵黑樱桃利口酒"
+    ],
+    "image": "./assets/cocktails/mary-pickford.png"
+  },
+  {
+    "id": "mimosa",
+    "name": "含羞草 Mimosa",
+    "subtitle": "新鲜橙汁 / 普罗塞克",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mimosa/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "气泡",
+      "果香"
+    ],
+    "taste": "以白兰地为主要学习线索，入口轻快，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "新鲜橙汁",
+        "75 毫升"
+      ],
+      [
+        "普罗塞克",
+        "75 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。"
+    ],
+    "originYear": "1920 年代",
+    "storyTitle": "含羞草的起源故事",
+    "story": [
+      [
+        "起源",
+        "含羞草通常与 1920 年代巴黎丽兹酒店的酒吧传统相关。橙汁和香槟的简单组合让它成为早午餐和庆祝场合的常客。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，含羞草依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "果汁/果泥",
+      "普罗塞克"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "flute",
+      "accent": "70f570"
+    },
+    "nameEn": "Mimosa",
+    "nameZh": "含羞草",
+    "liqueurTypes": [
+      "普罗塞克"
+    ],
+    "image": "./assets/cocktails/mimosa.png"
+  },
+  {
+    "id": "mint-julep",
+    "name": "薄荷茱莉普 Mint Julep",
+    "subtitle": "威士忌 / 薄荷枝 / 糖粉",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mint-julep/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "草本"
+    ],
+    "taste": "以威士忌为主要学习线索，甜感柔和，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "波本威士忌",
+        "60 毫升"
+      ],
+      [
+        "薄荷枝",
+        "适量"
+      ],
+      [
+        "糖粉",
+        "1 茶匙"
+      ],
+      [
+        "清水",
+        "2 茶匙"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "先轻柔处理香草、水果或糖，让香气释放但避免过度破碎。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "18-19 世纪",
+    "storyTitle": "薄荷茱莉普的起源故事",
+    "story": [
+      [
+        "起源",
+        "薄荷茱莉普起源于美国南方，早期曾可使用多种烈酒，后来波本威士忌版本成为主流。银杯、碎冰和薄荷香气让它与肯塔基赛马文化紧密相连。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，薄荷茱莉普依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "特色辅料",
+      "糖/糖浆"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "e0fbdb"
+    },
+    "nameEn": "Mint Julep",
+    "nameZh": "薄荷茱莉普",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/mint-julep.png"
+  },
+  {
+    "id": "missionarys-downfall",
+    "name": "传教士的倒下 Missionary’s Downfall",
+    "subtitle": "朗姆 / 白兰地 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/missionarys-downfall/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "草本"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "白朗姆",
+        "30 毫升"
+      ],
+      [
+        "蜜桃白兰地利口酒",
+        "15 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ],
+      [
+        "蜂蜜混合液",
+        "30 毫升"
+      ],
+      [
+        "薄荷叶",
+        "10 片"
+      ],
+      [
+        "菠萝块",
+        "3-4 块"
+      ]
+    ],
+    "method": [
+      "按配方顺序加入材料，重点控制温度、稀释和装饰香气。"
+    ],
+    "originYear": "1930 年代",
+    "storyTitle": "传教士的倒下的起源故事",
+    "story": [
+      [
+        "起源",
+        "传教士的倒下出自唐海滩客的提基酒吧体系，是朗姆、蜜桃、蜂蜜、薄荷和菠萝的热带组合。它不像许多烈性提基酒那样厚重，而是以碎冰和草本果香形成轻盈口感。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，传教士的倒下体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "白兰地",
+      "青柠",
+      "糖/糖浆",
+      "特色辅料",
+      "果汁/果泥"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "bd4c5a"
+    },
+    "nameEn": "Missionary’s Downfall",
+    "nameZh": "传教士的倒下",
+    "liqueurTypes": [
+      "蜜桃白兰地利口酒"
+    ],
+    "image": "./assets/cocktails/missionarys-downfall.png"
+  },
+  {
+    "id": "mojito",
+    "name": "莫吉托 Mojito",
+    "subtitle": "朗姆 / 新鲜青柠汁 / 薄荷枝",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/mojito/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "草本",
+      "气泡"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "白古巴朗姆",
+        "45 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "20 毫升"
+      ],
+      [
+        "薄荷枝",
+        "适量"
+      ],
+      [
+        "白蔗糖",
+        "2 茶匙"
+      ],
+      [
+        "苏打水",
+        "适量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "古巴传统",
+    "storyTitle": "莫吉托的起源故事",
+    "story": [
+      [
+        "起源",
+        "莫吉托来自古巴，常被视作更早的甘蔗烈酒、青柠、薄荷饮法的现代化版本。哈瓦那酒吧文化让它成为清爽长饮的国际符号。"
+      ],
+      [
+        "近代发展",
+        "近代 Mojito 借由哈瓦那旅游形象和夏季长饮文化持续流行。酒吧会在薄荷处理、苏打加入顺序和糖的形态上做细节调整，也常出现莓果、百香果等季节变体。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "青柠",
+      "特色辅料",
+      "糖/糖浆",
+      "气泡饮料"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "d92b09"
+    },
+    "image": "./assets/cocktails/mojito.png",
+    "nameEn": "Mojito",
+    "nameZh": "莫吉托",
+    "liqueurTypes": []
+  },
+  {
+    "id": "monkey-gland",
+    "name": "猴腺 Monkey Gland",
+    "subtitle": "金酒 / 新鲜橙汁 / 苦艾酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/monkey-gland/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "草本",
+      "果香"
+    ],
+    "taste": "以金酒为主要学习线索，甜感柔和，带草本香气，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "干金酒",
+        "45 毫升"
+      ],
+      [
+        "新鲜橙汁",
+        "45 毫升"
+      ],
+      [
+        "苦艾酒",
+        "适量"
+      ],
+      [
+        "石榴糖浆",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1920 年代",
+    "storyTitle": "猴腺的起源故事",
+    "story": [
+      [
+        "起源",
+        "猴腺由巴黎哈利纽约酒吧的哈里·麦克艾尔洪创造。名字来自当时颇受关注的医学实验传闻，因此带有典型 1920 年代猎奇幽默。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，猴腺被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "果汁/果泥",
+      "苦艾酒",
+      "糖/糖浆"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "coupe",
+      "accent": "101823"
+    },
+    "nameEn": "Monkey Gland",
+    "nameZh": "猴腺",
+    "liqueurTypes": [
+      "苦艾酒"
+    ],
+    "image": "./assets/cocktails/monkey-gland.png"
+  },
+  {
+    "id": "moscow-mule",
+    "name": "莫斯科骡子 Moscow Mule",
+    "subtitle": "伏特加 / 姜汁啤酒 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/moscow-mule/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "气泡"
+    ],
+    "taste": "以伏特加为主要学习线索，酸度明亮，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "斯米尔诺夫伏特加",
+        "45 毫升"
+      ],
+      [
+        "姜汁啤酒",
+        "120 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "10 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "1940 年代",
+    "storyTitle": "莫斯科骡子的起源故事",
+    "story": [
+      [
+        "起源",
+        "莫斯科骡子诞生于 1940 年代的洛杉矶，常与伏特加、姜汁啤酒和铜杯推广有关。它帮助伏特加在美国市场建立了更强的存在感。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，莫斯科骡子依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "气泡饮料",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "5d154c"
+    },
+    "nameEn": "Moscow Mule",
+    "nameZh": "莫斯科骡子",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/moscow-mule.png"
+  },
+  {
+    "id": "naked-and-famous",
+    "name": "赤裸成名 Naked and Famous",
+    "subtitle": "龙舌兰 / 黄查特酒 / 阿佩罗苦味利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/naked-and-famous/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "龙舌兰",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以龙舌兰为主要学习线索，酸度明亮，有清晰苦味层次，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "梅斯卡尔",
+        "22.5 毫升"
+      ],
+      [
+        "黄查特酒",
+        "22.5 毫升"
+      ],
+      [
+        "阿佩罗苦味利口酒",
+        "22.5 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "22.5 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "2011 年",
+    "storyTitle": "赤裸成名的起源故事",
+    "story": [
+      [
+        "起源",
+        "赤裸成名由华金·西莫创造，是最后一句与纸飞机思路影响下的新派等量鸡尾酒。梅斯卡尔、黄查特酒、阿佩罗和青柠形成烟熏、草本、苦甜的清晰平衡。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，赤裸成名体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "龙舌兰",
+      "黄查特酒",
+      "阿佩罗苦味利口酒",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "06a1ce"
+    },
+    "nameEn": "Naked and Famous",
+    "nameZh": "赤裸成名",
+    "liqueurTypes": [
+      "黄查特酒",
+      "阿佩罗苦味利口酒"
+    ],
+    "image": "./assets/cocktails/naked-and-famous.png"
+  },
+  {
+    "id": "negroni",
+    "name": "尼格罗尼 Negroni",
+    "subtitle": "金酒 / 金巴利苦味利口酒 / 甜红味美思",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/negroni/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以金酒为主要学习线索，有清晰苦味层次，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "30 毫升"
+      ],
+      [
+        "金巴利苦味利口酒",
+        "30 毫升"
+      ],
+      [
+        "甜红味美思",
+        "30 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "1919 年",
+    "storyTitle": "尼格罗尼的起源故事",
+    "story": [
+      [
+        "起源",
+        "尼格罗尼通常追溯到 1919 年佛罗伦萨的 Caffè Casoni：卡米洛·尼格罗尼伯爵请调酒师 Fosco Scarselli 把美式鸡尾酒做得更有劲。Scarselli 把苏打水换成金酒，其他客人随后也开始点“尼格罗尼伯爵那杯酒”，名字便流传下来。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，尼格罗尼成为苦甜餐前酒的核心模板；酒吧会用不同金酒、味美思或苦味酒做变化，Boulevardier、White Negroni 等分支也让它从意大利餐前酒扩展成全球酒单语言。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "金巴利苦味利口酒",
+      "甜红味美思"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "rocks",
+      "accent": "f66492"
+    },
+    "image": "./assets/cocktails/negroni.png",
+    "nameEn": "Negroni",
+    "nameZh": "尼格罗尼",
+    "liqueurTypes": [
+      "金巴利苦味利口酒",
+      "甜红味美思"
+    ]
+  },
+  {
+    "id": "new-york-sour",
+    "name": "纽约酸 New York Sour",
+    "subtitle": "威士忌 / 糖浆 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/new-york-sour/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "气泡",
+      "圆润"
+    ],
+    "taste": "以威士忌为主要学习线索，酸度明亮，甜感柔和，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "黑麦或波本威士忌",
+        "60 毫升"
+      ],
+      [
+        "糖浆",
+        "22.5 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 毫升"
+      ],
+      [
+        "蛋白",
+        "适量"
+      ],
+      [
+        "红葡萄酒",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪末",
+    "storyTitle": "纽约酸的起源故事",
+    "story": [
+      [
+        "起源",
+        "纽约酸来自威士忌酸家族，早期也曾以大陆酸等名称出现。在酸酒上漂浮红葡萄酒，让它拥有醒目的分层外观和更柔和的单宁感。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，纽约酸体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "糖/糖浆",
+      "柠檬汁",
+      "乳品/蛋类",
+      "红葡萄酒"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "cab575"
+    },
+    "nameEn": "New York Sour",
+    "nameZh": "纽约酸",
+    "liqueurTypes": [
+      "红葡萄酒"
+    ],
+    "image": "./assets/cocktails/new-york-sour.png"
+  },
+  {
+    "id": "old-cuban",
+    "name": "老古巴 Old Cuban",
+    "subtitle": "薄荷叶 / 朗姆 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/old-cuban/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和，有清晰苦味层次。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "薄荷叶",
+        "适量"
+      ],
+      [
+        "陈年朗姆",
+        "45 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "22.5 毫升"
+      ],
+      [
+        "糖浆",
+        "30 毫升"
+      ],
+      [
+        "安格仕苦精",
+        "2 滴"
+      ],
+      [
+        "极干型香槟或普罗塞克",
+        "60 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "2001 年",
+    "storyTitle": "老古巴的起源故事",
+    "story": [
+      [
+        "起源",
+        "老古巴由纽约调酒师奥黛丽·桑德斯创造。它把莫吉托的薄荷朗姆结构与香槟结合，成为新世纪经典长饮之一。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，老古巴体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "特色辅料",
+      "朗姆",
+      "青柠",
+      "糖/糖浆",
+      "苦精",
+      "极干型香槟或普罗塞克"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "flute",
+      "accent": "66a488"
+    },
+    "nameEn": "Old Cuban",
+    "nameZh": "老古巴",
+    "liqueurTypes": [
+      "极干型香槟或普罗塞克"
+    ],
+    "image": "./assets/cocktails/old-cuban.png"
+  },
+  {
+    "id": "old-fashioned",
+    "name": "古典鸡尾酒 Old Fashioned",
+    "subtitle": "威士忌 / 方糖 / 安格仕苦精",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/old-fashioned/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "苦韵"
+    ],
+    "taste": "以威士忌为主要学习线索，甜感柔和，有清晰苦味层次。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "波本或黑麦威士忌",
+        "45 毫升"
+      ],
+      [
+        "方糖",
+        "适量"
+      ],
+      [
+        "安格仕苦精",
+        "数滴"
+      ],
+      [
+        "清水",
+        "数滴"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "先轻柔处理香草、水果或糖，让香气释放但避免过度破碎。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "19 世纪",
+    "storyTitle": "古典鸡尾酒的起源故事",
+    "story": [
+      [
+        "起源",
+        "古典鸡尾酒源自 19 世纪“烈酒、糖、苦精、水”的基本鸡尾酒定义。当新式配料越来越多时，点一杯“老派”的威士忌鸡尾酒便成为它的名字来源。"
+      ],
+      [
+        "近代发展",
+        "近代鸡尾酒复兴后，Old Fashioned 几乎成为判断酒吧基本功的标尺：大冰块、糖的溶解、苦精和橙皮处理都被重新讲究起来，也推动了波本和黑麦威士忌短饮的回潮。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "糖/糖浆",
+      "苦精",
+      "特色辅料"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "ba0209"
+    },
+    "image": "./assets/cocktails/old-fashioned.png",
+    "nameEn": "Old Fashioned",
+    "nameZh": "古典鸡尾酒",
+    "liqueurTypes": []
+  },
+  {
+    "id": "paloma",
+    "name": "帕洛玛 Paloma",
+    "subtitle": "龙舌兰 / 新鲜青柠汁 / 盐",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/paloma/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "龙舌兰",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "经典",
+      "酒感直接"
+    ],
+    "taste": "以龙舌兰为主要学习线索，结构清楚，酒感直接。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "100% 龙舌兰",
+        "50 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "5 毫升"
+      ],
+      [
+        "盐",
+        "少量"
+      ],
+      [
+        "葡萄柚汽水",
+        "100 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "20 世纪中期",
+    "storyTitle": "帕洛玛的起源故事",
+    "story": [
+      [
+        "起源",
+        "帕洛玛源自墨西哥，常被视为龙舌兰与葡萄柚汽水在当地自然结合的产物。相比玛格丽塔，它更轻松、更日常，也更接近墨西哥长饮语境。"
+      ],
+      [
+        "近代发展",
+        "Paloma 近年因墨西哥烈酒热潮而更受重视，许多酒吧用新鲜葡萄柚、苏打和高品质龙舌兰取代瓶装汽水，做出更干净的现代版本。"
+      ]
+    ],
+    "inventory": [
+      "龙舌兰",
+      "青柠",
+      "特色辅料",
+      "果汁/果泥"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "47c52f"
+    },
+    "nameEn": "Paloma",
+    "nameZh": "帕洛玛",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/paloma.png"
+  },
+  {
+    "id": "paper-plane",
+    "name": "纸飞机 Paper Plane",
+    "subtitle": "威士忌 / 诺尼诺阿玛罗利口酒 / 阿佩罗苦味利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/paper-plane/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "苦韵"
+    ],
+    "taste": "以威士忌为主要学习线索，酸度明亮，有清晰苦味层次。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "波本威士忌",
+        "30 毫升"
+      ],
+      [
+        "诺尼诺阿玛罗利口酒",
+        "30 毫升"
+      ],
+      [
+        "阿佩罗苦味利口酒",
+        "30 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "2008 年",
+    "storyTitle": "纸飞机的起源故事",
+    "story": [
+      [
+        "起源",
+        "纸飞机由 Sam Ross 与 Sasha Petraske 在 2008 年创造，当时是为芝加哥 The Violet Hour 的 Toby Maloney 设计一杯夏季酒。它以 Last Word 的等量思路为灵感，名字来自 M.I.A. 的歌曲《Paper Planes》；早期还曾被误写成 Paper Airplane。"
+      ],
+      [
+        "近代发展",
+        "Paper Plane 传播很快，是新派等量鸡尾酒的代表。近代酒吧常把它和 Last Word、Naked and Famous 放在同一条创作谱系里，也会尝试替换阿玛罗或基酒来做变体。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "诺尼诺阿玛罗利口酒",
+      "阿佩罗苦味利口酒",
+      "柠檬汁"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "78f095"
+    },
+    "nameEn": "Paper Plane",
+    "nameZh": "纸飞机",
+    "liqueurTypes": [
+      "诺尼诺阿玛罗利口酒",
+      "阿佩罗苦味利口酒"
+    ],
+    "image": "./assets/cocktails/paper-plane.png"
+  },
+  {
+    "id": "paradise",
+    "name": "天堂 Paradise",
+    "subtitle": "金酒 / 白兰地 / 新鲜橙汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/paradise/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "果香"
+    ],
+    "taste": "以金酒为主要学习线索，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "30 毫升"
+      ],
+      [
+        "杏桃白兰地利口酒",
+        "20 毫升"
+      ],
+      [
+        "新鲜橙汁",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "20 世纪初",
+    "storyTitle": "天堂的起源故事",
+    "story": [
+      [
+        "起源",
+        "天堂出现在 20 世纪初的经典酒谱中，是金酒、杏桃白兰地利口酒和橙汁的组合。它的明亮果香和柔和名字，带有早期酒店酒吧的浪漫审美。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，天堂被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "白兰地",
+      "果汁/果泥"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "6a6638"
+    },
+    "nameEn": "Paradise",
+    "nameZh": "天堂",
+    "liqueurTypes": [
+      "杏桃白兰地利口酒"
+    ],
+    "image": "./assets/cocktails/paradise.png"
+  },
+  {
+    "id": "penicillin",
+    "name": "盘尼西林 Penicillin",
+    "subtitle": "威士忌 / 新鲜柠檬汁 / 蜂蜜糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/penicillin/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以威士忌为主要学习线索，酸度明亮，甜感柔和。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "苏格兰威士忌",
+        "60 毫升"
+      ],
+      [
+        "拉加维林 16 年威士忌",
+        "7.5 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "22.5 毫升"
+      ],
+      [
+        "蜂蜜糖浆",
+        "22.5 毫升"
+      ],
+      [
+        "鲜姜片",
+        "2-3 片"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "先轻柔处理香草、水果或糖，让香气释放但避免过度破碎。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "2005 年",
+    "storyTitle": "盘尼西林的起源故事",
+    "story": [
+      [
+        "起源",
+        "盘尼西林由纽约牛奶与蜂蜜酒吧的萨姆·罗斯创造。苏格兰威士忌、蜂蜜、柠檬和姜让它像一杯带烟熏感的现代热疗方。"
+      ],
+      [
+        "近代发展",
+        "Penicillin 成为 21 世纪最有影响力的新经典之一，带动蜂蜜姜糖浆和烟熏威士忌漂浮层的使用；许多酒吧用它展示现代威士忌酸酒可以兼具疗愈感和复杂度。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "柠檬汁",
+      "糖/糖浆",
+      "鲜姜片"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "rocks",
+      "accent": "7179b0"
+    },
+    "nameEn": "Penicillin",
+    "nameZh": "盘尼西林",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/penicillin.png"
+  },
+  {
+    "id": "pina-colada",
+    "name": "椰林飘香 Pina Colada",
+    "subtitle": "朗姆 / 椰子奶油 / 新鲜菠萝汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/pina-colada/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "圆润",
+      "果香"
+    ],
+    "taste": "以朗姆为主要学习线索，质地顺滑，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "白朗姆",
+        "50 毫升"
+      ],
+      [
+        "椰子奶油",
+        "30 毫升"
+      ],
+      [
+        "新鲜菠萝汁",
+        "50 毫升"
+      ]
+    ],
+    "method": [
+      "按配方顺序加入材料，重点控制温度、稀释和装饰香气。"
+    ],
+    "originYear": "1950 年代",
+    "storyTitle": "椰林飘香的起源故事",
+    "story": [
+      [
+        "起源",
+        "椰林飘香来自波多黎各，1950 年代的圣胡安酒店酒吧常被提及。椰子、菠萝和朗姆让它成为热带度假想象的代表。"
+      ],
+      [
+        "近代发展",
+        "Piña Colada 近代从度假甜饮回到朗姆、椰子和菠萝平衡的讨论中；酒吧会用新鲜菠萝、不同椰子材料和优质朗姆减少廉价甜腻感。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "乳品/蛋类",
+      "果汁/果泥"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "highball",
+      "accent": "70676c"
+    },
+    "nameEn": "Pina Colada",
+    "nameZh": "椰林飘香",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/pina-colada.png"
+  },
+  {
+    "id": "pisco-punch",
+    "name": "皮斯科潘趣 Pisco Punch",
+    "subtitle": "白兰地 / 新鲜菠萝汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/pisco-punch/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "气泡",
+      "果香"
+    ],
+    "taste": "以白兰地为主要学习线索，酸度明亮，甜感柔和，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "皮斯科",
+        "60 毫升"
+      ],
+      [
+        "新鲜菠萝汁",
+        "22.5 毫升"
+      ],
+      [
+        "糖浆",
+        "15 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 毫升"
+      ],
+      [
+        "干白葡萄酒",
+        "30 毫升"
+      ],
+      [
+        "丁香",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪末",
+    "storyTitle": "皮斯科潘趣的起源故事",
+    "story": [
+      [
+        "起源",
+        "皮斯科潘趣与旧金山的银行交易所酒吧密切相关。皮斯科与菠萝的组合让它在淘金时代后的西海岸酒吧中声名大噪。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，皮斯科潘趣体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "果汁/果泥",
+      "糖/糖浆",
+      "柠檬汁",
+      "干白葡萄酒",
+      "特色辅料"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "coupe",
+      "accent": "bdba4a"
+    },
+    "nameEn": "Pisco Punch",
+    "nameZh": "皮斯科潘趣",
+    "liqueurTypes": [
+      "干白葡萄酒"
+    ],
+    "image": "./assets/cocktails/pisco-punch.png"
+  },
+  {
+    "id": "pisco-sour",
+    "name": "皮斯科酸 Pisco Sour",
+    "subtitle": "白兰地 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/pisco-sour/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以白兰地为主要学习线索，酸度明亮，甜感柔和，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "皮斯科",
+        "60 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 毫升"
+      ],
+      [
+        "糖浆",
+        "20 毫升"
+      ],
+      [
+        "蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1903 年前后",
+    "storyTitle": "皮斯科酸的起源故事",
+    "story": [
+      [
+        "起源",
+        "皮斯科酸的起源存在争议，但较常被讨论的线索包括 1903 年前后秘鲁早期含皮斯科、蛋白、糖和青柠的配方，以及后来 Victor Morris 在利马经营 Morris’ Bar 时推广的版本。Morris’ Bar 的调酒师后来转到利马其他酒店酒吧，使这杯酒继续传播；蛋白泡沫和苦精点缀也逐渐成为人们熟悉的样貌。"
+      ],
+      [
+        "近代发展",
+        "近代 Pisco Sour 既是秘鲁和智利饮酒身份的一部分，也因国际酒吧对皮斯科的兴趣而继续传播；蛋白泡沫、苦精点缀和皮斯科产地差异成为现代版本的重点。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "柠檬汁",
+      "糖/糖浆",
+      "乳品/蛋类"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "6375a0"
+    },
+    "nameEn": "Pisco Sour",
+    "nameZh": "皮斯科酸",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/pisco-sour.png"
+  },
+  {
+    "id": "planters-punch",
+    "name": "种植园潘趣 Planters Punch",
+    "subtitle": "朗姆 / 青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/planters-punch/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "牙买加朗姆",
+        "45 毫升"
+      ],
+      [
+        "青柠汁",
+        "15 毫升"
+      ],
+      [
+        "甘蔗汁",
+        "30 毫升"
+      ]
+    ],
+    "method": [
+      "按配方顺序加入材料，重点控制温度、稀释和装饰香气。"
+    ],
+    "originYear": "19 世纪",
+    "storyTitle": "种植园潘趣的起源故事",
+    "story": [
+      [
+        "起源",
+        "种植园潘趣来自加勒比朗姆潘趣传统，常用押韵口诀记忆酸、甜、烈、弱的比例。它从殖民地种植园语境进入酒吧经典，后来出现许多地方版本。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，种植园潘趣被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "1dd970"
+    },
+    "nameEn": "Planters Punch",
+    "nameZh": "种植园潘趣",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/planters-punch.png"
+  },
+  {
+    "id": "porn-star-martini",
+    "name": "艳星马天尼 Porn Star Martini",
+    "subtitle": "伏特加 / 百香果利口酒 / 百香果泥",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/porn-star-martini/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "气泡",
+      "果香"
+    ],
+    "taste": "以伏特加为主要学习线索，甜感柔和，入口轻快，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "香草伏特加",
+        "50 毫升"
+      ],
+      [
+        "百香果利口酒",
+        "20 毫升"
+      ],
+      [
+        "百香果泥",
+        "50 毫升"
+      ],
+      [
+        "香草糖",
+        "2 吧匙"
+      ],
+      [
+        "旁配香槟",
+        "50 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "2002 年",
+    "storyTitle": "艳星马天尼的起源故事",
+    "story": [
+      [
+        "起源",
+        "艳星马天尼由伦敦调酒师道格拉斯·安克拉创造。百香果、香草伏特加和旁配香槟让它成为 21 世纪最流行的新派甜果型鸡尾酒之一。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，艳星马天尼体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "百香果利口酒",
+      "果汁/果泥",
+      "糖/糖浆",
+      "旁配香槟"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "flute",
+      "accent": "32ce28"
+    },
+    "nameEn": "Porn Star Martini",
+    "nameZh": "艳星马天尼",
+    "liqueurTypes": [
+      "百香果利口酒",
+      "旁配香槟"
+    ],
+    "image": "./assets/cocktails/porn-star-martini.png"
+  },
+  {
+    "id": "porto-flip",
+    "name": "波特翻转 Porto Flip",
+    "subtitle": "白兰地 / 红茶色波特酒 / 蛋黄",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/porto-flip/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "气泡",
+      "圆润"
+    ],
+    "taste": "以白兰地为主要学习线索，入口轻快，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "白兰地",
+        "15 毫升"
+      ],
+      [
+        "红茶色波特酒",
+        "45 毫升"
+      ],
+      [
+        "蛋黄",
+        "10 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪",
+    "storyTitle": "波特翻转的起源故事",
+    "story": [
+      [
+        "起源",
+        "波特翻转来自更古老的翻转类饮品传统，蛋黄与加强葡萄酒让口感厚实。它保留了餐后酒和旧式酒馆热饮传统的一部分影子。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，波特翻转被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "红茶色波特酒",
+      "乳品/蛋类"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "4c198d"
+    },
+    "nameEn": "Porto Flip",
+    "nameZh": "波特翻转",
+    "liqueurTypes": [
+      "红茶色波特酒"
+    ],
+    "image": "./assets/cocktails/porto-flip.png"
+  },
+  {
+    "id": "rabo-de-galo",
+    "name": "公鸡尾 Rabo de Galo",
+    "subtitle": "朗姆 / 甜味美思 / 金巴利苦味利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/rabo-de-galo/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "草本"
+    ],
+    "taste": "以朗姆为主要学习线索，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "卡莎萨",
+        "50 毫升"
+      ],
+      [
+        "甜味美思",
+        "20 毫升"
+      ],
+      [
+        "金巴利苦味利口酒",
+        "15 毫升"
+      ],
+      [
+        "安格仕苦精",
+        "2 滴"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。"
+    ],
+    "originYear": "20 世纪中期",
+    "storyTitle": "公鸡尾的起源故事",
+    "story": [
+      [
+        "起源",
+        "公鸡尾来自巴西酒吧文化，名字在葡萄牙语中意为“鸡尾”。卡莎萨、甜味美思和苦味利口酒让它带有巴西烈酒与意式餐前酒结合的气质。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，公鸡尾依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "甜味美思",
+      "金巴利苦味利口酒",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "d62797"
+    },
+    "nameEn": "Rabo de Galo",
+    "nameZh": "公鸡尾",
+    "liqueurTypes": [
+      "甜味美思",
+      "金巴利苦味利口酒"
+    ],
+    "image": "./assets/cocktails/rabo-de-galo.png"
+  },
+  {
+    "id": "ramos-fizz",
+    "name": "拉莫斯菲士 Ramos Fizz",
+    "subtitle": "金酒 / 新鲜青柠汁 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/ramos-fizz/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，甜感柔和，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "45 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "15 毫升"
+      ],
+      [
+        "糖浆",
+        "30 毫升"
+      ],
+      [
+        "奶油",
+        "60 毫升"
+      ],
+      [
+        "蛋白",
+        "30 毫升"
+      ],
+      [
+        "橙花水",
+        "3 滴"
+      ],
+      [
+        "香草精",
+        "2 滴"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1888 年",
+    "storyTitle": "拉莫斯菲士的起源故事",
+    "story": [
+      [
+        "起源",
+        "拉莫斯菲士由新奥尔良调酒师亨利·拉莫斯创造。奶油、蛋白、柑橘和橙花水需要长时间摇和，使它成为调酒技法上的名作。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，拉莫斯菲士被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "青柠",
+      "柠檬汁",
+      "糖/糖浆",
+      "乳品/蛋类",
+      "特色辅料"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "highball",
+      "accent": "7dd57c"
+    },
+    "nameEn": "Ramos Fizz",
+    "nameZh": "拉莫斯菲士",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/ramos-fizz.png"
+  },
+  {
+    "id": "remember-the-maine",
+    "name": "记住缅因号 Remember the Maine",
+    "subtitle": "威士忌 / 甜味美思 / 白兰地",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/remember-the-maine/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "草本"
+    ],
+    "taste": "以威士忌为主要学习线索，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "黑麦威士忌",
+        "60 毫升"
+      ],
+      [
+        "甜味美思",
+        "22.5 毫升"
+      ],
+      [
+        "路萨朵樱桃白兰地",
+        "15 毫升"
+      ],
+      [
+        "苦艾酒",
+        "7.5 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1930 年代",
+    "storyTitle": "记住缅因号的起源故事",
+    "story": [
+      [
+        "起源",
+        "记住缅因号因查尔斯·贝克 1930 年代的旅行饮酒记录而知名。名字指向美西战争前的历史口号，配方则像曼哈顿加入樱桃与苦艾酒的变体。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，记住缅因号被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "甜味美思",
+      "白兰地",
+      "苦艾酒"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "435da6"
+    },
+    "nameEn": "Remember the Maine",
+    "nameZh": "记住缅因号",
+    "liqueurTypes": [
+      "甜味美思",
+      "苦艾酒"
+    ],
+    "image": "./assets/cocktails/remember-the-maine.png"
+  },
+  {
+    "id": "russian-spring-punch",
+    "name": "俄罗斯春日潘趣 Russian Spring Punch",
+    "subtitle": "伏特加 / 新鲜柠檬汁 / 黑加仑利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "气泡"
+    ],
+    "taste": "以伏特加为主要学习线索，酸度明亮，甜感柔和，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伏特加",
+        "25 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "25 毫升"
+      ],
+      [
+        "黑加仑利口酒",
+        "15 毫升"
+      ],
+      [
+        "糖浆",
+        "10 毫升"
+      ],
+      [
+        "起泡酒",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1980 年代",
+    "storyTitle": "俄罗斯春日潘趣的起源故事",
+    "story": [
+      [
+        "起源",
+        "俄罗斯春日潘趣由伦敦调酒师迪克·布拉德塞尔创造。伏特加、柠檬、黑加仑和起泡酒让它在派对场景中轻盈又有层次。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，俄罗斯春日潘趣体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "柠檬汁",
+      "黑加仑利口酒",
+      "糖/糖浆",
+      "起泡酒"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "flute",
+      "accent": "4eb8bf"
+    },
+    "nameEn": "Russian Spring Punch",
+    "nameZh": "俄罗斯春日潘趣",
+    "liqueurTypes": [
+      "黑加仑利口酒",
+      "起泡酒"
+    ],
+    "image": "./assets/cocktails/russian-spring-punch.png"
+  },
+  {
+    "id": "rusty-nail",
+    "name": "锈钉 Rusty Nail",
+    "subtitle": "威士忌 / 杜林标利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/rusty-nail/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "草本"
+    ],
+    "taste": "以威士忌为主要学习线索，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "苏格兰威士忌",
+        "45 毫升"
+      ],
+      [
+        "杜林标利口酒",
+        "25 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "20 世纪中期",
+    "storyTitle": "锈钉的起源故事",
+    "story": [
+      [
+        "起源",
+        "锈钉在 20 世纪中期美国酒吧流行，苏格兰威士忌与杜林标利口酒构成核心。它是少数只靠两种酒就能形成鲜明餐后风格的经典。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，锈钉被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "杜林标利口酒"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "d378e4"
+    },
+    "nameEn": "Rusty Nail",
+    "nameZh": "锈钉",
+    "liqueurTypes": [
+      "杜林标利口酒"
+    ],
+    "image": "./assets/cocktails/rusty-nail.png"
+  },
+  {
+    "id": "sazerac",
+    "name": "萨泽拉克 Sazerac",
+    "subtitle": "白兰地 / 苦艾酒 / 方糖",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/sazerac/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以白兰地为主要学习线索，甜感柔和，有清晰苦味层次，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "干邑",
+        "50 毫升"
+      ],
+      [
+        "苦艾酒",
+        "10 毫升"
+      ],
+      [
+        "方糖",
+        "适量"
+      ],
+      [
+        "佩肖德苦精",
+        "2 滴"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪",
+    "storyTitle": "萨泽拉克的起源故事",
+    "story": [
+      [
+        "起源",
+        "萨泽拉克诞生于新奥尔良，是美国最具地方身份的威士忌鸡尾酒之一。苦艾酒洗杯、佩肖德苦精和糖让它拥有非常清晰的仪式感。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，萨泽拉克被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "苦艾酒",
+      "糖/糖浆",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "9d2574"
+    },
+    "nameEn": "Sazerac",
+    "nameZh": "萨泽拉克",
+    "liqueurTypes": [
+      "苦艾酒"
+    ],
+    "image": "./assets/cocktails/sazerac.png"
+  },
+  {
+    "id": "sea-breeze",
+    "name": "海风 Sea Breeze",
+    "subtitle": "伏特加 / 蔓越莓汁 / 西柚汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/sea-breeze/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "果香"
+    ],
+    "taste": "以伏特加为主要学习线索，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伏特加",
+        "40 毫升"
+      ],
+      [
+        "蔓越莓汁",
+        "120 毫升"
+      ],
+      [
+        "西柚汁",
+        "30 毫升"
+      ]
+    ],
+    "method": [
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "20 世纪后期",
+    "storyTitle": "海风的起源故事",
+    "story": [
+      [
+        "起源",
+        "海风的现代版本在 20 世纪后期蔓越莓汁流行后成形。伏特加、蔓越莓和葡萄柚让它成为轻爽海岸感长饮。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，海风依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "果汁/果泥"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "3716d4"
+    },
+    "nameEn": "Sea Breeze",
+    "nameZh": "海风",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/sea-breeze.png"
+  },
+  {
+    "id": "sex-on-the-beach",
+    "name": "海滩之恋 Sex on the Beach",
+    "subtitle": "伏特加 / 蜜桃利口酒 / 新鲜橙汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/sex-on-the-beach/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "果香"
+    ],
+    "taste": "以伏特加为主要学习线索，甜感柔和，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伏特加",
+        "40 毫升"
+      ],
+      [
+        "蜜桃利口酒",
+        "20 毫升"
+      ],
+      [
+        "新鲜橙汁",
+        "40 毫升"
+      ],
+      [
+        "蔓越莓汁",
+        "40 毫升"
+      ]
+    ],
+    "method": [
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "1980 年代",
+    "storyTitle": "海滩之恋的起源故事",
+    "story": [
+      [
+        "起源",
+        "海滩之恋兴起于 1980 年代美国度假酒吧与派对文化。伏特加、蜜桃利口酒和果汁带来直白甜美的热带风格。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，海滩之恋依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "蜜桃利口酒",
+      "果汁/果泥"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "ce67cb"
+    },
+    "nameEn": "Sex on the Beach",
+    "nameZh": "海滩之恋",
+    "liqueurTypes": [
+      "蜜桃利口酒"
+    ],
+    "image": "./assets/cocktails/sex-on-the-beach.png"
+  },
+  {
+    "id": "sherry-cobbler",
+    "name": "雪莉考伯勒 Sherry Cobbler",
+    "subtitle": "雪莉酒 / 糖浆 / 橙子半轮片",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/sherry-cobbler/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "气泡"
+    ],
+    "taste": "以白兰地为主要学习线索，甜感柔和，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "雪莉酒",
+        "45 毫升"
+      ],
+      [
+        "糖浆",
+        "45 毫升"
+      ],
+      [
+        "橙子半轮片",
+        "1/2 片"
+      ],
+      [
+        "柠檬半轮片",
+        "1/2 片"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪",
+    "storyTitle": "雪莉考伯勒的起源故事",
+    "story": [
+      [
+        "起源",
+        "雪莉考伯勒是 19 世纪美国非常流行的考伯勒家族饮品。碎冰、水果和吸管让它成为早期酒吧服务方式改变的重要代表。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，雪莉考伯勒体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "雪莉酒",
+      "糖/糖浆",
+      "橙子半轮片",
+      "柠檬汁"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "coupe",
+      "accent": "482e89"
+    },
+    "nameEn": "Sherry Cobbler",
+    "nameZh": "雪莉考伯勒",
+    "liqueurTypes": [
+      "雪莉酒"
+    ],
+    "image": "./assets/cocktails/sherry-cobbler.png"
+  },
+  {
+    "id": "sidecar",
+    "name": "侧车 Sidecar",
+    "subtitle": "白兰地 / 橙味利口酒 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/sidecar/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽"
+    ],
+    "taste": "以白兰地为主要学习线索，酸度明亮。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "干邑",
+        "50 毫升"
+      ],
+      [
+        "橙味利口酒",
+        "20 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "20 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "一战前后",
+    "storyTitle": "侧车的起源故事",
+    "story": [
+      [
+        "起源",
+        "侧车常被放在一战前后的巴黎或伦敦酒店酒吧背景中讨论。干邑、橙酒和柠檬形成的结构影响了许多后来的酸酒。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，侧车被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "橙味利口酒",
+      "柠檬汁"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "da55f9"
+    },
+    "nameEn": "Sidecar",
+    "nameZh": "侧车",
+    "liqueurTypes": [
+      "橙味利口酒"
+    ],
+    "image": "./assets/cocktails/sidecar.png"
+  },
+  {
+    "id": "singapore-sling",
+    "name": "新加坡司令 Singapore Sling",
+    "subtitle": "金酒 / 桑格莫拉克樱桃利口酒 / 君度橙酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/singapore-sling/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "苦韵",
+      "果香"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，甜感柔和，有清晰苦味层次。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "30 毫升"
+      ],
+      [
+        "桑格莫拉克樱桃利口酒",
+        "15 毫升"
+      ],
+      [
+        "君度橙酒",
+        "7.5 毫升"
+      ],
+      [
+        "本尼迪克汀草本利口酒",
+        "7.5 毫升"
+      ],
+      [
+        "新鲜菠萝汁",
+        "120 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ],
+      [
+        "石榴糖浆",
+        "10 毫升"
+      ],
+      [
+        "安格仕苦精",
+        "1 滴"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1910 年代",
+    "storyTitle": "新加坡司令的起源故事",
+    "story": [
+      [
+        "起源",
+        "新加坡司令由莱佛士酒店的严崇文在 20 世纪初创造的说法最为流行。它从殖民地酒店酒吧走向世界，成为热带长饮的标志。"
+      ],
+      [
+        "近代发展",
+        "近代 Singapore Sling 常被重新校正为更有层次的金酒长饮，而不只是甜红色旅游饮品；酒店酒吧和新加坡城市形象持续强化了它的辨识度。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "桑格莫拉克樱桃利口酒",
+      "君度橙酒",
+      "本尼迪克汀草本利口酒",
+      "果汁/果泥",
+      "青柠",
+      "糖/糖浆",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "rocks",
+      "accent": "3f553e"
+    },
+    "nameEn": "Singapore Sling",
+    "nameZh": "新加坡司令",
+    "liqueurTypes": [
+      "桑格莫拉克樱桃利口酒",
+      "君度橙酒",
+      "本尼迪克汀草本利口酒"
+    ],
+    "image": "./assets/cocktails/singapore-sling.png"
+  },
+  {
+    "id": "south-side",
+    "name": "南区 South Side",
+    "subtitle": "金酒 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/south-side/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "草本",
+      "圆润"
+    ],
+    "taste": "以金酒为主要学习线索，甜感柔和，带草本香气，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "伦敦干金酒",
+        "60 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "30 毫升"
+      ],
+      [
+        "糖浆",
+        "15 毫升"
+      ],
+      [
+        "薄荷叶",
+        "适量"
+      ],
+      [
+        "蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "20 世纪初",
+    "storyTitle": "南区的起源故事",
+    "story": [
+      [
+        "起源",
+        "南区常被追溯到芝加哥或纽约俱乐部酒吧传统，是金酒、柑橘、糖和薄荷的清爽组合。它像没有气泡的莫吉托，也常被视作禁酒令时期的清凉短饮。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，南区体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "柠檬汁",
+      "糖/糖浆",
+      "特色辅料",
+      "乳品/蛋类"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "c06810"
+    },
+    "nameEn": "South Side",
+    "nameZh": "南区",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/south-side.png"
+  },
+  {
+    "id": "spicy-fifty",
+    "name": "辛辣五十 Spicy Fifty",
+    "subtitle": "伏特加 / 接骨木花糖浆 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/spicy-fifty/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜"
+    ],
+    "taste": "以伏特加为主要学习线索，酸度明亮，甜感柔和。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "香草伏特加",
+        "50 毫升"
+      ],
+      [
+        "接骨木花糖浆",
+        "15 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ],
+      [
+        "蜂蜜糖浆",
+        "10 毫升"
+      ],
+      [
+        "红辣椒薄片",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "21 世纪",
+    "storyTitle": "辛辣五十的起源故事",
+    "story": [
+      [
+        "起源",
+        "辛辣五十来自现代酒吧对伏特加、接骨木花和辣椒元素的组合实验。它用蜂蜜和辣椒打破伏特加短饮的平直感，突出甜辣对比。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，辛辣五十体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "伏特加",
+      "糖/糖浆",
+      "青柠",
+      "特色辅料"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "1b914b"
+    },
+    "nameEn": "Spicy Fifty",
+    "nameZh": "辛辣五十",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/spicy-fifty.png"
+  },
+  {
+    "id": "spritz",
+    "name": "斯普瑞兹 Spritz",
+    "subtitle": "普罗塞克 / 阿佩罗苦味利口酒 / 苏打水",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/spritz/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "气泡"
+    ],
+    "taste": "以白兰地为主要学习线索，有清晰苦味层次，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "普罗塞克",
+        "90 毫升"
+      ],
+      [
+        "阿佩罗苦味利口酒",
+        "60 毫升"
+      ],
+      [
+        "苏打水",
+        "少量"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "19-20 世纪",
+    "storyTitle": "斯普瑞兹的起源故事",
+    "story": [
+      [
+        "起源",
+        "斯普瑞兹源自意大利北部和威尼托地区的餐前酒传统。气泡酒、苦味开胃酒和苏打水让它成为低酒精社交饮品的代表。"
+      ],
+      [
+        "近代发展",
+        "近代 Spritz 借由意大利餐前酒文化、低酒精社交和露台饮酒场景快速全球化；它也推动了不同苦味开胃酒、起泡酒和苏打比例的轻饮趋势。"
+      ]
+    ],
+    "inventory": [
+      "普罗塞克",
+      "阿佩罗苦味利口酒",
+      "气泡饮料"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "d7cfc3"
+    },
+    "nameEn": "Spritz",
+    "nameZh": "斯普瑞兹",
+    "liqueurTypes": [
+      "普罗塞克",
+      "阿佩罗苦味利口酒"
+    ],
+    "image": "./assets/cocktails/spritz.png"
+  },
+  {
+    "id": "stinger",
+    "name": "毒刺 Stinger",
+    "subtitle": "白兰地 / 白薄荷利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/stinger/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "经典",
+      "酒感直接"
+    ],
+    "taste": "以白兰地为主要学习线索，结构清楚，酒感直接。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "干邑",
+        "50 毫升"
+      ],
+      [
+        "白薄荷利口酒",
+        "20 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19-20 世纪之交",
+    "storyTitle": "毒刺的起源故事",
+    "story": [
+      [
+        "起源",
+        "毒刺在 19 世纪末到 20 世纪初的美国上流社交场合中流行。白兰地与薄荷利口酒的极简组合，让它成为冷冽餐后酒代表。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，毒刺被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "白薄荷利口酒"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "e60b65"
+    },
+    "nameEn": "Stinger",
+    "nameZh": "毒刺",
+    "liqueurTypes": [
+      "白薄荷利口酒"
+    ],
+    "image": "./assets/cocktails/stinger.png"
+  },
+  {
+    "id": "suffering-bastard",
+    "name": "受苦混蛋 Suffering Bastard",
+    "subtitle": "白兰地 / 金酒 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/suffering-bastard/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "苦韵",
+      "气泡"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮，有清晰苦味层次，入口轻快。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "干邑或白兰地",
+        "30 毫升"
+      ],
+      [
+        "金酒",
+        "30 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ],
+      [
+        "安格仕苦精",
+        "2 滴"
+      ],
+      [
+        "姜汁啤酒",
+        "补满"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1940 年代",
+    "storyTitle": "受苦混蛋的起源故事",
+    "story": [
+      [
+        "起源",
+        "受苦混蛋诞生于开罗谢泼德酒店，常与调酒师乔·西亚洛姆在二战时期为士兵调制的故事相连。干邑、金酒、青柠和姜汁啤酒让它既有力量也足够清爽。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，受苦混蛋体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "白兰地",
+      "金酒",
+      "青柠",
+      "苦精",
+      "气泡饮料"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "highball",
+      "accent": "8701d1"
+    },
+    "nameEn": "Suffering Bastard",
+    "nameZh": "受苦混蛋",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/suffering-bastard.png"
+  },
+  {
+    "id": "tequila-sunrise",
+    "name": "龙舌兰日出 Tequila Sunrise",
+    "subtitle": "龙舌兰 / 新鲜橙汁 / 石榴糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/tequila-sunrise/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "龙舌兰",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "微甜",
+      "果香"
+    ],
+    "taste": "以龙舌兰为主要学习线索，甜感柔和，果香更靠前。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "龙舌兰",
+        "45 毫升"
+      ],
+      [
+        "新鲜橙汁",
+        "90 毫升"
+      ],
+      [
+        "石榴糖浆",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "1970 年代",
+    "storyTitle": "龙舌兰日出的起源故事",
+    "story": [
+      [
+        "起源",
+        "龙舌兰日出的现代版本常追溯到加州索萨利托的三叉戟酒吧。石榴糖浆下沉形成日出色带，使它拥有非常直观的视觉名字。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，龙舌兰日出依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "龙舌兰",
+      "果汁/果泥",
+      "糖/糖浆"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "highball",
+      "accent": "f200c9"
+    },
+    "nameEn": "Tequila Sunrise",
+    "nameZh": "龙舌兰日出",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/tequila-sunrise.png"
+  },
+  {
+    "id": "three-dots-and-a-dash",
+    "name": "三点一线 Three Dots and a Dash",
+    "subtitle": "朗姆 / 法勒南姆利口酒 / 圣伊丽莎白多香果利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/three-dots-and-a-dash/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和，有清晰苦味层次。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "马提尼克农业朗姆",
+        "45 毫升"
+      ],
+      [
+        "调和陈年朗姆",
+        "15 毫升"
+      ],
+      [
+        "法勒南姆利口酒",
+        "7.5 毫升"
+      ],
+      [
+        "圣伊丽莎白多香果利口酒",
+        "7.5 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "15 毫升"
+      ],
+      [
+        "新鲜橙汁",
+        "15 毫升"
+      ],
+      [
+        "蜂蜜糖浆",
+        "15 毫升"
+      ],
+      [
+        "安格仕苦精",
+        "2 滴"
+      ]
+    ],
+    "method": [
+      "最后补入气泡材料，并轻轻提拉融合。"
+    ],
+    "originYear": "1940 年代",
+    "storyTitle": "三点一线的起源故事",
+    "story": [
+      [
+        "起源",
+        "三点一线由唐海滩客创造，名字来自摩尔斯电码中代表胜利的符号。多朗姆、法勒南姆和多香果利口酒让它成为提基经典中辨识度很高的一杯。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，三点一线体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "法勒南姆利口酒",
+      "圣伊丽莎白多香果利口酒",
+      "青柠",
+      "果汁/果泥",
+      "糖/糖浆",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "coupe",
+      "accent": "5f8a53"
+    },
+    "nameEn": "Three Dots and a Dash",
+    "nameZh": "三点一线",
+    "liqueurTypes": [
+      "法勒南姆利口酒",
+      "圣伊丽莎白多香果利口酒"
+    ],
+    "image": "./assets/cocktails/three-dots-and-a-dash.png"
+  },
+  {
+    "id": "tipperary",
+    "name": "蒂珀雷里 Tipperary",
+    "subtitle": "威士忌 / 甜红味美思 / 绿查特酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/tipperary/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以威士忌为主要学习线索，有清晰苦味层次，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "爱尔兰威士忌",
+        "50 毫升"
+      ],
+      [
+        "甜红味美思",
+        "25 毫升"
+      ],
+      [
+        "绿查特酒",
+        "15 毫升"
+      ],
+      [
+        "安格仕苦精",
+        "2 滴"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "一战时期",
+    "storyTitle": "蒂珀雷里的起源故事",
+    "story": [
+      [
+        "起源",
+        "蒂珀雷里与一战时期流行歌曲《到蒂珀雷里的漫长路》相关。爱尔兰威士忌、甜味美思和绿查特酒让它带有鲜明的爱尔兰身份。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，蒂珀雷里体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "甜红味美思",
+      "绿查特酒",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "4a8b9d"
+    },
+    "nameEn": "Tipperary",
+    "nameZh": "蒂珀雷里",
+    "liqueurTypes": [
+      "甜红味美思",
+      "绿查特酒"
+    ],
+    "image": "./assets/cocktails/tipperary.png"
+  },
+  {
+    "id": "tommys-margarita",
+    "name": "汤米玛格丽塔 Tommy’s Margarita",
+    "subtitle": "龙舌兰 / 新鲜青柠汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/tommys-margarita/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "龙舌兰",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽"
+    ],
+    "taste": "以龙舌兰为主要学习线索，酸度明亮。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "100% 龙舌兰",
+        "60 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "30 毫升"
+      ],
+      [
+        "龙舌兰糖浆",
+        "30 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1980-1990 年代",
+    "storyTitle": "汤米玛格丽塔的起源故事",
+    "story": [
+      [
+        "起源",
+        "汤米玛格丽塔由旧金山汤米墨西哥餐厅的胡里奥·贝尔梅霍推广。它舍弃橙酒，用龙舌兰糖浆突出龙舌兰本身。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，汤米玛格丽塔体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "龙舌兰",
+      "青柠"
+    ],
+    "visual": {
+      "color": "#92d0a4",
+      "glass": "rocks",
+      "accent": "7b0b64"
+    },
+    "nameEn": "Tommy’s Margarita",
+    "nameZh": "汤米玛格丽塔",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/tommys-margarita.png"
+  },
+  {
+    "id": "trinidad-sour",
+    "name": "特立尼达酸 Trinidad Sour",
+    "subtitle": "安格仕苦精 / 杏仁糖浆 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/trinidad-sour/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "苦韵"
+    ],
+    "taste": "以威士忌为主要学习线索，酸度明亮，有清晰苦味层次。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "安格仕苦精",
+        "45 毫升"
+      ],
+      [
+        "杏仁糖浆",
+        "30 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "22.5 毫升"
+      ],
+      [
+        "黑麦威士忌",
+        "15 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "2009 年",
+    "storyTitle": "特立尼达酸的起源故事",
+    "story": [
+      [
+        "起源",
+        "特立尼达酸由纽约调酒师朱塞佩·冈萨雷斯推广成名。它大胆把安格仕苦精当作主体用量，成为新派酒吧挑战传统比例的代表。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，特立尼达酸体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "苦精",
+      "糖/糖浆",
+      "柠檬汁",
+      "威士忌"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "coupe",
+      "accent": "b5aff2"
+    },
+    "nameEn": "Trinidad Sour",
+    "nameZh": "特立尼达酸",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/trinidad-sour.png"
+  },
+  {
+    "id": "tuxedo",
+    "name": "燕尾服 Tuxedo",
+    "subtitle": "金酒 / 干味美思 / 路萨朵黑樱桃利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/tuxedo/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "草本"
+    ],
+    "taste": "以金酒为主要学习线索，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "老汤姆金酒",
+        "30 毫升"
+      ],
+      [
+        "干味美思",
+        "30 毫升"
+      ],
+      [
+        "路萨朵黑樱桃利口酒",
+        "1/2 吧匙"
+      ],
+      [
+        "苦艾酒",
+        "1/4 吧匙"
+      ],
+      [
+        "橙味苦精",
+        "3 滴"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪末",
+    "storyTitle": "燕尾服的起源故事",
+    "story": [
+      [
+        "起源",
+        "燕尾服与纽约附近的塔克西多俱乐部社交传统相关，和马天尼家族关系密切。金酒、味美思、樱桃与苦艾酒让它保留了晚装时代的精致感。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，燕尾服被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "干味美思",
+      "路萨朵黑樱桃利口酒",
+      "苦艾酒",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "rocks",
+      "accent": "252e2f"
+    },
+    "nameEn": "Tuxedo",
+    "nameZh": "燕尾服",
+    "liqueurTypes": [
+      "干味美思",
+      "路萨朵黑樱桃利口酒",
+      "苦艾酒"
+    ],
+    "image": "./assets/cocktails/tuxedo.png"
+  },
+  {
+    "id": "ve-n-to",
+    "name": "威尼托 Ve.N.To",
+    "subtitle": "柔和白格拉帕 / 新鲜柠檬汁 / 蜂蜜混合液",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/ve-n-to/",
+    "sourceLabel": "配方来源",
+    "category": "新派经典",
+    "base": "白兰地",
+    "abv": "经典配方",
+    "mood": "新派经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "圆润"
+    ],
+    "taste": "以白兰地为主要学习线索，酸度明亮，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "柔和白格拉帕",
+        "45 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "22.5 毫升"
+      ],
+      [
+        "蜂蜜混合液",
+        "15 毫升"
+      ],
+      [
+        "洋甘菊糖浆",
+        "15 毫升"
+      ],
+      [
+        "蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "21 世纪",
+    "storyTitle": "威尼托的起源故事",
+    "story": [
+      [
+        "起源",
+        "威尼托来自意大利北部饮酒语境，名字直接指向威尼托地区。白兰地、柠檬、蜂蜜和洋甘菊风味让它呈现温柔而明亮的地方感。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，威尼托体现了现代调酒对经典结构的再创作：调酒师会保留它的核心比例，同时用新的利口酒、地域材料或呈现方式扩大风味边界。它的流行也常和社群分享、酒吧榜单以及新派酒吧文化有关。"
+      ]
+    ],
+    "inventory": [
+      "柔和白格拉帕",
+      "柠檬汁",
+      "糖/糖浆",
+      "乳品/蛋类"
+    ],
+    "visual": {
+      "color": "#f2b45c",
+      "glass": "coupe",
+      "accent": "65de40"
+    },
+    "nameEn": "Ve.N.To",
+    "nameZh": "威尼托",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/ve-n-to.png"
+  },
+  {
+    "id": "vesper",
+    "name": "薇丝朋 Vesper",
+    "subtitle": "金酒 / 伏特加 / 利莱白开胃酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/vesper/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "伏特加",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "经典",
+      "酒感直接"
+    ],
+    "taste": "以伏特加为主要学习线索，结构清楚，酒感直接。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "45 毫升"
+      ],
+      [
+        "伏特加",
+        "15 毫升"
+      ],
+      [
+        "利莱白开胃酒",
+        "7.5 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1953 年",
+    "storyTitle": "薇丝朋的起源故事",
+    "story": [
+      [
+        "起源",
+        "薇丝朋出自伊恩·弗莱明小说《皇家赌场》。它因邦德点单而成名，金酒、伏特加和利莱白构成冷冽而戏剧化的形象。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，薇丝朋依靠稳定配方和高辨识度进入更多餐厅、酒店和家庭酒单。它的变化通常围绕材料品牌、甜酸比例、杯型和装饰展开，既保留原始结构，也适应更轻松的现代饮用场景。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "伏特加",
+      "利莱白开胃酒"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "rocks",
+      "accent": "a6610d"
+    },
+    "nameEn": "Vesper",
+    "nameZh": "薇丝朋",
+    "liqueurTypes": [
+      "利莱白开胃酒"
+    ],
+    "image": "./assets/cocktails/vesper.png"
+  },
+  {
+    "id": "vieux-carre",
+    "name": "老广场 Vieux Carré",
+    "subtitle": "威士忌 / 白兰地 / 甜味美思",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/vieux-carre/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以威士忌为主要学习线索，有清晰苦味层次，带草本香气。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "黑麦威士忌",
+        "30 毫升"
+      ],
+      [
+        "干邑",
+        "30 毫升"
+      ],
+      [
+        "甜味美思",
+        "30 毫升"
+      ],
+      [
+        "本尼迪克汀草本利口酒",
+        "1 吧匙"
+      ],
+      [
+        "佩肖德苦精",
+        "2 滴"
+      ]
+    ],
+    "method": [
+      "加冰搅拌，让酒体保持清澈、顺滑并充分降温。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1930 年代",
+    "storyTitle": "老广场的起源故事",
+    "story": [
+      [
+        "起源",
+        "老广场由新奥尔良蒙特莱昂酒店的沃尔特·贝热龙创造。名字指向法语区旧城，也把威士忌、干邑和味美思的混合文化装进一杯酒。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，老广场被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "白兰地",
+      "甜味美思",
+      "本尼迪克汀草本利口酒",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "6fbd07"
+    },
+    "nameEn": "Vieux Carré",
+    "nameZh": "老广场",
+    "liqueurTypes": [
+      "甜味美思",
+      "本尼迪克汀草本利口酒"
+    ],
+    "image": "./assets/cocktails/vieux-carre.png"
+  },
+  {
+    "id": "whiskey-sour",
+    "name": "威士忌酸 Whiskey Sour",
+    "subtitle": "威士忌 / 新鲜柠檬汁 / 糖浆",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/whiskey-sour/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "威士忌",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "圆润"
+    ],
+    "taste": "以威士忌为主要学习线索，酸度明亮，甜感柔和，质地顺滑。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "波本威士忌",
+        "45 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "25 毫升"
+      ],
+      [
+        "糖浆",
+        "20 毫升"
+      ],
+      [
+        "蛋白",
+        "适量"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "最后补入气泡材料，并轻轻提拉融合。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "19 世纪",
+    "storyTitle": "威士忌酸的起源故事",
+    "story": [
+      [
+        "起源",
+        "威士忌酸属于 19 世纪已经成形的酸酒家族。威士忌、柑橘和糖的组合既适合海上补给逻辑，也适合酒吧标准化。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，威士忌酸被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "威士忌",
+      "柠檬汁",
+      "糖/糖浆",
+      "乳品/蛋类"
+    ],
+    "visual": {
+      "color": "#b7773c",
+      "glass": "rocks",
+      "accent": "52e492"
+    },
+    "nameEn": "Whiskey Sour",
+    "nameZh": "威士忌酸",
+    "liqueurTypes": [],
+    "image": "./assets/cocktails/whiskey-sour.png"
+  },
+  {
+    "id": "white-lady",
+    "name": "白佳人 White Lady",
+    "subtitle": "金酒 / 橙味利口酒 / 新鲜柠檬汁",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/white-lady/",
+    "sourceLabel": "配方来源",
+    "category": "经典原型",
+    "base": "金酒",
+    "abv": "经典配方",
+    "mood": "经典原型",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽"
+    ],
+    "taste": "以金酒为主要学习线索，酸度明亮。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "金酒",
+        "40 毫升"
+      ],
+      [
+        "橙味利口酒",
+        "30 毫升"
+      ],
+      [
+        "新鲜柠檬汁",
+        "20 毫升"
+      ]
+    ],
+    "method": [
+      "将主要材料与冰块充分摇和，直到酒体降温并产生合适稀释。",
+      "过滤到预冷杯具或装冰杯中。"
+    ],
+    "originYear": "1910-1920 年代",
+    "storyTitle": "白佳人的起源故事",
+    "story": [
+      [
+        "起源",
+        "白佳人常与哈里·麦克艾尔洪和欧洲酒店酒吧传统联系在一起。金酒、橙酒与柠檬让它成为侧车结构在金酒方向上的优雅版本。"
+      ],
+      [
+        "近代发展",
+        "近代发展中，白佳人被保留下来，主要因为它有清晰的风味记忆点，也容易让不同酒吧在原配方基础上做出可辨认的变化。"
+      ]
+    ],
+    "inventory": [
+      "金酒",
+      "橙味利口酒",
+      "柠檬汁"
+    ],
+    "visual": {
+      "color": "#d9d7bf",
+      "glass": "coupe",
+      "accent": "1bce6b"
+    },
+    "nameEn": "White Lady",
+    "nameZh": "白佳人",
+    "liqueurTypes": [
+      "橙味利口酒"
+    ],
+    "image": "./assets/cocktails/white-lady.png"
+  },
+  {
+    "id": "zombie",
+    "name": "僵尸 Zombie",
+    "subtitle": "朗姆 / 新鲜青柠汁 / 法勒南姆利口酒",
+    "sourceUrl": "https://iba-world.com/iba-cocktail/zombie/",
+    "sourceLabel": "配方来源",
+    "category": "当代经典",
+    "base": "朗姆",
+    "abv": "经典配方",
+    "mood": "当代经典",
+    "difficulty": "标准经典",
+    "tags": [
+      "酸爽",
+      "微甜",
+      "苦韵",
+      "草本"
+    ],
+    "taste": "以朗姆为主要学习线索，酸度明亮，甜感柔和，有清晰苦味层次。适合用来感受这类鸡尾酒的风味平衡。",
+    "recipe": [
+      [
+        "牙买加黑朗姆",
+        "45 毫升"
+      ],
+      [
+        "金色波多黎各朗姆",
+        "45 毫升"
+      ],
+      [
+        "德梅拉拉朗姆",
+        "30 毫升"
+      ],
+      [
+        "新鲜青柠汁",
+        "20 毫升"
+      ],
+      [
+        "法勒南姆利口酒",
+        "15 毫升"
+      ],
+      [
+        "唐氏混合糖浆",
+        "15 毫升"
+      ],
+      [
+        "石榴糖浆",
+        "1 茶匙"
+      ],
+      [
+        "安格仕苦精",
+        "适量"
+      ]
+    ],
+    "method": [
+      "按配方顺序加入材料，重点控制温度、稀释和装饰香气。"
+    ],
+    "originYear": "1934 年",
+    "storyTitle": "僵尸的起源故事",
+    "story": [
+      [
+        "起源",
+        "僵尸由唐海滩客在 1934 年创造，是提基酒吧文化的代表作。多种朗姆和热带香料让它从诞生起就带有强烈的戏剧性。"
+      ],
+      [
+        "近代发展",
+        "Zombie 在近代提基复兴中被重新研究，重点回到多种朗姆、香料糖浆和严格酒精控制；它也提醒酒吧在戏剧化呈现和饮用安全之间保持平衡。"
+      ]
+    ],
+    "inventory": [
+      "朗姆",
+      "青柠",
+      "法勒南姆利口酒",
+      "糖/糖浆",
+      "苦精"
+    ],
+    "visual": {
+      "color": "#d6554b",
+      "glass": "coupe",
+      "accent": "7c3d11"
+    },
+    "nameEn": "Zombie",
+    "nameZh": "僵尸",
+    "liqueurTypes": [
+      "法勒南姆利口酒"
+    ],
+    "image": "./assets/cocktails/zombie.png"
+  }
+]
