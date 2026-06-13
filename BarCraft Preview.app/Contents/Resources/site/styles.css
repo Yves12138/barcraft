@@ -1958,7 +1958,9 @@ textarea {
 .collection-panel.active .base-groups {
   max-height: calc(100vh - 310px);
   overflow: auto;
+  padding-bottom: 108px;
   padding-right: 4px;
+  scroll-padding-bottom: 108px;
 }
 
 .collection-panel.active .card-strip {
@@ -2170,7 +2172,13 @@ textarea {
   }
 
   .workspace {
-    padding: 16px 16px 118px;
+    padding: 16px 16px 136px;
+  }
+
+  .collection-panel.active .base-groups {
+    max-height: calc(100vh - 300px);
+    padding-bottom: calc(112px + env(safe-area-inset-bottom));
+    scroll-padding-bottom: calc(112px + env(safe-area-inset-bottom));
   }
 
   .library-panel,
@@ -2284,6 +2292,11 @@ textarea {
   .home-copy h1 {
     font-size: 32px;
     line-height: 1.12;
+  }
+
+  .title-line h2 {
+    font-size: 30px;
+    line-height: 1.08;
   }
 
   .recommend-kicker {
