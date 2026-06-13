@@ -1,0 +1,44 @@
+#!/bin/zsh
+PORT=8765
+PID_FILE="/tmp/barcraft-preview.pid"
+LOG_FILE="/tmp/barcraft-preview-stop.log"
+STOPPED=0
+
+echo "[$(/bin/date)] Stopping BarCraft Preview" >"${LOG_FILE}"
+
+notify() {
+  /usr/bin/osascript -e "display notification \"$1\" with title \"Stop BarCraft Preview\"" >/dev/null 2>&1 || true
+}
+
+stop_pid() {
+  local TARGET_PID="$1"
+  if [[ -z "${TARGET_PID}" ]]; then
+    return
+  fi
+  if /bin/kill -0 "${TARGET_PID}" >/dev/null 2>&1; then
+    /bin/kill "${TARGET_PID}" >/dev/null 2>&1 || true
+    STOPPED=1
+    echo "Stopped pid ${TARGET_PID}" >>"${LOG_FILE}"
+  fi
+}
+
+if [[ -f "${PID_FILE}" ]]; then
+  stop_pid "$(cat "${PID_FILE}" 2>/dev/null)"
+  /bin/rm -f "${PID_FILE}"
+fi
+
+LISTENER_PIDS="$(/usr/sbin/lsof -tiTCP:${PORT} -sTCP:LISTEN 2>/dev/null || true)"
+if [[ -n "${LISTENER_PIDS}" ]]; then
+  for LISTENER_PID in ${(f)LISTENER_PIDS}; do
+    COMMAND_LINE="$(/bin/ps -p "${LISTENER_PID}" -o command= 2>/dev/null || true)"
+    if [[ "${COMMAND_LINE}" == *"http.server"* ]] || [[ "${COMMAND_LINE}" == *"python"* ]] || [[ -z "${COMMAND_LINE}" ]]; then
+      stop_pid "${LISTENER_PID}"
+    fi
+  done
+fi
+
+if [[ "${STOPPED}" == "1" ]]; then
+  notify "预览服务已关闭"
+else
+  notify "没有发现正在运行的预览服务"
+fi

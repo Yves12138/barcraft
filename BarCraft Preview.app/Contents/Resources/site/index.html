@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BarCraft - 鸡尾酒灵感工作台</title>
+    <link rel="stylesheet" href="./styles.css?v=20260610-mobile-polish" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="主导航">
+        <div class="brand">
+          <span class="brand-mark">B</span>
+          <div>
+            <strong>BarCraft</strong>
+            <span>鸡尾酒灵感工作台</span>
+          </div>
+        </div>
+
+        <nav class="nav-list">
+          <button class="nav-item active" data-section="home">
+            <svg><use href="#icon-home"></use></svg>
+            <span>首页</span>
+          </button>
+          <button class="nav-item" data-section="atlas">
+            <svg><use href="#icon-book"></use></svg>
+            <span>图鉴</span>
+          </button>
+          <button class="nav-item" data-section="story">
+            <svg><use href="#icon-clock"></use></svg>
+            <span>故事</span>
+          </button>
+          <button class="nav-item" data-section="simulator">
+            <svg><use href="#icon-flask"></use></svg>
+            <span>模拟器</span>
+          </button>
+          <button class="nav-item" data-section="inventory">
+            <svg><use href="#icon-bottle"></use></svg>
+            <span>库存</span>
+          </button>
+          <button class="nav-item" data-section="learn">
+            <svg><use href="#icon-route"></use></svg>
+            <span>学习</span>
+          </button>
+          <button class="nav-item" data-section="notes">
+            <svg><use href="#icon-note"></use></svg>
+            <span>笔记</span>
+          </button>
+        </nav>
+
+        <section class="mini-panel">
+          <span class="panel-label">今日练习</span>
+          <strong id="dailyPractice">酸甜平衡</strong>
+          <p>试着把糖浆减少 5 毫升，观察青柠香气和酒体变化。</p>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div class="search-wrap">
+            <svg><use href="#icon-search"></use></svg>
+            <input id="searchInput" type="search" placeholder="搜索鸡尾酒、材料或故事" />
+          </div>
+          <nav class="top-view-nav" aria-label="顶部导航">
+            <button class="top-nav-button active" data-view="home">首页</button>
+            <button class="top-nav-button" data-view="atlas">图鉴</button>
+            <button class="top-nav-button" data-view="collection">酒单</button>
+            <button class="top-nav-button" data-view="story">故事</button>
+            <button class="top-nav-button" data-view="simulator">模拟</button>
+            <button class="top-nav-button" data-view="inventory">库存</button>
+            <button class="top-nav-button" data-view="learn">学习</button>
+            <button class="top-nav-button" data-view="notes">笔记</button>
+          </nav>
+        </header>
+
+        <section class="hero-grid">
+          <section class="panel home-panel view-panel active" id="home" data-view-panel="home">
+            <div class="home-layout">
+              <div class="home-copy">
+                <span class="panel-label">今日推荐</span>
+                <h1 id="homeHeadline">此刻适合这一杯</h1>
+                <p id="homeReason">正在根据时间和天气计算推荐。</p>
+                <div class="home-pick-preview">
+                  <img id="homePickThumb" src="./assets/cocktails/daiquiri.png" alt="今日推荐鸡尾酒缩略图" />
+                  <div>
+                    <span>推荐酒款</span>
+                    <strong id="homePickName">戴基里 Daiquiri</strong>
+                  </div>
+                </div>
+                <div class="home-inventory-card" id="homeInventoryCard"></div>
+                <div class="home-lesson-card" id="homeLessonCard"></div>
+                <div class="home-note-card" id="homeRecentNoteCard"></div>
+                <div class="home-signals">
+                  <span id="homeTimeLabel">读取时间中</span>
+                  <span id="homeWeatherLabel">读取天气中</span>
+                  <button class="small-button neutral" id="refreshHomeButton" type="button">重新推荐</button>
+                </div>
+                <div class="weather-switch" id="manualWeatherRow" aria-label="手动选择天气">
+                  <button type="button" data-weather="clear">晴朗</button>
+                  <button type="button" data-weather="hot">炎热</button>
+                  <button type="button" data-weather="rain">下雨</button>
+                  <button type="button" data-weather="cold">寒冷</button>
+                  <button type="button" data-weather="cloudy">阴天</button>
+                </div>
+                <button class="primary-button home-action" id="homeOpenDrink" type="button">
+                  <svg><use href="#icon-book"></use></svg>
+                  查看完整配方
+                </button>
+              </div>
+              <div class="home-drink-card">
+                <img id="homeDrinkImage" src="./assets/cocktails/daiquiri.png" alt="今日推荐鸡尾酒成品图" />
+                <div class="home-drink-info">
+                  <span id="homeDrinkMeta">朗姆 / 清爽</span>
+                  <h2 id="homeDrinkName">戴基里 Daiquiri</h2>
+                  <p id="homeDrinkTaste">酸度明亮，甜感柔和。</p>
+                  <div class="tag-row" id="homeDrinkChips"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="library-panel panel view-panel" id="atlas" data-view-panel="atlas">
+            <div class="section-head">
+              <div>
+                <span class="panel-label">经典图鉴</span>
+                <h1>从配方、风味到故事，一屏掌握</h1>
+              </div>
+              <button class="icon-button" id="favoriteButton" aria-label="收藏当前鸡尾酒" title="收藏当前鸡尾酒">
+                <svg><use href="#icon-heart"></use></svg>
+              </button>
+            </div>
+
+            <div class="drink-layout">
+              <div class="drink-photo-wrap">
+                <img id="drinkImage" src="./assets/cocktails/daiquiri.png" alt="戴基里成品图" />
+                <div class="photo-caption">
+                  <span id="drinkAbv">约 20% ABV</span>
+                  <strong id="drinkMood">清爽餐前</strong>
+                </div>
+              </div>
+
+              <article class="drink-detail">
+                <div class="title-line">
+                  <div>
+                    <h2 id="drinkName">戴基里 Daiquiri</h2>
+                    <p id="drinkSubtitle">朗姆 / 青柠 / 糖/糖浆</p>
+                  </div>
+                  <span id="difficulty" class="status-chip">新手友好</span>
+                </div>
+                <p id="drinkTaste" class="taste-copy">以朗姆为主要学习线索，酸度明亮，甜感柔和。适合用来练习比例、温度和稀释控制。</p>
+                <div class="today-fit-card" id="todayFitCard"></div>
+                <div class="inventory-status-card" id="inventoryStatusCard"></div>
+                <div class="tag-row" id="tagRow"></div>
+                <div class="build-specs" id="buildSpecs"></div>
+                <div class="serving-control" aria-label="杯数换算">
+                  <span>杯数</span>
+                  <div id="servingControl">
+                    <button class="active" type="button" data-servings="1">1 杯</button>
+                    <button type="button" data-servings="2">2 杯</button>
+                    <button type="button" data-servings="4">4 杯</button>
+                  </div>
+                </div>
+                <div class="recipe-grid" id="recipeGrid"></div>
+                <div class="substitution-card" id="substitutionCard"></div>
+                <div class="drink-notes-card" id="drinkNotesCard"></div>
+                <div class="practice-card" id="practiceCard">
+                  <span class="panel-label">练习重点</span>
+                  <strong id="practiceTitle">酸甜平衡</strong>
+                  <p id="practiceCopy">观察酸、甜、酒体和稀释之间的关系。</p>
+                  <div class="practice-steps" id="practiceSteps"></div>
+                </div>
+                <ol class="method-list" id="methodList"></ol>
+              </article>
+            </div>
+          </div>
+
+          <aside class="right-rail">
+            <section class="panel story-panel view-panel" id="story" data-view-panel="story">
+              <div class="section-head compact">
+                <div>
+                  <span class="panel-label">故事馆</span>
+                  <h2 id="storyTitle">戴基里的风格故事</h2>
+                </div>
+                <span id="originYear" class="year-mark">1898</span>
+              </div>
+              <div class="story-deep-dive" id="storyDeepDive"></div>
+              <div class="story-related" id="storyRelated"></div>
+            </section>
+
+            <section class="panel simulator-panel view-panel" id="simulator" data-view-panel="simulator">
+              <div class="section-head compact">
+                <div>
+                  <span class="panel-label">原创模拟器</span>
+                  <h2>生成原创配方</h2>
+                </div>
+                <button class="icon-button warm" id="generateButton" aria-label="生成原创配方" title="生成原创配方">
+                  <svg><use href="#icon-spark"></use></svg>
+                </button>
+              </div>
+              <div class="simulator-grid">
+                <div class="control-stack">
+                  <label>
+                    <span>基酒</span>
+                    <select id="baseSelect">
+                      <option>朗姆</option>
+                      <option>威士忌</option>
+                      <option>伏特加</option>
+                      <option>金酒</option>
+                      <option>龙舌兰</option>
+                      <option>白兰地</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>风味方向</span>
+                    <select id="flavorSelect">
+                      <option>清爽草本</option>
+                      <option>热带果香</option>
+                      <option>烟熏浓郁</option>
+                      <option>苦甜餐前</option>
+                      <option>奶油甜点感</option>
+                    </select>
+                  </label>
+                  <label>
+                    <span>甜度 <strong id="sweetValue">45</strong></span>
+                    <input id="sweetRange" type="range" min="0" max="100" value="45" />
+                  </label>
+                  <label>
+                    <span>酸度 <strong id="acidValue">58</strong></span>
+                    <input id="acidRange" type="range" min="0" max="100" value="58" />
+                  </label>
+                  <label class="toggle-row">
+                    <input id="useInventoryToggle" type="checkbox" checked />
+                    <span>优先使用家中已有材料</span>
+                  </label>
+                  <div class="simulator-inventory">
+                    <div class="simulator-inventory-head">
+                      <span>勾选家中已有材料</span>
+                      <strong id="simulatorInventoryCount">0 项</strong>
+                    </div>
+                    <div class="quick-inventory-grid" id="simulatorInventoryGrid"></div>
+                  </div>
+                </div>
+                <div class="simulator-output">
+                  <div class="generated-card" id="generatedCard"></div>
+                  <div class="creation-list-wrap">
+                    <div class="section-head compact mini-head">
+                      <div>
+                        <span class="panel-label">我的原创</span>
+                        <h3>已保存配方</h3>
+                      </div>
+                    </div>
+                    <div class="creation-list" id="creationList"></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </aside>
+        </section>
+
+        <section class="lower-grid">
+          <section class="panel collection-panel view-panel" id="collection" data-view-panel="collection">
+            <div class="section-head compact">
+              <div>
+                <span class="panel-label">酒单</span>
+                <h2>经典鸡尾酒全集</h2>
+              </div>
+              <span id="resultCount" class="count-label">102 款</span>
+            </div>
+            <div class="filter-row collection-filter-row" id="filterRow" aria-label="酒单基酒筛选">
+              <button class="filter active" data-filter="all">全部</button>
+              <button class="filter" data-filter="朗姆">朗姆</button>
+              <button class="filter" data-filter="威士忌">威士忌</button>
+              <button class="filter" data-filter="伏特加">伏特加</button>
+              <button class="filter" data-filter="金酒">金酒</button>
+              <button class="filter" data-filter="白兰地">白兰地</button>
+              <button class="filter" data-filter="龙舌兰">龙舌兰</button>
+            </div>
+            <div class="base-groups" id="drinkCards"></div>
+          </section>
+
+          <section class="panel inventory-panel view-panel" id="inventory" data-view-panel="inventory">
+            <div class="section-head compact">
+              <div>
+                <span class="panel-label">家中已有材料</span>
+                <h2>现在能做什么</h2>
+              </div>
+            </div>
+            <div class="inventory-grid" id="inventoryGrid"></div>
+            <div class="match-list" id="matchList"></div>
+          </section>
+
+          <section class="panel learning-panel view-panel" id="learn" data-view-panel="learn">
+            <div class="section-head compact">
+              <div>
+                <span class="panel-label">新手路径</span>
+                <h2>7 天入门</h2>
+              </div>
+              <span class="progress-pill"><strong id="lessonDone">3</strong>/7</span>
+            </div>
+            <div class="lesson-workspace">
+              <div class="lesson-list" id="lessonList"></div>
+              <article class="lesson-detail" id="lessonDetail"></article>
+            </div>
+          </section>
+
+          <section class="panel notes-panel view-panel" id="notes" data-view-panel="notes">
+            <div class="section-head compact">
+              <div>
+                <span class="panel-label">我的品鉴笔记</span>
+                <h2>记录微调结果</h2>
+              </div>
+            </div>
+            <div class="note-form-grid">
+              <label>
+                <span>关联鸡尾酒</span>
+                <select id="noteDrinkSelect"></select>
+              </label>
+              <label>
+                <span>关联课程</span>
+                <select id="noteLessonSelect"></select>
+              </label>
+            </div>
+            <input class="note-adjustment" id="noteAdjustmentInput" type="text" placeholder="本次调整，例如：糖浆 -5ml / 摇和 12 秒" />
+            <div class="note-rating-grid" aria-label="评分维度">
+              <label><span>酸度 <strong id="noteAcidValue">3</strong></span><input id="noteAcidRange" type="range" min="1" max="5" value="3" /></label>
+              <label><span>甜度 <strong id="noteSweetValue">3</strong></span><input id="noteSweetRange" type="range" min="1" max="5" value="3" /></label>
+              <label><span>酒体 <strong id="noteBodyValue">3</strong></span><input id="noteBodyRange" type="range" min="1" max="5" value="3" /></label>
+              <label><span>香气 <strong id="noteAromaValue">3</strong></span><input id="noteAromaRange" type="range" min="1" max="5" value="3" /></label>
+              <label><span>平衡 <strong id="noteBalanceValue">3</strong></span><input id="noteBalanceRange" type="range" min="1" max="5" value="3" /></label>
+            </div>
+            <textarea id="noteInput" placeholder="例如：下次戴基里细砂糖少半勺，青柠可以更新鲜。"></textarea>
+            <button class="primary-button" id="saveNoteButton">
+              <svg><use href="#icon-save"></use></svg>
+              保存笔记
+            </button>
+            <input class="note-search" id="noteSearchInput" type="search" placeholder="搜索酒名、课程或笔记" />
+            <div class="note-list" id="noteList"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <footer class="bottom-console" aria-label="底部控制台">
+      <div class="console-status">
+        <span class="brand-mark">B</span>
+        <div>
+          <strong id="consoleDrinkName">戴基里 Daiquiri</strong>
+          <span id="consoleViewLabel">首页</span>
+        </div>
+      </div>
+      <nav class="console-nav" aria-label="视图切换">
+        <button class="console-tab active" data-view="home">
+          <svg><use href="#icon-home"></use></svg>
+          <span>首页</span>
+        </button>
+        <button class="console-tab" data-view="atlas">
+          <svg><use href="#icon-book"></use></svg>
+          <span>图鉴</span>
+        </button>
+        <button class="console-tab" data-view="collection">
+          <svg><use href="#icon-search"></use></svg>
+          <span>酒单</span>
+        </button>
+        <button class="console-tab" data-view="story">
+          <svg><use href="#icon-clock"></use></svg>
+          <span>故事</span>
+        </button>
+        <button class="console-tab" data-view="simulator">
+          <svg><use href="#icon-flask"></use></svg>
+          <span>模拟</span>
+        </button>
+        <button class="console-tab" data-view="inventory">
+          <svg><use href="#icon-bottle"></use></svg>
+          <span>库存</span>
+        </button>
+        <button class="console-tab" data-view="learn">
+          <svg><use href="#icon-route"></use></svg>
+          <span>学习</span>
+        </button>
+        <button class="console-tab" data-view="notes">
+          <svg><use href="#icon-note"></use></svg>
+          <span>笔记</span>
+        </button>
+      </nav>
+      <div class="console-hint">
+        <span id="consoleResultCount">102 款</span>
+        <strong id="consoleMode">浏览模式</strong>
+      </div>
+    </footer>
+
+    <svg class="icon-sprite" aria-hidden="true">
+      <symbol id="icon-home" viewBox="0 0 24 24"><path d="M3 11.5 12 3l9 8.5"/><path d="M5 10.5V21h14V10.5"/><path d="M9 21v-6h6v6"/></symbol>
+      <symbol id="icon-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H7a3 3 0 0 0-3 3V5.5Z"/><path d="M4 5.5V22"/><path d="M8 7h8"/></symbol>
+      <symbol id="icon-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+      <symbol id="icon-flask" viewBox="0 0 24 24"><path d="M9 3h6"/><path d="M10 3v6l-5 8.5A3 3 0 0 0 7.6 22h8.8a3 3 0 0 0 2.6-4.5L14 9V3"/><path d="M7.5 16h9"/></symbol>
+      <symbol id="icon-bottle" viewBox="0 0 24 24"><path d="M10 2h4v5l2 2v12a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V9l2-2V2Z"/><path d="M9 14h6"/></symbol>
+      <symbol id="icon-route" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2"/><circle cx="18" cy="18" r="2"/><path d="M8 6h4a4 4 0 0 1 0 8H9a3 3 0 0 0 0 6h5"/></symbol>
+      <symbol id="icon-note" viewBox="0 0 24 24"><path d="M6 3h9l3 3v18H6z"/><path d="M15 3v6h6"/><path d="M9 13h6"/><path d="M9 17h5"/></symbol>
+      <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></symbol>
+      <symbol id="icon-heart" viewBox="0 0 24 24"><path d="M20.8 5.6a5 5 0 0 0-7.1 0L12 7.3l-1.7-1.7a5 5 0 1 0-7.1 7.1L12 21l8.8-8.3a5 5 0 0 0 0-7.1Z"/></symbol>
+      <symbol id="icon-spark" viewBox="0 0 24 24"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8L12 2Z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15Z"/></symbol>
+      <symbol id="icon-save" viewBox="0 0 24 24"><path d="M5 3h14l2 2v16H3V5l2-2Z"/><path d="M7 3v6h10V3"/><path d="M7 21v-7h10v7"/></symbol>
+    </svg>
+
+  <script src="./iba-data.js?v=20260610-mobile-polish"></script>
+  <script src="./app.js?v=20260610-mobile-polish"></script>
+  </body>
+</html>

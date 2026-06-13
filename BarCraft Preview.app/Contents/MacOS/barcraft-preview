@@ -1,0 +1,76 @@
+#!/bin/zsh
+APP_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+PREVIEW_DIR="${APP_ROOT}/Resources/site"
+SITE_DIR="/tmp/barcraft-preview-site"
+PORT=8765
+URL="http://127.0.0.1:${PORT}/index.html"
+PID_FILE="/tmp/barcraft-preview.pid"
+LOG_FILE="/tmp/barcraft-preview.log"
+
+echo "[$(/bin/date)] Starting BarCraft Preview" >"${LOG_FILE}"
+echo "PREVIEW_DIR=${PREVIEW_DIR}" >>"${LOG_FILE}"
+echo "SITE_DIR=${SITE_DIR}" >>"${LOG_FILE}"
+
+notify() {
+  /usr/bin/osascript -e "display notification \"$1\" with title \"BarCraft Preview\"" >/dev/null 2>&1 || true
+}
+
+is_preview_alive() {
+  /usr/bin/curl --silent --fail --max-time 1 "${URL}" >/dev/null 2>&1
+}
+
+if is_preview_alive; then
+  notify "预览服务已在运行：${URL}"
+  exit 0
+fi
+
+if [[ -f "${PID_FILE}" ]]; then
+  OLD_PID="$(cat "${PID_FILE}" 2>/dev/null)"
+  if [[ -n "${OLD_PID}" ]] && /bin/kill -0 "${OLD_PID}" >/dev/null 2>&1; then
+    /bin/kill "${OLD_PID}" >/dev/null 2>&1 || true
+  fi
+  /bin/rm -f "${PID_FILE}"
+fi
+
+LISTENER_PIDS="$(/usr/sbin/lsof -tiTCP:${PORT} -sTCP:LISTEN 2>/dev/null || true)"
+if [[ -n "${LISTENER_PIDS}" ]]; then
+  for LISTENER_PID in ${(f)LISTENER_PIDS}; do
+    COMMAND_LINE="$(/bin/ps -p "${LISTENER_PID}" -o command= 2>/dev/null || true)"
+    if [[ "${COMMAND_LINE}" == *"http.server"* ]]; then
+      /bin/kill "${LISTENER_PID}" >/dev/null 2>&1 || true
+    fi
+  done
+  /bin/sleep 0.5
+fi
+
+if [[ ! -f "${PREVIEW_DIR}/index.html" ]]; then
+  echo "Missing source index: ${PREVIEW_DIR}/index.html" >>"${LOG_FILE}"
+  notify "找不到预览文件，请检查 outputs/barcraft-app"
+  exit 1
+fi
+
+/bin/rm -rf "${SITE_DIR}"
+/bin/mkdir -p "${SITE_DIR}"
+/usr/bin/ditto "${PREVIEW_DIR}" "${SITE_DIR}" >>"${LOG_FILE}" 2>&1
+if [[ ! -f "${SITE_DIR}/index.html" ]]; then
+  echo "Missing copied index: ${SITE_DIR}/index.html" >>"${LOG_FILE}"
+  notify "无法复制预览文件到 ${SITE_DIR}"
+  exit 1
+fi
+echo "Copied preview files" >>"${LOG_FILE}"
+
+cd /tmp || exit 1
+/usr/bin/nohup /usr/bin/python3 -m http.server "${PORT}" --bind 127.0.0.1 --directory "${SITE_DIR}" >>"${LOG_FILE}" 2>&1 &
+SERVER_PID=$!
+echo "${SERVER_PID}" >"${PID_FILE}"
+
+for attempt in {1..20}; do
+  if is_preview_alive; then
+    notify "预览服务已启动：${URL}"
+    exit 0
+  fi
+  /bin/sleep 0.2
+done
+
+notify "预览服务启动失败，日志在 ${LOG_FILE}"
+exit 1
