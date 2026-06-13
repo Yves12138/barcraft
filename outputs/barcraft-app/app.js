@@ -61,7 +61,7 @@ const baseAliases = {
 };
 const liqueurCategoryNames = {
   君度橙酒: "橙味利口酒",
-  金万利橙酒: "橙味利口酒",
+  柑曼怡橙酒: "橙味利口酒",
   库拉索橙酒: "橙味利口酒",
   橙味库拉索: "橙味利口酒",
   金巴利: "苦味利口酒",
@@ -129,7 +129,6 @@ const inventoryCanonicalNames = {
   甜味美思: "味美思",
   甜红味美思: "味美思",
   利莱白开胃酒: "味美思",
-  柔和白格拉帕: "白兰地",
   安格仕苦精: "苦精",
   佩肖德苦精: "苦精",
   芳香苦精: "苦精",
@@ -921,7 +920,7 @@ function scaleRecipeValue(value, servings) {
 
 function substitutionFor(label) {
   const rules = [
-    [/君度|金万利|库拉索|橙味利口酒|橙酒/, "可用同类橙味利口酒替代；甜度不同就微调糖浆。"],
+    [/君度|柑曼怡|库拉索|橙味利口酒|橙酒/, "可用同类橙味利口酒替代；甜度不同就微调糖浆。"],
     [/金巴利|阿佩罗|苦味利口酒/, "可用同类苦味利口酒替代；金巴利更苦，阿佩罗更轻甜。"],
     [/味美思/, "可换同色味美思；开瓶超过一个月时风味会明显下降。"],
     [/青柠|柠檬/, "柑橘可互换试做，但酸香不同，先少量调整糖。"],
@@ -1101,6 +1100,30 @@ function renderCards() {
   elements.resultCount.textContent = `${results.length} 款`;
   elements.consoleResultCount.textContent = `${results.length} 款`;
   const query = state.query.trim().toLowerCase();
+  if (state.filter === "all") {
+    const groups = alphabetGroups(results);
+    if (!groups.length) {
+      elements.drinkCards.innerHTML = `<div class="empty-list">没有找到匹配的鸡尾酒。</div>`;
+      return;
+    }
+    elements.drinkCards.innerHTML = groups
+      .map(
+        ({ letter, groupDrinks }) => `
+          <section class="base-group">
+            <div class="base-group-head">
+              <h3>${escapeHtml(letter)}</h3>
+              <span>${groupDrinks.length} 款</span>
+            </div>
+            <div class="card-strip base-card-strip">
+              ${groupDrinks.map(drinkCardMarkup).join("")}
+            </div>
+          </section>
+        `
+      )
+      .join("");
+    return;
+  }
+
   const visibleBases = state.filter === "all" ? baseInventoryItems : baseInventoryItems.filter((base) => base === state.filter);
   const groups = visibleBases
     .map((base) => {
@@ -1129,6 +1152,18 @@ function renderCards() {
       `
     )
     .join("");
+}
+
+function alphabetGroups(list) {
+  const sorted = [...list].sort((a, b) => (a.nameEn || a.name).localeCompare(b.nameEn || b.name, "en", { sensitivity: "base" }));
+  return sorted.reduce((groups, drink) => {
+    const first = (drink.nameEn || drink.name || "#").trim().charAt(0).toUpperCase();
+    const letter = /[A-Z]/.test(first) ? first : "#";
+    const group = groups.find((item) => item.letter === letter);
+    if (group) group.groupDrinks.push(drink);
+    else groups.push({ letter, groupDrinks: [drink] });
+    return groups;
+  }, []);
 }
 
 function inventoryItemMarkup(item, className = "inventory-item") {

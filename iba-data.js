@@ -192,7 +192,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "aviation",
-    "name": "航空 Aviation",
+    "name": "飞行 Aviation",
     "subtitle": "金酒 / 路萨朵黑樱桃利口酒 / 新鲜柠檬汁",
     "sourceUrl": "https://iba-world.com/iba-cocktail/aviation/",
     "sourceLabel": "配方来源",
@@ -228,7 +228,7 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1916",
-    "storyTitle": "航空的起源故事",
+    "storyTitle": "飞行的起源故事",
     "story": [
       [
         "起源",
@@ -251,7 +251,7 @@ window.IBA_DRINKS = [
       "accent": "252ddb"
     },
     "nameEn": "Aviation",
-    "nameZh": "航空",
+    "nameZh": "飞行",
     "liqueurTypes": [
       "路萨朵黑樱桃利口酒",
       "紫罗兰利口酒"
@@ -260,7 +260,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "bees-knees",
-    "name": "蜜蜂膝盖 Bee’s Knees",
+    "name": "蜂之膝 Bee’s Knees",
     "subtitle": "金酒 / 蜂蜜糖浆 / 新鲜柠檬汁",
     "sourceUrl": "https://iba-world.com/iba-cocktail/bees-knees/",
     "sourceLabel": "配方来源",
@@ -298,7 +298,7 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1920s",
-    "storyTitle": "蜜蜂膝盖的起源故事",
+    "storyTitle": "蜂之膝的起源故事",
     "story": [
       [
         "起源",
@@ -321,7 +321,7 @@ window.IBA_DRINKS = [
       "accent": "178d0c"
     },
     "nameEn": "Bee’s Knees",
-    "nameZh": "蜜蜂膝盖",
+    "nameZh": "蜂之膝",
     "liqueurTypes": [],
     "image": "./assets/cocktails/bees-knees.png"
   },
@@ -580,7 +580,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "boulevardier",
-    "name": "林荫大道 Boulevardier",
+    "name": "花花公子 Boulevardier",
     "subtitle": "威士忌 / 金巴利苦味利口酒 / 甜红味美思",
     "sourceUrl": "https://iba-world.com/iba-cocktail/boulevardier/",
     "sourceLabel": "配方来源",
@@ -613,7 +613,7 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1927",
-    "storyTitle": "林荫大道的起源故事",
+    "storyTitle": "花花公子的起源故事",
     "story": [
       [
         "起源",
@@ -635,7 +635,7 @@ window.IBA_DRINKS = [
       "accent": "1eb729"
     },
     "nameEn": "Boulevardier",
-    "nameZh": "林荫大道",
+    "nameZh": "花花公子",
     "liqueurTypes": [
       "金巴利苦味利口酒",
       "甜红味美思"
@@ -713,7 +713,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "brandy-crusta",
-    "name": "白兰地克拉斯塔 Brandy Crusta",
+    "name": "白兰地库斯塔 Brandy Crusta",
     "subtitle": "白兰地 / 路萨朵黑樱桃利口酒 / 库拉索橙酒",
     "sourceUrl": "https://iba-world.com/iba-cocktail/brandy-crusta/",
     "sourceLabel": "配方来源",
@@ -758,15 +758,15 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1850s-1862",
-    "storyTitle": "白兰地克拉斯塔的起源故事",
+    "storyTitle": "白兰地库斯塔的起源故事",
     "story": [
       [
         "起源",
-        "白兰地克拉斯塔通常归功于新奥尔良调酒师 Joseph Santini，时间大约在 1850 年代。他在 Jewel of the South 或相关酒吧语境中，把白兰地、柠檬、糖、苦精和橙味利口酒组合，并用糖霜杯口和长柠檬皮做出华丽呈现。Jerry Thomas 1862 年《How to Mix Drinks》记录了 Crusta，使它成为从早期鸡尾酒走向边车等酸酒的重要桥梁。所谓 crusta，正来自杯口那圈糖壳，而不是单纯装饰名称。"
+        "白兰地库斯塔通常归功于新奥尔良调酒师 Joseph Santini，时间大约在 1850 年代。他在 Jewel of the South 或相关酒吧语境中，把白兰地、柠檬、糖、苦精和橙味利口酒组合，并用糖霜杯口和长柠檬皮做出华丽呈现。Jerry Thomas 1862 年《How to Mix Drinks》记录了 Crusta，使它成为从早期鸡尾酒走向边车等酸酒的重要桥梁。所谓 crusta，正来自杯口那圈糖壳，而不是单纯装饰名称。"
       ],
       [
         "近代发展",
-        "白兰地克拉斯塔的制作比普通酸酒更讲究杯口、柠檬皮和甜酸比例，因此在快速酒吧时代不算常见。经典复兴后，它被重新看作新奥尔良调酒史和装饰技法的代表：糖边不是纯装饰，而是入口甜度和香气的一部分；长柠檬皮也不只是好看，而是在每次靠近杯口时释放柑橘油香。好的版本应当华丽但不甜腻。"
+        "白兰地库斯塔的制作比普通酸酒更讲究杯口、柠檬皮和甜酸比例，因此在快速酒吧时代不算常见。经典复兴后，它被重新看作新奥尔良调酒史和装饰技法的代表：糖边不是纯装饰，而是入口甜度和香气的一部分；长柠檬皮也不只是好看，而是在每次靠近杯口时释放柑橘油香。好的版本应当华丽但不甜腻。"
       ]
     ],
     "inventory": [
@@ -783,7 +783,7 @@ window.IBA_DRINKS = [
       "accent": "1bdcec"
     },
     "nameEn": "Brandy Crusta",
-    "nameZh": "白兰地克拉斯塔",
+    "nameZh": "白兰地库斯塔",
     "liqueurTypes": [
       "路萨朵黑樱桃利口酒",
       "库拉索橙酒"
@@ -854,7 +854,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "canchanchara",
-    "name": "坎昌查拉 Canchanchara",
+    "name": "坎查查拉 Canchanchara",
     "subtitle": "朗姆 / 新鲜青柠汁 / 原蜂蜜",
     "sourceUrl": "https://iba-world.com/iba-cocktail/canchanchara/",
     "sourceLabel": "配方来源",
@@ -891,7 +891,7 @@ window.IBA_DRINKS = [
       "最后补入气泡材料，并轻轻提拉融合。"
     ],
     "originYear": "19 世纪古巴独立战争时期",
-    "storyTitle": "坎昌查拉的起源故事",
+    "storyTitle": "坎查查拉的起源故事",
     "story": [
       [
         "起源",
@@ -914,7 +914,7 @@ window.IBA_DRINKS = [
       "accent": "eb6c7e"
     },
     "nameEn": "Canchanchara",
-    "nameZh": "坎昌查拉",
+    "nameZh": "坎查查拉",
     "liqueurTypes": [],
     "image": "./assets/cocktails/canchanchara.png"
   },
@@ -1080,7 +1080,7 @@ window.IBA_DRINKS = [
         "2 滴"
       ],
       [
-        "金万利橙酒",
+        "柑曼怡橙酒",
         "适量"
       ],
       [
@@ -1107,7 +1107,7 @@ window.IBA_DRINKS = [
       "冰镇香槟",
       "白兰地",
       "苦精",
-      "金万利橙酒",
+      "柑曼怡橙酒",
       "糖/糖浆"
     ],
     "visual": {
@@ -1119,13 +1119,13 @@ window.IBA_DRINKS = [
     "nameZh": "香槟鸡尾酒",
     "liqueurTypes": [
       "冰镇香槟",
-      "金万利橙酒"
+      "柑曼怡橙酒"
     ],
     "image": "./assets/cocktails/champagne-cocktail.png"
   },
   {
     "id": "chartreuse-swizzle",
-    "name": "查特摇棒 Chartreuse Swizzle",
+    "name": "查特斯威泽 Chartreuse Swizzle",
     "subtitle": "绿查特酒 / 新鲜菠萝汁 / 新鲜青柠汁",
     "sourceUrl": "https://iba-world.com/iba-cocktail/chartreuse-swizzle/",
     "sourceLabel": "配方来源",
@@ -1162,7 +1162,7 @@ window.IBA_DRINKS = [
       "最后补入气泡材料，并轻轻提拉融合。"
     ],
     "originYear": "2003 前后",
-    "storyTitle": "查特摇棒的起源故事",
+    "storyTitle": "查特斯威泽的起源故事",
     "story": [
       [
         "起源",
@@ -1185,7 +1185,7 @@ window.IBA_DRINKS = [
       "accent": "630e2f"
     },
     "nameEn": "Chartreuse Swizzle",
-    "nameZh": "查特摇棒",
+    "nameZh": "查特斯威泽",
     "liqueurTypes": [
       "绿查特酒",
       "法勒南姆利口酒"
@@ -1261,7 +1261,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "corpse-reviver-2",
-    "name": "还魂酒二号 Corpse Reviver #2",
+    "name": "死而复生2号 Corpse Reviver #2",
     "subtitle": "金酒 / 君度橙酒 / 利莱白开胃酒",
     "sourceUrl": "https://iba-world.com/iba-cocktail/corpse-reviver-2/",
     "sourceLabel": "配方来源",
@@ -1302,7 +1302,7 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1930",
-    "storyTitle": "还魂酒二号的起源故事",
+    "storyTitle": "死而复生2号的起源故事",
     "story": [
       [
         "起源",
@@ -1326,7 +1326,7 @@ window.IBA_DRINKS = [
       "accent": "498106"
     },
     "nameEn": "Corpse Reviver #2",
-    "nameZh": "还魂酒二号",
+    "nameZh": "死而复生2号",
     "liqueurTypes": [
       "君度橙酒",
       "利莱白开胃酒",
@@ -1465,7 +1465,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "daiquiri",
-    "name": "戴基里 Daiquiri",
+    "name": "得其利 Daiquiri",
     "subtitle": "朗姆 / 新鲜青柠汁 / 细砂糖",
     "sourceUrl": "https://iba-world.com/iba-cocktail/daiquiri/",
     "sourceLabel": "配方来源",
@@ -1498,7 +1498,7 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1898 前后",
-    "storyTitle": "戴基里的起源故事",
+    "storyTitle": "得其利的起源故事",
     "story": [
       [
         "起源",
@@ -1521,7 +1521,7 @@ window.IBA_DRINKS = [
     },
     "image": "./assets/cocktails/daiquiri.png",
     "nameEn": "Daiquiri",
-    "nameZh": "戴基里",
+    "nameZh": "得其利",
     "liqueurTypes": []
   },
   {
@@ -1580,7 +1580,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "dons-special-daiquiri",
-    "name": "唐的特别戴基里 Don’s Special Daiquiri",
+    "name": "唐的特调得其利 Don’s Special Daiquiri",
     "subtitle": "朗姆 / 百香果糖浆 / 新鲜青柠汁",
     "sourceUrl": "https://iba-world.com/iba-cocktail/dons-special-daiquiri/",
     "sourceLabel": "配方来源",
@@ -1621,7 +1621,7 @@ window.IBA_DRINKS = [
       "最后补入气泡材料，并轻轻提拉融合。"
     ],
     "originYear": "1930s",
-    "storyTitle": "唐的特别戴基里的起源故事",
+    "storyTitle": "唐的特调得其利的起源故事",
     "story": [
       [
         "起源",
@@ -1643,7 +1643,7 @@ window.IBA_DRINKS = [
       "accent": "de7802"
     },
     "nameEn": "Don’s Special Daiquiri",
-    "nameZh": "唐的特别戴基里",
+    "nameZh": "唐的特调得其利",
     "liqueurTypes": [],
     "image": "./assets/cocktails/dons-special-daiquiri.png"
   },
@@ -1774,7 +1774,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "fernandito",
-    "name": "费尔南迪托 Fernandito",
+    "name": "菲奈特可乐 Fernandito",
     "subtitle": "菲奈布兰卡苦味利口酒 / 补满可乐",
     "sourceUrl": "https://iba-world.com/iba-cocktail/fernandito/",
     "sourceLabel": "配方来源",
@@ -1803,7 +1803,7 @@ window.IBA_DRINKS = [
       "最后补入气泡材料，并轻轻提拉融合。"
     ],
     "originYear": "20 世纪后半叶 / 21 世纪国际化",
-    "storyTitle": "费尔南迪托的起源故事",
+    "storyTitle": "菲奈特可乐的起源故事",
     "story": [
       [
         "起源",
@@ -1824,7 +1824,7 @@ window.IBA_DRINKS = [
       "accent": "400732"
     },
     "nameEn": "Fernandito",
-    "nameZh": "费尔南迪托",
+    "nameZh": "菲奈特可乐",
     "liqueurTypes": [
       "菲奈布兰卡苦味利口酒"
     ],
@@ -1902,7 +1902,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "french-connection",
-    "name": "法国连线 French Connection",
+    "name": "法国贩毒网 French Connection",
     "subtitle": "白兰地 / 杏仁利口酒",
     "sourceUrl": "https://iba-world.com/iba-cocktail/french-connection/",
     "sourceLabel": "配方来源",
@@ -1931,7 +1931,7 @@ window.IBA_DRINKS = [
       "最后补入气泡材料，并轻轻提拉融合。"
     ],
     "originYear": "1970s",
-    "storyTitle": "法国连线的起源故事",
+    "storyTitle": "法国贩毒网的起源故事",
     "story": [
       [
         "起源",
@@ -1952,7 +1952,7 @@ window.IBA_DRINKS = [
       "accent": "ed788e"
     },
     "nameEn": "French Connection",
-    "nameZh": "法国连线",
+    "nameZh": "法国贩毒网",
     "liqueurTypes": [
       "杏仁利口酒"
     ],
@@ -2212,8 +2212,8 @@ window.IBA_DRINKS = [
   },
   {
     "id": "grand-margarita",
-    "name": "金万利玛格丽塔 Grand Margarita",
-    "subtitle": "龙舌兰 / 金万利橙酒 / 新鲜青柠汁",
+    "name": "至尊玛格利塔 Grand Margarita",
+    "subtitle": "龙舌兰 / 柑曼怡橙酒 / 新鲜青柠汁",
     "sourceUrl": "https://iba-world.com/iba-cocktail/grand-margarita/",
     "sourceLabel": "配方来源",
     "category": "新派经典",
@@ -2231,7 +2231,7 @@ window.IBA_DRINKS = [
         "45 毫升"
       ],
       [
-        "金万利橙酒",
+        "柑曼怡橙酒",
         "30 毫升"
       ],
       [
@@ -2244,11 +2244,11 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "20 世纪后半叶",
-    "storyTitle": "金万利玛格丽塔的起源故事",
+    "storyTitle": "至尊玛格利塔的起源故事",
     "story": [
       [
         "起源",
-        "Grand Margarita 不是像 Margarita 那样有独立古老起源的经典，而是 Margarita 结构在高端橙酒语境中的变体。金万利橙酒诞生于 1880 年，以干邑、苦橙精馏液和糖构成；把它放进 Margarita，等于用带白兰地厚度的橙香取代普通三秒酒。这个名字更像 20 世纪后半叶以后酒吧和品牌共同推动的“升级版玛格丽塔”说法，而不是某位调酒师留下的单一发明记录。"
+        "Grand Margarita 不是像 Margarita 那样有独立古老起源的经典，而是 Margarita 结构在高端橙酒语境中的变体。柑曼怡橙酒诞生于 1880 年，以干邑、苦橙精馏液和糖构成；把它放进 Margarita，等于用带白兰地厚度的橙香取代普通三秒酒。这个名字更像 20 世纪后半叶以后酒吧和品牌共同推动的“升级版玛格丽塔”说法，而不是某位调酒师留下的单一发明记录。"
       ],
       [
         "近代发展",
@@ -2257,7 +2257,7 @@ window.IBA_DRINKS = [
     ],
     "inventory": [
       "龙舌兰",
-      "金万利橙酒",
+      "柑曼怡橙酒",
       "青柠"
     ],
     "visual": {
@@ -2266,15 +2266,15 @@ window.IBA_DRINKS = [
       "accent": "8ad449"
     },
     "nameEn": "Grand Margarita",
-    "nameZh": "金万利玛格丽塔",
+    "nameZh": "至尊玛格利塔",
     "liqueurTypes": [
-      "金万利橙酒"
+      "柑曼怡橙酒"
     ],
     "image": "./assets/cocktails/grand-margarita.png"
   },
   {
     "id": "grasshopper",
-    "name": "蚱蜢 Grasshopper",
+    "name": "青草蜢 Grasshopper",
     "subtitle": "可可利口酒 / 薄荷利口酒 / 鲜奶油",
     "sourceUrl": "https://iba-world.com/iba-cocktail/grasshopper/",
     "sourceLabel": "配方来源",
@@ -2307,7 +2307,7 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1918-1920s",
-    "storyTitle": "蚱蜢的起源故事",
+    "storyTitle": "青草蜢的起源故事",
     "story": [
       [
         "起源",
@@ -2329,7 +2329,7 @@ window.IBA_DRINKS = [
       "accent": "e68351"
     },
     "nameEn": "Grasshopper",
-    "nameZh": "蚱蜢",
+    "nameZh": "青草蜢",
     "liqueurTypes": [
       "可可利口酒",
       "薄荷利口酒"
@@ -2338,7 +2338,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "hanky-panky",
-    "name": "花招 Hanky Panky",
+    "name": "翻云覆雨 Hanky Panky",
     "subtitle": "金酒 / 甜红味美思 / 菲奈苦味利口酒",
     "sourceUrl": "https://iba-world.com/iba-cocktail/hanky-panky/",
     "sourceLabel": "配方来源",
@@ -2371,7 +2371,7 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1900s-1925",
-    "storyTitle": "花招的起源故事",
+    "storyTitle": "翻云覆雨的起源故事",
     "story": [
       [
         "起源",
@@ -2393,7 +2393,7 @@ window.IBA_DRINKS = [
       "accent": "47324c"
     },
     "nameEn": "Hanky Panky",
-    "nameZh": "花招",
+    "nameZh": "翻云覆雨",
     "liqueurTypes": [
       "甜红味美思",
       "菲奈苦味利口酒"
@@ -2402,7 +2402,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "hemingway-special",
-    "name": "海明威特饮 Hemingway Special",
+    "name": "海明威特调 Hemingway Special",
     "subtitle": "朗姆 / 西柚汁 / 路萨朵黑樱桃利口酒",
     "sourceUrl": "https://iba-world.com/iba-cocktail/hemingway-special/",
     "sourceLabel": "配方来源",
@@ -2438,7 +2438,7 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1930s",
-    "storyTitle": "海明威特饮的起源故事",
+    "storyTitle": "海明威特调的起源故事",
     "story": [
       [
         "起源",
@@ -2461,7 +2461,7 @@ window.IBA_DRINKS = [
       "accent": "897d9f"
     },
     "nameEn": "Hemingway Special",
-    "nameZh": "海明威特饮",
+    "nameZh": "海明威特调",
     "liqueurTypes": [
       "路萨朵黑樱桃利口酒"
     ],
@@ -2971,7 +2971,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "last-word",
-    "name": "最后一句 Last Word",
+    "name": "遗言 Last Word",
     "subtitle": "金酒 / 绿查特酒 / 路萨朵黑樱桃利口酒",
     "sourceUrl": "https://iba-world.com/iba-cocktail/last-word/",
     "sourceLabel": "配方来源",
@@ -3008,7 +3008,7 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1910s-1920s / 2000s 复兴",
-    "storyTitle": "最后一句的起源故事",
+    "storyTitle": "遗言的起源故事",
     "story": [
       [
         "起源",
@@ -3031,7 +3031,7 @@ window.IBA_DRINKS = [
       "accent": "56ea79"
     },
     "nameEn": "Last Word",
-    "nameZh": "最后一句",
+    "nameZh": "遗言",
     "liqueurTypes": [
       "绿查特酒",
       "路萨朵黑樱桃利口酒"
@@ -3459,7 +3459,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "mary-pickford",
-    "name": "玛丽皮克福德 Mary Pickford",
+    "name": "玛丽毕克馥 Mary Pickford",
     "subtitle": "朗姆 / 新鲜菠萝汁 / 路萨朵黑樱桃利口酒",
     "sourceUrl": "https://iba-world.com/iba-cocktail/mary-pickford/",
     "sourceLabel": "配方来源",
@@ -3496,7 +3496,7 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1920s",
-    "storyTitle": "玛丽皮克福德的起源故事",
+    "storyTitle": "玛丽毕克馥的起源故事",
     "story": [
       [
         "起源",
@@ -3519,7 +3519,7 @@ window.IBA_DRINKS = [
       "accent": "b94fd3"
     },
     "nameEn": "Mary Pickford",
-    "nameZh": "玛丽皮克福德",
+    "nameZh": "玛丽毕克馥",
     "liqueurTypes": [
       "路萨朵黑樱桃利口酒"
     ],
@@ -3650,7 +3650,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "missionarys-downfall",
-    "name": "传教士的倒下 Missionary’s Downfall",
+    "name": "传教士的堕落 Missionary’s Downfall",
     "subtitle": "朗姆 / 白兰地 / 新鲜青柠汁",
     "sourceUrl": "https://iba-world.com/iba-cocktail/missionarys-downfall/",
     "sourceLabel": "配方来源",
@@ -3694,7 +3694,7 @@ window.IBA_DRINKS = [
       "按配方顺序加入材料，重点控制温度、稀释和装饰香气。"
     ],
     "originYear": "1930s-1940s",
-    "storyTitle": "传教士的倒下的起源故事",
+    "storyTitle": "传教士的堕落的起源故事",
     "story": [
       [
         "起源",
@@ -3719,7 +3719,7 @@ window.IBA_DRINKS = [
       "accent": "7de0b0"
     },
     "nameEn": "Missionary’s Downfall",
-    "nameZh": "传教士的倒下",
+    "nameZh": "传教士的堕落",
     "liqueurTypes": [
       "蜜桃白兰地利口酒"
     ],
@@ -4616,7 +4616,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "pisco-punch",
-    "name": "皮斯科潘趣 Pisco Punch",
+    "name": "皮斯科宾治 Pisco Punch",
     "subtitle": "白兰地 / 新鲜菠萝汁 / 糖浆",
     "sourceUrl": "https://iba-world.com/iba-cocktail/pisco-punch/",
     "sourceLabel": "配方来源",
@@ -4664,11 +4664,11 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "19 世纪末",
-    "storyTitle": "皮斯科潘趣的起源故事",
+    "storyTitle": "皮斯科宾治的起源故事",
     "story": [
       [
         "起源",
-        "皮斯科潘趣与 19 世纪旧金山 Bank Exchange Saloon 密切相关。皮斯科从秘鲁经海路进入加州，在淘金热后的旧金山酒吧里很常见；到 1890 年代，酒吧老板 Duncan Nicol 以皮斯科、菠萝、柑橘、糖和胶质糖浆调出著名版本。许多旅行者和作家都提到过它的迷人甜香和强劲后劲，精确配方则因禁酒令和 Nicol 去世而留下不少传说。"
+        "皮斯科宾治与 19 世纪旧金山 Bank Exchange Saloon 密切相关。皮斯科从秘鲁经海路进入加州，在淘金热后的旧金山酒吧里很常见；到 1890 年代，酒吧老板 Duncan Nicol 以皮斯科、菠萝、柑橘、糖和胶质糖浆调出著名版本。许多旅行者和作家都提到过它的迷人甜香和强劲后劲，精确配方则因禁酒令和 Nicol 去世而留下不少传说。"
       ],
       [
         "近代发展",
@@ -4689,7 +4689,7 @@ window.IBA_DRINKS = [
       "accent": "bdba4a"
     },
     "nameEn": "Pisco Punch",
-    "nameZh": "皮斯科潘趣",
+    "nameZh": "皮斯科宾治",
     "liqueurTypes": [
       "干白葡萄酒"
     ],
@@ -4764,7 +4764,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "planters-punch",
-    "name": "种植园潘趣 Planters Punch",
+    "name": "种植者宾治 Planters Punch",
     "subtitle": "朗姆 / 青柠汁",
     "sourceUrl": "https://iba-world.com/iba-cocktail/planters-punch/",
     "sourceLabel": "配方来源",
@@ -4796,15 +4796,15 @@ window.IBA_DRINKS = [
       "按配方顺序加入材料，重点控制温度、稀释和装饰香气。"
     ],
     "originYear": "19 世纪",
-    "storyTitle": "种植园潘趣的起源故事",
+    "storyTitle": "种植者宾治的起源故事",
     "story": [
       [
         "起源",
-        "种植园潘趣来自加勒比朗姆潘趣传统，通常被认为与牙买加关系最深。19 世纪的英文资料已经出现它的押韵口诀：一份酸、两份甜、三份烈、四份弱，用来记住青柠、糖、朗姆和水或冰的基本比例。它的名字带有殖民时代种植园语境，因此今天讲述时更适合把重点放在加勒比朗姆、港口贸易和潘趣文化，而不是浪漫化旧制度。"
+        "种植者宾治来自加勒比朗姆潘趣传统，通常被认为与牙买加关系最深。19 世纪的英文资料已经出现它的押韵口诀：一份酸、两份甜、三份烈、四份弱，用来记住青柠、糖、朗姆和水或冰的基本比例。它的名字带有殖民时代种植园语境，因此今天讲述时更适合把重点放在加勒比朗姆、港口贸易和潘趣文化，而不是浪漫化旧制度。"
       ],
       [
         "近代发展",
-        "近代酒吧里的种植园潘趣逐渐从口诀变成一类开放模板：可以加入菠萝、橙汁、石榴糖浆、苦精或香料，但核心仍是朗姆、酸甜和稀释的平衡。美国南部和加勒比旅游酒吧都发展出地方版本，当代调酒师则更常强调优质牙买加朗姆、鲜榨果汁和不过度加糖，让它从派对甜饮回到有层次的朗姆长饮。"
+        "近代酒吧里的种植者宾治逐渐从口诀变成一类开放模板：可以加入菠萝、橙汁、石榴糖浆、苦精或香料，但核心仍是朗姆、酸甜和稀释的平衡。美国南部和加勒比旅游酒吧都发展出地方版本，当代调酒师则更常强调优质牙买加朗姆、鲜榨果汁和不过度加糖，让它从派对甜饮回到有层次的朗姆长饮。"
       ]
     ],
     "inventory": [
@@ -4817,7 +4817,7 @@ window.IBA_DRINKS = [
       "accent": "1dd970"
     },
     "nameEn": "Planters Punch",
-    "nameZh": "种植园潘趣",
+    "nameZh": "种植者宾治",
     "liqueurTypes": [],
     "image": "./assets/cocktails/planters-punch.png"
   },
@@ -4899,7 +4899,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "porto-flip",
-    "name": "波特翻转 Porto Flip",
+    "name": "波特菲利普 Porto Flip",
     "subtitle": "白兰地 / 红茶色波特酒 / 蛋黄",
     "sourceUrl": "https://iba-world.com/iba-cocktail/porto-flip/",
     "sourceLabel": "配方来源",
@@ -4932,15 +4932,15 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "19 世纪",
-    "storyTitle": "波特翻转的起源故事",
+    "storyTitle": "波特菲利普的起源故事",
     "story": [
       [
         "起源",
-        "波特翻转属于更古老的 flip 家族。早期 flip 是酒、糖、香料和蛋混合的酒馆饮品，最初甚至常被加热；到 19 世纪，冷制版本进入美国酒谱。杰瑞·托马斯 1862 年《调酒师指南》中记录的 Coffee Cocktail 虽然名字像咖啡，实际使用波特酒、白兰地、糖和蛋，因颜色像咖啡而得名，后来常被视为波特翻转的重要前身。"
+        "波特菲利普属于更古老的 flip 家族。早期 flip 是酒、糖、香料和蛋混合的酒馆饮品，最初甚至常被加热；到 19 世纪，冷制版本进入美国酒谱。杰瑞·托马斯 1862 年《调酒师指南》中记录的 Coffee Cocktail 虽然名字像咖啡，实际使用波特酒、白兰地、糖和蛋，因颜色像咖啡而得名，后来常被视为波特菲利普的重要前身。"
       ],
       [
         "近代发展",
-        "现代酒吧保留波特翻转，更多是把它当作“蛋类鸡尾酒不一定要加奶油”的教学样本。蛋黄带来厚度，波特酒提供葡萄干、坚果和氧化香气，白兰地负责支撑酒体；肉豆蔻装饰则连接到旧式酒馆传统。它不像清爽长饮那样大众，但适合餐后、冬季和复古酒单。"
+        "现代酒吧保留波特菲利普，更多是把它当作“蛋类鸡尾酒不一定要加奶油”的教学样本。蛋黄带来厚度，波特酒提供葡萄干、坚果和氧化香气，白兰地负责支撑酒体；肉豆蔻装饰则连接到旧式酒馆传统。它不像清爽长饮那样大众，但适合餐后、冬季和复古酒单。"
       ]
     ],
     "inventory": [
@@ -4954,7 +4954,7 @@ window.IBA_DRINKS = [
       "accent": "4c198d"
     },
     "nameEn": "Porto Flip",
-    "nameZh": "波特翻转",
+    "nameZh": "波特菲利普",
     "liqueurTypes": [
       "红茶色波特酒"
     ],
@@ -5115,7 +5115,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "remember-the-maine",
-    "name": "记住缅因号 Remember the Maine",
+    "name": "铭记缅因号 Remember the Maine",
     "subtitle": "威士忌 / 甜味美思 / 白兰地",
     "sourceUrl": "https://iba-world.com/iba-cocktail/remember-the-maine/",
     "sourceLabel": "配方来源",
@@ -5152,11 +5152,11 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1930 年代",
-    "storyTitle": "记住缅因号的起源故事",
+    "storyTitle": "铭记缅因号的起源故事",
     "story": [
       [
         "起源",
-        "记住缅因号最有名的早期记录来自查尔斯·H·贝克 1939 年《绅士伴侣》。贝克说自己在 1933 年的哈瓦那喝到这杯酒；名字引用 1898 年缅因号战舰爆炸后美国社会流行的口号，带有强烈历史情绪。配方上，它像一杯黑麦曼哈顿加入樱桃利口酒和苦艾酒，甜、草本和辛香都更鲜明。"
+        "铭记缅因号最有名的早期记录来自查尔斯·H·贝克 1939 年《绅士伴侣》。贝克说自己在 1933 年的哈瓦那喝到这杯酒；名字引用 1898 年缅因号战舰爆炸后美国社会流行的口号，带有强烈历史情绪。配方上，它像一杯黑麦曼哈顿加入樱桃利口酒和苦艾酒，甜、草本和辛香都更鲜明。"
       ],
       [
         "近代发展",
@@ -5175,7 +5175,7 @@ window.IBA_DRINKS = [
       "accent": "435da6"
     },
     "nameEn": "Remember the Maine",
-    "nameZh": "记住缅因号",
+    "nameZh": "铭记缅因号",
     "liqueurTypes": [
       "甜味美思",
       "苦艾酒"
@@ -5184,7 +5184,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "russian-spring-punch",
-    "name": "俄罗斯春日潘趣 Russian Spring Punch",
+    "name": "俄罗斯之春宾治 Russian Spring Punch",
     "subtitle": "伏特加 / 新鲜柠檬汁 / 黑加仑利口酒",
     "sourceUrl": "https://iba-world.com/iba-cocktail/russian-spring-punch/",
     "sourceLabel": "配方来源",
@@ -5227,11 +5227,11 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1980 年代",
-    "storyTitle": "俄罗斯春日潘趣的起源故事",
+    "storyTitle": "俄罗斯之春宾治的起源故事",
     "story": [
       [
         "起源",
-        "俄罗斯春日潘趣由伦敦调酒师迪克·布拉德塞尔在 1980 年代创造。布拉德塞尔的说法里，这杯酒是为一群预算有限、想办派对的朋友设计：主人提供伏特加、黑加仑利口酒、柠檬和糖，客人自己带起泡酒来补满。名字里的“俄罗斯”来自伏特加，“春日”则来自它像 Collins 一样清爽、有气泡。"
+        "俄罗斯之春宾治由伦敦调酒师迪克·布拉德塞尔在 1980 年代创造。布拉德塞尔的说法里，这杯酒是为一群预算有限、想办派对的朋友设计：主人提供伏特加、黑加仑利口酒、柠檬和糖，客人自己带起泡酒来补满。名字里的“俄罗斯”来自伏特加，“春日”则来自它像 Collins 一样清爽、有气泡。"
       ],
       [
         "近代发展",
@@ -5251,7 +5251,7 @@ window.IBA_DRINKS = [
       "accent": "4eb8bf"
     },
     "nameEn": "Russian Spring Punch",
-    "nameZh": "俄罗斯春日潘趣",
+    "nameZh": "俄罗斯之春宾治",
     "liqueurTypes": [
       "黑加仑利口酒",
       "起泡酒"
@@ -5444,7 +5444,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "sex-on-the-beach",
-    "name": "海滩之恋 Sex on the Beach",
+    "name": "激情海岸 Sex on the Beach",
     "subtitle": "伏特加 / 蜜桃利口酒 / 新鲜橙汁",
     "sourceUrl": "https://iba-world.com/iba-cocktail/sex-on-the-beach/",
     "sourceLabel": "配方来源",
@@ -5480,11 +5480,11 @@ window.IBA_DRINKS = [
       "最后补入气泡材料，并轻轻提拉融合。"
     ],
     "originYear": "1980 年代",
-    "storyTitle": "海滩之恋的起源故事",
+    "storyTitle": "激情海岸的起源故事",
     "story": [
       [
         "起源",
-        "海滩之恋通常被放在 1980 年代美国甜型派对酒文化里理解。一个常见说法把它归给佛罗里达调酒师 Ted Pizio：当时蜜桃利口酒品牌做销售竞赛，他把伏特加、蜜桃利口酒、橙汁和蔓越莓汁组合成一杯容易点、容易记的度假长饮。这个故事流传很广，但不同酒谱也保留了其他果汁和利口酒版本。"
+        "激情海岸通常被放在 1980 年代美国甜型派对酒文化里理解。一个常见说法把它归给佛罗里达调酒师 Ted Pizio：当时蜜桃利口酒品牌做销售竞赛，他把伏特加、蜜桃利口酒、橙汁和蔓越莓汁组合成一杯容易点、容易记的度假长饮。这个故事流传很广，但不同酒谱也保留了其他果汁和利口酒版本。"
       ],
       [
         "近代发展",
@@ -5502,7 +5502,7 @@ window.IBA_DRINKS = [
       "accent": "ce67cb"
     },
     "nameEn": "Sex on the Beach",
-    "nameZh": "海滩之恋",
+    "nameZh": "激情海岸",
     "liqueurTypes": [
       "蜜桃利口酒"
     ],
@@ -5998,7 +5998,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "suffering-bastard",
-    "name": "受苦混蛋 Suffering Bastard",
+    "name": "痛苦混蛋 Suffering Bastard",
     "subtitle": "白兰地 / 金酒 / 新鲜青柠汁",
     "sourceUrl": "https://iba-world.com/iba-cocktail/suffering-bastard/",
     "sourceLabel": "配方来源",
@@ -6041,11 +6041,11 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1940 年代",
-    "storyTitle": "受苦混蛋的起源故事",
+    "storyTitle": "痛苦混蛋的起源故事",
     "story": [
       [
         "起源",
-        "受苦混蛋最常见的早期故事发生在二战时期的开罗 Shepheard's Hotel。调酒师 Joe Scialom 据说为抱怨宿醉和当地酒质的盟军士兵调出这杯“疗愈”长饮，早期版本以白兰地或波本、金酒、青柠、苦精和姜汁啤酒组成。后来 Trader Vic 也发展出同名提基版本，因此今天讲这杯酒时要分清开罗酒店版本和后来的提基版本。"
+        "痛苦混蛋最常见的早期故事发生在二战时期的开罗 Shepheard's Hotel。调酒师 Joe Scialom 据说为抱怨宿醉和当地酒质的盟军士兵调出这杯“疗愈”长饮，早期版本以白兰地或波本、金酒、青柠、苦精和姜汁啤酒组成。后来 Trader Vic 也发展出同名提基版本，因此今天讲这杯酒时要分清开罗酒店版本和后来的提基版本。"
       ],
       [
         "近代发展",
@@ -6065,7 +6065,7 @@ window.IBA_DRINKS = [
       "accent": "8701d1"
     },
     "nameEn": "Suffering Bastard",
-    "nameZh": "受苦混蛋",
+    "nameZh": "痛苦混蛋",
     "liqueurTypes": [],
     "image": "./assets/cocktails/suffering-bastard.png"
   },
@@ -6561,7 +6561,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "vesper",
-    "name": "薇丝朋 Vesper",
+    "name": "维斯帕 Vesper",
     "subtitle": "金酒 / 伏特加 / 利莱白开胃酒",
     "sourceUrl": "https://iba-world.com/iba-cocktail/vesper/",
     "sourceLabel": "配方来源",
@@ -6595,15 +6595,15 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1953 年",
-    "storyTitle": "薇丝朋的起源故事",
+    "storyTitle": "维斯帕的起源故事",
     "story": [
       [
         "起源",
-        "薇丝朋因伊恩·弗莱明 1953 年小说《皇家赌场》而成名。书中詹姆斯·邦德先点马天尼，随后临场给出金酒、伏特加和 Kina Lillet 的比例，并在遇见 Vesper Lynd 后把酒命名为 Vesper。更有趣的是，弗莱明后来提到这杯酒的灵感并非完全凭空而来，朋友 Ivar Bryce 也与早期调制有关；因此它既是文学道具，也是真实社交饮酒经验的投影。"
+        "维斯帕因伊恩·弗莱明 1953 年小说《皇家赌场》而成名。书中詹姆斯·邦德先点马天尼，随后临场给出金酒、伏特加和 Kina Lillet 的比例，并在遇见 Vesper Lynd 后把酒命名为 Vesper。更有趣的是，弗莱明后来提到这杯酒的灵感并非完全凭空而来，朋友 Ivar Bryce 也与早期调制有关；因此它既是文学道具，也是真实社交饮酒经验的投影。"
       ],
       [
         "近代发展",
-        "原配方里的 Kina Lillet 已停产，现代酒吧通常用 Lillet Blanc、Cocchi Americano 或加少量苦味材料来接近旧版本的苦甜感。电影让薇丝朋的知名度不断回潮，但它并不只是“邦德噱头”：高酒精度、摇和产生的冰冷质地、柠檬皮香气，都让它成为理解强酒感马天尼变体的典型案例。"
+        "原配方里的 Kina Lillet 已停产，现代酒吧通常用 Lillet Blanc、Cocchi Americano 或加少量苦味材料来接近旧版本的苦甜感。电影让维斯帕的知名度不断回潮，但它并不只是“邦德噱头”：高酒精度、摇和产生的冰冷质地、柠檬皮香气，都让它成为理解强酒感马天尼变体的典型案例。"
       ]
     ],
     "inventory": [
@@ -6617,7 +6617,7 @@ window.IBA_DRINKS = [
       "accent": "a6610d"
     },
     "nameEn": "Vesper",
-    "nameZh": "薇丝朋",
+    "nameZh": "维斯帕",
     "liqueurTypes": [
       "利莱白开胃酒"
     ],
@@ -6767,7 +6767,7 @@ window.IBA_DRINKS = [
   },
   {
     "id": "white-lady",
-    "name": "白佳人 White Lady",
+    "name": "白色佳人 White Lady",
     "subtitle": "金酒 / 橙味利口酒 / 新鲜柠檬汁",
     "sourceUrl": "https://iba-world.com/iba-cocktail/white-lady/",
     "sourceLabel": "配方来源",
@@ -6799,15 +6799,15 @@ window.IBA_DRINKS = [
       "过滤到预冷杯具或装冰杯中。"
     ],
     "originYear": "1919-1930",
-    "storyTitle": "白佳人的起源故事",
+    "storyTitle": "白色佳人的起源故事",
     "story": [
       [
         "起源",
-        "白佳人的早期版本通常与 Harry MacElhone 有关。他在 1919 年左右于伦敦 Ciro’s Club 调制的版本据说使用白薄荷利口酒，后来在巴黎 Harry’s New York Bar 把它改成金酒、橙味利口酒和柠檬汁。伦敦 Savoy 的 Harry Craddock 也被一些资料列为创造者或重要推广者，1930 年《Savoy Cocktail Book》记录了金酒、君度和柠檬汁版本。由于两位 Harry 都在欧洲酒店酒吧传统中影响很大，白佳人的署名常见争议，但现代结构已经相当明确：它是金酒版的柑橘利口酒酸酒。"
+        "白色佳人的早期版本通常与 Harry MacElhone 有关。他在 1919 年左右于伦敦 Ciro’s Club 调制的版本据说使用白薄荷利口酒，后来在巴黎 Harry’s New York Bar 把它改成金酒、橙味利口酒和柠檬汁。伦敦 Savoy 的 Harry Craddock 也被一些资料列为创造者或重要推广者，1930 年《Savoy Cocktail Book》记录了金酒、君度和柠檬汁版本。由于两位 Harry 都在欧洲酒店酒吧传统中影响很大，白色佳人的署名常见争议，但现代结构已经相当明确：它是金酒版的柑橘利口酒酸酒。"
       ],
       [
         "近代发展",
-        "白佳人与边车共享“基酒 + 橙味利口酒 + 柠檬”的结构，只是把干邑换成金酒，因此更轻、更干，也更依赖金酒本身的植物香气。早期记录通常没有蛋白，现代酒吧有时加入蛋白让泡沫和口感更圆润，也会根据橙味利口酒甜度调整柠檬比例。它的复兴让人重新理解“白色、清爽、优雅”不等于味道单薄；如果稀释和酸甜平衡准确，白佳人会非常锋利、干净。"
+        "白色佳人与边车共享“基酒 + 橙味利口酒 + 柠檬”的结构，只是把干邑换成金酒，因此更轻、更干，也更依赖金酒本身的植物香气。早期记录通常没有蛋白，现代酒吧有时加入蛋白让泡沫和口感更圆润，也会根据橙味利口酒甜度调整柠檬比例。它的复兴让人重新理解“白色、清爽、优雅”不等于味道单薄；如果稀释和酸甜平衡准确，白色佳人会非常锋利、干净。"
       ]
     ],
     "inventory": [
@@ -6821,7 +6821,7 @@ window.IBA_DRINKS = [
       "accent": "1bce6b"
     },
     "nameEn": "White Lady",
-    "nameZh": "白佳人",
+    "nameZh": "白色佳人",
     "liqueurTypes": [
       "橙味利口酒"
     ],
