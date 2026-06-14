@@ -328,9 +328,9 @@ h2 {
 
 .home-layout {
   display: grid;
-  grid-template-columns: minmax(300px, 0.9fr) minmax(320px, 1.1fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 22px;
-  min-height: 544px;
+  min-height: 0;
   padding: 22px;
 }
 
@@ -338,6 +338,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 760px;
   min-width: 0;
 }
 
@@ -408,6 +409,19 @@ h2 {
   overflow-wrap: anywhere;
   font-size: 18px;
   line-height: 1.2;
+}
+
+.home-recommend-controls {
+  width: min(520px, 100%);
+  margin-top: 18px;
+}
+
+.home-bottom-cards {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 12px;
+  align-items: stretch;
 }
 
 .home-inventory-card {
@@ -565,6 +579,10 @@ h2 {
   margin-top: 18px;
 }
 
+.home-recommend-controls .home-signals {
+  margin-top: 0;
+}
+
 .home-signals span,
 .weather-switch button {
   min-height: 34px;
@@ -593,51 +611,15 @@ h2 {
   margin-top: 22px;
 }
 
-.home-drink-card {
-  position: relative;
-  min-height: 500px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: #090a0b;
+.home-recommend-controls .home-action {
+  margin-top: 12px;
 }
 
-.home-drink-card img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  min-height: 500px;
-  object-fit: cover;
-}
-
-.home-drink-info {
-  position: absolute;
-  right: 16px;
-  bottom: 16px;
-  left: 16px;
-  padding: 16px;
-  border: 1px solid rgba(255, 255, 255, 0.16);
-  border-radius: 8px;
-  background: rgba(12, 13, 14, 0.78);
-  backdrop-filter: blur(16px);
-}
-
-.home-drink-info > span {
-  color: var(--ice);
-  font-size: 13px;
-}
-
-.home-drink-info h2 {
-  margin-top: 6px;
-  font-size: clamp(28px, 4vw, 46px);
-  line-height: 1;
-}
-
-.home-drink-info p {
-  margin-top: 10px;
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.6;
+.home-bottom-cards .home-inventory-card,
+.home-bottom-cards .home-lesson-card,
+.home-bottom-cards .home-note-card {
+  width: auto;
+  margin-top: 0;
 }
 
 .drink-layout {
@@ -2209,13 +2191,12 @@ textarea {
     min-height: 300px;
   }
 
-  .home-drink-card,
-  .home-drink-card img {
-    min-height: 280px;
-  }
-
   .home-layout {
     min-height: auto;
+  }
+
+  .home-bottom-cards {
+    grid-template-columns: 1fr;
   }
 
   .home-copy {

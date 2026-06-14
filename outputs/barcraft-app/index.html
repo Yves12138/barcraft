@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarCraft - 鸡尾酒灵感工作台</title>
-    <link rel="stylesheet" href="./styles.css?v=20260613-mobile-qa" />
+    <link rel="stylesheet" href="./styles.css?v=20260614-home-layout" />
   </head>
   <body>
     <div class="app-shell">
@@ -87,34 +87,29 @@
                     <strong id="homePickName">得其利 Daiquiri</strong>
                   </div>
                 </div>
+                <div class="home-recommend-controls">
+                  <div class="home-signals">
+                    <span id="homeTimeLabel">读取时间中</span>
+                    <span id="homeWeatherLabel">读取天气中</span>
+                    <button class="small-button neutral" id="refreshHomeButton" type="button">重新推荐</button>
+                  </div>
+                  <div class="weather-switch" id="manualWeatherRow" aria-label="手动选择天气">
+                    <button type="button" data-weather="clear">晴朗</button>
+                    <button type="button" data-weather="hot">炎热</button>
+                    <button type="button" data-weather="rain">下雨</button>
+                    <button type="button" data-weather="cold">寒冷</button>
+                    <button type="button" data-weather="cloudy">阴天</button>
+                  </div>
+                  <button class="primary-button home-action" id="homeOpenDrink" type="button">
+                    <svg><use href="#icon-book"></use></svg>
+                    查看完整配方
+                  </button>
+                </div>
+              </div>
+              <div class="home-bottom-cards">
                 <div class="home-inventory-card" id="homeInventoryCard"></div>
                 <div class="home-lesson-card" id="homeLessonCard"></div>
                 <div class="home-note-card" id="homeRecentNoteCard"></div>
-                <div class="home-signals">
-                  <span id="homeTimeLabel">读取时间中</span>
-                  <span id="homeWeatherLabel">读取天气中</span>
-                  <button class="small-button neutral" id="refreshHomeButton" type="button">重新推荐</button>
-                </div>
-                <div class="weather-switch" id="manualWeatherRow" aria-label="手动选择天气">
-                  <button type="button" data-weather="clear">晴朗</button>
-                  <button type="button" data-weather="hot">炎热</button>
-                  <button type="button" data-weather="rain">下雨</button>
-                  <button type="button" data-weather="cold">寒冷</button>
-                  <button type="button" data-weather="cloudy">阴天</button>
-                </div>
-                <button class="primary-button home-action" id="homeOpenDrink" type="button">
-                  <svg><use href="#icon-book"></use></svg>
-                  查看完整配方
-                </button>
-              </div>
-              <div class="home-drink-card">
-                <img id="homeDrinkImage" src="./assets/cocktails/daiquiri.png" alt="今日推荐鸡尾酒成品图" />
-                <div class="home-drink-info">
-                  <span id="homeDrinkMeta">朗姆 / 清爽</span>
-                  <h2 id="homeDrinkName">得其利 Daiquiri</h2>
-                  <p id="homeDrinkTaste">酸度明亮，甜感柔和。</p>
-                  <div class="tag-row" id="homeDrinkChips"></div>
-                </div>
               </div>
             </div>
           </section>
@@ -402,7 +397,7 @@
       <symbol id="icon-save" viewBox="0 0 24 24"><path d="M5 3h14l2 2v16H3V5l2-2Z"/><path d="M7 3v6h10V3"/><path d="M7 21v-7h10v7"/></symbol>
     </svg>
 
-  <script src="./iba-data.js?v=20260613-mobile-qa"></script>
-  <script src="./app.js?v=20260613-mobile-qa"></script>
+  <script src="./iba-data.js?v=20260614-home-layout"></script>
+  <script src="./app.js?v=20260614-home-layout"></script>
   </body>
 </html>

@@ -718,14 +718,18 @@ function renderHomeRecommendation() {
   elements.homePickThumb.src = drink.image;
   elements.homePickThumb.alt = `${drink.name} 推荐图`;
   elements.homePickName.textContent = drink.name;
-  elements.homeDrinkImage.src = drink.image;
-  elements.homeDrinkImage.alt = `${drink.name} 成品图`;
-  elements.homeDrinkName.textContent = drink.name;
-  elements.homeDrinkMeta.textContent = `${drink.base} / ${drink.mood}`;
-  elements.homeDrinkTaste.textContent = drink.taste;
-  elements.homeDrinkChips.innerHTML = [state.homeWeather.source === "live" ? "实时天气" : "可手动切换", daypart.label, ...drink.tags.slice(0, 3)]
-    .map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`)
-    .join("");
+  if (elements.homeDrinkImage) {
+    elements.homeDrinkImage.src = drink.image;
+    elements.homeDrinkImage.alt = `${drink.name} 成品图`;
+  }
+  if (elements.homeDrinkName) elements.homeDrinkName.textContent = drink.name;
+  if (elements.homeDrinkMeta) elements.homeDrinkMeta.textContent = `${drink.base} / ${drink.mood}`;
+  if (elements.homeDrinkTaste) elements.homeDrinkTaste.textContent = drink.taste;
+  if (elements.homeDrinkChips) {
+    elements.homeDrinkChips.innerHTML = [state.homeWeather.source === "live" ? "实时天气" : "可手动切换", daypart.label, ...drink.tags.slice(0, 3)]
+      .map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`)
+      .join("");
+  }
   elements.manualWeatherRow.querySelectorAll("[data-weather]").forEach((button) => {
     button.classList.toggle("active", button.dataset.weather === state.homeWeather.type);
   });
@@ -1361,6 +1365,7 @@ function ratingText(ratings) {
 }
 
 function renderHomeRecentNote() {
+  if (!elements.homeRecentNoteCard) return;
   const note = state.notes.map(normalizeNote)[0];
   if (!note) {
     elements.homeRecentNoteCard.innerHTML = "";
@@ -1704,7 +1709,7 @@ function attachEvents() {
     setActiveView("learn");
   });
 
-  elements.homeRecentNoteCard.addEventListener("click", (event) => {
+  elements.homeRecentNoteCard?.addEventListener("click", (event) => {
     const button = event.target.closest("[data-open-notes]");
     if (!button) return;
     setActiveView("notes");
