@@ -1105,6 +1105,7 @@ function renderCards() {
   elements.consoleResultCount.textContent = `${results.length} 款`;
   const query = state.query.trim().toLowerCase();
   if (state.filter === "all") {
+    elements.drinkCards.className = "base-groups all-groups";
     const groups = alphabetGroups(results);
     if (!groups.length) {
       elements.drinkCards.innerHTML = `<div class="empty-list">没有找到匹配的鸡尾酒。</div>`;
@@ -1128,6 +1129,7 @@ function renderCards() {
     return;
   }
 
+  elements.drinkCards.className = "base-groups base-filter-groups";
   const visibleBases = state.filter === "all" ? baseInventoryItems : baseInventoryItems.filter((base) => base === state.filter);
   const groups = visibleBases
     .map((base) => {

@@ -328,18 +328,42 @@ h2 {
 
 .home-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 22px;
+  gap: 20px;
+  align-items: stretch;
   min-height: 0;
   padding: 22px;
 }
 
+.home-hero-image {
+  grid-column: 1;
+  grid-row: 1 / span 5;
+  min-height: 420px;
+  overflow: hidden;
+  border: 1px solid rgba(242, 180, 92, 0.24);
+  border-radius: 8px;
+  background: #090a0b;
+}
+
+.home-hero-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .home-copy {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 760px;
+  display: grid;
+  grid-template-columns: minmax(360px, 0.9fr) minmax(420px, 1fr);
+  gap: 0 20px;
+  align-items: center;
   min-width: 0;
+}
+
+.home-copy > .panel-label,
+.home-copy > h1,
+.home-copy > p {
+  grid-column: 2;
+  width: 100%;
 }
 
 .home-copy h1 {
@@ -373,24 +397,15 @@ h2 {
 }
 
 .home-pick-preview {
-  display: grid;
-  grid-template-columns: 84px minmax(0, 1fr);
+  display: block;
+  grid-column: 2;
   gap: 12px;
-  align-items: center;
-  width: min(430px, 100%);
+  width: 100%;
   margin-top: 18px;
-  padding: 10px;
+  padding: 14px;
   border: 1px solid rgba(242, 180, 92, 0.28);
   border-radius: 8px;
   background: rgba(242, 180, 92, 0.08);
-}
-
-.home-pick-preview img {
-  width: 84px;
-  aspect-ratio: 1;
-  border-radius: 8px;
-  object-fit: cover;
-  background: #090a0b;
 }
 
 .home-pick-preview span,
@@ -412,8 +427,9 @@ h2 {
 }
 
 .home-recommend-controls {
-  width: min(520px, 100%);
-  margin-top: 18px;
+  grid-column: 2;
+  width: 100%;
+  margin-top: 12px;
 }
 
 .home-bottom-cards {
@@ -1413,9 +1429,19 @@ input[type="range"] {
   gap: 22px;
 }
 
+.base-groups.all-groups {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+}
+
 .base-group {
   display: grid;
   gap: 10px;
+}
+
+.all-groups .base-group {
+  margin-bottom: 0;
 }
 
 .base-group-head {
@@ -1439,6 +1465,11 @@ input[type="range"] {
 .card-strip {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(154px, 1fr));
+  gap: 12px;
+}
+
+.all-groups .card-strip {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 12px;
 }
 
@@ -1930,6 +1961,7 @@ textarea {
 
 .home-panel.active {
   width: min(1180px, 100%);
+  min-height: 0;
 }
 
 .simulator-panel.active {
@@ -1938,15 +1970,19 @@ textarea {
 }
 
 .collection-panel.active .base-groups {
-  max-height: calc(100vh - 310px);
-  overflow: auto;
-  padding-bottom: 108px;
-  padding-right: 4px;
-  scroll-padding-bottom: 108px;
+  max-height: none;
+  overflow: visible;
+  padding-bottom: 8px;
+  padding-right: 0;
+  scroll-padding-bottom: 0;
 }
 
 .collection-panel.active .card-strip {
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(172px, 1fr));
+}
+
+.collection-panel.active .all-groups .card-strip {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .bottom-console {
@@ -2163,6 +2199,11 @@ textarea {
     scroll-padding-bottom: calc(112px + env(safe-area-inset-bottom));
   }
 
+  .base-groups.all-groups {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .library-panel,
   .home-layout,
   .story-panel,
@@ -2175,6 +2216,11 @@ textarea {
   }
 
   .card-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .all-groups .card-strip,
+  .collection-panel.active .all-groups .card-strip {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -2192,7 +2238,14 @@ textarea {
   }
 
   .home-layout {
+    grid-template-columns: 1fr;
+    gap: 14px;
     min-height: auto;
+  }
+
+  .home-hero-image {
+    height: clamp(156px, 42vw, 190px);
+    min-height: 0;
   }
 
   .home-bottom-cards {
@@ -2200,7 +2253,22 @@ textarea {
   }
 
   .home-copy {
+    display: grid;
+    grid-template-columns: 1fr;
     justify-content: start;
+  }
+
+  .home-copy > .panel-label,
+  .home-copy > h1,
+  .home-copy > p,
+  .home-hero-image,
+  .home-pick-preview,
+  .home-recommend-controls {
+    grid-column: 1;
+  }
+
+  .home-hero-image {
+    grid-row: auto;
   }
 
   .home-copy h1 {
@@ -2294,6 +2362,7 @@ textarea {
 
   .home-pick-preview {
     grid-template-columns: 68px minmax(0, 1fr);
+    margin-top: 14px;
   }
 
   .home-pick-preview img {
