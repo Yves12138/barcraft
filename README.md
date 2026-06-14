@@ -1,0 +1,147 @@
+# BarCraft
+
+BarCraft 是一个静态网页版鸡尾酒 App。当前版本包含首页今日推荐、经典酒单、故事馆、库存材料、原创调酒模拟器、学习路径和笔记功能。
+
+项目不需要重新构建，也没有 npm / package.json 流程。继续修改时请直接基于现有文件维护。
+
+## 当前预览方式
+
+最推荐的预览方式：
+
+1. 双击 `BarCraft Preview.app`
+2. 在 Codex 内置浏览器打开：
+
+```text
+http://localhost:8765/
+```
+
+关闭预览服务：
+
+1. 双击 `Stop BarCraft Preview.app`
+
+预览服务使用本地端口 `8765`。运行时会把预览文件复制到：
+
+```text
+/tmp/barcraft-preview-site
+```
+
+如果页面没有更新，先刷新浏览器；如果仍然没有更新，重新双击 `BarCraft Preview.app`。
+
+## 主要文件
+
+源文件：
+
+```text
+index.html
+app.js
+styles.css
+iba-data.js
+assets/cocktails/
+```
+
+预览输出文件：
+
+```text
+outputs/barcraft-app/index.html
+outputs/barcraft-app/app.js
+outputs/barcraft-app/styles.css
+outputs/barcraft-app/iba-data.js
+outputs/barcraft-app/assets/cocktails/
+```
+
+Preview App 内置文件：
+
+```text
+BarCraft Preview.app/Contents/Resources/site/
+```
+
+当前运行中的临时预览目录：
+
+```text
+/tmp/barcraft-preview-site
+```
+
+## 修改约定
+
+修改源文件后，需要同步到预览输出目录和 Preview App 内置目录。通常至少同步这些文件：
+
+```bash
+cp index.html app.js styles.css outputs/barcraft-app/
+cp index.html app.js styles.css "BarCraft Preview.app/Contents/Resources/site/"
+if [ -d /tmp/barcraft-preview-site ]; then cp index.html app.js styles.css /tmp/barcraft-preview-site/; fi
+```
+
+如果修改了 `iba-data.js`：
+
+```bash
+cp iba-data.js outputs/barcraft-app/
+cp iba-data.js "BarCraft Preview.app/Contents/Resources/site/"
+if [ -d /tmp/barcraft-preview-site ]; then cp iba-data.js /tmp/barcraft-preview-site/; fi
+```
+
+如果修改了图片，需要同步对应图片目录：
+
+```bash
+cp assets/cocktails/*.png outputs/barcraft-app/assets/cocktails/
+cp assets/cocktails/*.png "BarCraft Preview.app/Contents/Resources/site/assets/cocktails/"
+if [ -d /tmp/barcraft-preview-site/assets/cocktails ]; then cp assets/cocktails/*.png /tmp/barcraft-preview-site/assets/cocktails/; fi
+```
+
+## Git 提交流程
+
+每轮修改完成并确认预览没问题后提交。常用命令：
+
+```bash
+cd /Users/yves/Documents/Codex/2026-06-02/barcraft
+git status --short
+git add index.html app.js styles.css iba-data.js assets/cocktails outputs/barcraft-app "BarCraft Preview.app/Contents/Resources/site"
+git commit -m "填写本次修改说明"
+```
+
+如果只改了页面和样式，可用更精确的提交：
+
+```bash
+cd /Users/yves/Documents/Codex/2026-06-02/barcraft
+git add index.html app.js styles.css outputs/barcraft-app/index.html outputs/barcraft-app/app.js outputs/barcraft-app/styles.css "BarCraft Preview.app/Contents/Resources/site/index.html" "BarCraft Preview.app/Contents/Resources/site/app.js" "BarCraft Preview.app/Contents/Resources/site/styles.css"
+git commit -m "填写本次修改说明"
+```
+
+## 内容维护约定
+
+- 酒名使用中英双语，例如 `边车 Sidecar`。
+- 正文说明尽量使用中文。
+- 故事馆只保留 `起源` 和 `近代发展` 两类内容。
+- 历史有争议时写成“常见说法”“资料不一”“并非铁证”，不要写死。
+- 故事馆不要出现 IBA、iba-world、国际调酒师协会等机构露出。
+- 图片使用本地 AI 生成或本地资产，不直接抓取外部网站图片。
+- 库存基酒只保留六大类：朗姆、威士忌、伏特加、金酒、白兰地、龙舌兰。
+- 库存材料命名要偏普通用户可理解，避免品牌名和过细项。
+
+## 当前状态
+
+- 鸡尾酒数量：102 款。
+- 图片目录：`assets/cocktails/` 与预览目录保持同步。
+- 首页桌面端：左图右文。
+- 首页手机端：推荐说明、图片、推荐酒款、时间天气和完整配方入口按纵向排列。
+- 酒单“全部”页：按英文首字母分组，每个首字母组内横向每行 6 个。
+- 移动端酒单：保持两列布局。
+
+## 常见检查
+
+语法检查：
+
+```bash
+/Users/yves/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --check app.js
+```
+
+确认仓库是否干净：
+
+```bash
+git status --short
+```
+
+确认预览服务端口：
+
+```bash
+lsof -iTCP:8765 -sTCP:LISTEN
+```
