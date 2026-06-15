@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="none">
+  <defs>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.014 0.026" numOctaves="5" seed="91" result="noise"/>
+      <feColorMatrix in="noise" type="matrix" values="
+        0.16 0 0 0 0.02
+        0 0.14 0 0 0.018
+        0 0 0.12 0 0.016
+        0 0 0 0.42 0" result="darkNoise"/>
+      <feBlend in="SourceGraphic" in2="darkNoise" mode="screen"/>
+    </filter>
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+    <radialGradient id="upperGlow" cx="48%" cy="0%" r="76%">
+      <stop offset="0" stop-color="#2e2117" stop-opacity="0.8"/>
+      <stop offset="0.48" stop-color="#17110c" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wineTrace" cx="6%" cy="18%" r="66%">
+      <stop offset="0" stop-color="#4b0f16" stop-opacity="0.2"/>
+      <stop offset="0.48" stop-color="#24130f" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="edgeDepth" cx="50%" cy="62%" r="76%">
+      <stop offset="0" stop-color="#17120e" stop-opacity="0.22"/>
+      <stop offset="0.58" stop-color="#090807" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#030303"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#050505"/>
+  <rect width="1600" height="1000" fill="url(#upperGlow)"/>
+  <rect width="1600" height="1000" fill="url(#wineTrace)"/>
+  <rect width="1600" height="1000" fill="url(#edgeDepth)"/>
+  <g filter="url(#softBlur)" opacity="0.36">
+    <ellipse cx="360" cy="180" rx="420" ry="110" fill="#2b1f17"/>
+    <ellipse cx="1220" cy="245" rx="440" ry="130" fill="#1b1510"/>
+    <ellipse cx="760" cy="780" rx="620" ry="150" fill="#0b0a09"/>
+  </g>
+  <rect width="1600" height="1000" filter="url(#grain)" opacity="0.42"/>
+</svg>

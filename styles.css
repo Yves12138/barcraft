@@ -1,20 +1,34 @@
 :root {
   color-scheme: dark;
-  --bg: #101112;
-  --bg-soft: #17191b;
-  --panel: #1f2325;
-  --panel-strong: #272b2d;
-  --line: rgba(255, 255, 255, 0.1);
-  --line-strong: rgba(255, 255, 255, 0.18);
-  --text: #f6f1e8;
-  --muted: #aaa59b;
-  --faint: #706d68;
-  --amber: #f2b45c;
-  --coral: #ef776a;
-  --mint: #74d2a5;
-  --ice: #9ed7e7;
-  --ink: #0c0d0e;
-  --shadow: 0 24px 60px rgba(0, 0, 0, 0.34);
+  --bg: #0b0907;
+  --bg-soft: #15110d;
+  --panel: #17130f;
+  --panel-strong: #211a13;
+  --line: rgba(214, 169, 96, 0.18);
+  --line-strong: rgba(214, 169, 96, 0.34);
+  --text: #f4ead9;
+  --muted: #b8aa94;
+  --faint: #746754;
+  --amber: #d7a75c;
+  --coral: #b86a4f;
+  --mint: #91b99a;
+  --ice: #d8c7a8;
+  --ink: #120d08;
+  --shadow: 0 28px 70px rgba(0, 0, 0, 0.52);
+  --serif: Georgia, "Times New Roman", "Songti SC", "STSong", serif;
+  --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  --oak-panel-texture:
+    url("./assets/textures/card-palette-background.png");
+  --oak-card-texture:
+    url("./assets/textures/card-palette-background.png");
+  --oak-accent-texture:
+    url("./assets/textures/card-palette-background.png");
+  --obsidian-panel-texture:
+    url("./assets/textures/dark-wood-background.png");
+  --obsidian-card-texture:
+    url("./assets/textures/dark-wood-background.png");
+  --obsidian-accent-texture:
+    url("./assets/textures/dark-wood-background.png");
 }
 
 * {
@@ -22,16 +36,36 @@
 }
 
 body {
+  position: relative;
   margin: 0;
   min-height: 100vh;
   background:
-    radial-gradient(circle at 78% 8%, rgba(242, 180, 92, 0.14), transparent 30%),
-    linear-gradient(135deg, #0d0e0f 0%, #141718 48%, #0f1112 100%);
+    url("./assets/textures/dark-wood-background.png"),
+    #050403;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%, auto;
+  background-repeat: no-repeat;
   color: var(--text);
-  font-family:
-    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC",
-    "Microsoft YaHei", sans-serif;
+  font-family: var(--sans);
   letter-spacing: 0;
+}
+
+body::before,
+body::after {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  content: "";
+}
+
+body::before {
+  display: none;
+}
+
+body::after {
+  display: none;
 }
 
 button,
@@ -60,6 +94,8 @@ svg {
 }
 
 .app-shell {
+  position: relative;
+  z-index: 1;
   display: grid;
   grid-template-columns: 1fr;
   min-height: 100vh;
@@ -2085,6 +2121,394 @@ textarea {
   font-size: 13px;
 }
 
+/* Premium classic-bar visual system */
+.workspace {
+  padding-top: 26px;
+}
+
+.topbar {
+  grid-template-columns: minmax(360px, 0.85fr) minmax(620px, 1.15fr);
+  gap: 18px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-wrap {
+  min-height: 50px;
+  border-color: rgba(215, 167, 92, 0.24);
+  background:
+    linear-gradient(180deg, rgba(255, 248, 233, 0.055), rgba(255, 248, 233, 0.018)),
+    rgba(10, 7, 5, 0.72);
+  box-shadow: inset 0 1px 0 rgba(255, 244, 218, 0.05);
+}
+
+.search-wrap input::placeholder {
+  color: rgba(216, 199, 168, 0.58);
+}
+
+.top-view-nav {
+  gap: 0;
+  border-top: 1px solid rgba(215, 167, 92, 0.16);
+  border-bottom: 1px solid rgba(215, 167, 92, 0.16);
+  padding: 2px 0;
+}
+
+.top-nav-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 42px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: rgba(244, 234, 217, 0.74);
+  font-family: var(--serif);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.top-nav-button::before {
+  display: none;
+  width: 17px;
+  height: 17px;
+  flex: 0 0 auto;
+  background: url("./assets/icons/top-active-cocktail.png") center / contain no-repeat;
+  content: "";
+  filter:
+    drop-shadow(0 0 0.35px currentColor)
+    drop-shadow(0 0 0.35px currentColor)
+    drop-shadow(0 0 3px rgba(215, 167, 92, 0.28));
+}
+
+.top-nav-button:hover,
+.top-nav-button.active {
+  background: linear-gradient(180deg, rgba(215, 167, 92, 0.16), rgba(215, 167, 92, 0.035));
+  color: var(--amber);
+  box-shadow: inset 0 -2px 0 rgba(215, 167, 92, 0.78);
+}
+
+.top-nav-button.active::before {
+  display: block;
+}
+
+.panel {
+  border-color: rgba(215, 167, 92, 0.2);
+  background:
+    var(--obsidian-panel-texture),
+    rgba(14, 11, 8, 0.84);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto;
+  box-shadow:
+    0 26px 70px rgba(0, 0, 0, 0.46),
+    inset 0 1px 0 rgba(255, 246, 226, 0.045);
+}
+
+.panel-label,
+.base-group-head h3,
+.section-head .panel-label {
+  color: var(--amber);
+  font-family: var(--serif);
+  font-weight: 700;
+}
+
+h1,
+.title-line h2,
+.home-copy h1,
+.home-pick-preview strong,
+.drink-card strong,
+.generated-card h3,
+.story-panel h2,
+.section-head h2 {
+  font-family: var(--serif);
+  font-weight: 700;
+}
+
+.home-panel {
+  overflow: visible;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.home-layout {
+  gap: 16px;
+  padding: 0;
+}
+
+.home-copy {
+  padding: 24px;
+  border: 1px solid rgba(182, 134, 90, 0.42);
+  border-radius: 18px;
+  background:
+    var(--oak-panel-texture),
+    rgba(13, 10, 7, 0.86);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto;
+  box-shadow:
+    0 28px 76px rgba(0, 0, 0, 0.5),
+    inset 0 1px 0 rgba(255, 232, 190, 0.08);
+}
+
+.home-hero-image,
+.drink-photo-wrap {
+  border-color: rgba(215, 167, 92, 0.32);
+  background: #0a0705;
+  box-shadow:
+    0 22px 46px rgba(0, 0, 0, 0.42),
+    inset 0 0 0 1px rgba(255, 246, 226, 0.035);
+}
+
+.home-hero-image img,
+.drink-photo-wrap img,
+.drink-card img,
+.lesson-drink-card img {
+  filter: saturate(0.9) contrast(1.04);
+}
+
+.home-copy h1 {
+  font-size: clamp(42px, 5vw, 68px);
+  letter-spacing: 0;
+}
+
+.recommend-kicker {
+  color: var(--amber);
+  font-family: var(--serif);
+  font-size: 25px;
+}
+
+.recommend-drink {
+  color: var(--text);
+}
+
+.home-copy p,
+.taste-copy,
+.story-reading-card p {
+  color: rgba(244, 234, 217, 0.7);
+}
+
+.home-pick-preview,
+.home-inventory-card,
+.home-lesson-card,
+.home-note-card,
+.today-fit-card,
+.inventory-status-card,
+.substitution-card,
+.drink-notes-card,
+.practice-card,
+.generated-card,
+.story-reading-card,
+.story-related div,
+.simulator-inventory,
+.control-stack,
+.simulator-output,
+.inventory-group,
+.lesson-row,
+.lesson-detail,
+.lesson-task,
+.note-rating-grid,
+.note-form-grid label,
+.note-rating-grid label,
+.note-adjustment,
+.note-search,
+.note-item,
+.creation-item,
+.logic-grid div,
+.recipe-item,
+.base-group {
+  border-color: rgba(215, 167, 92, 0.18);
+  background:
+    var(--obsidian-card-texture),
+    rgba(12, 9, 6, 0.52);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto;
+  box-shadow: inset 0 1px 0 rgba(255, 246, 226, 0.035);
+}
+
+.home-pick-preview {
+  background:
+    linear-gradient(180deg, rgba(255, 232, 190, 0.055), rgba(255, 232, 190, 0.015)),
+    rgba(36, 20, 12, 0.52);
+  backdrop-filter: blur(12px);
+  border-color: rgba(182, 134, 90, 0.28);
+}
+
+.base-group {
+  padding: 14px;
+  border: 1px solid rgba(215, 167, 92, 0.16);
+  border-radius: 8px;
+}
+
+.base-group-head {
+  border-bottom-color: rgba(215, 167, 92, 0.16);
+}
+
+.drink-card {
+  border-color: rgba(215, 167, 92, 0.18);
+  background:
+    var(--oak-card-texture),
+    rgba(13, 10, 7, 0.72);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.lesson-drink-card {
+  border-color: rgba(215, 167, 92, 0.18);
+  background:
+    var(--obsidian-card-texture),
+    rgba(13, 10, 7, 0.72);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.22);
+  transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+}
+
+.drink-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(215, 167, 92, 0.44);
+  background:
+    var(--oak-accent-texture),
+    rgba(28, 21, 14, 0.78);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto;
+}
+
+.lesson-drink-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(215, 167, 92, 0.4);
+  background:
+    var(--obsidian-accent-texture),
+    rgba(24, 18, 13, 0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto;
+}
+
+.drink-card.active {
+  border-color: rgba(215, 167, 92, 0.72);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.28), inset 0 0 0 1px rgba(215, 167, 92, 0.18);
+}
+
+.lesson-row.active {
+  background:
+    var(--obsidian-accent-texture),
+    rgba(24, 18, 13, 0.78);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto;
+}
+
+.drink-card-body {
+  padding: 13px 12px 14px;
+}
+
+.drink-card strong {
+  color: var(--text);
+  font-size: 16px;
+}
+
+.drink-card span,
+.generated-card p,
+.generated-card li,
+.logic-grid span,
+.creation-item span,
+.creation-item p,
+.inventory-group-head span {
+  color: rgba(244, 234, 217, 0.62);
+}
+
+.make-chip,
+.status-chip,
+.progress-pill,
+.count-label,
+.generated-meta span,
+.classic-links button,
+.filter,
+.small-button,
+.home-signals span,
+.weather-switch button,
+.quick-inventory-item,
+.inventory-item {
+  border-color: rgba(215, 167, 92, 0.2);
+  background: rgba(255, 246, 226, 0.035);
+  color: rgba(244, 234, 217, 0.72);
+}
+
+.filter.active,
+.filter:hover,
+.weather-switch button.active,
+.weather-switch button:hover {
+  border-color: rgba(215, 167, 92, 0.52);
+  background: rgba(215, 167, 92, 0.13);
+  color: var(--amber);
+}
+
+.primary-button {
+  border: 1px solid rgba(215, 167, 92, 0.55);
+  background:
+    linear-gradient(180deg, rgba(232, 185, 105, 0.96), rgba(170, 111, 54, 0.96));
+  color: #171006;
+  box-shadow: 0 14px 30px rgba(104, 66, 26, 0.22), inset 0 1px 0 rgba(255, 242, 202, 0.38);
+  font-family: var(--serif);
+  letter-spacing: 0;
+}
+
+.small-button.neutral,
+.home-inventory-card button,
+.home-lesson-card button,
+.home-note-card button {
+  border-color: rgba(215, 167, 92, 0.32);
+  background: rgba(215, 167, 92, 0.09);
+  color: var(--amber);
+}
+
+.photo-caption {
+  border-color: rgba(215, 167, 92, 0.22);
+  background: rgba(10, 7, 5, 0.78);
+}
+
+.title-line h2 {
+  color: var(--text);
+}
+
+.bottom-console {
+  border-color: rgba(215, 167, 92, 0.24);
+  background:
+    linear-gradient(180deg, rgba(255, 246, 226, 0.055), rgba(255, 246, 226, 0.018)),
+    rgba(9, 7, 5, 0.92);
+  backdrop-filter: blur(18px);
+  box-shadow:
+    0 18px 58px rgba(0, 0, 0, 0.52),
+    inset 0 1px 0 rgba(255, 246, 226, 0.04);
+}
+
+.console-tab {
+  background:
+    linear-gradient(180deg, rgba(255, 246, 226, 0.04), rgba(255, 246, 226, 0.012)),
+    rgba(12, 9, 6, 0.48);
+}
+
+.console-tab:hover,
+.console-tab.active {
+  border-color: rgba(215, 167, 92, 0.52);
+  background:
+    linear-gradient(180deg, rgba(215, 167, 92, 0.16), rgba(215, 167, 92, 0.035)),
+    rgba(22, 16, 11, 0.82);
+  color: var(--amber);
+}
+
+.console-hint strong {
+  color: var(--amber);
+}
+
 @media (max-width: 1180px) {
   .app-shell {
     grid-template-columns: 1fr;
@@ -2336,6 +2760,12 @@ textarea {
     min-height: 36px;
     padding: 0 6px;
     font-size: 12px;
+    gap: 4px;
+  }
+
+  .top-nav-button::before {
+    width: 14px;
+    height: 14px;
   }
 
   .home-copy h1 {
