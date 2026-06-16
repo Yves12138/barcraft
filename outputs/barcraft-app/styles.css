@@ -744,8 +744,9 @@ h2 {
 }
 
 .title-line h2 {
-  font-size: clamp(34px, 4vw, 58px);
-  line-height: 0.98;
+  max-width: 720px;
+  font-size: clamp(28px, 3vw, 44px);
+  line-height: 1.08;
 }
 
 .title-line p,
@@ -1174,16 +1175,33 @@ h2 {
 select,
 textarea {
   width: 100%;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(215, 167, 92, 0.22);
   border-radius: 8px;
   outline: 0;
-  background: rgba(0, 0, 0, 0.24);
+  background:
+    var(--control-bg),
+    rgba(8, 6, 4, 0.56);
+  box-shadow: inset 0 1px 0 rgba(255, 246, 226, 0.035);
   color: var(--text);
 }
 
 select {
+  appearance: none;
   height: 40px;
-  padding: 0 11px;
+  padding: 0 36px 0 11px;
+  background-image:
+    linear-gradient(45deg, transparent 50%, rgba(215, 167, 92, 0.88) 50%),
+    linear-gradient(135deg, rgba(215, 167, 92, 0.88) 50%, transparent 50%),
+    var(--control-bg);
+  background-position:
+    calc(100% - 18px) 50%,
+    calc(100% - 13px) 50%,
+    center;
+  background-repeat: no-repeat;
+  background-size:
+    6px 6px,
+    6px 6px,
+    auto;
 }
 
 input[type="range"] {
@@ -1894,6 +1912,12 @@ textarea {
   line-height: 1.5;
 }
 
+textarea::placeholder,
+.note-adjustment::placeholder,
+.note-search::placeholder {
+  color: rgba(216, 199, 168, 0.52);
+}
+
 .note-form-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1911,7 +1935,103 @@ textarea {
 .note-form-grid label > span,
 .note-rating-grid label > span {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+
+.notes-panel select,
+.notes-panel textarea,
+.note-adjustment,
+.note-search {
+  transition:
+    border-color 160ms ease,
+    background 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.notes-panel select:hover,
+.notes-panel textarea:hover,
+.note-adjustment:hover,
+.note-search:hover {
+  border-color: rgba(215, 167, 92, 0.38);
+  background:
+    var(--control-bg-hover),
+    rgba(12, 8, 5, 0.68);
+}
+
+.notes-panel select:focus,
+.notes-panel textarea:focus,
+.note-adjustment:focus,
+.note-search:focus {
+  border-color: rgba(215, 167, 92, 0.56);
+  background:
+    var(--control-bg-active),
+    rgba(15, 10, 6, 0.76);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 246, 226, 0.05),
+    0 0 0 3px rgba(215, 167, 92, 0.12);
+}
+
+.note-form-grid label > span,
+.note-rating-grid label > span {
+  color: rgba(216, 199, 168, 0.82);
+  font-size: 12px;
+  font-weight: 760;
+  letter-spacing: 0;
+}
+
+.note-rating-grid label strong {
+  display: inline-grid;
+  min-width: 26px;
+  height: 24px;
+  place-items: center;
+  border: 1px solid rgba(215, 167, 92, 0.24);
+  border-radius: 8px;
+  background: rgba(215, 167, 92, 0.1);
+  color: var(--amber);
+  font-family: var(--serif);
+  font-size: 13px;
+}
+
+.note-rating-grid input[type="range"] {
+  appearance: none;
+  width: 100%;
+  height: 18px;
+  border-radius: 999px;
+  background: transparent;
+}
+
+.note-rating-grid input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(215, 167, 92, 0.72), rgba(140, 111, 85, 0.42));
+  box-shadow: inset 0 1px 0 rgba(255, 246, 226, 0.08);
+}
+
+.note-rating-grid input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  margin-top: -7px;
+  border: 1px solid rgba(255, 236, 196, 0.72);
+  border-radius: 50%;
+  background: linear-gradient(180deg, #e9bf76, #9d6830);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.34);
+}
+
+.note-rating-grid input[type="range"]::-moz-range-track {
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, rgba(215, 167, 92, 0.72), rgba(140, 111, 85, 0.42));
+}
+
+.note-rating-grid input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border: 1px solid rgba(255, 236, 196, 0.72);
+  border-radius: 50%;
+  background: linear-gradient(180deg, #e9bf76, #9d6830);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.34);
 }
 
 .note-adjustment,
@@ -1920,22 +2040,30 @@ textarea {
   min-height: 40px;
   margin-top: 10px;
   padding: 0 12px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(215, 167, 92, 0.22);
   border-radius: 8px;
   outline: 0;
-  background: rgba(0, 0, 0, 0.24);
+  background:
+    var(--control-bg),
+    rgba(8, 6, 4, 0.58);
+  box-shadow: inset 0 1px 0 rgba(255, 246, 226, 0.035);
   color: var(--text);
 }
 
 .note-rating-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 10px;
+  gap: 12px;
   margin-top: 10px;
-  padding: 12px;
-  border: 1px solid var(--line);
+  padding: 14px;
+  border: 1px solid rgba(215, 167, 92, 0.18);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.035);
+  background:
+    var(--obsidian-card-texture),
+    rgba(12, 9, 6, 0.52);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto;
 }
 
 .primary-button {
@@ -2693,6 +2821,25 @@ h1,
   padding: 15px 16px;
 }
 
+.note-adjustment,
+.note-search {
+  min-height: 46px;
+  padding: 0 14px;
+}
+
+.notes-panel textarea {
+  padding: 14px;
+}
+
+.note-form-grid label,
+.note-rating-grid label {
+  padding: 16px;
+}
+
+.note-form-grid select {
+  height: 44px;
+}
+
 .drink-card-body {
   padding: 14px 13px 15px;
 }
@@ -3164,5 +3311,41 @@ h1,
   .note-form-grid,
   .note-rating-grid {
     grid-template-columns: 1fr;
+  }
+
+  .note-rating-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+    padding: 8px;
+  }
+
+  .note-rating-grid label {
+    gap: 4px;
+    padding: 7px 8px;
+  }
+
+  .note-rating-grid label > span {
+    font-size: 11px;
+  }
+
+  .note-rating-grid label strong {
+    min-width: 22px;
+    height: 20px;
+    font-size: 12px;
+  }
+
+  .note-rating-grid input[type="range"] {
+    height: 14px;
+  }
+
+  .note-rating-grid input[type="range"]::-webkit-slider-thumb {
+    width: 16px;
+    height: 16px;
+    margin-top: -6px;
+  }
+
+  .note-rating-grid input[type="range"]::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
   }
 }
