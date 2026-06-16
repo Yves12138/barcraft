@@ -15,6 +15,13 @@
   --ice: #d8c7a8;
   --ink: #120d08;
   --shadow: 0 28px 70px rgba(0, 0, 0, 0.52);
+  --control-bg: linear-gradient(180deg, rgba(255, 246, 226, 0.046), rgba(255, 246, 226, 0.014));
+  --control-bg-hover: linear-gradient(180deg, rgba(215, 167, 92, 0.14), rgba(215, 167, 92, 0.035));
+  --control-bg-active: linear-gradient(180deg, rgba(215, 167, 92, 0.2), rgba(142, 74, 47, 0.09));
+  --control-border: rgba(215, 167, 92, 0.22);
+  --control-border-active: rgba(215, 167, 92, 0.56);
+  --surface-pad: 18px;
+  --surface-pad-sm: 14px;
   --serif: Georgia, "Times New Roman", "Songti SC", "STSong", serif;
   --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
   --oak-panel-texture:
@@ -2513,6 +2520,211 @@ h1,
   color: var(--amber);
 }
 
+/* Fine visual polish: unified controls, hierarchy, spacing, and mobile density */
+button,
+.filter,
+.small-button,
+.primary-button,
+.icon-button,
+.console-tab,
+.top-nav-button,
+.quick-inventory-item,
+.inventory-item,
+.lesson-row,
+.drink-card,
+.lesson-drink-card {
+  transition:
+    border-color 160ms ease,
+    background 160ms ease,
+    color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+.quick-inventory-item:focus-within,
+.inventory-item:focus-within {
+  outline: 2px solid rgba(215, 167, 92, 0.62);
+  outline-offset: 3px;
+}
+
+.filter,
+.small-button,
+.classic-links button,
+.weather-switch button,
+.serving-control button,
+.home-signals span,
+.quick-inventory-item,
+.inventory-item,
+.home-inventory-card button,
+.home-lesson-card button,
+.home-note-card button {
+  border-color: var(--control-border);
+  background: var(--control-bg), rgba(12, 9, 6, 0.5);
+  box-shadow: inset 0 1px 0 rgba(255, 246, 226, 0.035);
+  color: rgba(244, 234, 217, 0.76);
+  font-size: 13px;
+  font-weight: 740;
+}
+
+.filter:hover,
+.filter.active,
+.small-button:hover,
+.classic-links button:hover,
+.weather-switch button:hover,
+.weather-switch button.active,
+.serving-control button:hover,
+.serving-control button.active,
+.quick-inventory-item:hover,
+.inventory-item:hover,
+.home-inventory-card button:hover,
+.home-lesson-card button:hover,
+.home-note-card button:hover {
+  border-color: var(--control-border-active);
+  background: var(--control-bg-hover), rgba(20, 14, 9, 0.72);
+  color: var(--amber);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 246, 226, 0.05),
+    0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.filter.active,
+.weather-switch button.active,
+.serving-control button.active,
+.quick-inventory-item:has(input:checked),
+.inventory-item:has(input:checked) {
+  background: var(--control-bg-active), rgba(28, 18, 11, 0.84);
+  box-shadow:
+    inset 0 0 0 1px rgba(215, 167, 92, 0.15),
+    inset 0 -2px 0 rgba(215, 167, 92, 0.28);
+}
+
+.top-view-nav {
+  border-color: rgba(215, 167, 92, 0.2);
+}
+
+.top-nav-button {
+  position: relative;
+  min-width: 0;
+  color: rgba(244, 234, 217, 0.7);
+}
+
+.top-nav-button:hover,
+.top-nav-button.active {
+  background: var(--control-bg-hover), rgba(13, 9, 6, 0.34);
+  box-shadow:
+    inset 0 -2px 0 rgba(215, 167, 92, 0.82),
+    inset 0 1px 0 rgba(255, 246, 226, 0.035);
+}
+
+.top-nav-button.active {
+  color: #e5bd78;
+}
+
+.console-tab {
+  border-color: rgba(215, 167, 92, 0.08);
+}
+
+.console-tab:hover,
+.console-tab.active {
+  transform: translateY(-1px);
+  box-shadow:
+    inset 0 0 0 1px rgba(215, 167, 92, 0.1),
+    0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
+.panel-label,
+.base-group-head h3,
+.section-head .panel-label {
+  margin-bottom: 8px;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+h1,
+.home-copy h1 {
+  line-height: 1.04;
+}
+
+.title-line h2,
+.section-head h2,
+.story-panel h2 {
+  line-height: 1.12;
+}
+
+.section-head {
+  margin-bottom: 20px;
+}
+
+.home-inventory-card,
+.home-lesson-card,
+.home-note-card,
+.today-fit-card,
+.inventory-status-card,
+.substitution-card,
+.drink-notes-card,
+.practice-card,
+.generated-card,
+.story-reading-card,
+.simulator-inventory,
+.control-stack,
+.simulator-output,
+.inventory-group,
+.lesson-row,
+.lesson-detail,
+.lesson-task,
+.note-form-grid label,
+.note-rating-grid label,
+.note-adjustment,
+.note-search,
+.note-item,
+.creation-item,
+.logic-grid div,
+.recipe-item,
+.base-group {
+  padding: var(--surface-pad);
+}
+
+.home-pick-preview {
+  padding: 15px 16px;
+}
+
+.drink-card-body {
+  padding: 14px 13px 15px;
+}
+
+.drink-card {
+  padding: 0;
+}
+
+.drink-card strong,
+.lesson-drink-card strong {
+  line-height: 1.22;
+}
+
+.drink-card span,
+.lesson-drink-card > span:last-child,
+.generated-card p,
+.generated-card li,
+.story-reading-card p,
+.recipe-item span,
+.creation-item span,
+.creation-item p,
+.inventory-group-head span,
+.note-item,
+.note-item p {
+  line-height: 1.58;
+}
+
+.drink-card:hover,
+.lesson-drink-card:hover,
+.lesson-row:hover {
+  transform: translateY(-2px);
+}
+
 @media (max-width: 1180px) {
   .app-shell {
     grid-template-columns: 1fr;
@@ -2603,9 +2815,11 @@ h1,
     top: 0;
     z-index: 18;
     margin: -16px -16px 14px;
-    padding: 12px 16px 10px;
+    padding: 12px 16px 11px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(16, 17, 18, 0.9);
+    background:
+      linear-gradient(180deg, rgba(255, 246, 226, 0.03), rgba(255, 246, 226, 0)),
+      rgba(9, 7, 5, 0.92);
     backdrop-filter: blur(18px);
   }
 
@@ -2762,8 +2976,8 @@ h1,
 
   .top-nav-button {
     min-height: 36px;
-    padding: 0 6px;
-    font-size: 12px;
+    padding: 0 5px;
+    font-size: 11.5px;
     gap: 4px;
   }
 
@@ -2773,13 +2987,13 @@ h1,
   }
 
   .home-copy h1 {
-    font-size: 32px;
-    line-height: 1.12;
+    font-size: 30px;
+    line-height: 1.14;
   }
 
   .title-line h2 {
-    font-size: 30px;
-    line-height: 1.08;
+    font-size: 27px;
+    line-height: 1.12;
   }
 
   .recommend-kicker {
@@ -2790,8 +3004,8 @@ h1,
   .home-copy p,
   .taste-copy,
   .story-reading-card p {
-    font-size: 15px;
-    line-height: 1.8;
+    font-size: 14px;
+    line-height: 1.68;
   }
 
   .home-pick-preview {
@@ -2825,7 +3039,65 @@ h1,
   .story-reading-card,
   .generated-card,
   .inventory-group {
-    padding: 13px;
+    padding: var(--surface-pad-sm);
+  }
+
+  .home-inventory-card,
+  .home-lesson-card,
+  .home-note-card,
+  .today-fit-card,
+  .inventory-status-card,
+  .substitution-card,
+  .drink-notes-card,
+  .practice-card,
+  .simulator-inventory,
+  .control-stack,
+  .simulator-output,
+  .lesson-row,
+  .lesson-detail,
+  .lesson-task,
+  .note-form-grid label,
+  .note-rating-grid label,
+  .note-adjustment,
+  .note-search,
+  .note-item,
+  .creation-item,
+  .logic-grid div,
+  .recipe-item,
+  .base-group {
+    padding: var(--surface-pad-sm);
+  }
+
+  .drink-card-body {
+    padding: 11px 10px 12px;
+  }
+
+  .drink-card strong {
+    font-size: 14px;
+  }
+
+  .drink-card span {
+    margin-top: 4px;
+    font-size: 11.5px;
+    line-height: 1.48;
+  }
+
+  .filter,
+  .small-button,
+  .classic-links button,
+  .weather-switch button,
+  .serving-control button,
+  .quick-inventory-item,
+  .inventory-item {
+    font-size: 12px;
+  }
+
+  .panel-label,
+  .base-group-head span,
+  .inventory-group-head span,
+  .lesson-row span {
+    font-size: 11.5px;
+    line-height: 1.45;
   }
 
   .quick-inventory-grid {
