@@ -22,6 +22,7 @@
   --control-border-active: rgba(215, 167, 92, 0.56);
   --surface-pad: 18px;
   --surface-pad-sm: 14px;
+  --mobile-console-space: 148px;
   --serif: Georgia, "Times New Roman", "Songti SC", "STSong", serif;
   --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
   --oak-panel-texture:
@@ -2832,13 +2833,14 @@ h1,
   }
 
   .workspace {
-    padding: 16px 16px 136px;
+    padding: 16px 16px calc(var(--mobile-console-space) + env(safe-area-inset-bottom));
   }
 
   .collection-panel.active .base-groups {
-    max-height: calc(100vh - 300px);
-    padding-bottom: calc(112px + env(safe-area-inset-bottom));
-    scroll-padding-bottom: calc(112px + env(safe-area-inset-bottom));
+    max-height: none;
+    overflow: visible;
+    padding-bottom: calc(var(--mobile-console-space) + 18px + env(safe-area-inset-bottom));
+    scroll-padding-bottom: calc(var(--mobile-console-space) + 18px + env(safe-area-inset-bottom));
   }
 
   .base-groups.all-groups {
@@ -2885,8 +2887,16 @@ h1,
     min-height: auto;
   }
 
+  .home-copy {
+    padding: 18px;
+  }
+
+  .home-copy p {
+    margin-top: 12px;
+  }
+
   .home-hero-image {
-    height: clamp(156px, 42vw, 190px);
+    height: clamp(136px, 36vw, 176px);
     min-height: 0;
   }
 
@@ -2921,12 +2931,32 @@ h1,
     font-size: 18px;
   }
 
+  .home-pick-preview {
+    margin-top: 12px;
+    padding: 12px 13px;
+  }
+
+  .home-recommend-controls {
+    margin-top: 10px;
+  }
+
+  .home-signals,
+  .weather-switch {
+    gap: 6px;
+  }
+
+  .weather-switch,
+  .home-recommend-controls .home-action {
+    margin-top: 9px;
+  }
+
   .home-action {
     width: 100%;
   }
 
   .view-panel.active {
     min-height: calc(100vh - 190px);
+    padding-bottom: calc(22px + env(safe-area-inset-bottom));
   }
 
   .bottom-console {
@@ -2987,7 +3017,7 @@ h1,
   }
 
   .home-copy h1 {
-    font-size: 30px;
+    font-size: 29px;
     line-height: 1.14;
   }
 
@@ -3101,7 +3131,7 @@ h1,
   }
 
   .quick-inventory-grid {
-    max-height: 168px;
+    max-height: 56px;
   }
 
   .quick-inventory-item,
