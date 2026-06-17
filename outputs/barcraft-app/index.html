@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarCraft - 鸡尾酒灵感工作台</title>
-    <link rel="stylesheet" href="./styles.css?v=20260617-bar-workbench" />
+    <link rel="stylesheet" href="./styles.css?v=20260617-workbench-flow" />
   </head>
   <body>
     <div class="app-shell">
@@ -188,31 +188,39 @@
               <div class="section-head compact">
                 <div>
                   <span class="panel-label">调酒台</span>
-                  <h2>库存与原创配方</h2>
+                  <h2>从家中材料开始调酒</h2>
                 </div>
                 <button class="icon-button warm" id="generateButton" aria-label="生成原创配方" title="生成原创配方">
                   <svg><use href="#icon-spark"></use></svg>
                 </button>
               </div>
+              <div class="workbench-overview" id="workbenchOverview"></div>
               <div class="bar-workbench">
-                <section class="bar-inventory-area" aria-label="家中已有材料">
-                  <div class="section-head compact mini-head">
-                    <div>
-                      <span class="panel-label">家中已有材料</span>
-                      <h3>现在能做什么</h3>
-                    </div>
-                  </div>
-                  <div class="inventory-grid" id="inventoryGrid"></div>
-                </section>
                 <section class="bar-match-area" aria-label="库存推荐">
                   <div class="section-head compact mini-head">
                     <div>
-                      <span class="panel-label">库存推荐</span>
-                      <h3>接近可做的经典酒</h3>
+                      <span class="panel-label">现在能做什么</span>
+                      <h3>优先从可做和差 1 样开始</h3>
                     </div>
                   </div>
                   <div class="match-list" id="matchList"></div>
                 </section>
+                <details class="bar-inventory-area" aria-label="家中已有材料">
+                  <summary>
+                    <span>
+                      <span class="panel-label">家中已有材料</span>
+                      <strong>维护库存</strong>
+                    </span>
+                    <em id="inventoryOwnedCount">0 项</em>
+                  </summary>
+                  <div class="section-head compact mini-head">
+                    <div>
+                      <span class="panel-label">材料清单</span>
+                      <h3>按类别勾选</h3>
+                    </div>
+                  </div>
+                  <div class="inventory-grid" id="inventoryGrid"></div>
+                </details>
               </div>
               <div class="simulator-grid">
                 <div class="control-stack">
@@ -420,7 +428,7 @@
       <symbol id="icon-save" viewBox="0 0 24 24"><path d="M5 3h14l2 2v16H3V5l2-2Z"/><path d="M7 3v6h10V3"/><path d="M7 21v-7h10v7"/></symbol>
     </svg>
 
-  <script src="./iba-data.js?v=20260617-bar-workbench"></script>
-  <script src="./app.js?v=20260617-bar-workbench"></script>
+  <script src="./iba-data.js?v=20260617-workbench-flow"></script>
+  <script src="./app.js?v=20260617-workbench-flow"></script>
   </body>
 </html>

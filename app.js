@@ -541,6 +541,8 @@ const elements = {
   favoriteCount: $("#favoriteCount"),
   favoriteSummary: $("#favoriteSummary"),
   favoriteCards: $("#favoriteCards"),
+  workbenchOverview: $("#workbenchOverview"),
+  inventoryOwnedCount: $("#inventoryOwnedCount"),
   inventoryGrid: $("#inventoryGrid"),
   inventoryStatusCard: $("#inventoryStatusCard"),
   simulatorInventoryGrid: $("#simulatorInventoryGrid"),
@@ -1312,12 +1314,56 @@ function renderSimulatorInventory() {
   elements.simulatorInventoryCount.textContent = `${ownedQuickCount} 项`;
 }
 
+function nextInventorySuggestion(matches) {
+  const counts = new Map();
+  matches
+    .filter(({ match }) => match.missingCount === 1)
+    .forEach(({ match }) => {
+      const item = match.missing[0];
+      counts.set(item, (counts.get(item) || 0) + 1);
+    });
+  const [item, count] = [...counts.entries()].sort((a, b) => b[1] - a[1] || displayInventoryItem(a[0]).localeCompare(displayInventoryItem(b[0]), "zh-Hans-CN"))[0] || [];
+  return item ? { item, count } : null;
+}
+
+function renderWorkbenchOverview(matches) {
+  const readyCount = matches.filter(({ match }) => match.missingCount === 0).length;
+  const nearCount = matches.filter(({ match }) => match.missingCount === 1).length;
+  const ownedCount = state.inventory.size;
+  const suggestion = nextInventorySuggestion(matches);
+  if (elements.inventoryOwnedCount) elements.inventoryOwnedCount.textContent = `${ownedCount} 项`;
+  elements.workbenchOverview.innerHTML = `
+    <div class="workbench-stat">
+      <span>已有材料</span>
+      <strong>${ownedCount}</strong>
+    </div>
+    <div class="workbench-stat">
+      <span>可立即制作</span>
+      <strong>${readyCount}</strong>
+    </div>
+    <div class="workbench-stat">
+      <span>差 1 样</span>
+      <strong>${nearCount}</strong>
+    </div>
+    <div class="workbench-next-step">
+      <span>下一步</span>
+      <strong>${suggestion ? `补 ${escapeHtml(displayInventoryItem(suggestion.item))}` : "直接生成原创配方"}</strong>
+      <p>${suggestion ? `补齐后大约多 ${suggestion.count} 款经典酒更接近可做。` : "当前库存已经覆盖不少经典结构，可以先做小杯版本。"} </p>
+      <div>
+        <button class="small-button neutral" type="button" data-workbench-action="generate">生成原创</button>
+        <button class="small-button" type="button" data-workbench-action="inventory">整理材料</button>
+      </div>
+    </div>
+  `;
+}
+
 function renderInventory() {
-  elements.inventoryGrid.innerHTML = inventoryGroups().map(inventoryGroupMarkup).join("");
   renderSimulatorInventory();
   renderHomeInventoryRecommendation();
 
   const matches = bestInventoryMatches();
+  renderWorkbenchOverview(matches);
+  elements.inventoryGrid.innerHTML = inventoryGroups().map(inventoryGroupMarkup).join("");
   const sections = [
     ["可立即制作", matches.filter(({ match }) => match.missingCount === 0).slice(0, 8)],
     ["差 1 样", matches.filter(({ match }) => match.missingCount === 1).slice(0, 8)],
@@ -1879,6 +1925,21 @@ function attachEvents() {
     renderSelectedDrink();
     renderCards();
     setActiveView("atlas");
+  });
+
+  elements.workbenchOverview.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-workbench-action]");
+    if (!button) return;
+    if (button.dataset.workbenchAction === "generate") {
+      generateCocktail();
+      elements.generatedCard.scrollIntoView({ behavior: "smooth", block: "center" });
+      return;
+    }
+    const inventoryPanel = document.querySelector(".bar-inventory-area");
+    if (inventoryPanel) {
+      inventoryPanel.open = true;
+      inventoryPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   });
 
   elements.storyRelated.addEventListener("click", (event) => {
