@@ -433,6 +433,18 @@ h2 {
   color: var(--ice);
 }
 
+.recommend-drink-zh,
+.recommend-drink-en {
+  display: block;
+}
+
+.recommend-drink-en {
+  margin-top: 2px;
+  color: rgba(244, 234, 217, 0.84);
+  font-size: 0.72em;
+  line-height: 1.08;
+}
+
 .home-copy p {
   max-width: 620px;
   margin-top: 18px;
@@ -2421,6 +2433,10 @@ h1,
 
 .recommend-drink {
   color: var(--text);
+}
+
+.recommend-drink-en {
+  color: rgba(244, 234, 217, 0.78);
 }
 
 .home-copy p,

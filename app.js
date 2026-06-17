@@ -708,6 +708,16 @@ function homeWeatherCopy(weatherType) {
   return copy[weatherType] || copy.cloudy;
 }
 
+function homeRecommendationNameMarkup(drink) {
+  if (drink.nameZh && drink.nameEn) {
+    return `
+      <span class="recommend-drink-zh">${escapeHtml(drink.nameZh)}</span>
+      <span class="recommend-drink-en">${escapeHtml(drink.nameEn)}</span>
+    `;
+  }
+  return `<span class="recommend-drink-zh">${escapeHtml(drink.name)}</span>`;
+}
+
 function renderHomeRecommendation() {
   const daypart = currentDaypart();
   const drink = pickHomeDrink(state.homeWeather.type, daypart.key) || selectedDrink();
@@ -715,7 +725,7 @@ function renderHomeRecommendation() {
   elements.consoleDrinkName.textContent = drink.name;
   elements.homeHeadline.innerHTML = `
     <span class="recommend-kicker">${escapeHtml(daypart.label)}推荐：</span>
-    <span class="recommend-drink">${escapeHtml(drink.nameZh || drink.name)}</span>
+    <span class="recommend-drink">${homeRecommendationNameMarkup(drink)}</span>
   `;
   elements.homeReason.textContent = `${homeWeatherCopy(state.homeWeather.type)}${daypart.copy}`;
   elements.homeTimeLabel.textContent = new Intl.DateTimeFormat("zh-CN", { hour: "2-digit", minute: "2-digit" }).format(new Date());
@@ -1949,7 +1959,7 @@ function renderStartupFallback(error) {
   if (elements.homeHeadline) {
     elements.homeHeadline.innerHTML = `
       <span class="recommend-kicker">${escapeHtml(daypart.label)}推荐：</span>
-      <span class="recommend-drink">${escapeHtml(drink.nameZh || drink.name)}</span>
+      <span class="recommend-drink">${homeRecommendationNameMarkup(drink)}</span>
     `;
   }
   if (elements.homeReason) elements.homeReason.textContent = `暂时无法读取部分本地状态，先推荐一杯稳定经典。${daypart.copy}`;
