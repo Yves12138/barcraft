@@ -585,8 +585,7 @@ const viewLabels = {
   collection: "酒单",
   favorites: "收藏",
   story: "故事",
-  simulator: "模拟器",
-  inventory: "库存",
+  simulator: "调酒台",
   learn: "学习",
   notes: "笔记"
 };
@@ -606,7 +605,8 @@ function setActiveView(view) {
     button.classList.toggle("active", buttonView === view);
   });
   elements.consoleViewLabel.textContent = viewLabels[view];
-  elements.consoleMode.textContent = view === "home" ? "今日推荐" : view === "collection" ? "选择酒款" : view === "favorites" ? "我的酒单" : "浏览模式";
+  elements.consoleMode.textContent =
+    view === "home" ? "今日推荐" : view === "collection" ? "选择酒款" : view === "favorites" ? "我的酒单" : view === "simulator" ? "库存 / 原创" : "浏览模式";
   const consoleDrink =
     view === "home" && state.homeDrinkId
       ? drinks.find((drink) => drink.id === state.homeDrinkId)

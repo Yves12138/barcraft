@@ -1165,10 +1165,35 @@ h2 {
   gap: 12px;
 }
 
+.bar-workbench {
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.92fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.bar-inventory-area,
+.bar-match-area {
+  min-width: 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.bar-inventory-area .inventory-grid {
+  margin-top: 12px;
+}
+
+.bar-match-area .match-list {
+  margin-top: 12px;
+}
+
 .simulator-grid {
   display: grid;
   grid-template-columns: minmax(220px, 0.78fr) minmax(0, 1.42fr);
   gap: 16px;
+  margin-top: 16px;
   align-items: start;
 }
 
@@ -2597,6 +2622,8 @@ h1,
 .simulator-inventory,
 .control-stack,
 .simulator-output,
+.bar-inventory-area,
+.bar-match-area,
 .inventory-group,
 .lesson-row,
 .lesson-detail,
@@ -2969,6 +2996,8 @@ h1,
 .simulator-inventory,
 .control-stack,
 .simulator-output,
+.bar-inventory-area,
+.bar-match-area,
 .inventory-group,
 .lesson-row,
 .lesson-detail,
@@ -3121,6 +3150,7 @@ h1,
   .home-layout,
   .lesson-workspace,
   .right-rail,
+  .bar-workbench,
   .simulator-grid,
   .logic-grid {
     grid-template-columns: 1fr;
