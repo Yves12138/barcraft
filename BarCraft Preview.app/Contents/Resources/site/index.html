@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarCraft - 鸡尾酒灵感工作台</title>
-    <link rel="stylesheet" href="./styles.css?v=20260617-home-bilingual-small-en" />
+    <link rel="stylesheet" href="./styles.css?v=20260617-favorites-view" />
   </head>
   <body>
     <div class="app-shell">
@@ -25,6 +25,10 @@
           <button class="nav-item" data-section="atlas">
             <svg><use href="#icon-book"></use></svg>
             <span>图鉴</span>
+          </button>
+          <button class="nav-item" data-section="favorites">
+            <svg><use href="#icon-heart"></use></svg>
+            <span>收藏</span>
           </button>
           <button class="nav-item" data-section="story">
             <svg><use href="#icon-clock"></use></svg>
@@ -65,6 +69,7 @@
             <button class="top-nav-button active" data-view="home">首页</button>
             <button class="top-nav-button" data-view="atlas">图鉴</button>
             <button class="top-nav-button" data-view="collection">酒单</button>
+            <button class="top-nav-button" data-view="favorites">收藏</button>
             <button class="top-nav-button" data-view="story">故事</button>
             <button class="top-nav-button" data-view="simulator">模拟</button>
             <button class="top-nav-button" data-view="inventory">库存</button>
@@ -275,6 +280,18 @@
             <div class="base-groups" id="drinkCards"></div>
           </section>
 
+          <section class="panel favorites-panel view-panel" id="favorites" data-view-panel="favorites">
+            <div class="section-head compact">
+              <div>
+                <span class="panel-label">收藏</span>
+                <h2>我的酒单</h2>
+              </div>
+              <span id="favoriteCount" class="count-label">0 款</span>
+            </div>
+            <div class="favorites-summary" id="favoriteSummary"></div>
+            <div class="favorites-grid" id="favoriteCards"></div>
+          </section>
+
           <section class="panel inventory-panel view-panel" id="inventory" data-view-panel="inventory">
             <div class="section-head compact">
               <div>
@@ -358,6 +375,10 @@
           <svg><use href="#icon-search"></use></svg>
           <span>酒单</span>
         </button>
+        <button class="console-tab" data-view="favorites">
+          <svg><use href="#icon-heart"></use></svg>
+          <span>收藏</span>
+        </button>
         <button class="console-tab" data-view="story">
           <svg><use href="#icon-clock"></use></svg>
           <span>故事</span>
@@ -399,7 +420,7 @@
       <symbol id="icon-save" viewBox="0 0 24 24"><path d="M5 3h14l2 2v16H3V5l2-2Z"/><path d="M7 3v6h10V3"/><path d="M7 21v-7h10v7"/></symbol>
     </svg>
 
-  <script src="./iba-data.js?v=20260617-home-bilingual-small-en"></script>
-  <script src="./app.js?v=20260617-home-bilingual-small-en"></script>
+  <script src="./iba-data.js?v=20260617-favorites-view"></script>
+  <script src="./app.js?v=20260617-favorites-view"></script>
   </body>
 </html>

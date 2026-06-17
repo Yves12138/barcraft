@@ -538,6 +538,9 @@ const elements = {
   resultCount: $("#resultCount"),
   filterRow: $("#filterRow"),
   favoriteButton: $("#favoriteButton"),
+  favoriteCount: $("#favoriteCount"),
+  favoriteSummary: $("#favoriteSummary"),
+  favoriteCards: $("#favoriteCards"),
   inventoryGrid: $("#inventoryGrid"),
   inventoryStatusCard: $("#inventoryStatusCard"),
   simulatorInventoryGrid: $("#simulatorInventoryGrid"),
@@ -580,6 +583,7 @@ const viewLabels = {
   home: "首页",
   atlas: "图鉴",
   collection: "酒单",
+  favorites: "收藏",
   story: "故事",
   simulator: "模拟器",
   inventory: "库存",
@@ -602,12 +606,14 @@ function setActiveView(view) {
     button.classList.toggle("active", buttonView === view);
   });
   elements.consoleViewLabel.textContent = viewLabels[view];
-  elements.consoleMode.textContent = view === "home" ? "今日推荐" : view === "collection" ? "选择酒款" : "浏览模式";
+  elements.consoleMode.textContent = view === "home" ? "今日推荐" : view === "collection" ? "选择酒款" : view === "favorites" ? "我的酒单" : "浏览模式";
   const consoleDrink =
     view === "home" && state.homeDrinkId
       ? drinks.find((drink) => drink.id === state.homeDrinkId)
       : selectedDrink();
   if (consoleDrink) elements.consoleDrinkName.textContent = consoleDrink.name;
+  if (view === "favorites") renderFavorites();
+  if (view === "collection") elements.consoleResultCount.textContent = `${filteredDrinks().length} 款`;
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -1179,6 +1185,69 @@ function renderCards() {
     .join("");
 }
 
+function favoriteDrinks() {
+  return drinks
+    .filter((drink) => state.favorites.has(drink.id))
+    .sort((a, b) => (a.nameEn || a.name).localeCompare(b.nameEn || b.name, "en", { sensitivity: "base" }));
+}
+
+function favoriteCardMarkup(drink) {
+  const match = inventoryMatchFor(drink);
+  const chipClass = match.missingCount === 0 ? "ready" : match.missingCount <= 2 ? "near" : "";
+  return `
+    <article class="favorite-card ${drink.id === state.selectedId ? "active" : ""}">
+      <button class="favorite-card-open" type="button" data-favorite-drink="${escapeHtml(drink.id)}" aria-label="查看 ${escapeHtml(drink.name)} 的完整配方">
+        <img src="${drink.image}" alt="${escapeHtml(drink.name)} 成品图" loading="lazy" decoding="async" />
+        <span class="favorite-card-body">
+          <span class="make-chip ${chipClass}">${escapeHtml(match.status)}</span>
+          <strong>${escapeHtml(drink.name)}</strong>
+          <span>${escapeHtml(drink.subtitle)}</span>
+        </span>
+      </button>
+      <div class="favorite-card-actions">
+        <button class="small-button neutral" type="button" data-favorite-drink="${escapeHtml(drink.id)}">查看配方</button>
+        <button class="small-button favorite-remove" type="button" data-unfavorite="${escapeHtml(drink.id)}">取消收藏</button>
+      </div>
+    </article>
+  `;
+}
+
+function renderFavorites() {
+  const favorites = favoriteDrinks();
+  elements.favoriteCount.textContent = `${favorites.length} 款`;
+  if (state.activeView === "favorites") {
+    elements.consoleResultCount.textContent = `${favorites.length} 款`;
+  }
+  if (!favorites.length) {
+    elements.favoriteSummary.innerHTML = `
+      <div class="favorite-empty">
+        <strong>还没有收藏的鸡尾酒</strong>
+        <p>在图鉴页点亮心形按钮后，这里会集中显示你的私人酒单。</p>
+        <button class="primary-button compact-action" type="button" data-open-collection>去酒单挑选</button>
+      </div>
+    `;
+    elements.favoriteCards.innerHTML = "";
+    return;
+  }
+  const readyCount = favorites.filter((drink) => inventoryMatchFor(drink).missingCount === 0).length;
+  const bases = [...new Set(favorites.map((drink) => drink.base).filter(Boolean))];
+  elements.favoriteSummary.innerHTML = `
+    <div class="favorite-stat">
+      <span>已收藏</span>
+      <strong>${favorites.length}</strong>
+    </div>
+    <div class="favorite-stat">
+      <span>当前可做</span>
+      <strong>${readyCount}</strong>
+    </div>
+    <div class="favorite-stat wide">
+      <span>覆盖风格</span>
+      <strong>${bases.map(escapeHtml).join("、") || "待扩展"}</strong>
+    </div>
+  `;
+  elements.favoriteCards.innerHTML = favorites.map(favoriteCardMarkup).join("");
+}
+
 function alphabetGroups(list) {
   const sorted = [...list].sort((a, b) => (a.nameEn || a.name).localeCompare(b.nameEn || b.name, "en", { sensitivity: "base" }));
   return sorted.reduce((groups, drink) => {
@@ -1684,6 +1753,7 @@ function updateInventoryFromInput(input) {
   persist();
   renderInventory();
   renderCards();
+  renderFavorites();
   renderSelectedDrink();
   renderLessons();
   renderHomeLessonCard();
@@ -1751,6 +1821,7 @@ function attachEvents() {
     state.selectedId = card.dataset.drink;
     renderSelectedDrink();
     renderCards();
+    renderFavorites();
     setActiveView("atlas");
   });
 
@@ -1760,6 +1831,33 @@ function attachEvents() {
     else state.favorites.add(drink.id);
     persist();
     renderSelectedDrink();
+    renderCards();
+    renderFavorites();
+  });
+
+  elements.favoriteSummary.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-open-collection]");
+    if (!button) return;
+    setActiveView("collection");
+  });
+
+  elements.favoriteCards.addEventListener("click", (event) => {
+    const removeButton = event.target.closest("[data-unfavorite]");
+    if (removeButton) {
+      state.favorites.delete(removeButton.dataset.unfavorite);
+      persist();
+      renderSelectedDrink();
+      renderCards();
+      renderFavorites();
+      return;
+    }
+    const openButton = event.target.closest("[data-favorite-drink]");
+    if (!openButton) return;
+    state.selectedId = openButton.dataset.favoriteDrink;
+    renderSelectedDrink();
+    renderCards();
+    renderFavorites();
+    setActiveView("atlas");
   });
 
   elements.servingControl.addEventListener("click", (event) => {
@@ -1941,6 +2039,7 @@ function init() {
   renderNoteRatingValues();
   renderSelectedDrink();
   renderCards();
+  renderFavorites();
   renderInventory();
   renderLessons();
   renderNotes();
