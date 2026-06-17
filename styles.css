@@ -3427,7 +3427,11 @@ h1,
 
   .view-panel.active {
     min-height: calc(100vh - 190px);
-    padding-bottom: calc(22px + env(safe-area-inset-bottom));
+    padding-bottom: calc(var(--mobile-console-space) + 22px + env(safe-area-inset-bottom));
+  }
+
+  .simulator-panel.active {
+    padding-bottom: calc(var(--mobile-console-space) + 112px + env(safe-area-inset-bottom));
   }
 
   .bottom-console {
