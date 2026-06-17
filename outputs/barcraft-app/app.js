@@ -603,6 +603,11 @@ function setActiveView(view) {
   });
   elements.consoleViewLabel.textContent = viewLabels[view];
   elements.consoleMode.textContent = view === "home" ? "今日推荐" : view === "collection" ? "选择酒款" : "浏览模式";
+  const consoleDrink =
+    view === "home" && state.homeDrinkId
+      ? drinks.find((drink) => drink.id === state.homeDrinkId)
+      : selectedDrink();
+  if (consoleDrink) elements.consoleDrinkName.textContent = consoleDrink.name;
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
@@ -1049,7 +1054,11 @@ function renderSelectedDrink() {
         .join("")}
     </div>
   `;
-  elements.favoriteButton.classList.toggle("active", state.favorites.has(drink.id));
+  const isFavorite = state.favorites.has(drink.id);
+  elements.favoriteButton.classList.toggle("active", isFavorite);
+  elements.favoriteButton.setAttribute("aria-pressed", String(isFavorite));
+  elements.favoriteButton.setAttribute("aria-label", isFavorite ? "取消收藏当前鸡尾酒" : "收藏当前鸡尾酒");
+  elements.favoriteButton.title = isFavorite ? "取消收藏当前鸡尾酒" : "收藏当前鸡尾酒";
 }
 
 function renderFilters() {
@@ -1834,9 +1843,24 @@ function attachEvents() {
     setActiveView("atlas");
   });
 
-  $("#saveNoteButton").addEventListener("click", () => {
+  $("#saveNoteButton").addEventListener("click", (event) => {
+    const saveButton = event.currentTarget;
+    const defaultSaveButtonHtml = `<svg><use href="#icon-save"></use></svg>保存笔记`;
+    const flashSaveButton = (label, className) => {
+      saveButton.classList.remove("saved", "attention");
+      saveButton.classList.add(className);
+      saveButton.innerHTML = `<svg><use href="#icon-save"></use></svg>${label}`;
+      window.setTimeout(() => {
+        saveButton.classList.remove(className);
+        saveButton.innerHTML = defaultSaveButtonHtml;
+      }, 1200);
+    };
     const text = elements.noteInput.value.trim();
-    if (!text) return;
+    if (!text) {
+      flashSaveButton("先写一点笔记", "attention");
+      elements.noteInput.focus();
+      return;
+    }
     const time = new Intl.DateTimeFormat("zh-CN", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }).format(new Date());
     const drink = drinks.find((item) => item.id === elements.noteDrinkSelect.value);
     const lessonIndex = elements.noteLessonSelect.value === "" ? null : Number(elements.noteLessonSelect.value);
@@ -1856,6 +1880,7 @@ function attachEvents() {
     persist();
     renderNotes();
     renderSelectedDrink();
+    flashSaveButton("已保存", "saved");
   });
 
   $("#generateButton").addEventListener("click", generateCocktail);

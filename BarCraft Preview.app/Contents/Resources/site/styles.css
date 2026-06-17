@@ -2601,6 +2601,18 @@ h1,
   letter-spacing: 0;
 }
 
+.primary-button.saved {
+  border-color: rgba(145, 185, 154, 0.6);
+  background:
+    linear-gradient(180deg, rgba(181, 208, 169, 0.96), rgba(116, 149, 98, 0.96));
+}
+
+.primary-button.attention {
+  border-color: rgba(184, 106, 79, 0.72);
+  background:
+    linear-gradient(180deg, rgba(219, 151, 109, 0.96), rgba(150, 76, 52, 0.96));
+}
+
 .small-button.neutral,
 .home-inventory-card button,
 .home-lesson-card button,
