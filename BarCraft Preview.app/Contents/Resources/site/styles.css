@@ -2191,6 +2191,76 @@ textarea::placeholder,
   color: rgba(216, 199, 168, 0.52);
 }
 
+.note-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.note-stat-card,
+.note-composer,
+.note-history,
+.note-empty {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.note-stat-card {
+  min-width: 0;
+  padding: 14px;
+}
+
+.note-stat-card span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.note-stat-card strong {
+  display: block;
+  margin-top: 6px;
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 30px;
+  line-height: 1;
+}
+
+.note-stat-card p {
+  margin-top: 8px;
+  color: rgba(244, 234, 217, 0.7);
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.note-workspace {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.92fr) minmax(0, 1.08fr);
+  gap: 14px;
+  align-items: start;
+  margin-top: 14px;
+}
+
+.note-composer,
+.note-history {
+  min-width: 0;
+  padding: 16px;
+}
+
+.note-history {
+  display: grid;
+  gap: 12px;
+}
+
+.note-history-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 0.72fr);
+  align-items: end;
+  gap: 12px;
+}
+
 .note-form-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -2311,7 +2381,6 @@ textarea::placeholder,
 .note-search {
   width: 100%;
   min-height: 40px;
-  margin-top: 10px;
   padding: 0 12px;
   border: 1px solid rgba(215, 167, 92, 0.22);
   border-radius: 8px;
@@ -2323,12 +2392,16 @@ textarea::placeholder,
   color: var(--text);
 }
 
+.note-adjustment {
+  margin-top: 10px;
+}
+
 .note-rating-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 12px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
   margin-top: 10px;
-  padding: 14px;
+  padding: 10px;
   border: 1px solid rgba(215, 167, 92, 0.18);
   border-radius: 8px;
   background:
@@ -2356,15 +2429,28 @@ textarea::placeholder,
 
 .note-list {
   display: grid;
-  gap: 8px;
-  margin-top: 12px;
+  gap: 10px;
+  margin-top: 0;
 }
 
 .note-item {
+  width: 100%;
   color: var(--text);
   font-size: 13px;
   line-height: 1.5;
   text-align: left;
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease,
+    background 160ms ease;
+}
+
+.note-item:hover {
+  border-color: rgba(215, 167, 92, 0.36);
+  background:
+    var(--obsidian-card-texture),
+    rgba(36, 20, 12, 0.62);
+  transform: translateY(-1px);
 }
 
 .note-item strong,
@@ -2375,19 +2461,66 @@ textarea::placeholder,
 }
 
 .note-item strong {
-  font-size: 14px;
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.18;
 }
 
-.note-item em {
-  margin-top: 6px;
+.note-card-kicker {
+  margin-bottom: 6px;
+}
+
+.note-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.note-card-meta em,
+.note-card-meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 0 8px;
+  border: 1px solid rgba(215, 167, 92, 0.18);
+  border-radius: 8px;
+  background: rgba(215, 167, 92, 0.08);
   color: var(--ice);
   font-style: normal;
   font-size: 12px;
 }
 
 .note-item p {
+  margin-top: 10px;
+  color: var(--text);
+}
+
+.note-empty {
+  padding: 18px;
+}
+
+.note-empty span {
+  display: block;
+  color: var(--amber);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.note-empty strong {
+  display: block;
   margin-top: 7px;
   color: var(--text);
+  font-family: var(--serif);
+  font-size: 21px;
+}
+
+.note-empty p {
+  margin-top: 8px;
+  color: rgba(244, 234, 217, 0.68);
+  font-size: 13px;
+  line-height: 1.65;
 }
 
 .view-panel {
@@ -2732,6 +2865,10 @@ h1,
 .lesson-row,
 .lesson-detail,
 .lesson-task,
+.note-stat-card,
+.note-composer,
+.note-history,
+.note-empty,
 .note-rating-grid,
 .note-form-grid label,
 .note-rating-grid label,
@@ -3110,6 +3247,10 @@ h1,
 .lesson-row,
 .lesson-detail,
 .lesson-task,
+.note-stat-card,
+.note-composer,
+.note-history,
+.note-empty,
 .note-form-grid label,
 .note-rating-grid label,
 .note-adjustment,
@@ -3257,6 +3398,7 @@ h1,
   .drink-layout,
   .home-layout,
   .lesson-workspace,
+  .note-workspace,
   .right-rail,
   .bar-workbench,
   .simulator-grid,
@@ -3291,6 +3433,11 @@ h1,
 
   .workbench-next-step {
     grid-column: 1 / -1;
+  }
+
+  .note-history-head {
+    grid-template-columns: 1fr;
+    align-items: start;
   }
 
   .workspace {
@@ -3490,6 +3637,31 @@ h1,
   .top-nav-button::before {
     width: 14px;
     height: 14px;
+  }
+
+  .note-stats {
+    gap: 6px;
+  }
+
+  .note-stat-card {
+    padding: 10px 8px;
+  }
+
+  .note-stat-card span {
+    font-size: 11px;
+  }
+
+  .note-stat-card strong {
+    font-size: 24px;
+  }
+
+  .note-stat-card p {
+    display: none;
+  }
+
+  .note-composer,
+  .note-history {
+    padding: 12px;
   }
 
   .home-copy h1 {

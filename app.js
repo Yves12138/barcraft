@@ -550,6 +550,8 @@ const elements = {
   matchList: $("#matchList"),
   lessonList: $("#lessonList"),
   lessonDetail: $("#lessonDetail"),
+  noteCount: $("#noteCount"),
+  noteStats: $("#noteStats"),
   noteInput: $("#noteInput"),
   noteDrinkSelect: $("#noteDrinkSelect"),
   noteLessonSelect: $("#noteLessonSelect"),
@@ -1500,6 +1502,43 @@ function ratingText(ratings) {
     .join(" / ");
 }
 
+function noteAverageScore(ratings) {
+  if (!ratings) return null;
+  const values = Object.values(ratings).filter((value) => Number.isFinite(value));
+  if (!values.length) return null;
+  return values.reduce((sum, value) => sum + value, 0) / values.length;
+}
+
+function renderNoteStats(notes) {
+  if (!elements.noteStats) return;
+  const drinkCount = new Set(notes.filter((note) => note.drinkId).map((note) => note.drinkId)).size;
+  const scores = notes.map((note) => noteAverageScore(note.ratings)).filter((score) => score !== null);
+  const averageScore = scores.length ? (scores.reduce((sum, score) => sum + score, 0) / scores.length).toFixed(1) : "—";
+  const latestNote = notes[0];
+
+  if (elements.noteCount) {
+    elements.noteCount.textContent = `${notes.length} 条`;
+  }
+
+  elements.noteStats.innerHTML = `
+    <article class="note-stat-card">
+      <span>累计记录</span>
+      <strong>${notes.length}</strong>
+      <p>${notes.length ? "每一次微调都会留在这里" : "从第一杯开始建立口味档案"}</p>
+    </article>
+    <article class="note-stat-card">
+      <span>覆盖酒款</span>
+      <strong>${drinkCount}</strong>
+      <p>${drinkCount ? "已关联到具体鸡尾酒" : "保存时可关联酒款"}</p>
+    </article>
+    <article class="note-stat-card">
+      <span>平均评分</span>
+      <strong>${averageScore}</strong>
+      <p>${latestNote ? `最近：${escapeHtml(latestNote.drinkName || latestNote.lessonTitle || "品鉴笔记")}` : "酸甜酒体香气和平衡"}</p>
+    </article>
+  `;
+}
+
 function renderHomeRecentNote() {
   if (!elements.homeRecentNoteCard) return;
   const note = state.notes.map(normalizeNote)[0];
@@ -1532,15 +1571,22 @@ function renderDrinkNotes(drink) {
 
 function renderNotes() {
   const query = state.noteQuery.trim().toLowerCase();
-  const notes = state.notes
-    .map(normalizeNote)
-    .filter((note) => {
-      const haystack = [note.text, note.drinkName, note.lessonTitle, note.adjustment, ratingText(note.ratings)].join(" ").toLowerCase();
-      return !query || haystack.includes(query);
-    });
+  const allNotes = state.notes.map(normalizeNote);
+  renderNoteStats(allNotes);
+
+  const notes = allNotes.filter((note) => {
+    const haystack = [note.text, note.drinkName, note.lessonTitle, note.adjustment, ratingText(note.ratings)].join(" ").toLowerCase();
+    return !query || haystack.includes(query);
+  });
 
   if (!notes.length) {
-    elements.noteList.innerHTML = `<div class="note-item"><span>还没有笔记。保存一次调配想法后会显示在这里。</span></div>`;
+    elements.noteList.innerHTML = `
+      <div class="note-empty">
+        <span>${query ? "没有找到匹配的日志" : "还没有品鉴日志"}</span>
+        <strong>${query ? "换个关键词再试试" : "保存一次调配想法后会显示在这里"}</strong>
+        <p>${query ? "可以搜索酒名、课程、调整方式或评分文字。" : "建议记录配方调整、入口感受、余味和下一次想试的方向。"}</p>
+      </div>
+    `;
     renderHomeRecentNote();
     return;
   }
@@ -1548,11 +1594,13 @@ function renderNotes() {
     .slice(0, 8)
     .map(
       (note) => `
-        <button class="note-item" type="button" ${note.drinkId ? `data-note-drink="${escapeHtml(note.drinkId)}"` : ""}>
+        <button class="note-item note-log-card" type="button" ${note.drinkId ? `data-note-drink="${escapeHtml(note.drinkId)}"` : ""}>
+          <span class="note-card-kicker">${escapeHtml(note.time)}${note.lessonTitle ? ` · ${escapeHtml(note.lessonTitle)}` : ""}</span>
           <strong>${escapeHtml(note.drinkName || note.lessonTitle || "品鉴笔记")}</strong>
-          <span>${escapeHtml(note.time)}${note.lessonTitle ? ` · ${escapeHtml(note.lessonTitle)}` : ""}</span>
-          ${note.adjustment ? `<em>${escapeHtml(note.adjustment)}</em>` : ""}
-          ${note.ratings ? `<span>${escapeHtml(ratingText(note.ratings))}</span>` : ""}
+          <div class="note-card-meta">
+            <em>${escapeHtml(note.adjustment || "原配方")}</em>
+            ${note.ratings ? `<span>${escapeHtml(ratingText(note.ratings))}</span>` : `<span>未评分</span>`}
+          </div>
           <p>${escapeHtml(note.text)}</p>
         </button>
       `

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarCraft - 鸡尾酒灵感工作台</title>
-    <link rel="stylesheet" href="./styles.css?v=20260617-mobile-acceptance-safe" />
+    <link rel="stylesheet" href="./styles.css?v=20260618-notes-journal" />
   </head>
   <body>
     <div class="app-shell">
@@ -332,35 +332,55 @@
           <section class="panel notes-panel view-panel" id="notes" data-view-panel="notes">
             <div class="section-head compact">
               <div>
-                <span class="panel-label">我的品鉴笔记</span>
-                <h2>记录微调结果</h2>
+                <span class="panel-label">品鉴日志</span>
+                <h2>记录每一次微调</h2>
               </div>
+              <span class="progress-pill" id="noteCount">0 条</span>
             </div>
-            <div class="note-form-grid">
-              <label>
-                <span>关联鸡尾酒</span>
-                <select id="noteDrinkSelect"></select>
-              </label>
-              <label>
-                <span>关联课程</span>
-                <select id="noteLessonSelect"></select>
-              </label>
+            <div class="note-stats" id="noteStats"></div>
+            <div class="note-workspace">
+              <section class="note-composer" aria-label="新增品鉴日志">
+                <div class="section-head compact mini-head">
+                  <div>
+                    <span class="panel-label">新增记录</span>
+                    <h3>把味道变化写下来</h3>
+                  </div>
+                </div>
+                <div class="note-form-grid">
+                  <label>
+                    <span>关联鸡尾酒</span>
+                    <select id="noteDrinkSelect"></select>
+                  </label>
+                  <label>
+                    <span>关联课程</span>
+                    <select id="noteLessonSelect"></select>
+                  </label>
+                </div>
+                <input class="note-adjustment" id="noteAdjustmentInput" type="text" placeholder="本次调整，例如：糖浆 -5ml / 摇和 12 秒" />
+                <div class="note-rating-grid" aria-label="评分维度">
+                  <label><span>酸度 <strong id="noteAcidValue">3</strong></span><input id="noteAcidRange" type="range" min="1" max="5" value="3" /></label>
+                  <label><span>甜度 <strong id="noteSweetValue">3</strong></span><input id="noteSweetRange" type="range" min="1" max="5" value="3" /></label>
+                  <label><span>酒体 <strong id="noteBodyValue">3</strong></span><input id="noteBodyRange" type="range" min="1" max="5" value="3" /></label>
+                  <label><span>香气 <strong id="noteAromaValue">3</strong></span><input id="noteAromaRange" type="range" min="1" max="5" value="3" /></label>
+                  <label><span>平衡 <strong id="noteBalanceValue">3</strong></span><input id="noteBalanceRange" type="range" min="1" max="5" value="3" /></label>
+                </div>
+                <textarea id="noteInput" placeholder="例如：下次得其利细砂糖少半勺，青柠可以更新鲜。"></textarea>
+                <button class="primary-button" id="saveNoteButton">
+                  <svg><use href="#icon-save"></use></svg>
+                  保存笔记
+                </button>
+              </section>
+              <section class="note-history" aria-label="历史品鉴日志">
+                <div class="section-head compact mini-head note-history-head">
+                  <div>
+                    <span class="panel-label">历史日志</span>
+                    <h3>回看已保存记录</h3>
+                  </div>
+                  <input class="note-search" id="noteSearchInput" type="search" placeholder="搜索酒名、课程或笔记" />
+                </div>
+                <div class="note-list" id="noteList"></div>
+              </section>
             </div>
-            <input class="note-adjustment" id="noteAdjustmentInput" type="text" placeholder="本次调整，例如：糖浆 -5ml / 摇和 12 秒" />
-            <div class="note-rating-grid" aria-label="评分维度">
-              <label><span>酸度 <strong id="noteAcidValue">3</strong></span><input id="noteAcidRange" type="range" min="1" max="5" value="3" /></label>
-              <label><span>甜度 <strong id="noteSweetValue">3</strong></span><input id="noteSweetRange" type="range" min="1" max="5" value="3" /></label>
-              <label><span>酒体 <strong id="noteBodyValue">3</strong></span><input id="noteBodyRange" type="range" min="1" max="5" value="3" /></label>
-              <label><span>香气 <strong id="noteAromaValue">3</strong></span><input id="noteAromaRange" type="range" min="1" max="5" value="3" /></label>
-              <label><span>平衡 <strong id="noteBalanceValue">3</strong></span><input id="noteBalanceRange" type="range" min="1" max="5" value="3" /></label>
-            </div>
-            <textarea id="noteInput" placeholder="例如：下次得其利细砂糖少半勺，青柠可以更新鲜。"></textarea>
-            <button class="primary-button" id="saveNoteButton">
-              <svg><use href="#icon-save"></use></svg>
-              保存笔记
-            </button>
-            <input class="note-search" id="noteSearchInput" type="search" placeholder="搜索酒名、课程或笔记" />
-            <div class="note-list" id="noteList"></div>
           </section>
         </section>
       </main>
@@ -428,7 +448,7 @@
       <symbol id="icon-save" viewBox="0 0 24 24"><path d="M5 3h14l2 2v16H3V5l2-2Z"/><path d="M7 3v6h10V3"/><path d="M7 21v-7h10v7"/></symbol>
     </svg>
 
-  <script src="./iba-data.js?v=20260617-mobile-acceptance-safe"></script>
-  <script src="./app.js?v=20260617-mobile-acceptance-safe"></script>
+  <script src="./iba-data.js?v=20260618-notes-journal"></script>
+  <script src="./app.js?v=20260618-notes-journal"></script>
   </body>
 </html>
