@@ -3776,6 +3776,10 @@ h1,
     padding: 12px;
   }
 
+  .learning-panel.active {
+    padding-bottom: 24px;
+  }
+
   .home-copy h1 {
     font-size: 29px;
     line-height: 1.14;
