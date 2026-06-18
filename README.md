@@ -61,6 +61,16 @@ BarCraft Preview.app/Contents/Resources/site/
 /tmp/barcraft-preview-site
 ```
 
+主要入口：
+
+- 页面入口：`index.html`
+- 交互逻辑：`app.js`
+- 全局样式：`styles.css`
+- 鸡尾酒数据：`iba-data.js`
+- 图片资产：`assets/`
+
+页面为纯静态 App，不依赖打包工具。顶部导航和底部控制台通过 `data-view` / `data-view-panel` 切换页面状态。
+
 ## 修改约定
 
 修改源文件后，需要同步到预览输出目录和 Preview App 内置目录。通常至少同步这些文件：
@@ -121,10 +131,35 @@ git commit -m "填写本次修改说明"
 
 - 鸡尾酒数量：102 款。
 - 图片目录：`assets/cocktails/` 与预览目录保持同步。
+- 首页今日推荐已经显示中英双语酒名，英文略小。
+- 收藏页已经独立为“我的酒单”页面。
+- 库存和原创调酒模拟器已合并为“调酒台”。
+- 学习路径和笔记页面已做移动端阅读密度和底部安全区优化。
+- 底部留白已收紧，拖到底部后内容应停在底部控制台上方，不被遮挡。
 - 首页桌面端：左图右文。
 - 首页手机端：推荐说明、图片、推荐酒款、时间天气和完整配方入口按纵向排列。
 - 酒单“全部”页：按英文首字母分组，每个首字母组内横向每行 6 个。
 - 移动端酒单：保持两列布局。
+
+## 最近健康检查
+
+检查日期：2026-06-18。
+
+结果：
+
+- Git 状态：干净。
+- 核心文件同步：`index.html`、`app.js`、`styles.css`、`iba-data.js` 在源文件、`outputs/barcraft-app/`、`BarCraft Preview.app/Contents/Resources/site/`、`/tmp/barcraft-preview-site/` 中一致。
+- 数据完整性：102 款鸡尾酒，重复 ID 为 0，缺失图片为 0。
+- 页面资源引用：105 个实际引用资源均存在，其中鸡尾酒图片 102 张。
+- 酒单“全部”：102 款，无重复，按英文首字母分组正常。
+- 预览 App：`BarCraft Preview.app` 和 `Stop BarCraft Preview.app` 的 `Info.plist` 与可执行文件检查正常。
+- Codex 内置浏览器检查：首页、酒单、收藏、首页“查看完整配方”跳转图鉴均正常，控制台没有错误或警告。
+
+备注：
+
+- `assets/` 源目录中有两个未被当前页面引用的历史素材：`concept-barcraft.png`、`nojito.png`。
+- 它们没有同步到输出目录，不影响当前 App。后续做素材清理时再决定是否删除。
+- Codex 沙盒里直接用命令访问本地端口可能会被 macOS 权限限制；预览状态以 Codex 内置浏览器为准。
 
 ## 常见检查
 
@@ -132,6 +167,7 @@ git commit -m "填写本次修改说明"
 
 ```bash
 /Users/yves/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --check app.js
+/Users/yves/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node --check iba-data.js
 ```
 
 确认仓库是否干净：
@@ -144,4 +180,40 @@ git status --short
 
 ```bash
 lsof -iTCP:8765 -sTCP:LISTEN
+```
+
+确认核心文件是否同步：
+
+```bash
+cd /Users/yves/Documents/Codex/2026-06-02/barcraft
+for f in index.html app.js styles.css iba-data.js; do
+  echo "$f"
+  shasum -a 256 "$f" "outputs/barcraft-app/$f" "BarCraft Preview.app/Contents/Resources/site/$f" "/tmp/barcraft-preview-site/$f"
+done
+```
+
+确认鸡尾酒数量、重复 ID 和缺图：
+
+```bash
+cd /Users/yves/Documents/Codex/2026-06-02/barcraft
+/Users/yves/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node <<'NODE'
+const fs = require("fs");
+const vm = require("vm");
+const code = fs.readFileSync("iba-data.js", "utf8");
+const ctx = { window: {} };
+vm.createContext(ctx);
+vm.runInContext(code, ctx);
+const drinks = ctx.window.IBA_DRINKS || [];
+const ids = new Set();
+const duplicateIds = [];
+const missingImages = [];
+for (const drink of drinks) {
+  if (ids.has(drink.id)) duplicateIds.push(drink.id);
+  ids.add(drink.id);
+  if (!drink.image || !fs.existsSync(drink.image.replace(/^\.\//, ""))) {
+    missingImages.push({ id: drink.id, name: drink.name, image: drink.image });
+  }
+}
+console.log({ drinkCount: drinks.length, duplicateIds, missingImagesCount: missingImages.length, missingImages });
+NODE
 ```
