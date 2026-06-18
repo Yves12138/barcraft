@@ -1128,6 +1128,16 @@ function drinkCardMarkup(drink) {
   `;
 }
 
+function emptyListMarkup(title, copy) {
+  return `
+    <div class="empty-list">
+      <span>没有结果</span>
+      <strong>${escapeHtml(title)}</strong>
+      <p>${escapeHtml(copy)}</p>
+    </div>
+  `;
+}
+
 function renderCards() {
   const results = filteredDrinks();
   elements.resultCount.textContent = `${results.length} 款`;
@@ -1137,7 +1147,7 @@ function renderCards() {
     elements.drinkCards.className = "base-groups all-groups";
     const groups = alphabetGroups(results);
     if (!groups.length) {
-      elements.drinkCards.innerHTML = `<div class="empty-list">没有找到匹配的鸡尾酒。</div>`;
+      elements.drinkCards.innerHTML = emptyListMarkup("没有找到匹配的鸡尾酒", "可以换一个酒名、材料、风味词，或清空搜索后重新浏览。");
       return;
     }
     elements.drinkCards.innerHTML = groups
@@ -1168,7 +1178,7 @@ function renderCards() {
     .filter(({ groupDrinks }) => groupDrinks.length);
 
   if (!groups.length) {
-    elements.drinkCards.innerHTML = `<div class="empty-list">没有找到匹配的鸡尾酒。</div>`;
+    elements.drinkCards.innerHTML = emptyListMarkup("没有找到匹配的鸡尾酒", "当前分类里没有符合搜索条件的酒，换个关键词或回到“全部”会更容易找到。");
     return;
   }
 
@@ -1389,7 +1399,7 @@ function renderInventory() {
           `
         )
         .join("")
-    : `<div class="match-row"><strong>还没有接近可做的酒</strong><span>先勾选几种基酒、柑橘、糖浆或苦精。</span></div>`;
+    : `<div class="match-row empty-match"><strong>还没有接近可做的酒</strong><span>先勾选几种基酒、柑橘、糖浆或苦精，系统会自动更新可做清单。</span></div>`;
 }
 
 function lessonDrinkCards(lesson) {
@@ -1782,7 +1792,12 @@ function renderGeneratedRecipe(recipe) {
 
 function renderCreationList() {
   if (!state.creations.length) {
-    elements.creationList.innerHTML = `<div class="creation-item empty">还没有保存的原创配方。</div>`;
+    elements.creationList.innerHTML = `
+      <div class="creation-item empty">
+        <strong>还没有保存的原创配方</strong>
+        <span>生成一杯满意的草案后，可以把它留在这里继续微调。</span>
+      </div>
+    `;
     return;
   }
   elements.creationList.innerHTML = state.creations

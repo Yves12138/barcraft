@@ -3313,6 +3313,122 @@ h1,
   line-height: 1.58;
 }
 
+.title-line p,
+.taste-copy,
+.today-fit-card p,
+.inventory-status-card p,
+.substitution-card p,
+.drink-notes-card p,
+.practice-card p,
+.generated-card p,
+.generated-card li,
+.logic-grid span,
+.story-reading-card p,
+.lesson-detail-head p,
+.lesson-task p,
+.lesson-row span,
+.note-item p,
+.note-empty p,
+.favorite-empty p,
+.empty-list p,
+.creation-item.empty span,
+.match-row.empty-match span {
+  color: rgba(244, 234, 217, 0.68);
+  line-height: 1.68;
+}
+
+.story-reading-card p,
+.lesson-detail-head p,
+.practice-card p,
+.generated-card p,
+.note-item p,
+.empty-list p {
+  max-width: 68ch;
+}
+
+.story-reading-card + .story-reading-card,
+.lesson-task + .lesson-task,
+.note-item + .note-item {
+  margin-top: 2px;
+}
+
+.story-reading-card span,
+.lesson-detail-head .panel-label,
+.note-card-kicker,
+.empty-list span,
+.favorite-empty span,
+.creation-item.empty span {
+  color: rgba(215, 167, 92, 0.86);
+  font-family: var(--serif);
+}
+
+.empty-list,
+.creation-item.empty,
+.match-row.empty-match {
+  border-color: rgba(215, 167, 92, 0.2);
+  background:
+    var(--obsidian-card-texture),
+    rgba(14, 10, 7, 0.62);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, auto;
+  box-shadow: inset 0 1px 0 rgba(255, 246, 226, 0.04);
+}
+
+.empty-list {
+  display: grid;
+  gap: 7px;
+  padding: 22px;
+}
+
+.empty-list span {
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.empty-list strong,
+.creation-item.empty strong,
+.match-row.empty-match strong {
+  color: var(--text);
+  font-family: var(--serif);
+  font-size: 21px;
+  line-height: 1.18;
+}
+
+.empty-list p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.creation-item.empty {
+  display: grid;
+  gap: 7px;
+  padding: 16px;
+}
+
+.creation-item.empty span {
+  font-size: 13px;
+}
+
+.match-row.empty-match {
+  display: grid;
+  justify-items: start;
+  gap: 7px;
+}
+
+.match-row.empty-match span {
+  font-size: 13px;
+}
+
+.story-reading-card,
+.lesson-detail,
+.note-history,
+.note-composer,
+.favorite-empty,
+.empty-list {
+  scroll-margin-bottom: calc(var(--mobile-console-space) + 18px);
+}
+
 .drink-card:hover,
 .lesson-drink-card:hover,
 .lesson-row:hover {
@@ -3677,9 +3793,30 @@ h1,
 
   .home-copy p,
   .taste-copy,
-  .story-reading-card p {
+  .story-reading-card p,
+  .lesson-detail-head p,
+  .lesson-task p,
+  .practice-card p,
+  .generated-card p,
+  .note-item p,
+  .empty-list p {
     font-size: 14px;
-    line-height: 1.68;
+    line-height: 1.62;
+  }
+
+  .empty-list,
+  .favorite-empty,
+  .creation-item.empty,
+  .match-row.empty-match {
+    padding: 14px;
+  }
+
+  .empty-list strong,
+  .favorite-empty strong,
+  .creation-item.empty strong,
+  .match-row.empty-match strong {
+    font-size: 18px;
+    line-height: 1.24;
   }
 
   .home-pick-preview {
