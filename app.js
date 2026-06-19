@@ -610,6 +610,17 @@ const viewLabels = {
   notes: "笔记"
 };
 
+const viewModeLabels = {
+  home: "今日推荐",
+  atlas: "配方图鉴",
+  collection: "选择酒款",
+  favorites: "我的酒单",
+  story: "起源故事",
+  simulator: "库存 / 原创",
+  learn: "练习路径",
+  notes: "品鉴日志"
+};
+
 function selectedDrink() {
   return drinks.find((drink) => drink.id === state.selectedId) || drinks[0];
 }
@@ -625,8 +636,7 @@ function setActiveView(view) {
     button.classList.toggle("active", buttonView === view);
   });
   elements.consoleViewLabel.textContent = viewLabels[view];
-  elements.consoleMode.textContent =
-    view === "home" ? "今日推荐" : view === "collection" ? "选择酒款" : view === "favorites" ? "我的酒单" : view === "simulator" ? "库存 / 原创" : "浏览模式";
+  elements.consoleMode.textContent = viewModeLabels[view] || "浏览模式";
   const consoleDrink =
     view === "home" && state.homeDrinkId
       ? drinks.find((drink) => drink.id === state.homeDrinkId)
