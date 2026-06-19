@@ -27,6 +27,27 @@ http://localhost:8765/
 
 如果页面没有更新，先刷新浏览器；如果仍然没有更新，重新双击 `BarCraft Preview.app`。
 
+## GitHub Pages 发布
+
+当前仓库根目录已经是完整静态站点，可以直接用 GitHub Pages 发布 `main` 分支根目录。
+
+推荐设置：
+
+```text
+Repository: Yves12138/barcraft
+Source: Deploy from a branch
+Branch: main
+Folder: / (root)
+```
+
+发布后网址通常是：
+
+```text
+https://yves12138.github.io/barcraft/
+```
+
+项目根目录保留 `.nojekyll`，用于让 GitHub Pages 按普通静态文件发布，不经过 Jekyll 处理。
+
 ## 主要文件
 
 源文件：
