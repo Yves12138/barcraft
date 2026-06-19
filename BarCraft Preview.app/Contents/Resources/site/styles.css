@@ -3757,6 +3757,10 @@ h1,
     min-height: 260px;
   }
 
+  .home-hero-image img {
+    object-fit: cover;
+  }
+
   .home-bottom-cards {
     grid-template-columns: 1fr;
   }
