@@ -440,6 +440,17 @@ function removeStoredValue(key) {
   }
 }
 
+function canUseLocalStorage() {
+  try {
+    const key = "barcraft:storage-check";
+    localStorage.setItem(key, "1");
+    localStorage.removeItem(key);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 function readStoredJson(key, fallback) {
   try {
     const raw = readStoredValue(key);
@@ -458,7 +469,12 @@ function readStoredNumber(key, fallback) {
   return Number.isFinite(value) ? value : fallback;
 }
 
+const localStorageAvailable = canUseLocalStorage();
 const savedInventory = readStoredJson("barcraft:inventory", null);
+
+function localDataCopy() {
+  return localStorageAvailable ? "收藏、库存和笔记会保存在这台设备的浏览器里。" : "当前浏览器限制本地保存，关闭或刷新后可能不会保留个人记录。";
+}
 
 const inventoryFamilies = [
   ["橙味利口酒"],
@@ -1236,7 +1252,7 @@ function renderFavorites() {
     elements.favoriteSummary.innerHTML = `
       <div class="favorite-empty">
         <strong>还没有收藏的鸡尾酒</strong>
-        <p>在图鉴页点亮心形按钮后，这里会集中显示你的私人酒单。</p>
+        <p>在图鉴页点亮心形按钮后，这里会集中显示你的私人酒单。${escapeHtml(localDataCopy())}</p>
         <button class="primary-button compact-action" type="button" data-open-collection>去酒单挑选</button>
       </div>
     `;
@@ -1534,7 +1550,7 @@ function renderNoteStats(notes) {
     <article class="note-stat-card">
       <span>累计记录</span>
       <strong>${notes.length}</strong>
-      <p>${notes.length ? "每一次微调都会留在这里" : "从第一杯开始建立口味档案"}</p>
+      <p>${notes.length ? "每一次微调都会留在这里" : localDataCopy()}</p>
     </article>
     <article class="note-stat-card">
       <span>覆盖酒款</span>
@@ -1553,7 +1569,14 @@ function renderHomeRecentNote() {
   if (!elements.homeRecentNoteCard) return;
   const note = state.notes.map(normalizeNote)[0];
   if (!note) {
-    elements.homeRecentNoteCard.innerHTML = "";
+    elements.homeRecentNoteCard.innerHTML = `
+      <div>
+        <span>开始使用</span>
+        <strong>先整理材料，再收藏想做的酒</strong>
+        <p>${escapeHtml(localDataCopy())}之后推荐、酒单和笔记会更贴近你的吧台。</p>
+      </div>
+      <button type="button" data-open-workbench>整理</button>
+    `;
     return;
   }
   elements.homeRecentNoteCard.innerHTML = `
@@ -1594,7 +1617,7 @@ function renderNotes() {
       <div class="note-empty">
         <span>${query ? "没有找到匹配的日志" : "还没有品鉴日志"}</span>
         <strong>${query ? "换个关键词再试试" : "保存一次调配想法后会显示在这里"}</strong>
-        <p>${query ? "可以搜索酒名、课程、调整方式或评分文字。" : "建议记录配方调整、入口感受、余味和下一次想试的方向。"}</p>
+        <p>${query ? "可以搜索酒名、课程、调整方式或评分文字。" : `建议记录配方调整、入口感受、余味和下一次想试的方向。${localDataCopy()}`}</p>
       </div>
     `;
     renderHomeRecentNote();
@@ -1910,9 +1933,15 @@ function attachEvents() {
   });
 
   elements.homeRecentNoteCard?.addEventListener("click", (event) => {
-    const button = event.target.closest("[data-open-notes]");
-    if (!button) return;
-    setActiveView("notes");
+    const notesButton = event.target.closest("[data-open-notes]");
+    if (notesButton) {
+      setActiveView("notes");
+      return;
+    }
+    const workbenchButton = event.target.closest("[data-open-workbench]");
+    if (workbenchButton) {
+      setActiveView("simulator");
+    }
   });
 
   elements.filterRow.addEventListener("click", (event) => {
