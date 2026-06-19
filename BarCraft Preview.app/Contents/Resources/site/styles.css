@@ -702,6 +702,13 @@ h2 {
   align-items: start;
 }
 
+.atlas-media-column {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 0;
+}
+
 .drink-photo-wrap {
   position: relative;
   width: 100%;
@@ -815,6 +822,29 @@ h2 {
 
 .today-fit-card.visible {
   display: block;
+}
+
+.atlas-side-stack {
+  display: grid;
+  gap: 12px;
+}
+
+.atlas-side-stack .today-fit-card,
+.atlas-side-stack .inventory-status-card,
+.atlas-side-stack .tag-row,
+.atlas-side-stack .build-specs {
+  margin-top: 0;
+}
+
+.atlas-side-stack .build-specs {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.atlas-side-stack .today-fit-card,
+.atlas-side-stack .inventory-status-card {
+  background:
+    linear-gradient(180deg, rgba(255, 246, 226, 0.055), rgba(255, 246, 226, 0.015)),
+    rgba(18, 12, 8, 0.62);
 }
 
 .today-fit-card strong {
@@ -3678,6 +3708,22 @@ h1,
     margin: 0 0 16px;
   }
 
+  .atlas-media-column {
+    display: contents;
+  }
+
+  .drink-photo-wrap {
+    order: 1;
+  }
+
+  .drink-detail {
+    order: 2;
+  }
+
+  .atlas-side-stack {
+    order: 3;
+  }
+
   .drink-photo-wrap img {
     min-height: 0;
     height: 100%;
@@ -3707,8 +3753,8 @@ h1,
   }
 
   .home-hero-image {
-    height: clamp(136px, 36vw, 176px);
-    min-height: 0;
+    height: clamp(260px, 82vw, 360px);
+    min-height: 260px;
   }
 
   .home-bottom-cards {
