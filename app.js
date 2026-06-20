@@ -584,6 +584,10 @@ const elements = {
   noteAromaValue: $("#noteAromaValue"),
   noteBalanceValue: $("#noteBalanceValue"),
   noteList: $("#noteList"),
+  dataBackupStatus: $("#dataBackupStatus"),
+  exportDataButton: $("#exportDataButton"),
+  importDataButton: $("#importDataButton"),
+  importDataInput: $("#importDataInput"),
   generatedCard: $("#generatedCard"),
   creationList: $("#creationList"),
   baseSelect: $("#baseSelect"),
@@ -643,6 +647,7 @@ function setActiveView(view) {
       : selectedDrink();
   if (consoleDrink) elements.consoleDrinkName.textContent = consoleDrink.name;
   if (view === "favorites") renderFavorites();
+  if (view === "notes") renderNotes();
   if (view === "collection") elements.consoleResultCount.textContent = `${filteredDrinks().length} 款`;
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
@@ -1616,6 +1621,7 @@ function renderNotes() {
   const query = state.noteQuery.trim().toLowerCase();
   const allNotes = state.notes.map(normalizeNote);
   renderNoteStats(allNotes);
+  renderBackupSummary();
 
   const notes = allNotes.filter((note) => {
     const haystack = [note.text, note.drinkName, note.lessonTitle, note.adjustment, ratingText(note.ratings)].join(" ").toLowerCase();
@@ -1878,6 +1884,184 @@ function saveGeneratedCreation() {
 function generateCocktail() {
   state.generatedRecipe = buildGeneratedRecipe();
   renderGeneratedRecipe(state.generatedRecipe);
+}
+
+function personalDataSnapshot() {
+  return {
+    favorites: [...state.favorites],
+    inventory: [...state.inventory],
+    notes: state.notes,
+    creations: state.creations,
+    lessonIndex: state.lessonIndex,
+    completedLessons: [...state.completedLessons]
+  };
+}
+
+function backupSummaryText() {
+  return `当前：收藏 ${state.favorites.size} 款，库存 ${state.inventory.size} 项，笔记 ${state.notes.length} 条，原创配方 ${state.creations.length} 条。`;
+}
+
+function setBackupStatus(message, tone = "") {
+  if (!elements.dataBackupStatus) return;
+  elements.dataBackupStatus.textContent = message;
+  elements.dataBackupStatus.classList.remove("success", "warning");
+  if (tone) elements.dataBackupStatus.classList.add(tone);
+}
+
+function renderBackupSummary() {
+  setBackupStatus(`${backupSummaryText()} ${localDataCopy()}`);
+}
+
+function backupFileName() {
+  const date = new Date();
+  const stamp = [
+    date.getFullYear(),
+    String(date.getMonth() + 1).padStart(2, "0"),
+    String(date.getDate()).padStart(2, "0")
+  ].join("");
+  return `barcraft-backup-${stamp}.json`;
+}
+
+function exportPersonalData() {
+  const payload = {
+    app: "BarCraft",
+    version: 1,
+    exportedAt: new Date().toISOString(),
+    data: personalDataSnapshot()
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = backupFileName();
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+  setBackupStatus(`已生成备份文件。${backupSummaryText()}`, "success");
+}
+
+function normalizedStringArray(value, allowedValues = null) {
+  if (!Array.isArray(value)) return [];
+  const allowed = allowedValues ? new Set(allowedValues) : null;
+  return [...new Set(value.map((item) => String(item || "").trim()).filter((item) => item && (!allowed || allowed.has(item))))];
+}
+
+function normalizeImportedInventory(value) {
+  if (!Array.isArray(value)) return [];
+  const allowed = new Set(inventoryItems);
+  return [
+    ...new Set(
+      value
+        .map((item) => canonicalInventoryItem(String(item || "").trim()))
+        .filter((item) => item && allowed.has(item))
+    )
+  ];
+}
+
+function normalizeImportedNote(note) {
+  if (!note || typeof note !== "object") return null;
+  const normalized = normalizeNote(note);
+  normalized.ratings = note.ratings && typeof note.ratings === "object" ? note.ratings : null;
+  if (!normalized.text && !normalized.drinkId && !normalized.lessonTitle) return null;
+  return normalized;
+}
+
+function normalizeImportedCreation(creation) {
+  if (!creation || typeof creation !== "object") return null;
+  const ingredients = Array.isArray(creation.ingredients)
+    ? creation.ingredients
+        .filter((ingredient) => ingredient && typeof ingredient === "object")
+        .map((ingredient) => ({
+          label: String(ingredient.label || ""),
+          needs: Array.isArray(ingredient.needs) ? ingredient.needs.map((need) => String(need || "")).filter(Boolean) : []
+        }))
+        .filter((ingredient) => ingredient.label)
+    : [];
+  if (!creation.name || !ingredients.length) return null;
+  return {
+    id: String(creation.id || Date.now()),
+    name: String(creation.name),
+    base: String(creation.base || ""),
+    flavor: String(creation.flavor || ""),
+    sweet: Number.isFinite(Number(creation.sweet)) ? Number(creation.sweet) : 45,
+    acid: Number.isFinite(Number(creation.acid)) ? Number(creation.acid) : 58,
+    structure: String(creation.structure || ""),
+    balance: String(creation.balance || ""),
+    ingredients,
+    missing: Array.isArray(creation.missing) ? creation.missing.map((item) => String(item || "")).filter(Boolean) : [],
+    savedAt: String(creation.savedAt || "")
+  };
+}
+
+function normalizeImportedData(payload) {
+  const data = payload && typeof payload === "object" && payload.data && typeof payload.data === "object" ? payload.data : payload;
+  if (!data || typeof data !== "object") throw new Error("备份文件格式不正确");
+  const drinkIds = drinks.map((drink) => drink.id);
+  const lessonIds = lessons.map((_, index) => String(index));
+  const lessonIndex = Number.isFinite(Number(data.lessonIndex)) ? Math.min(Math.max(Number(data.lessonIndex), 0), lessons.length - 1) : 0;
+  return {
+    favorites: normalizedStringArray(data.favorites, drinkIds),
+    inventory: normalizeImportedInventory(data.inventory),
+    notes: Array.isArray(data.notes) ? data.notes.map(normalizeImportedNote).filter(Boolean) : [],
+    creations: Array.isArray(data.creations) ? data.creations.map(normalizeImportedCreation).filter(Boolean) : [],
+    lessonIndex,
+    completedLessons: normalizedStringArray(data.completedLessons, lessonIds)
+  };
+}
+
+function renderAfterPersonalDataChange() {
+  renderSelectedDrink();
+  renderCards();
+  renderFavorites();
+  renderInventory();
+  renderLessons();
+  renderNotes();
+  renderCreationList();
+  renderHomeRecommendation();
+  renderHomeInventoryRecommendation();
+  renderHomeLessonCard();
+  generateCocktail();
+  renderBackupSummary();
+}
+
+function applyImportedData(data) {
+  state.favorites = new Set(data.favorites);
+  state.inventory = new Set(data.inventory);
+  state.notes = data.notes;
+  state.creations = data.creations;
+  state.lessonIndex = data.lessonIndex;
+  state.completedLessons = new Set(data.completedLessons);
+  state.noteQuery = "";
+  if (elements.noteSearchInput) elements.noteSearchInput.value = "";
+  persist();
+  renderAfterPersonalDataChange();
+  setBackupStatus(`已导入备份。${backupSummaryText()}`, "success");
+}
+
+function importPersonalDataFile(file) {
+  if (!file) return;
+  const reader = new FileReader();
+  reader.addEventListener("load", () => {
+    try {
+      const data = normalizeImportedData(JSON.parse(String(reader.result || "")));
+      const ok = window.confirm("导入备份会覆盖当前浏览器里的收藏、库存、笔记、原创配方和学习进度。是否继续？");
+      if (!ok) {
+        setBackupStatus(`已取消导入。${backupSummaryText()}`, "warning");
+        return;
+      }
+      applyImportedData(data);
+    } catch (error) {
+      setBackupStatus("导入失败：备份文件无法识别。", "warning");
+    } finally {
+      if (elements.importDataInput) elements.importDataInput.value = "";
+    }
+  });
+  reader.addEventListener("error", () => {
+    setBackupStatus("导入失败：无法读取这个文件。", "warning");
+    if (elements.importDataInput) elements.importDataInput.value = "";
+  });
+  reader.readAsText(file);
 }
 
 function persist() {
@@ -2152,6 +2336,16 @@ function attachEvents() {
     renderNotes();
     renderSelectedDrink();
     flashSaveButton("已保存", "saved");
+  });
+
+  elements.exportDataButton?.addEventListener("click", exportPersonalData);
+
+  elements.importDataButton?.addEventListener("click", () => {
+    elements.importDataInput?.click();
+  });
+
+  elements.importDataInput?.addEventListener("change", (event) => {
+    importPersonalDataFile(event.target.files?.[0]);
   });
 
   $("#generateButton").addEventListener("click", generateCocktail);

@@ -2252,12 +2252,51 @@ textarea::placeholder,
 }
 
 .note-stat-card,
+.data-backup-card,
 .note-composer,
 .note-history,
 .note-empty {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.04);
+}
+
+.data-backup-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 14px;
+  align-items: center;
+  margin-top: 14px;
+  padding: 14px 16px;
+}
+
+.data-backup-card h3 {
+  margin-top: 4px;
+  font-family: var(--serif);
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+.data-backup-card p {
+  margin-top: 6px;
+  color: rgba(244, 234, 217, 0.68);
+  font-size: 13px;
+  line-height: 1.58;
+}
+
+.data-backup-card p.success {
+  color: var(--mint);
+}
+
+.data-backup-card p.warning {
+  color: var(--amber);
+}
+
+.data-backup-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 9px;
 }
 
 .note-stat-card {
@@ -2962,6 +3001,7 @@ h1,
 .lesson-detail,
 .lesson-task,
 .note-stat-card,
+.data-backup-card,
 .note-composer,
 .note-history,
 .note-empty,
@@ -3656,6 +3696,19 @@ h1,
     align-items: start;
   }
 
+  .data-backup-card {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .data-backup-actions {
+    justify-content: stretch;
+  }
+
+  .data-backup-actions .small-button {
+    flex: 1 1 130px;
+  }
+
   .workspace {
     padding: 16px 16px calc(var(--mobile-console-space) + env(safe-area-inset-bottom));
   }
@@ -4007,6 +4060,7 @@ h1,
   .lesson-row,
   .lesson-detail,
   .lesson-task,
+  .data-backup-card,
   .note-form-grid label,
   .note-rating-grid label,
   .note-adjustment,
