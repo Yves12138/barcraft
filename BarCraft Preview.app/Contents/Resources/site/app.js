@@ -246,6 +246,62 @@ const homeRecommendationRules = {
   morning: ["mimosa", "bellini", "bloody-mary", "garibaldi", "kir", "champagne-cocktail"]
 };
 
+const homeWeatherCopyOptions = {
+  hot: [
+    "天气偏热，适合更冷、更清爽、酸度更明亮的一杯。",
+    "热意明显时，冰凉、柑橘和气泡会让第一口更轻快。",
+    "今天更需要降低负担感，推荐一杯清爽、明亮、入口干净的酒。",
+    "高温会放大香气和甜感，选一杯酸度清楚、收口利落的会更舒服。"
+  ],
+  clear: [
+    "天气晴朗，适合轻快、明亮、能打开味觉的一杯。",
+    "光线好的时候，柑橘、气泡或清透酒体会显得更有精神。",
+    "晴天更适合一杯不厚重、香气干净、节奏轻盈的酒。",
+    "今天可以选一杯颜色和香气都更明亮的经典款，作为味觉的开场。"
+  ],
+  rain: [
+    "雨天更适合温暖、木质、香料感或慢饮结构。",
+    "潮湿天气里，厚一点的酒体和更深的香气会显得安稳。",
+    "下雨时不急着追求清爽，一杯层次慢慢展开的酒更合适。",
+    "雨声适合配一杯结构扎实、余味更长的经典。"
+  ],
+  cold: [
+    "气温偏低，适合酒体更厚、香气更深的一杯。",
+    "冷天可以把重点放在温暖感、坚果感或更圆润的收口上。",
+    "今天不必太轻，一杯有重量、有余味的酒会更贴合气氛。",
+    "低温会让清淡酒显得单薄，推荐更饱满、更有包裹感的一杯。"
+  ],
+  cloudy: [
+    "天气偏阴，适合苦甜、餐前或层次更安静的一杯。",
+    "阴天可以把节奏放慢，选一杯不张扬但结构完整的酒。",
+    "光线收住的时候，苦味、草本和木质调会更耐喝。",
+    "今天适合一杯安静、有层次、不会过分抢戏的经典。"
+  ]
+};
+
+const homeDaypartCopyOptions = {
+  morning: [
+    "上午更适合低酒精、明亮、不会压住一天节奏的选择。",
+    "这个时间段适合把酒感放轻，让酸度和清新香气站到前面。",
+    "早些时候的推荐会尽量克制，保留轻盈和开胃感。"
+  ],
+  afternoon: [
+    "午后适合清爽、带气泡或有柑橘感的结构。",
+    "这个时间段更适合一杯能提神、但不显沉重的酒。",
+    "下午的推荐会偏向干净、明亮、容易继续聊天的一杯。"
+  ],
+  evening: [
+    "傍晚适合餐前、苦甜或结构感更完整的酒。",
+    "这个时间段可以让风味更完整一些，作为晚餐或夜晚的过渡。",
+    "傍晚的推荐会更看重平衡、层次和慢慢进入状态的感觉。"
+  ],
+  night: [
+    "夜晚适合慢饮、咖啡感或酒体更深的酒。",
+    "这个时间段可以让酒体更沉一些，留出余味和安静感。",
+    "夜里更适合结构清楚、香气有深度、可以慢慢喝的一杯。"
+  ]
+};
+
 const weatherCodeMap = {
   0: "clear",
   1: "clear",
@@ -738,15 +794,54 @@ function pickHomeDrink(weatherType, daypartKey) {
   return pool[daySeed % pool.length];
 }
 
-function homeWeatherCopy(weatherType) {
-  const copy = {
-    hot: "天气偏热，推荐更冷、更清爽、酸度更明亮的一杯。",
-    clear: "天气晴朗，推荐轻快、明亮、适合打开味觉的一杯。",
-    rain: "雨天更适合温暖、木质、香料感或慢饮结构。",
-    cold: "气温偏低，推荐酒体更厚、香气更深的一杯。",
-    cloudy: "天气偏阴，推荐苦甜、餐前或层次更安静的一杯。"
-  };
-  return copy[weatherType] || copy.cloudy;
+function copySeed(...parts) {
+  return parts
+    .join("|")
+    .split("")
+    .reduce((sum, char) => sum + char.charCodeAt(0), 0);
+}
+
+function pickCopyOption(options, ...parts) {
+  if (!options?.length) return "";
+  return options[copySeed(new Date().toDateString(), ...parts) % options.length];
+}
+
+function homeWeatherCopy(weatherType, drink = null, daypartKey = "") {
+  return pickCopyOption(homeWeatherCopyOptions[weatherType] || homeWeatherCopyOptions.cloudy, weatherType, daypartKey, drink?.id || "");
+}
+
+function homeDaypartCopy(daypartKey, weatherType, drink) {
+  let options = homeDaypartCopyOptions[daypartKey] || homeDaypartCopyOptions.afternoon;
+  if (daypartKey === "night" && ["hot", "clear"].includes(weatherType)) {
+    options = [
+      "夜里也不一定要厚重，保持清爽会让节奏更自在。",
+      "这个时间段可以放慢喝，但酒体仍然适合保持轻盈。",
+      "夜晚的推荐会保留一点仪式感，同时避免太甜太闷。"
+    ];
+  }
+  if (daypartKey === "afternoon" && ["rain", "cold"].includes(weatherType)) {
+    options = [
+      "午后可以稍微增加酒体和香气深度，让天气的湿冷感退后一点。",
+      "这个时间段不必只追求清爽，温暖感和余味也会很重要。",
+      "下午的推荐会在提神和安稳之间找一个平衡点。"
+    ];
+  }
+  return pickCopyOption(options, daypartKey, weatherType, drink?.id || "");
+}
+
+function homeDrinkContextCopy(drink, weatherType, daypartKey) {
+  const tag = drink.tags?.[0] || drink.mood || "经典";
+  const options = [
+    `${drink.nameZh || drink.name}的基底是${drink.base}，这会让“${tag}”的线索更容易被喝出来。`,
+    `这杯的重点不在复杂，而在${tag}、比例和收口之间的平衡。`,
+    `如果你今天想练习，可以从${drink.base}的香气、甜酸比例和稀释感开始记录。`,
+    `它适合作为今天的主角，因为风味轮廓清楚，做完后也很容易复盘。`
+  ];
+  return pickCopyOption(options, drink.id, weatherType, daypartKey);
+}
+
+function homeRecommendationCopy(weatherType, daypart, drink) {
+  return [homeWeatherCopy(weatherType, drink, daypart.key), homeDaypartCopy(daypart.key, weatherType, drink), homeDrinkContextCopy(drink, weatherType, daypart.key)].join("");
 }
 
 function homeRecommendationNameMarkup(drink) {
@@ -768,7 +863,7 @@ function renderHomeRecommendation() {
     <span class="recommend-kicker">${escapeHtml(daypart.label)}推荐：</span>
     <span class="recommend-drink">${homeRecommendationNameMarkup(drink)}</span>
   `;
-  elements.homeReason.textContent = `${homeWeatherCopy(state.homeWeather.type)}${daypart.copy}`;
+  elements.homeReason.textContent = homeRecommendationCopy(state.homeWeather.type, daypart, drink);
   elements.homeTimeLabel.textContent = new Intl.DateTimeFormat("zh-CN", { hour: "2-digit", minute: "2-digit" }).format(new Date());
   elements.homeWeatherLabel.textContent = state.homeWeather.label || weatherLabelFor(state.homeWeather.type, state.homeWeather.temperature);
   elements.homePickThumb.src = drink.image;
@@ -1037,7 +1132,7 @@ function relatedStoryDrinks(drink) {
 function todayFitCopyFor(drink) {
   if (drink.id !== state.homeDrinkId) return "";
   const daypart = currentDaypart();
-  return `${daypart.label}推荐它：${homeWeatherCopy(state.homeWeather.type)}${daypart.copy}`;
+  return `${daypart.label}推荐它：${homeRecommendationCopy(state.homeWeather.type, daypart, drink)}`;
 }
 
 function renderSelectedDrink() {
