@@ -1901,6 +1901,10 @@ function backupSummaryText() {
   return `当前：收藏 ${state.favorites.size} 款，库存 ${state.inventory.size} 项，笔记 ${state.notes.length} 条，原创配方 ${state.creations.length} 条。`;
 }
 
+function backupSummaryFromData(data) {
+  return `将导入：收藏 ${data.favorites.length} 款，库存 ${data.inventory.length} 项，笔记 ${data.notes.length} 条，原创配方 ${data.creations.length} 条。`;
+}
+
 function setBackupStatus(message, tone = "") {
   if (!elements.dataBackupStatus) return;
   elements.dataBackupStatus.textContent = message;
@@ -1927,6 +1931,10 @@ function exportPersonalData() {
     app: "BarCraft",
     version: 1,
     exportedAt: new Date().toISOString(),
+    source: {
+      origin: window.location.origin,
+      path: window.location.pathname
+    },
     data: personalDataSnapshot()
   };
   const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
@@ -1997,6 +2005,9 @@ function normalizeImportedCreation(creation) {
 function normalizeImportedData(payload) {
   const data = payload && typeof payload === "object" && payload.data && typeof payload.data === "object" ? payload.data : payload;
   if (!data || typeof data !== "object") throw new Error("备份文件格式不正确");
+  if (payload?.app && payload.app !== "BarCraft") throw new Error("不是 BarCraft 备份");
+  const supportedKeys = ["favorites", "inventory", "notes", "creations", "lessonIndex", "completedLessons"];
+  if (!supportedKeys.some((key) => Object.prototype.hasOwnProperty.call(data, key))) throw new Error("备份文件不包含可导入数据");
   const drinkIds = drinks.map((drink) => drink.id);
   const lessonIds = lessons.map((_, index) => String(index));
   const lessonIndex = Number.isFinite(Number(data.lessonIndex)) ? Math.min(Math.max(Number(data.lessonIndex), 0), lessons.length - 1) : 0;
@@ -2041,11 +2052,23 @@ function applyImportedData(data) {
 
 function importPersonalDataFile(file) {
   if (!file) return;
+  const isJsonFile = file.type.includes("json") || file.name.toLowerCase().endsWith(".json");
+  if (!isJsonFile) {
+    setBackupStatus("请选择 BarCraft 导出的 JSON 备份文件。", "warning");
+    if (elements.importDataInput) elements.importDataInput.value = "";
+    return;
+  }
+  if (file.size > 2 * 1024 * 1024) {
+    setBackupStatus("这个备份文件太大，已停止导入。", "warning");
+    if (elements.importDataInput) elements.importDataInput.value = "";
+    return;
+  }
+  setBackupStatus("正在读取备份文件...");
   const reader = new FileReader();
   reader.addEventListener("load", () => {
     try {
       const data = normalizeImportedData(JSON.parse(String(reader.result || "")));
-      const ok = window.confirm("导入备份会覆盖当前浏览器里的收藏、库存、笔记、原创配方和学习进度。是否继续？");
+      const ok = window.confirm(`${backupSummaryFromData(data)}\n\n导入备份会覆盖当前浏览器里的收藏、库存、笔记、原创配方和学习进度。是否继续？`);
       if (!ok) {
         setBackupStatus(`已取消导入。${backupSummaryText()}`, "warning");
         return;
