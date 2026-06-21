@@ -644,6 +644,74 @@ h2 {
   font-weight: 800;
 }
 
+.home-random-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  width: min(520px, 100%);
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid rgba(184, 106, 79, 0.28);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(75, 15, 22, 0.14), rgba(166, 106, 60, 0.08)),
+    rgba(255, 255, 255, 0.04);
+}
+
+.home-random-card span,
+.home-random-card strong,
+.home-random-card p {
+  display: block;
+}
+
+.home-random-card span {
+  color: #e6a36d;
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.home-random-card strong {
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+.home-random-card p {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.home-random-controls {
+  display: grid;
+  gap: 8px;
+  justify-items: end;
+}
+
+.home-random-controls select {
+  width: 132px;
+  min-height: 34px;
+  padding: 0 9px;
+  border: 1px solid rgba(184, 106, 79, 0.34);
+  border-radius: 8px;
+  background: rgba(12, 9, 7, 0.72);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.home-random-card button {
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid rgba(184, 106, 79, 0.46);
+  border-radius: 8px;
+  background: rgba(184, 106, 79, 0.14);
+  color: #e6a36d;
+  font-size: 12px;
+  font-weight: 800;
+}
+
 .home-signals,
 .weather-switch {
   display: flex;
@@ -689,6 +757,7 @@ h2 {
 }
 
 .home-bottom-cards .home-inventory-card,
+.home-bottom-cards .home-random-card,
 .home-bottom-cards .home-lesson-card,
 .home-bottom-cards .home-note-card {
   width: auto;
@@ -3288,6 +3357,8 @@ textarea:focus-visible,
 .quick-inventory-item,
 .inventory-item,
 .home-inventory-card button,
+.home-random-card button,
+.home-random-controls select,
 .home-lesson-card button,
 .home-note-card button {
   border-color: var(--control-border);
@@ -3309,6 +3380,7 @@ textarea:focus-visible,
 .quick-inventory-item:hover,
 .inventory-item:hover,
 .home-inventory-card button:hover,
+.home-random-card button:hover,
 .home-lesson-card button:hover,
 .home-note-card button:hover {
   border-color: var(--control-border-active);
@@ -4129,6 +4201,7 @@ h1,
   }
 
   .home-inventory-card,
+  .home-random-card,
   .home-lesson-card,
   .home-note-card {
     grid-template-columns: 1fr;
@@ -4142,6 +4215,8 @@ h1,
   }
 
   .home-inventory-card button,
+  .home-random-card button,
+  .home-random-controls select,
   .home-lesson-card button,
   .home-note-card button {
     width: 100%;
@@ -4154,6 +4229,7 @@ h1,
   }
 
   .home-inventory-card,
+  .home-random-card,
   .home-lesson-card,
   .home-note-card,
   .today-fit-card,

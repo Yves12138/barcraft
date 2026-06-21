@@ -559,6 +559,7 @@ const state = {
   lessonIndex: readStoredNumber("barcraft:lessonIndex", 0),
   completedLessons: new Set(readStoredJson("barcraft:completedLessons", [])),
   recipeServings: 1,
+  homeRandomMode: "all",
   homeWeather: { type: "cloudy", label: "天气待确认", temperature: null, source: "fallback" },
   homeDrinkId: null,
   generatedRecipe: null
@@ -596,6 +597,7 @@ const elements = {
   homePickThumb: $("#homePickThumb"),
   homePickName: $("#homePickName"),
   homeInventoryCard: $("#homeInventoryCard"),
+  homeRandomCard: $("#homeRandomCard"),
   homeLessonCard: $("#homeLessonCard"),
   homeRecentNoteCard: $("#homeRecentNoteCard"),
   homeDrinkImage: $("#homeDrinkImage"),
@@ -932,6 +934,62 @@ function renderHomeInventoryRecommendation() {
   `;
 }
 
+function randomModePools() {
+  const matches = bestInventoryMatches();
+  return {
+    all: drinks,
+    ready: matches.filter(({ match }) => match.missingCount === 0).map(({ drink }) => drink),
+    near: matches.filter(({ match }) => match.missingCount === 1).map(({ drink }) => drink),
+    favorites: drinks.filter((drink) => state.favorites.has(drink.id))
+  };
+}
+
+function randomDrinkPool(mode = state.homeRandomMode) {
+  const pools = randomModePools();
+  return pools[mode]?.length ? pools[mode] : pools.all;
+}
+
+function randomModeLabel(mode) {
+  return {
+    all: "全部经典",
+    ready: "现在能做",
+    near: "差 1 样",
+    favorites: "我的收藏"
+  }[mode] || "全部经典";
+}
+
+function randomReasonFor(drink, mode) {
+  const options = {
+    all: `从 102 款经典里抽到它，适合用来换一个风味方向。`,
+    ready: `你当前库存已经覆盖它的核心材料，可以直接进入配方。`,
+    near: `它只差 1 样材料，适合列入下一次补货清单。`,
+    favorites: `从你的收藏里抽到它，适合今天重新复盘。`
+  };
+  return `${options[mode] || options.all}${drink.base ? ` ${drink.base}线索会比较清楚。` : ""}`;
+}
+
+function renderHomeRandomCard() {
+  const pools = randomModePools();
+  const mode = pools[state.homeRandomMode]?.length ? state.homeRandomMode : "all";
+  if (mode !== state.homeRandomMode) state.homeRandomMode = mode;
+  elements.homeRandomCard.innerHTML = `
+    <div>
+      <span>随机探索</span>
+      <strong>不知道喝什么？</strong>
+      <p>按范围抽一杯，直接进入图鉴看配方。</p>
+    </div>
+    <div class="home-random-controls">
+      <select aria-label="随机范围" data-home-random-mode>
+        <option value="all" ${mode === "all" ? "selected" : ""}>全部经典 · ${pools.all.length}</option>
+        <option value="ready" ${mode === "ready" ? "selected" : ""} ${pools.ready.length ? "" : "disabled"}>现在能做 · ${pools.ready.length}</option>
+        <option value="near" ${mode === "near" ? "selected" : ""} ${pools.near.length ? "" : "disabled"}>差 1 样 · ${pools.near.length}</option>
+        <option value="favorites" ${mode === "favorites" ? "selected" : ""} ${pools.favorites.length ? "" : "disabled"}>我的收藏 · ${pools.favorites.length}</option>
+      </select>
+      <button type="button" data-home-random-drink>抽一杯</button>
+    </div>
+  `;
+}
+
 function renderHomeLessonCard() {
   const lesson = lessons[state.lessonIndex] || lessons[0];
   const candidates = lesson.drinks
@@ -954,6 +1012,7 @@ function renderHomeLessonCard() {
 async function loadHomeWeather() {
   renderHomeRecommendation();
   renderHomeInventoryRecommendation();
+  renderHomeRandomCard();
   renderHomeLessonCard();
   if (!navigator.geolocation) return;
   navigator.geolocation.getCurrentPosition(
@@ -1597,6 +1656,7 @@ function refreshInventoryState(matches = bestInventoryMatches(), options = {}) {
   syncInventoryGroupCounts();
   syncSimulatorInventoryState();
   renderHomeInventoryRecommendation();
+  renderHomeRandomCard();
   if (options.keepWorkbenchLayout) syncWorkbenchOverviewStats(matches);
   else renderWorkbenchOverview(matches);
   renderInventoryMatches(matches);
@@ -1605,6 +1665,7 @@ function refreshInventoryState(matches = bestInventoryMatches(), options = {}) {
 function renderInventory() {
   renderSimulatorInventory();
   renderHomeInventoryRecommendation();
+  renderHomeRandomCard();
 
   const matches = bestInventoryMatches();
   renderWorkbenchOverview(matches);
@@ -2210,6 +2271,7 @@ function renderAfterPersonalDataChange() {
   renderCreationList();
   renderHomeRecommendation();
   renderHomeInventoryRecommendation();
+  renderHomeRandomCard();
   renderHomeLessonCard();
   generateCocktail();
   renderBackupSummary();
@@ -2377,6 +2439,28 @@ function attachEvents() {
     setActiveView("atlas");
   });
 
+  elements.homeRandomCard.addEventListener("change", (event) => {
+    const select = event.target.closest("[data-home-random-mode]");
+    if (!select) return;
+    state.homeRandomMode = select.value;
+  });
+
+  elements.homeRandomCard.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-home-random-drink]");
+    if (!button) return;
+    const mode = elements.homeRandomCard.querySelector("[data-home-random-mode]")?.value || state.homeRandomMode;
+    state.homeRandomMode = mode;
+    const pool = randomDrinkPool(mode);
+    const drink = pool[Math.floor(Math.random() * pool.length)] || drinks[0];
+    if (!drink) return;
+    state.selectedId = drink.id;
+    renderSelectedDrink();
+    renderCards();
+    setActiveView("atlas");
+    elements.todayFitCard.innerHTML = `<strong>${escapeHtml(randomModeLabel(mode))}随机</strong><p>${escapeHtml(randomReasonFor(drink, mode))}</p>`;
+    elements.todayFitCard.classList.add("visible");
+  });
+
   elements.homeLessonCard.addEventListener("click", (event) => {
     const button = event.target.closest("[data-home-lesson]");
     if (!button) return;
@@ -2423,6 +2507,7 @@ function attachEvents() {
     renderSelectedDrink();
     renderCards();
     renderFavorites();
+    renderHomeRandomCard();
   });
 
   elements.favoriteSummary.addEventListener("click", (event) => {
@@ -2439,6 +2524,7 @@ function attachEvents() {
       renderSelectedDrink();
       renderCards();
       renderFavorites();
+      renderHomeRandomCard();
       return;
     }
     const openButton = event.target.closest("[data-favorite-drink]");
