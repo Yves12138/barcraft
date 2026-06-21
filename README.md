@@ -48,6 +48,35 @@ https://yves12138.github.io/barcraft/
 
 项目根目录保留 `.nojekyll`，用于让 GitHub Pages 按普通静态文件发布，不经过 Jekyll 处理。
 
+## 安装到手机
+
+当前项目已支持 PWA，可从 GitHub Pages 添加到手机主屏幕。
+
+手机访问：
+
+```text
+https://yves12138.github.io/barcraft/
+```
+
+iPhone / iPad：
+
+1. 用 Safari 打开上方网址。
+2. 点击分享按钮。
+3. 选择“添加到主屏幕”。
+4. 确认名称为 `BarCraft` 后添加。
+
+Android：
+
+1. 用 Chrome 打开上方网址。
+2. 点击浏览器菜单。
+3. 选择“安装应用”或“添加到主屏幕”。
+
+说明：
+
+- 安装后会像独立 App 一样从手机桌面打开。
+- 收藏、库存、笔记和备份数据仍保存在当前设备和当前浏览器对应的网站数据里。
+- 如果需要把本地预览里的数据带到手机线上版，请先在品鉴日志页导出备份，再在手机线上版导入。
+
 ## 主要文件
 
 源文件：
@@ -57,7 +86,10 @@ index.html
 app.js
 styles.css
 iba-data.js
+manifest.webmanifest
+service-worker.js
 assets/cocktails/
+assets/icons/
 ```
 
 预览输出文件：
@@ -67,7 +99,10 @@ outputs/barcraft-app/index.html
 outputs/barcraft-app/app.js
 outputs/barcraft-app/styles.css
 outputs/barcraft-app/iba-data.js
+outputs/barcraft-app/manifest.webmanifest
+outputs/barcraft-app/service-worker.js
 outputs/barcraft-app/assets/cocktails/
+outputs/barcraft-app/assets/icons/
 ```
 
 Preview App 内置文件：
@@ -89,6 +124,8 @@ BarCraft Preview.app/Contents/Resources/site/
 - 全局样式：`styles.css`
 - 鸡尾酒数据：`iba-data.js`
 - 图片资产：`assets/`
+- PWA 安装清单：`manifest.webmanifest`
+- 离线缓存：`service-worker.js`
 
 页面为纯静态 App，不依赖打包工具。顶部导航和底部控制台通过 `data-view` / `data-view-panel` 切换页面状态。
 
@@ -100,6 +137,16 @@ BarCraft Preview.app/Contents/Resources/site/
 cp index.html app.js styles.css outputs/barcraft-app/
 cp index.html app.js styles.css "BarCraft Preview.app/Contents/Resources/site/"
 if [ -d /tmp/barcraft-preview-site ]; then cp index.html app.js styles.css /tmp/barcraft-preview-site/; fi
+```
+
+如果修改了 PWA 安装相关文件：
+
+```bash
+cp manifest.webmanifest service-worker.js outputs/barcraft-app/
+cp manifest.webmanifest service-worker.js "BarCraft Preview.app/Contents/Resources/site/"
+cp assets/icons/*.png outputs/barcraft-app/assets/icons/
+cp assets/icons/*.png "BarCraft Preview.app/Contents/Resources/site/assets/icons/"
+if [ -d /tmp/barcraft-preview-site ]; then cp manifest.webmanifest service-worker.js /tmp/barcraft-preview-site/; cp assets/icons/*.png /tmp/barcraft-preview-site/assets/icons/; fi
 ```
 
 如果修改了 `iba-data.js`：
@@ -155,6 +202,7 @@ git commit -m "填写本次修改说明"
 - 首页今日推荐已经显示中英双语酒名，英文略小。
 - 收藏页已经独立为“我的酒单”页面。
 - 库存和原创调酒模拟器已合并为“调酒台”。
+- 支持 PWA 安装，可从 GitHub Pages 添加到 iPhone / Android 手机主屏幕。
 - 收藏、库存、原创配方、学习进度和品鉴日志使用浏览器本地数据保存，支持 JSON 备份导出和导入，并在首页、收藏空状态和笔记空状态提供轻量首次使用提示。
 - 学习路径和笔记页面已做移动端阅读密度和底部安全区优化。
 - 底部留白已收紧，拖到底部后内容应停在底部控制台上方，不被遮挡。
@@ -172,6 +220,7 @@ git commit -m "填写本次修改说明"
 - Git 工作区为干净状态：`git status --short` 无输出。
 - 本地预览可打开：`http://localhost:8765/`。
 - GitHub Pages 可打开：`https://yves12138.github.io/barcraft/`。
+- 手机可从 GitHub Pages 添加到主屏幕。
 - 近期改动已经提交并推送到 `main`。
 - 如果浏览器仍显示旧页面，强制刷新或等待 GitHub Pages 缓存更新几分钟。
 
@@ -186,6 +235,7 @@ git commit -m "填写本次修改说明"
 - 学习：7 天入门路径，可跳转练习酒款并写练习笔记。
 - 笔记：品鉴日志、评分、微调记录、搜索和点击回到对应酒款。
 - 本地保存：收藏、库存、原创配方、学习进度和笔记保存于当前浏览器设备，并可在品鉴日志页导出 / 导入 JSON 备份。
+- PWA：支持 manifest、主屏幕图标和 service worker，可添加到手机主屏幕并缓存核心页面资源。
 
 已知限制：
 
@@ -213,12 +263,14 @@ git commit -m "填写本次修改说明"
 - 底部安全区检查：拖到底部后，主要内容停在底部控制台上方，未发现实际可见内容被遮挡。
 - 本地保存流程检查：收藏、取消收藏、笔记保存、笔记回跳、库存勾选、原创配方保存和删除均通过；刷新后保存状态可保留。
 - 线上交互检查：GitHub Pages 上收藏当前酒、进入“我的酒单”、品鉴日志页导出备份均通过；导入入口可见，未发现控制台错误。
+- PWA 静态检查：`manifest.webmanifest` 可解析，`service-worker.js` 语法通过，核心缓存清单中的 14 个文件均存在；主屏幕图标已生成 180、192、512、1024 四种尺寸。
 
 备注：
 
 - `assets/` 源目录已清理未被当前页面引用的历史素材，当前源资源数量与预览输出资源数量一致。
 - `outputs/` 根目录中的历史截图、概念图，以及 `work/contact-sheets/` 中的核对图已清理；当前保留的 `outputs/barcraft-app/` 是实际预览输出。
 - Codex 沙盒里直接用命令访问本地端口可能会被 macOS 权限限制；预览状态以 Codex 内置浏览器为准。
+- PWA 的 service worker 需要 `localhost` 或 HTTPS 才能真实注册；推送到 GitHub Pages 后再用手机或桌面浏览器验证“添加到主屏幕 / 安装应用”。
 
 ## 常见检查
 

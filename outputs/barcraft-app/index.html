@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BarCraft - 鸡尾酒灵感工作台</title>
+    <meta name="theme-color" content="#241d18" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="BarCraft" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png" />
     <link rel="stylesheet" href="./styles.css?v=20260621-home-copy-variety" />
   </head>
   <body>
@@ -471,5 +477,12 @@
 
   <script src="./iba-data.js?v=20260621-home-copy-variety"></script>
   <script src="./app.js?v=20260621-home-copy-variety"></script>
+  <script>
+    if ("serviceWorker" in navigator && window.location.protocol !== "file:") {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./service-worker.js").catch(() => {});
+      });
+    }
+  </script>
   </body>
 </html>
