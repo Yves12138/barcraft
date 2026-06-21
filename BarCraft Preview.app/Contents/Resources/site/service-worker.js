@@ -1,4 +1,4 @@
-const CACHE_VERSION = "barcraft-pwa-20260621-inventory-stable";
+const CACHE_VERSION = "barcraft-pwa-20260621-checkbox-stability";
 const CORE_CACHE = `${CACHE_VERSION}-core`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 

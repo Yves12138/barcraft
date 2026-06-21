@@ -1517,6 +1517,17 @@ function renderWorkbenchOverview(matches) {
   `;
 }
 
+function syncWorkbenchOverviewStats(matches) {
+  const readyCount = matches.filter(({ match }) => match.missingCount === 0).length;
+  const nearCount = matches.filter(({ match }) => match.missingCount === 1).length;
+  const ownedCount = state.inventory.size;
+  if (elements.inventoryOwnedCount) elements.inventoryOwnedCount.textContent = `${ownedCount} 项`;
+  const statValues = elements.workbenchOverview.querySelectorAll(".workbench-stat strong");
+  if (statValues[0]) statValues[0].textContent = ownedCount;
+  if (statValues[1]) statValues[1].textContent = readyCount;
+  if (statValues[2]) statValues[2].textContent = nearCount;
+}
+
 function renderInventoryMatches(matches = bestInventoryMatches()) {
   const sections = [
     ["可立即制作", matches.filter(({ match }) => match.missingCount === 0).slice(0, 8)],
@@ -1544,12 +1555,13 @@ function renderInventoryMatches(matches = bestInventoryMatches()) {
     : `<div class="match-row empty-match"><strong>还没有接近可做的酒</strong><span>先勾选几种基酒、柑橘、糖浆或苦精，系统会自动更新可做清单。</span></div>`;
 }
 
-function refreshInventoryState(matches = bestInventoryMatches()) {
+function refreshInventoryState(matches = bestInventoryMatches(), options = {}) {
   syncInventoryInputs();
   syncInventoryGroupCounts();
   syncSimulatorInventoryState();
   renderHomeInventoryRecommendation();
-  renderWorkbenchOverview(matches);
+  if (options.keepWorkbenchLayout) syncWorkbenchOverviewStats(matches);
+  else renderWorkbenchOverview(matches);
   renderInventoryMatches(matches);
 }
 
@@ -2226,23 +2238,57 @@ function persist() {
   writeStoredValue("barcraft:completedLessons", JSON.stringify([...state.completedLessons]));
 }
 
+let stableCheckboxSnapshot = null;
+
+function checkboxAnchorFromEvent(event) {
+  const target = event.target.closest?.("input[type='checkbox'], label");
+  if (!target) return null;
+  const input = target.matches("input[type='checkbox']") ? target : target.querySelector("input[type='checkbox']");
+  if (!input || !document.getElementById("simulator")?.contains(input)) return null;
+  return input.closest("label, .inventory-item, .quick-inventory-item") || input;
+}
+
+function rememberCheckboxViewport(event) {
+  const anchor = checkboxAnchorFromEvent(event);
+  if (!anchor) return;
+  if (stableCheckboxSnapshot?.anchor === anchor) return;
+  stableCheckboxSnapshot = {
+    anchor,
+    scrollY: window.scrollY,
+    top: anchor.getBoundingClientRect().top
+  };
+}
+
 function preserveViewportPosition(anchor, callback) {
-  const beforeTop = anchor?.getBoundingClientRect().top;
+  const snapshot = stableCheckboxSnapshot && stableCheckboxSnapshot.anchor === anchor ? stableCheckboxSnapshot : null;
+  const beforeTop = snapshot?.top ?? anchor?.getBoundingClientRect().top;
+  const restore = () => {
+    if (!Number.isFinite(beforeTop) || !anchor || !document.body.contains(anchor)) return;
+    const afterTop = anchor.getBoundingClientRect().top;
+    const delta = afterTop - beforeTop;
+    if (Math.abs(delta) > 1) window.scrollBy({ top: delta, left: 0, behavior: "auto" });
+  };
   callback();
-  if (!Number.isFinite(beforeTop) || !anchor || !document.body.contains(anchor)) return;
-  const afterTop = anchor.getBoundingClientRect().top;
-  const delta = afterTop - beforeTop;
-  if (Math.abs(delta) > 1) window.scrollBy({ top: delta, left: 0, behavior: "auto" });
+  restore();
+  requestAnimationFrame(restore);
+  window.setTimeout(restore, 80);
+  window.setTimeout(() => {
+    restore();
+    if (snapshot) stableCheckboxSnapshot = null;
+  }, 180);
+}
+
+function handleStableControlChange(control, callback) {
+  preserveViewportPosition(control.closest("label, .inventory-item, .quick-inventory-item") || control, callback);
 }
 
 function updateInventoryFromInput(input) {
-  const anchor = input.closest(".inventory-item, .quick-inventory-item");
   if (input.checked) state.inventory.add(input.value);
   else state.inventory.delete(input.value);
   persist();
-  preserveViewportPosition(anchor, () => {
+  handleStableControlChange(input, () => {
     const matches = bestInventoryMatches();
-    refreshInventoryState(matches);
+    refreshInventoryState(matches, { keepWorkbenchLayout: true });
     renderCards();
     renderFavorites();
     renderSelectedDrink();
@@ -2253,6 +2299,9 @@ function updateInventoryFromInput(input) {
 }
 
 function attachEvents() {
+  document.getElementById("simulator")?.addEventListener("pointerdown", rememberCheckboxViewport, true);
+  document.getElementById("simulator")?.addEventListener("click", rememberCheckboxViewport, true);
+
   $("#searchInput").addEventListener("input", (event) => {
     state.query = event.target.value;
     renderCards();
@@ -2515,8 +2564,11 @@ function attachEvents() {
   });
 
   $("#generateButton").addEventListener("click", generateCocktail);
-  [elements.baseSelect, elements.flavorSelect, elements.useInventoryToggle].forEach((control) => {
+  [elements.baseSelect, elements.flavorSelect].forEach((control) => {
     control.addEventListener("change", generateCocktail);
+  });
+  elements.useInventoryToggle.addEventListener("change", (event) => {
+    handleStableControlChange(event.target, generateCocktail);
   });
   [elements.sweetRange, elements.acidRange].forEach((range) => {
     range.addEventListener("input", () => {
