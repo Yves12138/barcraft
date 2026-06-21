@@ -614,6 +614,11 @@ const elements = {
   drinkCards: $("#drinkCards"),
   resultCount: $("#resultCount"),
   filterRow: $("#filterRow"),
+  shareCardButton: $("#shareCardButton"),
+  shareModal: $("#shareModal"),
+  shareCanvas: $("#shareCanvas"),
+  shareStatus: $("#shareStatus"),
+  downloadShareCard: $("#downloadShareCard"),
   favoriteButton: $("#favoriteButton"),
   favoriteCount: $("#favoriteCount"),
   favoriteSummary: $("#favoriteSummary"),
@@ -1274,6 +1279,221 @@ function todayFitCopyFor(drink) {
   if (drink.id !== state.homeDrinkId) return "";
   const daypart = currentDaypart();
   return `${daypart.label}推荐它：${homeRecommendationCopy(state.homeWeather.type, daypart, drink)}`;
+}
+
+function setShareStatus(message, tone = "") {
+  if (!elements.shareStatus) return;
+  elements.shareStatus.textContent = message;
+  elements.shareStatus.className = `share-status ${tone}`.trim();
+}
+
+function roundRectPath(ctx, x, y, width, height, radius) {
+  const r = Math.min(radius, width / 2, height / 2);
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.lineTo(x + width - r, y);
+  ctx.quadraticCurveTo(x + width, y, x + width, y + r);
+  ctx.lineTo(x + width, y + height - r);
+  ctx.quadraticCurveTo(x + width, y + height, x + width - r, y + height);
+  ctx.lineTo(x + r, y + height);
+  ctx.quadraticCurveTo(x, y + height, x, y + height - r);
+  ctx.lineTo(x, y + r);
+  ctx.quadraticCurveTo(x, y, x + r, y);
+  ctx.closePath();
+}
+
+function fillRoundRect(ctx, x, y, width, height, radius, fillStyle) {
+  roundRectPath(ctx, x, y, width, height, radius);
+  ctx.fillStyle = fillStyle;
+  ctx.fill();
+}
+
+function strokeRoundRect(ctx, x, y, width, height, radius, strokeStyle, lineWidth = 2) {
+  roundRectPath(ctx, x, y, width, height, radius);
+  ctx.strokeStyle = strokeStyle;
+  ctx.lineWidth = lineWidth;
+  ctx.stroke();
+}
+
+function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight, maxLines = Infinity) {
+  const chars = String(text || "").split("");
+  const lines = [];
+  let line = "";
+  chars.forEach((char) => {
+    const test = `${line}${char}`;
+    if (ctx.measureText(test).width > maxWidth && line) {
+      lines.push(line);
+      line = char;
+    } else {
+      line = test;
+    }
+  });
+  if (line) lines.push(line);
+  const visible = lines.slice(0, maxLines);
+  if (lines.length > maxLines && visible.length) visible[visible.length - 1] = `${visible[visible.length - 1].slice(0, -1)}...`;
+  visible.forEach((lineText, index) => ctx.fillText(lineText, x, y + index * lineHeight));
+  return y + visible.length * lineHeight;
+}
+
+function loadShareImage(src) {
+  return new Promise((resolve, reject) => {
+    const image = new Image();
+    image.onload = () => resolve(image);
+    image.onerror = reject;
+    image.src = src;
+  });
+}
+
+function drawContainedImage(ctx, image, x, y, width, height, radius) {
+  fillRoundRect(ctx, x, y, width, height, radius, "rgba(8, 6, 4, 0.56)");
+  strokeRoundRect(ctx, x, y, width, height, radius, "rgba(215, 167, 92, 0.32)", 2);
+  const scale = Math.min(width / image.naturalWidth, height / image.naturalHeight);
+  const drawWidth = image.naturalWidth * scale;
+  const drawHeight = image.naturalHeight * scale;
+  const drawX = x + (width - drawWidth) / 2;
+  const drawY = y + (height - drawHeight) / 2;
+  ctx.save();
+  roundRectPath(ctx, x, y, width, height, radius);
+  ctx.clip();
+  ctx.drawImage(image, drawX, drawY, drawWidth, drawHeight);
+  ctx.restore();
+}
+
+function shareCardFileName(drink) {
+  const name = (drink.nameEn || drink.id || "barcraft").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return `barcraft-${name || "cocktail"}.png`;
+}
+
+async function drawShareCard(drink = selectedDrink()) {
+  const canvas = elements.shareCanvas;
+  if (!canvas || !drink) return;
+  const ctx = canvas.getContext("2d");
+  const width = canvas.width;
+  const height = canvas.height;
+  ctx.clearRect(0, 0, width, height);
+
+  const background = ctx.createLinearGradient(0, 0, width, height);
+  background.addColorStop(0, "#130808");
+  background.addColorStop(0.42, "#24120b");
+  background.addColorStop(1, "#0b0907");
+  ctx.fillStyle = background;
+  ctx.fillRect(0, 0, width, height);
+
+  const glow = ctx.createRadialGradient(270, 210, 40, 260, 250, 760);
+  glow.addColorStop(0, "rgba(75, 15, 22, 0.56)");
+  glow.addColorStop(0.52, "rgba(166, 106, 60, 0.24)");
+  glow.addColorStop(1, "rgba(0, 0, 0, 0)");
+  ctx.fillStyle = glow;
+  ctx.fillRect(0, 0, width, height);
+
+  fillRoundRect(ctx, 54, 54, width - 108, height - 108, 56, "rgba(22, 16, 11, 0.68)");
+  strokeRoundRect(ctx, 54, 54, width - 108, height - 108, 56, "rgba(215, 167, 92, 0.46)", 3);
+  strokeRoundRect(ctx, 78, 78, width - 156, height - 156, 42, "rgba(255, 230, 180, 0.12)", 1);
+
+  ctx.fillStyle = "#d7a75c";
+  ctx.font = "700 26px Georgia, serif";
+  ctx.fillText("BarCraft", 118, 136);
+  ctx.fillStyle = "rgba(244, 234, 217, 0.62)";
+  ctx.font = "24px system-ui, sans-serif";
+  ctx.fillText("经典鸡尾酒分享卡", 118, 174);
+
+  ctx.save();
+  ctx.translate(width - 196, 122);
+  ctx.strokeStyle = "rgba(215, 167, 92, 0.7)";
+  ctx.lineWidth = 8;
+  ctx.beginPath();
+  ctx.moveTo(-52, -8);
+  ctx.lineTo(48, -8);
+  ctx.lineTo(0, 58);
+  ctx.closePath();
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.moveTo(0, 58);
+  ctx.lineTo(0, 118);
+  ctx.moveTo(-42, 118);
+  ctx.lineTo(42, 118);
+  ctx.stroke();
+  ctx.restore();
+
+  ctx.fillStyle = "#f4ead9";
+  ctx.font = "700 76px Georgia, 'Times New Roman', serif";
+  wrapCanvasText(ctx, drink.nameZh || drink.name, 118, 265, 760, 84, 2);
+  ctx.fillStyle = "rgba(215, 167, 92, 0.9)";
+  ctx.font = "42px Georgia, 'Times New Roman', serif";
+  ctx.fillText(drink.nameEn || "", 118, 410);
+
+  try {
+    const image = await loadShareImage(drink.image);
+    drawContainedImage(ctx, image, 118, 465, 844, 520, 34);
+  } catch {
+    fillRoundRect(ctx, 118, 465, 844, 520, 34, "rgba(255, 255, 255, 0.05)");
+    ctx.fillStyle = "rgba(244, 234, 217, 0.64)";
+    ctx.font = "34px system-ui, sans-serif";
+    ctx.fillText("图片暂不可用", 414, 728);
+  }
+
+  ctx.fillStyle = "rgba(244, 234, 217, 0.78)";
+  ctx.font = "30px system-ui, sans-serif";
+  const tasteBottom = wrapCanvasText(ctx, drink.taste, 118, 1056, 844, 44, 3);
+
+  const recipeTop = Math.max(tasteBottom + 34, 1178);
+  fillRoundRect(ctx, 118, recipeTop - 24, 844, 116, 24, "rgba(255, 246, 226, 0.055)");
+  strokeRoundRect(ctx, 118, recipeTop - 24, 844, 116, 24, "rgba(215, 167, 92, 0.2)", 1);
+  ctx.fillStyle = "#d7a75c";
+  ctx.font = "700 24px system-ui, sans-serif";
+  ctx.fillText("核心配方", 148, recipeTop + 12);
+  ctx.fillStyle = "rgba(244, 234, 217, 0.82)";
+  ctx.font = "26px system-ui, sans-serif";
+  const recipeCopy = drink.recipe
+    .slice(0, 3)
+    .map(([label, value]) => `${label} ${value}`)
+    .join("  ·  ");
+  wrapCanvasText(ctx, recipeCopy, 148, recipeTop + 54, 780, 36, 2);
+
+  ctx.fillStyle = "rgba(244, 234, 217, 0.56)";
+  ctx.font = "23px system-ui, sans-serif";
+  ctx.fillText(`${drink.base} / ${drink.mood}`, 118, height - 126);
+  ctx.fillStyle = "rgba(215, 167, 92, 0.78)";
+  ctx.fillText("barcraft.app", width - 260, height - 126);
+}
+
+async function openShareModal() {
+  const drink = selectedDrink();
+  elements.shareModal?.classList.add("visible");
+  elements.shareModal?.setAttribute("aria-hidden", "false");
+  setShareStatus("正在生成分享卡片...");
+  try {
+    await drawShareCard(drink);
+    setShareStatus("分享卡片已生成，可下载 PNG。", "success");
+  } catch {
+    setShareStatus("分享卡片生成失败，请稍后再试。", "warning");
+  }
+}
+
+function closeShareModal() {
+  elements.shareModal?.classList.remove("visible");
+  elements.shareModal?.setAttribute("aria-hidden", "true");
+}
+
+function downloadShareCard() {
+  const drink = selectedDrink();
+  const canvas = elements.shareCanvas;
+  if (!canvas) return;
+  canvas.toBlob((blob) => {
+    if (!blob) {
+      setShareStatus("下载失败，请重新生成分享卡片。", "warning");
+      return;
+    }
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = shareCardFileName(drink);
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+    setShareStatus("PNG 已开始下载。", "success");
+  }, "image/png");
 }
 
 function renderSelectedDrink() {
@@ -2620,6 +2840,18 @@ function attachEvents() {
     if (!button) return;
     state.recipeServings = Number(button.dataset.servings);
     renderSelectedDrink();
+  });
+
+  elements.shareCardButton.addEventListener("click", openShareModal);
+
+  elements.shareModal.addEventListener("click", (event) => {
+    if (event.target.closest("[data-close-share]")) closeShareModal();
+  });
+
+  elements.downloadShareCard.addEventListener("click", downloadShareCard);
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && elements.shareModal.classList.contains("visible")) closeShareModal();
   });
 
   elements.inventoryGrid.addEventListener("change", (event) => {

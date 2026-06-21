@@ -365,6 +365,13 @@ h2 {
   color: var(--amber);
 }
 
+.atlas-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
 .home-panel {
   min-height: 544px;
   overflow: hidden;
@@ -1655,6 +1662,104 @@ input[type="range"] {
   color: var(--muted);
   font-size: 13px;
   line-height: 1.5;
+}
+
+.share-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+}
+
+.share-modal.visible {
+  display: flex;
+}
+
+.share-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(5, 4, 3, 0.72);
+  backdrop-filter: blur(16px);
+}
+
+.share-dialog {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: min(520px, 100%);
+  max-height: calc(100vh - 44px);
+  gap: 14px;
+  padding: 16px;
+  overflow: auto;
+  border: 1px solid rgba(215, 167, 92, 0.32);
+  border-radius: 12px;
+  background:
+    var(--obsidian-card-texture),
+    rgba(12, 9, 7, 0.95);
+  background-position: center;
+  background-size: cover;
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.58),
+    inset 0 1px 0 rgba(255, 246, 226, 0.06);
+}
+
+.share-dialog-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+}
+
+.share-dialog-head h2 {
+  margin-top: 5px;
+  color: var(--text);
+  font-size: 22px;
+}
+
+.share-preview-wrap {
+  display: grid;
+  justify-items: center;
+  padding: 10px;
+  border: 1px solid rgba(215, 167, 92, 0.16);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.share-preview-wrap canvas {
+  width: min(100%, 330px);
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.4);
+}
+
+.share-dialog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 9px;
+}
+
+.share-dialog-actions .primary-button,
+.share-dialog-actions .small-button {
+  min-height: 38px;
+}
+
+.share-status {
+  min-height: 20px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.share-status.success {
+  color: var(--mint);
+}
+
+.share-status.warning {
+  color: var(--coral);
 }
 
 .logic-grid {

@@ -10,7 +10,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png" />
-    <link rel="stylesheet" href="./styles.css?v=20260621-recent-views" />
+    <link rel="stylesheet" href="./styles.css?v=20260621-share-card" />
   </head>
   <body>
     <div class="app-shell">
@@ -130,9 +130,14 @@
                 <span class="panel-label">经典图鉴</span>
                 <h1>从配方、风味到故事，一屏掌握</h1>
               </div>
-              <button class="icon-button" id="favoriteButton" aria-label="收藏当前鸡尾酒" title="收藏当前鸡尾酒">
-                <svg><use href="#icon-heart"></use></svg>
-              </button>
+              <div class="atlas-actions">
+                <button class="icon-button" id="shareCardButton" aria-label="生成分享卡片" title="生成分享卡片">
+                  <svg><use href="#icon-share"></use></svg>
+                </button>
+                <button class="icon-button" id="favoriteButton" aria-label="收藏当前鸡尾酒" title="收藏当前鸡尾酒">
+                  <svg><use href="#icon-heart"></use></svg>
+                </button>
+              </div>
             </div>
 
             <div class="drink-layout">
@@ -463,6 +468,32 @@
       </div>
     </footer>
 
+    <div class="share-modal" id="shareModal" aria-hidden="true">
+      <div class="share-backdrop" data-close-share></div>
+      <section class="share-dialog" role="dialog" aria-modal="true" aria-labelledby="shareDialogTitle">
+        <div class="share-dialog-head">
+          <div>
+            <span class="panel-label">分享卡片</span>
+            <h2 id="shareDialogTitle">生成鸡尾酒分享图</h2>
+          </div>
+          <button class="icon-button" type="button" data-close-share aria-label="关闭分享卡片" title="关闭">
+            <svg><use href="#icon-close"></use></svg>
+          </button>
+        </div>
+        <div class="share-preview-wrap">
+          <canvas id="shareCanvas" width="1080" height="1440" aria-label="分享卡片预览"></canvas>
+        </div>
+        <div class="share-dialog-actions">
+          <button class="small-button neutral" type="button" data-close-share>取消</button>
+          <button class="primary-button" id="downloadShareCard" type="button">
+            <svg><use href="#icon-save"></use></svg>
+            下载 PNG
+          </button>
+        </div>
+        <p class="share-status" id="shareStatus" role="status"></p>
+      </section>
+    </div>
+
     <svg class="icon-sprite" aria-hidden="true">
       <symbol id="icon-home" viewBox="0 0 24 24"><path d="M3 11.5 12 3l9 8.5"/><path d="M5 10.5V21h14V10.5"/><path d="M9 21v-6h6v6"/></symbol>
       <symbol id="icon-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H7a3 3 0 0 0-3 3V5.5Z"/><path d="M4 5.5V22"/><path d="M8 7h8"/></symbol>
@@ -473,12 +504,14 @@
       <symbol id="icon-note" viewBox="0 0 24 24"><path d="M6 3h9l3 3v18H6z"/><path d="M15 3v6h6"/><path d="M9 13h6"/><path d="M9 17h5"/></symbol>
       <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></symbol>
       <symbol id="icon-heart" viewBox="0 0 24 24"><path d="M20.8 5.6a5 5 0 0 0-7.1 0L12 7.3l-1.7-1.7a5 5 0 1 0-7.1 7.1L12 21l8.8-8.3a5 5 0 0 0 0-7.1Z"/></symbol>
+      <symbol id="icon-share" viewBox="0 0 24 24"><path d="M12 3v12"/><path d="m7 8 5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></symbol>
+      <symbol id="icon-close" viewBox="0 0 24 24"><path d="M6 6l12 12"/><path d="M18 6 6 18"/></symbol>
       <symbol id="icon-spark" viewBox="0 0 24 24"><path d="M12 2l1.8 6.2L20 10l-6.2 1.8L12 18l-1.8-6.2L4 10l6.2-1.8L12 2Z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8L19 15Z"/></symbol>
       <symbol id="icon-save" viewBox="0 0 24 24"><path d="M5 3h14l2 2v16H3V5l2-2Z"/><path d="M7 3v6h10V3"/><path d="M7 21v-7h10v7"/></symbol>
     </svg>
 
   <script src="./iba-data.js?v=20260621-home-copy-variety"></script>
-  <script src="./app.js?v=20260621-recent-views"></script>
+  <script src="./app.js?v=20260621-share-card"></script>
   <script>
     if ("serviceWorker" in navigator && window.location.protocol !== "file:") {
       window.addEventListener("load", () => {

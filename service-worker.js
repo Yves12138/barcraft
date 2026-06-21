@@ -1,12 +1,12 @@
-const CACHE_VERSION = "barcraft-pwa-20260621-recent-views";
+const CACHE_VERSION = "barcraft-pwa-20260621-share-card";
 const CORE_CACHE = `${CACHE_VERSION}-core`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 const CORE_ASSETS = [
   "./",
   "./index.html",
-  "./styles.css?v=20260621-recent-views",
-  "./app.js?v=20260621-recent-views",
+  "./styles.css?v=20260621-share-card",
+  "./app.js?v=20260621-share-card",
   "./iba-data.js",
   "./manifest.webmanifest",
   "./assets/icons/barcraft-icon-192.png",
