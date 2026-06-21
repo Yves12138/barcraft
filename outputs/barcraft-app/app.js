@@ -527,6 +527,7 @@ function readStoredNumber(key, fallback) {
 
 const localStorageAvailable = canUseLocalStorage();
 const savedInventory = readStoredJson("barcraft:inventory", null);
+const savedRecentDrinks = readStoredJson("barcraft:recentDrinks", []);
 
 function localDataCopy() {
   return localStorageAvailable ? "收藏、库存和笔记会保存在这台设备的浏览器里。" : "当前浏览器限制本地保存，关闭或刷新后可能不会保留个人记录。";
@@ -553,6 +554,7 @@ const state = {
   query: "",
   inventory: new Set(Array.isArray(savedInventory) ? savedInventory.map(canonicalInventoryItem) : starterInventory),
   favorites: new Set(readStoredJson("barcraft:favorites", [])),
+  recentDrinkIds: Array.isArray(savedRecentDrinks) ? savedRecentDrinks.map((id) => String(id || "")).filter((id) => drinks.some((drink) => drink.id === id)).slice(0, 8) : [],
   notes: readStoredJson("barcraft:notes", []),
   noteQuery: "",
   creations: readStoredJson("barcraft:creations", []),
@@ -598,6 +600,7 @@ const elements = {
   homePickName: $("#homePickName"),
   homeInventoryCard: $("#homeInventoryCard"),
   homeRandomCard: $("#homeRandomCard"),
+  homeRecentViewCard: $("#homeRecentViewCard"),
   homeLessonCard: $("#homeLessonCard"),
   homeRecentNoteCard: $("#homeRecentNoteCard"),
   homeDrinkImage: $("#homeDrinkImage"),
@@ -704,6 +707,7 @@ function setActiveView(view) {
       ? drinks.find((drink) => drink.id === state.homeDrinkId)
       : selectedDrink();
   if (consoleDrink) elements.consoleDrinkName.textContent = consoleDrink.name;
+  if (view === "atlas") recordRecentDrink(state.selectedId);
   if (view === "favorites") renderFavorites();
   if (view === "notes") renderNotes();
   if (view === "collection") elements.consoleResultCount.textContent = `${filteredDrinks().length} 款`;
@@ -990,6 +994,54 @@ function renderHomeRandomCard() {
   `;
 }
 
+function recentViewedDrinks() {
+  return state.recentDrinkIds.map((id) => drinks.find((drink) => drink.id === id)).filter(Boolean);
+}
+
+function persistRecentDrinks() {
+  writeStoredValue("barcraft:recentDrinks", JSON.stringify(state.recentDrinkIds));
+}
+
+function recordRecentDrink(drinkId) {
+  if (!drinks.some((drink) => drink.id === drinkId)) return;
+  state.recentDrinkIds = [drinkId, ...state.recentDrinkIds.filter((id) => id !== drinkId)].slice(0, 8);
+  persistRecentDrinks();
+  renderHomeRecentViews();
+  renderBackupSummary();
+}
+
+function renderHomeRecentViews() {
+  if (!elements.homeRecentViewCard) return;
+  const recent = recentViewedDrinks();
+  if (!recent.length) {
+    elements.homeRecentViewCard.innerHTML = `
+      <div>
+        <span>最近查看</span>
+        <strong>还没有浏览记录</strong>
+        <p>从图鉴、酒单或随机探索打开一杯后，这里会帮你留住刚刚看过的酒。</p>
+      </div>
+      <button type="button" data-open-collection>去探索</button>
+    `;
+    return;
+  }
+  elements.homeRecentViewCard.innerHTML = `
+    <div>
+      <span>最近查看</span>
+      <strong>${escapeHtml(recent[0].name)}</strong>
+      <div class="home-recent-list">
+        ${recent
+          .slice(0, 4)
+          .map((drink) => `<button type="button" data-recent-drink="${escapeHtml(drink.id)}">${escapeHtml(drink.name)}</button>`)
+          .join("")}
+      </div>
+    </div>
+    <div class="home-recent-actions">
+      <button type="button" data-recent-drink="${escapeHtml(recent[0].id)}">继续看</button>
+      <button class="ghost" type="button" data-clear-recent>清空</button>
+    </div>
+  `;
+}
+
 function renderHomeLessonCard() {
   const lesson = lessons[state.lessonIndex] || lessons[0];
   const candidates = lesson.drinks
@@ -1013,6 +1065,7 @@ async function loadHomeWeather() {
   renderHomeRecommendation();
   renderHomeInventoryRecommendation();
   renderHomeRandomCard();
+  renderHomeRecentViews();
   renderHomeLessonCard();
   if (!navigator.geolocation) return;
   navigator.geolocation.getCurrentPosition(
@@ -2129,6 +2182,7 @@ function generateCocktail() {
 function personalDataSnapshot() {
   return {
     favorites: [...state.favorites],
+    recentDrinks: state.recentDrinkIds,
     inventory: [...state.inventory],
     notes: state.notes,
     creations: state.creations,
@@ -2138,11 +2192,11 @@ function personalDataSnapshot() {
 }
 
 function backupSummaryText() {
-  return `当前：收藏 ${state.favorites.size} 款，库存 ${state.inventory.size} 项，笔记 ${state.notes.length} 条，原创配方 ${state.creations.length} 条。`;
+  return `当前：收藏 ${state.favorites.size} 款，最近查看 ${state.recentDrinkIds.length} 款，库存 ${state.inventory.size} 项，笔记 ${state.notes.length} 条，原创配方 ${state.creations.length} 条。`;
 }
 
 function backupSummaryFromData(data) {
-  return `将导入：收藏 ${data.favorites.length} 款，库存 ${data.inventory.length} 项，笔记 ${data.notes.length} 条，原创配方 ${data.creations.length} 条。`;
+  return `将导入：收藏 ${data.favorites.length} 款，最近查看 ${data.recentDrinks.length} 款，库存 ${data.inventory.length} 项，笔记 ${data.notes.length} 条，原创配方 ${data.creations.length} 条。`;
 }
 
 function setBackupStatus(message, tone = "") {
@@ -2246,13 +2300,14 @@ function normalizeImportedData(payload) {
   const data = payload && typeof payload === "object" && payload.data && typeof payload.data === "object" ? payload.data : payload;
   if (!data || typeof data !== "object") throw new Error("备份文件格式不正确");
   if (payload?.app && payload.app !== "BarCraft") throw new Error("不是 BarCraft 备份");
-  const supportedKeys = ["favorites", "inventory", "notes", "creations", "lessonIndex", "completedLessons"];
+  const supportedKeys = ["favorites", "recentDrinks", "inventory", "notes", "creations", "lessonIndex", "completedLessons"];
   if (!supportedKeys.some((key) => Object.prototype.hasOwnProperty.call(data, key))) throw new Error("备份文件不包含可导入数据");
   const drinkIds = drinks.map((drink) => drink.id);
   const lessonIds = lessons.map((_, index) => String(index));
   const lessonIndex = Number.isFinite(Number(data.lessonIndex)) ? Math.min(Math.max(Number(data.lessonIndex), 0), lessons.length - 1) : 0;
   return {
     favorites: normalizedStringArray(data.favorites, drinkIds),
+    recentDrinks: normalizedStringArray(data.recentDrinks, drinkIds).slice(0, 8),
     inventory: normalizeImportedInventory(data.inventory),
     notes: Array.isArray(data.notes) ? data.notes.map(normalizeImportedNote).filter(Boolean) : [],
     creations: Array.isArray(data.creations) ? data.creations.map(normalizeImportedCreation).filter(Boolean) : [],
@@ -2272,6 +2327,7 @@ function renderAfterPersonalDataChange() {
   renderHomeRecommendation();
   renderHomeInventoryRecommendation();
   renderHomeRandomCard();
+  renderHomeRecentViews();
   renderHomeLessonCard();
   generateCocktail();
   renderBackupSummary();
@@ -2279,6 +2335,7 @@ function renderAfterPersonalDataChange() {
 
 function applyImportedData(data) {
   state.favorites = new Set(data.favorites);
+  state.recentDrinkIds = data.recentDrinks;
   state.inventory = new Set(data.inventory);
   state.notes = data.notes;
   state.creations = data.creations;
@@ -2330,6 +2387,7 @@ function importPersonalDataFile(file) {
 
 function persist() {
   writeStoredValue("barcraft:favorites", JSON.stringify([...state.favorites]));
+  writeStoredValue("barcraft:recentDrinks", JSON.stringify(state.recentDrinkIds));
   writeStoredValue("barcraft:notes", JSON.stringify(state.notes));
   writeStoredValue("barcraft:creations", JSON.stringify(state.creations));
   writeStoredValue("barcraft:inventory", JSON.stringify([...state.inventory]));
@@ -2459,6 +2517,27 @@ function attachEvents() {
     setActiveView("atlas");
     elements.todayFitCard.innerHTML = `<strong>${escapeHtml(randomModeLabel(mode))}随机</strong><p>${escapeHtml(randomReasonFor(drink, mode))}</p>`;
     elements.todayFitCard.classList.add("visible");
+  });
+
+  elements.homeRecentViewCard.addEventListener("click", (event) => {
+    const clearButton = event.target.closest("[data-clear-recent]");
+    if (clearButton) {
+      state.recentDrinkIds = [];
+      persistRecentDrinks();
+      renderHomeRecentViews();
+      renderBackupSummary();
+      return;
+    }
+    const recentButton = event.target.closest("[data-recent-drink]");
+    if (recentButton) {
+      state.selectedId = recentButton.dataset.recentDrink;
+      renderSelectedDrink();
+      renderCards();
+      setActiveView("atlas");
+      return;
+    }
+    const collectionButton = event.target.closest("[data-open-collection]");
+    if (collectionButton) setActiveView("collection");
   });
 
   elements.homeLessonCard.addEventListener("click", (event) => {
@@ -2758,6 +2837,7 @@ function init() {
   renderNotes();
   renderCreationList();
   generateCocktail();
+  renderHomeRecentViews();
   loadHomeWeather();
   setActiveView(state.activeView);
 }

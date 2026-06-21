@@ -17,6 +17,7 @@ BarCraft 当前版本是一个纯静态 PWA 鸡尾酒 App，可通过 GitHub Pag
 - 102 款经典鸡尾酒图鉴。
 - 首页今日推荐。
 - 首页随机探索。
+- 首页最近查看。
 - 酒单筛选与首字母分组。
 - 故事馆。
 - 收藏 / 我的酒单。
@@ -85,6 +86,7 @@ BarCraft 当前版本是一个纯静态 PWA 鸡尾酒 App，可通过 GitHub Pag
 备份内容包含：
 
 - 收藏。
+- 最近查看。
 - 库存。
 - 原创配方。
 - 学习进度。
@@ -117,9 +119,9 @@ main branch
 PWA 资源版本：
 
 ```text
-styles.css?v=20260621-home-random
-app.js?v=20260621-home-random
-barcraft-pwa-20260621-home-random
+styles.css?v=20260621-recent-views
+app.js?v=20260621-recent-views
+barcraft-pwa-20260621-recent-views
 ```
 
 ## 发布前检查

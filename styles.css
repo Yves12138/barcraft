@@ -712,6 +712,91 @@ h2 {
   font-weight: 800;
 }
 
+.home-recent-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  width: min(520px, 100%);
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid rgba(182, 134, 90, 0.28);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(166, 106, 60, 0.11), rgba(36, 29, 24, 0.08)),
+    rgba(255, 255, 255, 0.04);
+}
+
+.home-recent-card span,
+.home-recent-card strong,
+.home-recent-card p {
+  display: block;
+}
+
+.home-recent-card span {
+  color: #d6a66b;
+  font-size: 12px;
+  font-weight: 750;
+}
+
+.home-recent-card strong {
+  margin-top: 4px;
+  font-size: 16px;
+}
+
+.home-recent-card p {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.home-recent-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 9px;
+}
+
+.home-recent-list button {
+  min-height: 28px;
+  max-width: 150px;
+  padding: 0 9px;
+  overflow: hidden;
+  border: 1px solid rgba(182, 134, 90, 0.28);
+  border-radius: 8px;
+  background: rgba(182, 134, 90, 0.1);
+  color: rgba(244, 234, 217, 0.78);
+  font-size: 12px;
+  font-weight: 760;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.home-recent-actions {
+  display: grid;
+  gap: 8px;
+  justify-items: end;
+}
+
+.home-recent-card > button,
+.home-recent-actions button {
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid rgba(182, 134, 90, 0.42);
+  border-radius: 8px;
+  background: rgba(182, 134, 90, 0.12);
+  color: #d6a66b;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.home-recent-actions button.ghost {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.045);
+  color: var(--muted);
+}
+
 .home-signals,
 .weather-switch {
   display: flex;
@@ -758,6 +843,7 @@ h2 {
 
 .home-bottom-cards .home-inventory-card,
 .home-bottom-cards .home-random-card,
+.home-bottom-cards .home-recent-card,
 .home-bottom-cards .home-lesson-card,
 .home-bottom-cards .home-note-card {
   width: auto;
@@ -3359,6 +3445,7 @@ textarea:focus-visible,
 .home-inventory-card button,
 .home-random-card button,
 .home-random-controls select,
+.home-recent-card button,
 .home-lesson-card button,
 .home-note-card button {
   border-color: var(--control-border);
@@ -3381,6 +3468,7 @@ textarea:focus-visible,
 .inventory-item:hover,
 .home-inventory-card button:hover,
 .home-random-card button:hover,
+.home-recent-card button:hover,
 .home-lesson-card button:hover,
 .home-note-card button:hover {
   border-color: var(--control-border-active);
@@ -4202,6 +4290,7 @@ h1,
 
   .home-inventory-card,
   .home-random-card,
+  .home-recent-card,
   .home-lesson-card,
   .home-note-card {
     grid-template-columns: 1fr;
@@ -4217,9 +4306,14 @@ h1,
   .home-inventory-card button,
   .home-random-card button,
   .home-random-controls select,
+  .home-recent-card button,
   .home-lesson-card button,
   .home-note-card button {
     width: 100%;
+  }
+
+  .home-recent-actions {
+    justify-items: stretch;
   }
 
   .story-reading-card,
@@ -4230,6 +4324,7 @@ h1,
 
   .home-inventory-card,
   .home-random-card,
+  .home-recent-card,
   .home-lesson-card,
   .home-note-card,
   .today-fit-card,
