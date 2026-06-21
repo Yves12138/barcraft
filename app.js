@@ -2239,6 +2239,7 @@ function persist() {
 }
 
 let stableCheckboxSnapshot = null;
+let stableCheckboxInteractionTimer = null;
 
 function checkboxAnchorFromEvent(event) {
   const target = event.target.closest?.("input[type='checkbox'], label");
@@ -2251,6 +2252,8 @@ function checkboxAnchorFromEvent(event) {
 function rememberCheckboxViewport(event) {
   const anchor = checkboxAnchorFromEvent(event);
   if (!anchor) return;
+  document.body.classList.add("stable-checkbox-interaction");
+  window.clearTimeout(stableCheckboxInteractionTimer);
   if (stableCheckboxSnapshot?.anchor === anchor) return;
   stableCheckboxSnapshot = {
     anchor,
@@ -2275,6 +2278,9 @@ function preserveViewportPosition(anchor, callback) {
   window.setTimeout(() => {
     restore();
     if (snapshot) stableCheckboxSnapshot = null;
+    stableCheckboxInteractionTimer = window.setTimeout(() => {
+      document.body.classList.remove("stable-checkbox-interaction");
+    }, 420);
   }, 180);
 }
 

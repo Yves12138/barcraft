@@ -1,12 +1,12 @@
-const CACHE_VERSION = "barcraft-pwa-20260621-checkbox-stability";
+const CACHE_VERSION = "barcraft-pwa-20260621-nav-hover-guard";
 const CORE_CACHE = `${CACHE_VERSION}-core`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 const CORE_ASSETS = [
   "./",
   "./index.html",
-  "./styles.css",
-  "./app.js",
+  "./styles.css?v=20260621-nav-hover-fix",
+  "./app.js?v=20260621-nav-hover-guard",
   "./iba-data.js",
   "./manifest.webmanifest",
   "./assets/icons/barcraft-icon-192.png",

@@ -3348,6 +3348,88 @@ textarea:focus-visible,
     0 10px 24px rgba(0, 0, 0, 0.22);
 }
 
+body.stable-checkbox-interaction .top-view-nav,
+body.stable-checkbox-interaction .bottom-console,
+body.stable-checkbox-interaction .nav-list {
+  pointer-events: none;
+}
+
+body.stable-checkbox-interaction .top-nav-button:not(.active),
+body.stable-checkbox-interaction .console-tab:not(.active),
+body.stable-checkbox-interaction .nav-item:not(.active) {
+  transform: none;
+  box-shadow: none;
+}
+
+@media (hover: none), (pointer: coarse) {
+  .top-nav-button:hover:not(.active) {
+    border-color: var(--line);
+    background: rgba(255, 255, 255, 0.04);
+    box-shadow: none;
+    color: rgba(244, 234, 217, 0.7);
+  }
+
+  .console-tab:hover:not(.active) {
+    border-color: rgba(215, 167, 92, 0.08);
+    background:
+      linear-gradient(180deg, rgba(255, 246, 226, 0.04), rgba(255, 246, 226, 0.012)),
+      rgba(12, 9, 6, 0.48);
+    box-shadow: none;
+    color: var(--muted);
+    transform: none;
+  }
+
+  .nav-item:hover:not(.active) {
+    border-color: transparent;
+    background: transparent;
+    color: var(--muted);
+  }
+}
+
+.top-nav-button:hover:not(.active) {
+  border-color: var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: none;
+  color: rgba(244, 234, 217, 0.7);
+}
+
+.console-tab:hover:not(.active) {
+  border-color: rgba(215, 167, 92, 0.08);
+  background:
+    linear-gradient(180deg, rgba(255, 246, 226, 0.04), rgba(255, 246, 226, 0.012)),
+    rgba(12, 9, 6, 0.48);
+  box-shadow: none;
+  color: var(--muted);
+  transform: none;
+}
+
+.nav-item:hover:not(.active) {
+  border-color: transparent;
+  background: transparent;
+  color: var(--muted);
+}
+
+.top-nav-button.active {
+  border-color: rgba(242, 180, 92, 0.5);
+  background: var(--control-bg-hover), rgba(13, 9, 6, 0.34);
+  box-shadow:
+    inset 0 -2px 0 rgba(215, 167, 92, 0.82),
+    inset 0 1px 0 rgba(255, 246, 226, 0.035);
+  color: #e5bd78;
+}
+
+.console-tab.active {
+  border-color: rgba(215, 167, 92, 0.52);
+  background:
+    linear-gradient(180deg, rgba(215, 167, 92, 0.16), rgba(215, 167, 92, 0.035)),
+    rgba(22, 16, 11, 0.82);
+  box-shadow:
+    inset 0 0 0 1px rgba(215, 167, 92, 0.1),
+    0 10px 24px rgba(0, 0, 0, 0.22);
+  color: var(--amber);
+  transform: translateY(-1px);
+}
+
 .panel-label,
 .base-group-head h3,
 .section-head .panel-label {
@@ -4186,4 +4268,52 @@ h1,
     width: 16px;
     height: 16px;
   }
+}
+
+/* Final guard: material taps must not leave navigation in a hover/pressed state. */
+html body .top-view-nav .top-nav-button:hover:not(.active) {
+  border-color: var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: none;
+  color: rgba(244, 234, 217, 0.7);
+  transform: none;
+}
+
+html body .bottom-console .console-tab:hover:not(.active) {
+  border-color: rgba(215, 167, 92, 0.08);
+  background:
+    linear-gradient(180deg, rgba(255, 246, 226, 0.04), rgba(255, 246, 226, 0.012)),
+    rgba(12, 9, 6, 0.48);
+  box-shadow: none;
+  color: var(--muted);
+  transform: none;
+}
+
+html body .sidebar .nav-item:hover:not(.active) {
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+  color: var(--muted);
+  transform: none;
+}
+
+html body .top-view-nav .top-nav-button.active {
+  border-color: rgba(242, 180, 92, 0.5);
+  background: var(--control-bg-hover), rgba(13, 9, 6, 0.34);
+  box-shadow:
+    inset 0 -2px 0 rgba(215, 167, 92, 0.82),
+    inset 0 1px 0 rgba(255, 246, 226, 0.035);
+  color: #e5bd78;
+}
+
+html body .bottom-console .console-tab.active {
+  border-color: rgba(215, 167, 92, 0.52);
+  background:
+    linear-gradient(180deg, rgba(215, 167, 92, 0.16), rgba(215, 167, 92, 0.035)),
+    rgba(22, 16, 11, 0.82);
+  box-shadow:
+    inset 0 0 0 1px rgba(215, 167, 92, 0.1),
+    0 10px 24px rgba(0, 0, 0, 0.22);
+  color: var(--amber);
+  transform: translateY(-1px);
 }
