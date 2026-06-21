@@ -1428,16 +1428,16 @@ function inventoryGroups() {
   return groups;
 }
 
-function inventoryGroupMarkup(group) {
+function inventoryGroupMarkup(group, index) {
   const owned = group.items.filter((item) => state.inventory.has(item)).length;
   return `
-    <section class="inventory-group">
+    <section class="inventory-group" data-inventory-group="${index}">
       <div class="inventory-group-head">
         <div>
           <strong>${escapeHtml(group.title)}</strong>
           <span>${escapeHtml(group.copy)}</span>
         </div>
-        <em>${owned}/${group.items.length}</em>
+        <em data-inventory-group-count>${owned}/${group.items.length}</em>
       </div>
       <div class="inventory-group-items">
         ${group.items.map((item) => inventoryItemMarkup(item)).join("")}
@@ -1446,8 +1446,30 @@ function inventoryGroupMarkup(group) {
   `;
 }
 
+function syncInventoryInputs(root = document) {
+  const selector = root === document ? "#inventoryGrid input, #simulatorInventoryGrid input" : "input";
+  root.querySelectorAll(selector).forEach((input) => {
+    input.checked = state.inventory.has(input.value);
+  });
+}
+
+function syncInventoryGroupCounts() {
+  inventoryGroups().forEach((group, index) => {
+    const groupElement = elements.inventoryGrid.querySelector(`[data-inventory-group="${index}"]`);
+    const countElement = groupElement?.querySelector("[data-inventory-group-count]");
+    if (!countElement) return;
+    const owned = group.items.filter((item) => state.inventory.has(item)).length;
+    countElement.textContent = `${owned}/${group.items.length}`;
+  });
+}
+
 function renderSimulatorInventory() {
   elements.simulatorInventoryGrid.innerHTML = quickInventoryItems.map((item) => inventoryItemMarkup(item, "quick-inventory-item")).join("");
+  syncSimulatorInventoryState();
+}
+
+function syncSimulatorInventoryState() {
+  syncInventoryInputs(elements.simulatorInventoryGrid);
   const ownedQuickCount = quickInventoryItems.filter((item) => state.inventory.has(item)).length;
   elements.simulatorInventoryCount.textContent = `${ownedQuickCount} 项`;
 }
@@ -1495,13 +1517,7 @@ function renderWorkbenchOverview(matches) {
   `;
 }
 
-function renderInventory() {
-  renderSimulatorInventory();
-  renderHomeInventoryRecommendation();
-
-  const matches = bestInventoryMatches();
-  renderWorkbenchOverview(matches);
-  elements.inventoryGrid.innerHTML = inventoryGroups().map(inventoryGroupMarkup).join("");
+function renderInventoryMatches(matches = bestInventoryMatches()) {
   const sections = [
     ["可立即制作", matches.filter(({ match }) => match.missingCount === 0).slice(0, 8)],
     ["差 1 样", matches.filter(({ match }) => match.missingCount === 1).slice(0, 8)],
@@ -1526,6 +1542,25 @@ function renderInventory() {
         )
         .join("")
     : `<div class="match-row empty-match"><strong>还没有接近可做的酒</strong><span>先勾选几种基酒、柑橘、糖浆或苦精，系统会自动更新可做清单。</span></div>`;
+}
+
+function refreshInventoryState(matches = bestInventoryMatches()) {
+  syncInventoryInputs();
+  syncInventoryGroupCounts();
+  syncSimulatorInventoryState();
+  renderHomeInventoryRecommendation();
+  renderWorkbenchOverview(matches);
+  renderInventoryMatches(matches);
+}
+
+function renderInventory() {
+  renderSimulatorInventory();
+  renderHomeInventoryRecommendation();
+
+  const matches = bestInventoryMatches();
+  renderWorkbenchOverview(matches);
+  elements.inventoryGrid.innerHTML = inventoryGroups().map(inventoryGroupMarkup).join("");
+  renderInventoryMatches(matches);
 }
 
 function lessonDrinkCards(lesson) {
@@ -2191,17 +2226,30 @@ function persist() {
   writeStoredValue("barcraft:completedLessons", JSON.stringify([...state.completedLessons]));
 }
 
+function preserveViewportPosition(anchor, callback) {
+  const beforeTop = anchor?.getBoundingClientRect().top;
+  callback();
+  if (!Number.isFinite(beforeTop) || !anchor || !document.body.contains(anchor)) return;
+  const afterTop = anchor.getBoundingClientRect().top;
+  const delta = afterTop - beforeTop;
+  if (Math.abs(delta) > 1) window.scrollBy({ top: delta, left: 0, behavior: "auto" });
+}
+
 function updateInventoryFromInput(input) {
+  const anchor = input.closest(".inventory-item, .quick-inventory-item");
   if (input.checked) state.inventory.add(input.value);
   else state.inventory.delete(input.value);
   persist();
-  renderInventory();
-  renderCards();
-  renderFavorites();
-  renderSelectedDrink();
-  renderLessons();
-  renderHomeLessonCard();
-  generateCocktail();
+  preserveViewportPosition(anchor, () => {
+    const matches = bestInventoryMatches();
+    refreshInventoryState(matches);
+    renderCards();
+    renderFavorites();
+    renderSelectedDrink();
+    renderLessons();
+    renderHomeLessonCard();
+    generateCocktail();
+  });
 }
 
 function attachEvents() {
