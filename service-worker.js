@@ -1,12 +1,12 @@
-const CACHE_VERSION = "barcraft-pwa-20260621-nav-hover-guard";
+const CACHE_VERSION = "barcraft-pwa-20260621-inventory-recommend";
 const CORE_CACHE = `${CACHE_VERSION}-core`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 const CORE_ASSETS = [
   "./",
   "./index.html",
-  "./styles.css?v=20260621-nav-hover-fix",
-  "./app.js?v=20260621-nav-hover-guard",
+  "./styles.css?v=20260621-inventory-recommend",
+  "./app.js?v=20260621-inventory-recommend",
   "./iba-data.js",
   "./manifest.webmanifest",
   "./assets/icons/barcraft-icon-192.png",

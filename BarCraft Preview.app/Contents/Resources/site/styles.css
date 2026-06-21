@@ -1254,14 +1254,14 @@ h2 {
 }
 
 .workbench-next-step p {
-  min-height: 40px;
+  min-height: 48px;
   margin-top: 7px;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.55;
 }
 
-.workbench-next-step div {
+.workbench-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -1659,6 +1659,22 @@ input[type="range"] {
   border-color: rgba(158, 215, 231, 0.36);
   background: rgba(158, 215, 231, 0.1);
   color: var(--ice);
+}
+
+.small-button.attention {
+  border-color: rgba(242, 180, 92, 0.52);
+  background:
+    linear-gradient(180deg, rgba(242, 180, 92, 0.22), rgba(166, 106, 60, 0.12)),
+    rgba(48, 31, 20, 0.72);
+  color: var(--amber);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.24);
+}
+
+.small-button.attention:hover {
+  border-color: rgba(244, 204, 131, 0.78);
+  background:
+    linear-gradient(180deg, rgba(244, 204, 131, 0.28), rgba(166, 106, 60, 0.16)),
+    rgba(62, 39, 24, 0.76);
 }
 
 .lower-grid {

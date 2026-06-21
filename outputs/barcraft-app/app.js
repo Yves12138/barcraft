@@ -756,6 +756,35 @@ function bestInventoryMatches() {
     .sort((a, b) => a.match.missingCount - b.match.missingCount || b.match.score - a.match.score || a.drink.name.localeCompare(b.drink.name, "zh-Hans-CN"));
 }
 
+function inventoryContextScore(drink) {
+  const daypart = currentDaypart().key;
+  const text = [drink.name, drink.base, drink.category, drink.mood, drink.taste, ...(drink.tags || [])].join(" ");
+  const cues = {
+    morning: ["低酒精", "清爽", "气泡", "明亮", "轻盈"],
+    afternoon: ["清爽", "柑橘", "酸甜", "气泡", "热带"],
+    evening: ["餐前", "苦甜", "经典", "结构", "草本"],
+    night: ["慢饮", "咖啡", "浓郁", "烈性", "深色"]
+  };
+  return (cues[daypart] || []).reduce((score, cue) => score + (text.includes(cue) ? 1 : 0), 0);
+}
+
+function inventoryRecommendationFromMatches(matches = bestInventoryMatches()) {
+  const ready = matches.filter(({ match }) => match.missingCount === 0);
+  const near = matches.filter(({ match }) => match.missingCount === 1);
+  const close = matches.filter(({ match }) => match.missingCount === 2);
+  const pool = ready.length ? ready : near.length ? near : close.length ? close : matches.slice(0, 8);
+  return [...pool].sort((a, b) => inventoryContextScore(b.drink) - inventoryContextScore(a.drink) || b.match.score - a.match.score || a.match.missingCount - b.match.missingCount || a.drink.name.localeCompare(b.drink.name, "zh-Hans-CN"))[0] || null;
+}
+
+function inventoryRecommendationCopy(recommendation) {
+  if (!recommendation) return "先勾选家里已有的基酒、柑橘、糖浆或苦精，我会根据库存帮你挑一杯。";
+  const { drink, match } = recommendation;
+  const missing = match.missing.map(displayInventoryItem);
+  if (match.missingCount === 0) return "现在就能做，库存已经覆盖这杯的核心材料。";
+  if (match.missingCount === 1) return `只差 ${missing[0]}，补上后就适合从这杯开始。`;
+  return `已覆盖 ${match.covered}/${match.total} 项核心材料，缺 ${missing.slice(0, 3).join("、")}。`;
+}
+
 function currentDaypart(date = new Date()) {
   const hour = date.getHours();
   if (hour >= 5 && hour < 11) return { key: "morning", label: "上午", copy: "适合低酒精、明亮、不会压住一天节奏的酒。" };
@@ -887,7 +916,7 @@ function renderHomeRecommendation() {
 }
 
 function renderHomeInventoryRecommendation() {
-  const best = bestInventoryMatches()[0];
+  const best = inventoryRecommendationFromMatches();
   if (!best) return;
   const { drink, match } = best;
   const missingCopy = match.missing.length ? `缺：${match.missing.slice(0, 3).map(displayInventoryItem).map(escapeHtml).join("、")}` : "库存已覆盖核心材料";
@@ -1490,7 +1519,7 @@ function renderWorkbenchOverview(matches) {
   const readyCount = matches.filter(({ match }) => match.missingCount === 0).length;
   const nearCount = matches.filter(({ match }) => match.missingCount === 1).length;
   const ownedCount = state.inventory.size;
-  const suggestion = nextInventorySuggestion(matches);
+  const recommendation = inventoryRecommendationFromMatches(matches);
   if (elements.inventoryOwnedCount) elements.inventoryOwnedCount.textContent = `${ownedCount} 项`;
   elements.workbenchOverview.innerHTML = `
     <div class="workbench-stat">
@@ -1506,10 +1535,11 @@ function renderWorkbenchOverview(matches) {
       <strong>${nearCount}</strong>
     </div>
     <div class="workbench-next-step">
-      <span>下一步</span>
-      <strong>${suggestion ? `补 ${escapeHtml(displayInventoryItem(suggestion.item))}` : "直接生成原创配方"}</strong>
-      <p>${suggestion ? `补齐后大约多 ${suggestion.count} 款经典酒更接近可做。` : "当前库存已经覆盖不少经典结构，可以先做小杯版本。"} </p>
-      <div>
+      <span>库存一键推荐</span>
+      <strong data-workbench-recommend-name>${recommendation ? escapeHtml(recommendation.drink.name) : "先整理材料"}</strong>
+      <p data-workbench-recommend-copy>${escapeHtml(inventoryRecommendationCopy(recommendation))}</p>
+      <div class="workbench-actions">
+        <button class="small-button attention" type="button" data-workbench-action="recommend" ${recommendation ? "" : "disabled"}>查看推荐</button>
         <button class="small-button neutral" type="button" data-workbench-action="generate">生成原创</button>
         <button class="small-button" type="button" data-workbench-action="inventory">整理材料</button>
       </div>
@@ -1521,11 +1551,18 @@ function syncWorkbenchOverviewStats(matches) {
   const readyCount = matches.filter(({ match }) => match.missingCount === 0).length;
   const nearCount = matches.filter(({ match }) => match.missingCount === 1).length;
   const ownedCount = state.inventory.size;
+  const recommendation = inventoryRecommendationFromMatches(matches);
   if (elements.inventoryOwnedCount) elements.inventoryOwnedCount.textContent = `${ownedCount} 项`;
   const statValues = elements.workbenchOverview.querySelectorAll(".workbench-stat strong");
   if (statValues[0]) statValues[0].textContent = ownedCount;
   if (statValues[1]) statValues[1].textContent = readyCount;
   if (statValues[2]) statValues[2].textContent = nearCount;
+  const recommendName = elements.workbenchOverview.querySelector("[data-workbench-recommend-name]");
+  const recommendCopy = elements.workbenchOverview.querySelector("[data-workbench-recommend-copy]");
+  const recommendButton = elements.workbenchOverview.querySelector('[data-workbench-action="recommend"]');
+  if (recommendName) recommendName.textContent = recommendation ? recommendation.drink.name : "先整理材料";
+  if (recommendCopy) recommendCopy.textContent = inventoryRecommendationCopy(recommendation);
+  if (recommendButton) recommendButton.disabled = !recommendation;
 }
 
 function renderInventoryMatches(matches = bestInventoryMatches()) {
@@ -2437,6 +2474,15 @@ function attachEvents() {
   elements.workbenchOverview.addEventListener("click", (event) => {
     const button = event.target.closest("[data-workbench-action]");
     if (!button) return;
+    if (button.dataset.workbenchAction === "recommend") {
+      const recommendation = inventoryRecommendationFromMatches(bestInventoryMatches());
+      if (!recommendation) return;
+      state.selectedId = recommendation.drink.id;
+      renderSelectedDrink();
+      renderCards();
+      setActiveView("atlas");
+      return;
+    }
     if (button.dataset.workbenchAction === "generate") {
       generateCocktail();
       elements.generatedCard.scrollIntoView({ behavior: "smooth", block: "center" });

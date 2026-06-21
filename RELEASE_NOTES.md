@@ -19,7 +19,7 @@ BarCraft 当前版本是一个纯静态 PWA 鸡尾酒 App，可通过 GitHub Pag
 - 酒单筛选与首字母分组。
 - 故事馆。
 - 收藏 / 我的酒单。
-- 调酒台：库存、可做推荐、原创调酒和原创配方保存。
+- 调酒台：库存、库存一键推荐、可做推荐、原创调酒和原创配方保存。
 - 7 天学习路径。
 - 品鉴日志。
 - 本地 JSON 备份和导入。
@@ -62,6 +62,7 @@ BarCraft 当前版本是一个纯静态 PWA 鸡尾酒 App，可通过 GitHub Pag
 调酒台支持：
 
 - 家中已有材料勾选。
+- 一键查看当前库存最适合推荐的一杯。
 - 可立即制作、差 1 样、差 2 样推荐。
 - 常用材料快捷勾选。
 - 原创鸡尾酒草案生成。
@@ -115,9 +116,9 @@ main branch
 PWA 资源版本：
 
 ```text
-styles.css?v=20260621-nav-hover-fix
-app.js?v=20260621-nav-hover-guard
-barcraft-pwa-20260621-nav-hover-guard
+styles.css?v=20260621-inventory-recommend
+app.js?v=20260621-inventory-recommend
+barcraft-pwa-20260621-inventory-recommend
 ```
 
 ## 发布前检查
@@ -167,4 +168,3 @@ barcraft-pwa-20260621-nav-hover-guard
 ```text
 USER_GUIDE.md
 ```
-
