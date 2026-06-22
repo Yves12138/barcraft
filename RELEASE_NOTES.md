@@ -123,8 +123,8 @@ PWA 资源版本：
 ```text
 styles.css?v=20260622-inventory-hit
 app.js?v=20260622-inventory-hit
-iba-data.js?v=20260622-data-polish
-barcraft-pwa-20260622-data-polish
+iba-data.js?v=20260622-story-polish
+barcraft-pwa-20260622-story-polish
 ```
 
 ## 发布前检查
