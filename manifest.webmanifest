@@ -1,7 +1,7 @@
 {
   "name": "BarCraft 鸡尾酒灵感工作台",
   "short_name": "BarCraft",
-  "description": "经典鸡尾酒图鉴、推荐、库存、学习路径和品鉴日志。",
+  "description": "经典鸡尾酒图鉴、今日推荐、调酒台、学习路径和品鉴日志。",
   "lang": "zh-CN",
   "start_url": "./",
   "scope": "./",
