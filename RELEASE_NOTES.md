@@ -123,10 +123,10 @@ main branch
 PWA 资源版本：
 
 ```text
-styles.css?v=20260622-inventory-hit
-app.js?v=20260622-inventory-hit
+styles.css?v=20260622-fixed-console
+app.js?v=20260622-fixed-console
 iba-data.js?v=20260622-story-polish
-barcraft-pwa-20260622-story-polish
+barcraft-pwa-20260622-fixed-console
 ```
 
 ## 发布前检查
@@ -138,6 +138,7 @@ barcraft-pwa-20260622-story-polish
 - GitHub Pages 可打开：`https://yves12138.github.io/barcraft/`。
 - 手机端首页、图鉴、酒单、收藏、故事、调酒台、学习、笔记均可切换。
 - 手机端滚到底部后内容不被底部控制台遮挡。
+- 手机端上下拉滚动后底部控制台保持固定在视口底部。
 - 调酒台勾选材料不跳动，不误触顶部导航和底部控制台。
 - 关键图片能正常加载。
 - 主屏幕图标显示正确。

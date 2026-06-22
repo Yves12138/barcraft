@@ -23,6 +23,7 @@
   --surface-pad: 18px;
   --surface-pad-sm: 14px;
   --mobile-console-space: 92px;
+  --visual-viewport-bottom: 0px;
   --serif: Georgia, "Times New Roman", "Songti SC", "STSong", serif;
   --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
   --oak-panel-texture:
@@ -43,10 +44,17 @@
   box-sizing: border-box;
 }
 
+html {
+  min-height: 100%;
+  background: #050403;
+  overscroll-behavior-y: none;
+}
+
 body {
   position: relative;
   margin: 0;
   min-height: 100vh;
+  min-height: 100dvh;
   background:
     url("./assets/textures/dark-wood-background.png"),
     #050403;
@@ -57,6 +65,7 @@ body {
   color: var(--text);
   font-family: var(--sans);
   letter-spacing: 0;
+  overscroll-behavior-y: none;
 }
 
 body::before,
@@ -2981,7 +2990,7 @@ textarea::placeholder,
 .bottom-console {
   position: fixed;
   right: 16px;
-  bottom: 14px;
+  bottom: calc(14px + var(--visual-viewport-bottom));
   left: 16px;
   z-index: 20;
   pointer-events: none;
@@ -2995,6 +3004,8 @@ textarea::placeholder,
   background: rgba(12, 13, 14, 0.88);
   box-shadow: 0 18px 60px rgba(0, 0, 0, 0.45);
   backdrop-filter: blur(20px);
+  transform: translateZ(0);
+  will-change: bottom;
 }
 
 .console-status {
@@ -4264,7 +4275,7 @@ h1,
 
   .bottom-console {
     right: 10px;
-    bottom: calc(10px + env(safe-area-inset-bottom));
+    bottom: calc(10px + env(safe-area-inset-bottom) + var(--visual-viewport-bottom));
     left: 10px;
     grid-template-columns: 1fr;
     gap: 0;

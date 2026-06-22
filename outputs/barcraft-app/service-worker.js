@@ -1,12 +1,12 @@
-const CACHE_VERSION = "barcraft-pwa-20260622-story-polish";
+const CACHE_VERSION = "barcraft-pwa-20260622-fixed-console";
 const CORE_CACHE = `${CACHE_VERSION}-core`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
 const CORE_ASSETS = [
   "./",
   "./index.html",
-  "./styles.css?v=20260622-inventory-hit",
-  "./app.js?v=20260622-inventory-hit",
+  "./styles.css?v=20260622-fixed-console",
+  "./app.js?v=20260622-fixed-console",
   "./iba-data.js?v=20260622-story-polish",
   "./manifest.webmanifest",
   "./assets/icons/barcraft-icon-192.png",

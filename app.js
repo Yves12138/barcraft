@@ -2617,6 +2617,27 @@ function persist() {
 
 let stableCheckboxSnapshot = null;
 let stableCheckboxInteractionTimer = null;
+let viewportChromeSyncFrame = 0;
+
+function syncVisualViewportBottom() {
+  const viewport = window.visualViewport;
+  const offset = viewport ? Math.max(0, window.innerHeight - viewport.height - viewport.offsetTop) : 0;
+  document.documentElement.style.setProperty("--visual-viewport-bottom", `${Math.round(offset)}px`);
+}
+
+function scheduleVisualViewportBottomSync() {
+  window.cancelAnimationFrame(viewportChromeSyncFrame);
+  viewportChromeSyncFrame = window.requestAnimationFrame(syncVisualViewportBottom);
+}
+
+function setupFixedConsoleViewport() {
+  syncVisualViewportBottom();
+  window.addEventListener("resize", scheduleVisualViewportBottomSync, { passive: true });
+  window.addEventListener("orientationchange", scheduleVisualViewportBottomSync, { passive: true });
+  if (!window.visualViewport) return;
+  window.visualViewport.addEventListener("resize", scheduleVisualViewportBottomSync, { passive: true });
+  window.visualViewport.addEventListener("scroll", scheduleVisualViewportBottomSync, { passive: true });
+}
 
 function checkboxAnchorFromEvent(event) {
   const target = event.target.closest?.("input[type='checkbox'], label");
@@ -3057,6 +3078,7 @@ function attachEvents() {
 }
 
 function init() {
+  setupFixedConsoleViewport();
   renderFilters();
   attachEvents();
   renderNoteFormOptions();

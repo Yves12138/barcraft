@@ -264,7 +264,7 @@ git commit -m "填写本次修改说明"
 - 图片目录：`assets/cocktails/`、`outputs/barcraft-app/assets/cocktails/`、`BarCraft Preview.app/Contents/Resources/site/assets/cocktails/` 均为 102 张。
 - 酒单“全部”：102 款，无重复，按英文首字母分组正常。
 - 预览 App：`BarCraft Preview.app` 和 `Stop BarCraft Preview.app` 的 `Info.plist` 与可执行文件检查正常。
-- Codex 内置浏览器检查：本地预览可打开，手机宽度下 8 个页面切换正常，首页随机探索和最近查看可跳转到图鉴，调酒台库存一键推荐可跳转到图鉴，勾选材料不跳动且不会误触顶部导航和底部控制台；当前资源版本为 `styles.css?v=20260622-inventory-hit`、`app.js?v=20260622-inventory-hit`、`iba-data.js?v=20260622-story-polish`。
+- Codex 内置浏览器检查：本地预览可打开，手机宽度下 8 个页面切换正常，首页随机探索和最近查看可跳转到图鉴，调酒台库存一键推荐可跳转到图鉴，勾选材料不跳动且不会误触顶部导航和底部控制台；当前资源版本为 `styles.css?v=20260622-fixed-console`、`app.js?v=20260622-fixed-console`、`iba-data.js?v=20260622-story-polish`。
 - 桌面端检查：GitHub Pages 线上页在 1280×720 下首页、图鉴、酒单、收藏、故事、调酒台、学习、笔记均可正常切换，无横向溢出，无控制台错误。
 - 手机端检查：GitHub Pages 线上页在 390×844 下首页、图鉴、酒单、收藏、故事、调酒台、学习、笔记均可正常切换，无横向溢出，无控制台错误。
 - 底部安全区检查：拖到底部后，主要内容停在底部控制台上方，未发现实际可见内容被遮挡。
