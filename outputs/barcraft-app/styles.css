@@ -1439,11 +1439,16 @@ h2 {
 
 .bar-inventory-area,
 .bar-match-area {
+  position: relative;
   min-width: 0;
   padding: 14px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.04);
+}
+
+.bar-match-area {
+  z-index: 1;
 }
 
 .bar-inventory-area .inventory-grid {
@@ -1452,6 +1457,7 @@ h2 {
 
 .bar-inventory-area {
   align-self: start;
+  z-index: 2;
 }
 
 .bar-inventory-area summary {
@@ -2978,6 +2984,7 @@ textarea::placeholder,
   bottom: 14px;
   left: 16px;
   z-index: 20;
+  pointer-events: none;
   display: grid;
   grid-template-columns: minmax(170px, 0.52fr) minmax(620px, 1.75fr) minmax(92px, 0.28fr);
   gap: 14px;
@@ -3029,6 +3036,7 @@ textarea::placeholder,
 
 .console-tab {
   display: grid;
+  pointer-events: auto;
   min-width: 0;
   min-height: 54px;
   place-items: center;

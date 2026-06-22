@@ -121,9 +121,9 @@ main branch
 PWA 资源版本：
 
 ```text
-styles.css?v=20260621-share-card
-app.js?v=20260621-share-card
-barcraft-pwa-20260621-share-card
+styles.css?v=20260622-inventory-hit
+app.js?v=20260622-inventory-hit
+barcraft-pwa-20260622-inventory-hit
 ```
 
 ## 发布前检查
@@ -154,6 +154,7 @@ barcraft-pwa-20260621-share-card
 - 首页“查看完整配方”可跳转到图鉴。
 - 酒单筛选可用。
 - 调酒台材料勾选：滚动位移为 0，控件位置位移为 0，导航无误触状态。
+- 桌面端调酒台库存标签可正常命中点击，不被右侧工作台区域覆盖。
 - 当前可见图片无破图。
 - 控制台无 error / warn。
 
