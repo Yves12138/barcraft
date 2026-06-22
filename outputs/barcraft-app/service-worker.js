@@ -1,4 +1,4 @@
-const CACHE_VERSION = "barcraft-pwa-20260622-inventory-hit";
+const CACHE_VERSION = "barcraft-pwa-20260622-data-polish";
 const CORE_CACHE = `${CACHE_VERSION}-core`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
@@ -7,7 +7,7 @@ const CORE_ASSETS = [
   "./index.html",
   "./styles.css?v=20260622-inventory-hit",
   "./app.js?v=20260622-inventory-hit",
-  "./iba-data.js",
+  "./iba-data.js?v=20260622-data-polish",
   "./manifest.webmanifest",
   "./assets/icons/barcraft-icon-192.png",
   "./assets/icons/barcraft-icon-512.png",
