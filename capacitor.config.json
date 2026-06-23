@@ -1,0 +1,9 @@
+{
+  "appId": "com.yves12138.barcraft",
+  "appName": "BarCraft",
+  "webDir": "outputs/barcraft-app",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

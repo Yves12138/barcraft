@@ -29,6 +29,7 @@ BarCraft 当前版本是一个纯静态 PWA 鸡尾酒 App，可通过 GitHub Pag
 - 品鉴日志。
 - 本地 JSON 备份和导入。
 - PWA 图标、manifest 和 service worker 缓存。
+- Capacitor 原生 App 包装配置。
 - 手机端底部安全区、滚动位置和导航状态优化。
 
 ## 主要功能
@@ -98,7 +99,7 @@ BarCraft 当前版本是一个纯静态 PWA 鸡尾酒 App，可通过 GitHub Pag
 
 ## 技术说明
 
-BarCraft 当前是纯静态站点，没有构建流程。
+BarCraft 网页本体仍然是纯静态站点，没有前端构建流程。新增的 `package.json` 只用于 Capacitor 原生 App 包装。
 
 核心文件：
 
@@ -110,6 +111,8 @@ iba-data.js
 manifest.webmanifest
 service-worker.js
 assets/
+capacitor.config.json
+package.json
 ```
 
 发布方式：

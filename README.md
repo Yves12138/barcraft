@@ -2,13 +2,14 @@
 
 BarCraft 是一个静态网页版鸡尾酒 App。当前版本包含首页今日推荐、经典图鉴、酒单、收藏 / 我的酒单、故事馆、调酒台、学习路径、品鉴笔记、图鉴分享卡片和本地数据备份功能。
 
-项目不需要重新构建，也没有 npm / package.json 流程。继续修改时请直接基于现有文件维护。
+网页本体不需要重新构建，继续修改时仍然直接维护现有静态文件。`package.json` 只用于 Capacitor 原生 App 包装，不影响原来的 PWA 和本地预览方式。
 
 ## 最终文档
 
 - 面向用户的使用说明：`USER_GUIDE.md`
 - 面向发布和分享的发布说明：`RELEASE_NOTES.md`
 - 版本更新记录：`CHANGELOG.md`
+- 原生 App 打包说明：`MOBILE_APP.md`
 
 ## 当前预览方式
 
@@ -83,6 +84,26 @@ Android：
 - 收藏、库存、笔记和备份数据仍保存在当前设备和当前浏览器对应的网站数据里。
 - 如果需要把本地预览里的数据带到手机线上版，请先在品鉴日志页导出备份，再在手机线上版导入。
 
+## 原生 App 打包
+
+项目已新增 Capacitor 配置，可在保留现有静态网页结构的基础上生成 iOS / Android 原生壳 App。
+
+第一次打包前需要先安装 Node 依赖：
+
+```bash
+npm install
+```
+
+生成并打开 iOS 项目：
+
+```bash
+npm run ios:add
+npm run cap:sync
+npm run ios:open
+```
+
+详细说明见 `MOBILE_APP.md`。
+
 ## 主要文件
 
 源文件：
@@ -94,6 +115,8 @@ styles.css
 iba-data.js
 manifest.webmanifest
 service-worker.js
+capacitor.config.json
+package.json
 assets/cocktails/
 assets/icons/
 ```
@@ -132,8 +155,9 @@ BarCraft Preview.app/Contents/Resources/site/
 - 图片资产：`assets/`
 - PWA 安装清单：`manifest.webmanifest`
 - 离线缓存：`service-worker.js`
+- 原生 App 包装配置：`capacitor.config.json`
 
-页面为纯静态 App，不依赖打包工具。顶部导航和底部控制台通过 `data-view` / `data-view-panel` 切换页面状态。
+页面为纯静态 App，本体不依赖打包工具。顶部导航和底部控制台通过 `data-view` / `data-view-panel` 切换页面状态。Capacitor 只负责把 `outputs/barcraft-app/` 中的静态资源包装进 iOS / Android 原生项目。
 
 ## 修改约定
 
@@ -211,6 +235,7 @@ git commit -m "填写本次修改说明"
 - 支持 PWA 安装，可从 GitHub Pages 添加到 iPhone / Android 手机主屏幕。
 - 收藏、库存、原创配方、学习进度和品鉴日志使用浏览器本地数据保存，支持 JSON 备份导出和导入，并在首页、收藏空状态和笔记空状态提供轻量首次使用提示。
 - 图鉴支持生成本地分享卡片并下载 PNG。
+- 已新增 Capacitor 原生 App 包装配置，可生成 iOS / Android 项目。
 - 学习路径和笔记页面已做移动端阅读密度和底部安全区优化。
 - 底部留白已收紧，拖到底部后内容应停在底部控制台上方，不被遮挡。
 - 首页桌面端：左图右文。
@@ -243,6 +268,7 @@ git commit -m "填写本次修改说明"
 - 笔记：品鉴日志、评分、微调记录、搜索和点击回到对应酒款。
 - 本地保存：收藏、最近查看、库存、原创配方、学习进度和笔记保存于当前浏览器设备，并可在品鉴日志页导出 / 导入 JSON 备份。
 - PWA：支持 manifest、主屏幕图标和 service worker，可添加到手机主屏幕并缓存核心页面资源。
+- 原生 App：通过 Capacitor 包装当前静态网页，可继续生成 iOS / Android 项目。
 
 已知限制：
 

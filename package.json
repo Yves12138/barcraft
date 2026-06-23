@@ -1,0 +1,24 @@
+{
+  "name": "barcraft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BarCraft static cocktail app packaged with Capacitor.",
+  "scripts": {
+    "mobile:prepare": "node scripts/prepare-mobile-web.js",
+    "cap:sync": "npm run mobile:prepare && npx cap sync",
+    "cap:copy": "npm run mobile:prepare && npx cap copy",
+    "cap:doctor": "npx cap doctor",
+    "ios:add": "npm run mobile:prepare && npx cap add ios",
+    "ios:open": "npx cap open ios",
+    "android:add": "npm run mobile:prepare && npx cap add android",
+    "android:open": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/ios": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.0.0"
+  }
+}
