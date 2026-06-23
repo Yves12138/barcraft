@@ -26,9 +26,16 @@ outputs/barcraft-app
 
 - Node.js LTS 和 npm。
 - Xcode。
+- CocoaPods。
 - 联网安装 Capacitor 依赖。
 
 如果终端提示 `npm: command not found`，先安装 Node.js LTS，再继续。
+
+如果终端提示 `CocoaPods is not installed`，先安装 CocoaPods：
+
+```bash
+brew install cocoapods
+```
 
 在本机联网安装依赖：
 
